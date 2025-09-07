@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1757217039895,
+  "lastUpdated": 1757221098090,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "API": [
@@ -303,6 +303,116 @@
             "unit": "ns",
             "range": "± 1963800.1240723713",
             "bytesAllocated": 796648
+          }
+        ]
+      }
+    ],
+    "Runnable": [
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "akrock"
+          },
+          "sha": "240cd42098ab8d79434b12986631067898596b70",
+          "message": "Fix the naming",
+          "timestamp": "2025-09-07T04:46:44Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/240cd42098ab8d79434b12986631067898596b70"
+        },
+        "date": 1757221098090,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 348306846.07,
+            "unit": "ns",
+            "range": "± 4543107.535976931",
+            "bytesAllocated": 2507752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256796353.09,
+            "unit": "ns",
+            "range": "± 3148470.6053980556",
+            "bytesAllocated": 1301656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 246254051.02,
+            "unit": "ns",
+            "range": "± 6531034.062669904",
+            "bytesAllocated": 1293904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 352858090.14,
+            "unit": "ns",
+            "range": "± 9364592.983408283",
+            "bytesAllocated": 2520256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258100659.74,
+            "unit": "ns",
+            "range": "± 3821640.7993936604",
+            "bytesAllocated": 1285136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 245717367.72,
+            "unit": "ns",
+            "range": "± 6726835.494646308",
+            "bytesAllocated": 1302608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 411882683.73,
+            "unit": "ns",
+            "range": "± 6490744.31137982",
+            "bytesAllocated": 4559760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 308482067.72,
+            "unit": "ns",
+            "range": "± 5859657.526897906",
+            "bytesAllocated": 3388680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 309473650.18,
+            "unit": "ns",
+            "range": "± 5230057.336242728",
+            "bytesAllocated": 3253408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 295071386.48,
+            "unit": "ns",
+            "range": "± 3548977.640400203",
+            "bytesAllocated": 1990168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 214339117.99,
+            "unit": "ns",
+            "range": "± 3281996.2232781765",
+            "bytesAllocated": 1356480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 184625984.56,
+            "unit": "ns",
+            "range": "± 3994880.1633992824",
+            "bytesAllocated": 843168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 187280188.88,
+            "unit": "ns",
+            "range": "± 1694370.6460995849",
+            "bytesAllocated": 800752
           }
         ]
       }
