@@ -1,0 +1,224 @@
+{
+  "lastUpdated": 1757221098090,
+  "repoUrl": "https://github.com/forge-trust/Runnable",
+  "entries": {
+    "Runnable": [
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "akrock"
+          },
+          "sha": "597c922f6cb6ed3106bfe36586537e7d0af1f08a",
+          "message": "Add custom exporter to fix name collision problem.",
+          "timestamp": "2025-09-07T03:38:40Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/597c922f6cb6ed3106bfe36586537e7d0af1f08a"
+        },
+        "date": 1757217039895,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 360931767.91,
+            "unit": "ns",
+            "range": "± 5415484.252086162",
+            "bytesAllocated": 2508272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 266413023.1,
+            "unit": "ns",
+            "range": "± 4195968.517487709",
+            "bytesAllocated": 1397224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 257397148.91,
+            "unit": "ns",
+            "range": "± 7670291.252828133",
+            "bytesAllocated": 1192936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 365817374.56,
+            "unit": "ns",
+            "range": "± 5200863.713554655",
+            "bytesAllocated": 2521008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 269366296.72,
+            "unit": "ns",
+            "range": "± 4998485.552300375",
+            "bytesAllocated": 1285920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 251819881.4,
+            "unit": "ns",
+            "range": "± 5749530.797376596",
+            "bytesAllocated": 1204776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 429801704.97,
+            "unit": "ns",
+            "range": "± 6444628.745925879",
+            "bytesAllocated": 4555256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 319437828.56,
+            "unit": "ns",
+            "range": "± 6328849.946249016",
+            "bytesAllocated": 3386160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 323445234.02,
+            "unit": "ns",
+            "range": "± 6140263.441432131",
+            "bytesAllocated": 3259352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 307102633.82,
+            "unit": "ns",
+            "range": "± 5026831.1526174",
+            "bytesAllocated": 2010704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 223672258.46,
+            "unit": "ns",
+            "range": "± 2478820.644620627",
+            "bytesAllocated": 1458416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 191123646.33,
+            "unit": "ns",
+            "range": "± 3203748.2497673747",
+            "bytesAllocated": 846592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 193765874.62,
+            "unit": "ns",
+            "range": "± 1963800.1240723713",
+            "bytesAllocated": 796648
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "akrock"
+          },
+          "sha": "240cd42098ab8d79434b12986631067898596b70",
+          "message": "Fix the naming",
+          "timestamp": "2025-09-07T04:46:44Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/240cd42098ab8d79434b12986631067898596b70"
+        },
+        "date": 1757221098090,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 348306846.07,
+            "unit": "ns",
+            "range": "± 4543107.535976931",
+            "bytesAllocated": 2507752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256796353.09,
+            "unit": "ns",
+            "range": "± 3148470.6053980556",
+            "bytesAllocated": 1301656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 246254051.02,
+            "unit": "ns",
+            "range": "± 6531034.062669904",
+            "bytesAllocated": 1293904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 352858090.14,
+            "unit": "ns",
+            "range": "± 9364592.983408283",
+            "bytesAllocated": 2520256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258100659.74,
+            "unit": "ns",
+            "range": "± 3821640.7993936604",
+            "bytesAllocated": 1285136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 245717367.72,
+            "unit": "ns",
+            "range": "± 6726835.494646308",
+            "bytesAllocated": 1302608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 411882683.73,
+            "unit": "ns",
+            "range": "± 6490744.31137982",
+            "bytesAllocated": 4559760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 308482067.72,
+            "unit": "ns",
+            "range": "± 5859657.526897906",
+            "bytesAllocated": 3388680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 309473650.18,
+            "unit": "ns",
+            "range": "± 5230057.336242728",
+            "bytesAllocated": 3253408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 295071386.48,
+            "unit": "ns",
+            "range": "± 3548977.640400203",
+            "bytesAllocated": 1990168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 214339117.99,
+            "unit": "ns",
+            "range": "± 3281996.2232781765",
+            "bytesAllocated": 1356480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 184625984.56,
+            "unit": "ns",
+            "range": "± 3994880.1633992824",
+            "bytesAllocated": 843168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 187280188.88,
+            "unit": "ns",
+            "range": "± 1694370.6460995849",
+            "bytesAllocated": 800752
+          }
+        ]
+      }
+    ]
+  }
+}
