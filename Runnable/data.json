@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1758259202631,
+  "lastUpdated": 1758270388285,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -432,6 +432,114 @@
             "unit": "ns",
             "range": "± 3818560.421616681",
             "bytesAllocated": 796088
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ddebf82cf004203b7610b74054539c5414dcf2f4",
+          "message": "feat: Adding an IEnvironmentProvider to standarize access to environment information. (#14)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-19T08:15:19Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/ddebf82cf004203b7610b74054539c5414dcf2f4"
+        },
+        "date": 1758270388285,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 339331271.17,
+            "unit": "ns",
+            "range": "± 4843695.70384105",
+            "bytesAllocated": 2503832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 249167362.34,
+            "unit": "ns",
+            "range": "± 3547020.164584833",
+            "bytesAllocated": 1297504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 239164304.98,
+            "unit": "ns",
+            "range": "± 5899166.535364938",
+            "bytesAllocated": 1198712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 340736299.45,
+            "unit": "ns",
+            "range": "± 3615785.2529687327",
+            "bytesAllocated": 2520808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250989750.06,
+            "unit": "ns",
+            "range": "± 3906340.1083734427",
+            "bytesAllocated": 1284936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 238196525.05,
+            "unit": "ns",
+            "range": "± 5566964.366411115",
+            "bytesAllocated": 1206808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 401512944.99,
+            "unit": "ns",
+            "range": "± 4715053.189732603",
+            "bytesAllocated": 4562608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 299191737.25,
+            "unit": "ns",
+            "range": "± 5635527.028600951",
+            "bytesAllocated": 3363400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 300874206.21,
+            "unit": "ns",
+            "range": "± 5484935.365858126",
+            "bytesAllocated": 3271128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 284188825.13,
+            "unit": "ns",
+            "range": "± 4223327.207817134",
+            "bytesAllocated": 1989216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 205247173.33,
+            "unit": "ns",
+            "range": "± 3195494.581247526",
+            "bytesAllocated": 1457360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 175242298.59,
+            "unit": "ns",
+            "range": "± 2974623.765030856",
+            "bytesAllocated": 849080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 182310052.13,
+            "unit": "ns",
+            "range": "± 2825901.381928393",
+            "bytesAllocated": 802416
           }
         ]
       }
