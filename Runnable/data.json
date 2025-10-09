@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1759558114340,
+  "lastUpdated": 1759992348867,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -864,6 +864,114 @@
             "unit": "ns",
             "range": "± 2933953.7475841334",
             "bytesAllocated": 806400
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa7cea82f179949f8f4d601ccba0f32cc072f432",
+          "message": "test: Add some missed coverage for Aspire. (#20)",
+          "timestamp": "2025-10-09T06:34:28Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/aa7cea82f179949f8f4d601ccba0f32cc072f432"
+        },
+        "date": 1759992348867,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 360159314.72,
+            "unit": "ns",
+            "range": "± 123365336.63227801",
+            "bytesAllocated": 2508272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256077999.41,
+            "unit": "ns",
+            "range": "± 3309749.1242433796",
+            "bytesAllocated": 1302176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 243869870.49,
+            "unit": "ns",
+            "range": "± 5710755.672232775",
+            "bytesAllocated": 1199832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 348001802.23,
+            "unit": "ns",
+            "range": "± 3695287.694021233",
+            "bytesAllocated": 2515424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 257178913.21,
+            "unit": "ns",
+            "range": "± 2837813.084013495",
+            "bytesAllocated": 1286408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 244713580.76,
+            "unit": "ns",
+            "range": "± 6061256.394362016",
+            "bytesAllocated": 1298736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 409583686.07,
+            "unit": "ns",
+            "range": "± 5506952.32728356",
+            "bytesAllocated": 4566552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 308124403.84,
+            "unit": "ns",
+            "range": "± 6236879.46530077",
+            "bytesAllocated": 3362776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 309645413.53,
+            "unit": "ns",
+            "range": "± 5680008.498831797",
+            "bytesAllocated": 3279464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 294054938.06,
+            "unit": "ns",
+            "range": "± 9107834.916707674",
+            "bytesAllocated": 1990872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 213997972.59,
+            "unit": "ns",
+            "range": "± 7985121.523120163",
+            "bytesAllocated": 1458976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 183104505.27,
+            "unit": "ns",
+            "range": "± 3404953.4015520667",
+            "bytesAllocated": 848984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 188297346.29,
+            "unit": "ns",
+            "range": "± 2221146.7771338043",
+            "bytesAllocated": 803568
           }
         ]
       }
