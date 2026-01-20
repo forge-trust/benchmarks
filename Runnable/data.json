@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1759992348867,
+  "lastUpdated": 1768876585961,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -972,6 +972,114 @@
             "unit": "ns",
             "range": "± 2221146.7771338043",
             "bytesAllocated": 803568
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "902de5f400c82f2e8dc588bb8c533664ef2c5f2c",
+          "message": "feat(web): Add RazorWire web framework with streaming and islands support (#22)\n\nCo-authored-by: coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-20T02:23:57Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/902de5f400c82f2e8dc588bb8c533664ef2c5f2c"
+        },
+        "date": 1768876585961,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 363075682.81,
+            "unit": "ns",
+            "range": "± 6098157.705578633",
+            "bytesAllocated": 2533160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 249224302.72,
+            "unit": "ns",
+            "range": "± 3679711.069911038",
+            "bytesAllocated": 1354248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 245895768.05,
+            "unit": "ns",
+            "range": "± 3009316.7991536907",
+            "bytesAllocated": 1251832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 362999545.9,
+            "unit": "ns",
+            "range": "± 4408180.425570999",
+            "bytesAllocated": 2540392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 249638778.39,
+            "unit": "ns",
+            "range": "± 3847148.5080373986",
+            "bytesAllocated": 1446328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 257459109.04,
+            "unit": "ns",
+            "range": "± 6804389.645918724",
+            "bytesAllocated": 1260976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 475509760.55,
+            "unit": "ns",
+            "range": "± 7353787.331940184",
+            "bytesAllocated": 4663104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 377842307.36,
+            "unit": "ns",
+            "range": "± 7967117.767404955",
+            "bytesAllocated": 3430288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 391789707.85,
+            "unit": "ns",
+            "range": "± 10912065.652936667",
+            "bytesAllocated": 3314072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 325634446.67,
+            "unit": "ns",
+            "range": "± 7380385.412005151",
+            "bytesAllocated": 2076016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 234383825.46,
+            "unit": "ns",
+            "range": "± 4957484.868037557",
+            "bytesAllocated": 1489792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205979123.71,
+            "unit": "ns",
+            "range": "± 5166747.70820816",
+            "bytesAllocated": 913368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 208611406.31,
+            "unit": "ns",
+            "range": "± 5076251.640090946",
+            "bytesAllocated": 873088
           }
         ]
       }
