@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1769148035611,
+  "lastUpdated": 1769226943296,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -1404,6 +1404,114 @@
             "unit": "ns",
             "range": "± 2795232.321249292",
             "bytesAllocated": 841976
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9e856846381266b6f58bc47e62927bcd1620c27e",
+          "message": "Refactor: Centralize Package Management (#57)",
+          "timestamp": "2026-01-24T03:43:22Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/9e856846381266b6f58bc47e62927bcd1620c27e"
+        },
+        "date": 1769226943296,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382912668.84,
+            "unit": "ns",
+            "range": "± 194545994.69508246",
+            "bytesAllocated": 2532584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 249156914.85,
+            "unit": "ns",
+            "range": "± 2934389.7213851362",
+            "bytesAllocated": 1335640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 248867770.19,
+            "unit": "ns",
+            "range": "± 4483086.038924001",
+            "bytesAllocated": 1252688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 362818852.86,
+            "unit": "ns",
+            "range": "± 5193431.047425483",
+            "bytesAllocated": 2524496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 249535358.3,
+            "unit": "ns",
+            "range": "± 3112138.6247430798",
+            "bytesAllocated": 1346152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 246886559.76,
+            "unit": "ns",
+            "range": "± 2423705.687943884",
+            "bytesAllocated": 1357968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 476139662.38,
+            "unit": "ns",
+            "range": "± 4965057.529385769",
+            "bytesAllocated": 4682936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 374826338.89,
+            "unit": "ns",
+            "range": "± 6273348.120920405",
+            "bytesAllocated": 3414120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 372230518.82,
+            "unit": "ns",
+            "range": "± 6914224.184735516",
+            "bytesAllocated": 3301720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 316086959.4,
+            "unit": "ns",
+            "range": "± 10579754.87658492",
+            "bytesAllocated": 2046064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 233739170.8,
+            "unit": "ns",
+            "range": "± 11215355.815428158",
+            "bytesAllocated": 1487680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 199667826.4,
+            "unit": "ns",
+            "range": "± 2548682.4542291886",
+            "bytesAllocated": 925688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 204923500.48,
+            "unit": "ns",
+            "range": "± 2433317.3831356005",
+            "bytesAllocated": 861624
           }
         ]
       }
