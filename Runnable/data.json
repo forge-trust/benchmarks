@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1770613886960,
+  "lastUpdated": 1770614907457,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -2484,6 +2484,114 @@
             "unit": "ns",
             "range": "± 4067707.738698507",
             "bytesAllocated": 841864
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7aa1b789d98277ec4fffae171617941a4afed8a0",
+          "message": "feat(cli): Implement asset extraction and binary download support in ExportEngine (#69)",
+          "timestamp": "2026-02-09T05:16:12Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/7aa1b789d98277ec4fffae171617941a4afed8a0"
+        },
+        "date": 1770614907457,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 384732733.71,
+            "unit": "ns",
+            "range": "± 262224114.39811254",
+            "bytesAllocated": 2533368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 248105034.25,
+            "unit": "ns",
+            "range": "± 3844896.753263327",
+            "bytesAllocated": 1354656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 259133182.06,
+            "unit": "ns",
+            "range": "± 6507292.632913308",
+            "bytesAllocated": 1254152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 360564566.07,
+            "unit": "ns",
+            "range": "± 4334577.918237401",
+            "bytesAllocated": 2549872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 247137126.85,
+            "unit": "ns",
+            "range": "± 2282080.4039198705",
+            "bytesAllocated": 1367616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 256846118.58,
+            "unit": "ns",
+            "range": "± 5218534.234367201",
+            "bytesAllocated": 1260960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 472033712.13,
+            "unit": "ns",
+            "range": "± 5882317.9476647675",
+            "bytesAllocated": 4660984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 370184165.31,
+            "unit": "ns",
+            "range": "± 6123296.892096246",
+            "bytesAllocated": 3412080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 373802480.55,
+            "unit": "ns",
+            "range": "± 10438581.466038326",
+            "bytesAllocated": 3297544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 314069060.81,
+            "unit": "ns",
+            "range": "± 33168198.92626309",
+            "bytesAllocated": 2052328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 229651532.13,
+            "unit": "ns",
+            "range": "± 11728079.48644447",
+            "bytesAllocated": 1489008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 195415558.95,
+            "unit": "ns",
+            "range": "± 2008393.7588432787",
+            "bytesAllocated": 916072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 201643496.81,
+            "unit": "ns",
+            "range": "± 1207442.0366129694",
+            "bytesAllocated": 860648
           }
         ]
       }
