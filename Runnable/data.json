@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1770614907457,
+  "lastUpdated": 1770697266271,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -2592,6 +2592,114 @@
             "unit": "ns",
             "range": "± 1207442.0366129694",
             "bytesAllocated": 860648
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1c74507d973ccd12ef556103045e55c87161e763",
+          "message": "Add Playwright integration tests for RazorWire MVC example (#70)",
+          "timestamp": "2026-02-10T04:08:24Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/1c74507d973ccd12ef556103045e55c87161e763"
+        },
+        "date": 1770697266271,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 386394300.9,
+            "unit": "ns",
+            "range": "± 72380102.60072303",
+            "bytesAllocated": 2557280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 265188761.82,
+            "unit": "ns",
+            "range": "± 4391304.260816667",
+            "bytesAllocated": 1355200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 271061889.25,
+            "unit": "ns",
+            "range": "± 8049795.904908951",
+            "bytesAllocated": 1254064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 370449424.17,
+            "unit": "ns",
+            "range": "± 5504234.73800079",
+            "bytesAllocated": 2542104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259699030.48,
+            "unit": "ns",
+            "range": "± 3826694.6456190087",
+            "bytesAllocated": 1465456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 272251982.99,
+            "unit": "ns",
+            "range": "± 7050085.611424335",
+            "bytesAllocated": 1354904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 488722755.48,
+            "unit": "ns",
+            "range": "± 8614166.8234075",
+            "bytesAllocated": 4635456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 401670162.49,
+            "unit": "ns",
+            "range": "± 9413641.552203909",
+            "bytesAllocated": 3432368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 398143065.97,
+            "unit": "ns",
+            "range": "± 9026963.058599925",
+            "bytesAllocated": 3314064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 325486675.96,
+            "unit": "ns",
+            "range": "± 8398222.059640547",
+            "bytesAllocated": 2051224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237005172.74,
+            "unit": "ns",
+            "range": "± 4544926.40499836",
+            "bytesAllocated": 1494488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206989190.8,
+            "unit": "ns",
+            "range": "± 4174996.4423179715",
+            "bytesAllocated": 895736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 221633345.02,
+            "unit": "ns",
+            "range": "± 5257578.496769207",
+            "bytesAllocated": 875400
           }
         ]
       }
