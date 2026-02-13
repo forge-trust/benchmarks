@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1770957690080,
+  "lastUpdated": 1770958203750,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -3024,6 +3024,114 @@
             "unit": "ns",
             "range": "± 2393880.4947024668",
             "bytesAllocated": 859800
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3633772495b3096977b5ff2a0712f85ec0f15df4",
+          "message": "feat: add rw-type=utc support for UTC time display (#75)",
+          "timestamp": "2026-02-13T04:37:18Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/3633772495b3096977b5ff2a0712f85ec0f15df4"
+        },
+        "date": 1770958203750,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 373678766.27,
+            "unit": "ns",
+            "range": "± 6715151.75070965",
+            "bytesAllocated": 2531688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254852127.2,
+            "unit": "ns",
+            "range": "± 4879570.040620363",
+            "bytesAllocated": 1357440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 272959097.07,
+            "unit": "ns",
+            "range": "± 7808016.513627204",
+            "bytesAllocated": 1352432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 386415767.85,
+            "unit": "ns",
+            "range": "± 6930755.137378991",
+            "bytesAllocated": 2567464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259335515.21,
+            "unit": "ns",
+            "range": "± 4930682.339606261",
+            "bytesAllocated": 1361352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 264484756.23,
+            "unit": "ns",
+            "range": "± 7342653.313353612",
+            "bytesAllocated": 1361336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 497678381.07,
+            "unit": "ns",
+            "range": "± 12114050.72736765",
+            "bytesAllocated": 4639352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384883440.13,
+            "unit": "ns",
+            "range": "± 8590119.704274163",
+            "bytesAllocated": 3416496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 384941974.63,
+            "unit": "ns",
+            "range": "± 7598189.839465415",
+            "bytesAllocated": 3306776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 323030132.36,
+            "unit": "ns",
+            "range": "± 5770407.498253832",
+            "bytesAllocated": 2033976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237870797.2,
+            "unit": "ns",
+            "range": "± 4300241.246970898",
+            "bytesAllocated": 1500480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206339903.09,
+            "unit": "ns",
+            "range": "± 3743612.764963913",
+            "bytesAllocated": 917016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 210810728.89,
+            "unit": "ns",
+            "range": "± 3751310.4780010497",
+            "bytesAllocated": 874704
           }
         ]
       }
