@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1770958203750,
+  "lastUpdated": 1771046572961,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -3132,6 +3132,114 @@
             "unit": "ns",
             "range": "± 3751310.4780010497",
             "bytesAllocated": 874704
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "38307eda9b3db8b0a8b6bc85fd630f3de1504472",
+          "message": "Add project/DLL source modes to RazorWire CLI export (#77)",
+          "timestamp": "2026-02-14T05:10:18Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/38307eda9b3db8b0a8b6bc85fd630f3de1504472"
+        },
+        "date": 1771046572961,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 368348376.85,
+            "unit": "ns",
+            "range": "± 6047360.687558897",
+            "bytesAllocated": 2533080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 251974631.71,
+            "unit": "ns",
+            "range": "± 3516158.767416628",
+            "bytesAllocated": 1341000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 263728664.69,
+            "unit": "ns",
+            "range": "± 6699513.066190167",
+            "bytesAllocated": 1334488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 368826893.55,
+            "unit": "ns",
+            "range": "± 5549055.261156506",
+            "bytesAllocated": 2537912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255272130.06,
+            "unit": "ns",
+            "range": "± 5867110.18231323",
+            "bytesAllocated": 1349424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 264480646.48,
+            "unit": "ns",
+            "range": "± 7333696.071479689",
+            "bytesAllocated": 1264144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487389638.28,
+            "unit": "ns",
+            "range": "± 12247659.134199355",
+            "bytesAllocated": 4635928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384676656.34,
+            "unit": "ns",
+            "range": "± 9365410.973836375",
+            "bytesAllocated": 3440176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 383327654.96,
+            "unit": "ns",
+            "range": "± 7849143.671096815",
+            "bytesAllocated": 3299624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 320719996.72,
+            "unit": "ns",
+            "range": "± 5088483.943747884",
+            "bytesAllocated": 2048728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 235556886.16,
+            "unit": "ns",
+            "range": "± 3541386.220243445",
+            "bytesAllocated": 1488760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202339989.25,
+            "unit": "ns",
+            "range": "± 4264972.879074652",
+            "bytesAllocated": 913688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 209949134.94,
+            "unit": "ns",
+            "range": "± 4812968.564757182",
+            "bytesAllocated": 941232
           }
         ]
       }
