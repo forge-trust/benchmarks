@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1771196951007,
+  "lastUpdated": 1771197209518,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -4104,6 +4104,114 @@
             "unit": "ns",
             "range": "± 2238227.5168811576",
             "bytesAllocated": 841856
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b70ba24dd0804f175ee7ccd2f60c3bdbd3c75133",
+          "message": "feat(razor-docs): Improve Documentation Layout (#83)",
+          "timestamp": "2026-02-15T23:00:48Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/b70ba24dd0804f175ee7ccd2f60c3bdbd3c75133"
+        },
+        "date": 1771197209518,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 365067034.96,
+            "unit": "ns",
+            "range": "± 6352323.0151924845",
+            "bytesAllocated": 2531488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 252834547.22,
+            "unit": "ns",
+            "range": "± 5212509.150587623",
+            "bytesAllocated": 1358728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 268757918.98,
+            "unit": "ns",
+            "range": "± 6539135.869317923",
+            "bytesAllocated": 1336432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376353459.78,
+            "unit": "ns",
+            "range": "± 6136076.223296865",
+            "bytesAllocated": 2537088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258268268.18,
+            "unit": "ns",
+            "range": "± 3527255.086384132",
+            "bytesAllocated": 1366992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 270695536.79,
+            "unit": "ns",
+            "range": "± 7812536.473831518",
+            "bytesAllocated": 1263112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493211655.32,
+            "unit": "ns",
+            "range": "± 7549233.915157469",
+            "bytesAllocated": 4680160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 390432703.06,
+            "unit": "ns",
+            "range": "± 6871864.18315937",
+            "bytesAllocated": 3437304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 395810700.78,
+            "unit": "ns",
+            "range": "± 9455291.941253869",
+            "bytesAllocated": 3311712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 331930727.91,
+            "unit": "ns",
+            "range": "± 5024920.789188584",
+            "bytesAllocated": 2034328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243369083.23,
+            "unit": "ns",
+            "range": "± 4164631.127956901",
+            "bytesAllocated": 1486264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206879225.7,
+            "unit": "ns",
+            "range": "± 4112623.037718566",
+            "bytesAllocated": 1014344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 205656890.32,
+            "unit": "ns",
+            "range": "± 2562607.683861783",
+            "bytesAllocated": 875664
           }
         ]
       }
