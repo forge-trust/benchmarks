@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1771216085144,
+  "lastUpdated": 1771217734056,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -4536,6 +4536,114 @@
             "unit": "ns",
             "range": "± 3154766.0249890625",
             "bytesAllocated": 874344
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1f154b66a2c37096590f91a550785c9dbc4cf550",
+          "message": "RazorDocs: close package coverage gaps (#90)",
+          "timestamp": "2026-02-16T04:41:47Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/1f154b66a2c37096590f91a550785c9dbc4cf550"
+        },
+        "date": 1771217734056,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 396310757.95,
+            "unit": "ns",
+            "range": "± 11856656.967525685",
+            "bytesAllocated": 2535416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 278505948.73,
+            "unit": "ns",
+            "range": "± 12115731.158073612",
+            "bytesAllocated": 1355232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 290350936.14,
+            "unit": "ns",
+            "range": "± 11129319.899809623",
+            "bytesAllocated": 1253680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 402792425.94,
+            "unit": "ns",
+            "range": "± 12946237.544278098",
+            "bytesAllocated": 2542152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 282159980.7,
+            "unit": "ns",
+            "range": "± 8499925.428648284",
+            "bytesAllocated": 1366552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 293982241.81,
+            "unit": "ns",
+            "range": "± 12641267.485120155",
+            "bytesAllocated": 1238848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 544506277.8,
+            "unit": "ns",
+            "range": "± 12410440.641313285",
+            "bytesAllocated": 4652392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 427897110.39,
+            "unit": "ns",
+            "range": "± 14848525.884172343",
+            "bytesAllocated": 3417640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 417803821.79,
+            "unit": "ns",
+            "range": "± 16206937.995378135",
+            "bytesAllocated": 3292568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 345536810.54,
+            "unit": "ns",
+            "range": "± 11542802.93122755",
+            "bytesAllocated": 2078640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 249955962.66,
+            "unit": "ns",
+            "range": "± 7146716.107259551",
+            "bytesAllocated": 1491968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 219609349.51,
+            "unit": "ns",
+            "range": "± 5414794.951857944",
+            "bytesAllocated": 913224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 227172471.46,
+            "unit": "ns",
+            "range": "± 6574118.544463213",
+            "bytesAllocated": 839672
           }
         ]
       }
