@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1773601501407,
+  "lastUpdated": 1774063939469,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -5292,6 +5292,114 @@
             "unit": "ns",
             "range": "± 2194018.5204043146",
             "bytesAllocated": 844872
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bfb6711905d3d521c87f63949be11c1f251d4dd3",
+          "message": "Standardize service return types to IReadOnlyList<T> (Fixes #33) (#98)",
+          "timestamp": "2026-03-21T03:19:31Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/bfb6711905d3d521c87f63949be11c1f251d4dd3"
+        },
+        "date": 1774063939469,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 376498610.16,
+            "unit": "ns",
+            "range": "± 4099209.645076812",
+            "bytesAllocated": 2531488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260325510.09,
+            "unit": "ns",
+            "range": "± 3195883.3764129234",
+            "bytesAllocated": 1460392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 268933895.95,
+            "unit": "ns",
+            "range": "± 6046727.831881906",
+            "bytesAllocated": 1254728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376340789.91,
+            "unit": "ns",
+            "range": "± 4153960.5574265914",
+            "bytesAllocated": 2542568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 260672364.36,
+            "unit": "ns",
+            "range": "± 3234347.6983374464",
+            "bytesAllocated": 1367104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 270069276.96,
+            "unit": "ns",
+            "range": "± 6370984.6132300235",
+            "bytesAllocated": 1262624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493883506.73,
+            "unit": "ns",
+            "range": "± 7545267.147546005",
+            "bytesAllocated": 4665056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 388515963.01,
+            "unit": "ns",
+            "range": "± 6733875.461848485",
+            "bytesAllocated": 3415232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 390545734.79,
+            "unit": "ns",
+            "range": "± 5067792.562677566",
+            "bytesAllocated": 3324696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327589134.23,
+            "unit": "ns",
+            "range": "± 4292348.964019568",
+            "bytesAllocated": 2047720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242478898.65,
+            "unit": "ns",
+            "range": "± 2454312.4576238296",
+            "bytesAllocated": 1492824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208825688.36,
+            "unit": "ns",
+            "range": "± 3544812.6223214623",
+            "bytesAllocated": 896624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 214731040.78,
+            "unit": "ns",
+            "range": "± 2341246.539488997",
+            "bytesAllocated": 864096
           }
         ]
       }
