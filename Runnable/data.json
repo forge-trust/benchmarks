@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1776477337391,
+  "lastUpdated": 1776530407339,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -5832,6 +5832,114 @@
             "unit": "ns",
             "range": "± 4769325.620645127",
             "bytesAllocated": 874680
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1cc91c41552591eb12a74980bc3a1cdffb96b48e",
+          "message": "[codex] add curated RazorDocs landing (#131)",
+          "timestamp": "2026-04-18T16:25:53Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/1cc91c41552591eb12a74980bc3a1cdffb96b48e"
+        },
+        "date": 1776530407339,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 410612611.09,
+            "unit": "ns",
+            "range": "± 3465032.687323646",
+            "bytesAllocated": 2530512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 289069572.11,
+            "unit": "ns",
+            "range": "± 2227341.1266514994",
+            "bytesAllocated": 1356688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 299340912.59,
+            "unit": "ns",
+            "range": "± 3835403.4026703867",
+            "bytesAllocated": 1348648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 411280147.68,
+            "unit": "ns",
+            "range": "± 3066917.8417397602",
+            "bytesAllocated": 2536736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 289661577.37,
+            "unit": "ns",
+            "range": "± 2407763.646816184",
+            "bytesAllocated": 1367496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 300154339.33,
+            "unit": "ns",
+            "range": "± 3933637.8942601406",
+            "bytesAllocated": 1261056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 540872324.03,
+            "unit": "ns",
+            "range": "± 5538150.343679445",
+            "bytesAllocated": 4640168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 426964268.82,
+            "unit": "ns",
+            "range": "± 4701713.378282849",
+            "bytesAllocated": 3422312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 428021820.48,
+            "unit": "ns",
+            "range": "± 4931105.127880566",
+            "bytesAllocated": 3298312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 355521331.74,
+            "unit": "ns",
+            "range": "± 2981334.459322665",
+            "bytesAllocated": 2044608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 268897418.4,
+            "unit": "ns",
+            "range": "± 1773723.207010649",
+            "bytesAllocated": 1503072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 231029194.63,
+            "unit": "ns",
+            "range": "± 1426228.9073299307",
+            "bytesAllocated": 898416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 240184582.71,
+            "unit": "ns",
+            "range": "± 1399735.2499694277",
+            "bytesAllocated": 873368
           }
         ]
       }
