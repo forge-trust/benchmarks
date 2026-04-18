@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1776403623348,
+  "lastUpdated": 1776477337391,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -5724,6 +5724,114 @@
             "unit": "ns",
             "range": "± 2400755.918681322",
             "bytesAllocated": 863104
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3eb2a14bb5270b7989e141b46abf304119c66fa1",
+          "message": "feat: add conventional 404 pages for html apps (#128)",
+          "timestamp": "2026-04-18T01:42:46Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/3eb2a14bb5270b7989e141b46abf304119c66fa1"
+        },
+        "date": 1776477337391,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 372270712.6,
+            "unit": "ns",
+            "range": "± 6330535.8342565475",
+            "bytesAllocated": 2536264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 259705304.59,
+            "unit": "ns",
+            "range": "± 4825578.803493904",
+            "bytesAllocated": 1340024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 276896579.18,
+            "unit": "ns",
+            "range": "± 5508478.18998339",
+            "bytesAllocated": 1254208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376379130.22,
+            "unit": "ns",
+            "range": "± 7554898.728477031",
+            "bytesAllocated": 2550208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 267878033.12,
+            "unit": "ns",
+            "range": "± 5265375.076218182",
+            "bytesAllocated": 1367816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 266723992.68,
+            "unit": "ns",
+            "range": "± 5044257.837516522",
+            "bytesAllocated": 1261768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 500306139.95,
+            "unit": "ns",
+            "range": "± 11459755.308032459",
+            "bytesAllocated": 4645952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 389583789.83,
+            "unit": "ns",
+            "range": "± 8022601.405776908",
+            "bytesAllocated": 3412040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 383765390.09,
+            "unit": "ns",
+            "range": "± 13616896.648163788",
+            "bytesAllocated": 3327040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 326587376.11,
+            "unit": "ns",
+            "range": "± 5588613.972810879",
+            "bytesAllocated": 2048664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 246671281.8,
+            "unit": "ns",
+            "range": "± 5294394.212547532",
+            "bytesAllocated": 1496424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 219605079.59,
+            "unit": "ns",
+            "range": "± 7654419.746102906",
+            "bytesAllocated": 917016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 217229839.2,
+            "unit": "ns",
+            "range": "± 4769325.620645127",
+            "bytesAllocated": 874680
           }
         ]
       }
