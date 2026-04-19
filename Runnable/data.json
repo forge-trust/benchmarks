@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1776530407339,
+  "lastUpdated": 1776626215743,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -5940,6 +5940,114 @@
             "unit": "ns",
             "range": "± 1399735.2499694277",
             "bytesAllocated": 873368
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9a29b75e4aa09ce84cb2dcaaac5c5aa64b432025",
+          "message": "feat: add RazorDocs page type badges (#140)",
+          "timestamp": "2026-04-19T19:04:23Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/9a29b75e4aa09ce84cb2dcaaac5c5aa64b432025"
+        },
+        "date": 1776626215743,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 360464216.88,
+            "unit": "ns",
+            "range": "± 3892192.7168335207",
+            "bytesAllocated": 2515560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 251349438.46,
+            "unit": "ns",
+            "range": "± 2811324.654991645",
+            "bytesAllocated": 1354104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 261606600.4,
+            "unit": "ns",
+            "range": "± 3310844.0198032325",
+            "bytesAllocated": 1233400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 360708819.81,
+            "unit": "ns",
+            "range": "± 4552625.294550703",
+            "bytesAllocated": 2525128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252096362.55,
+            "unit": "ns",
+            "range": "± 2712959.9426492206",
+            "bytesAllocated": 1393360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 262674939.23,
+            "unit": "ns",
+            "range": "± 5070355.804307077",
+            "bytesAllocated": 1385000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 475540614.4,
+            "unit": "ns",
+            "range": "± 6252267.775871089",
+            "bytesAllocated": 4637240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 374752038.21,
+            "unit": "ns",
+            "range": "± 5797935.459105305",
+            "bytesAllocated": 3415600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 372961907.87,
+            "unit": "ns",
+            "range": "± 5439296.153180621",
+            "bytesAllocated": 3327488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 312977415.57,
+            "unit": "ns",
+            "range": "± 4149540.8426006166",
+            "bytesAllocated": 2048800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 236095633.47,
+            "unit": "ns",
+            "range": "± 2952917.495821715",
+            "bytesAllocated": 1495400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202086265.66,
+            "unit": "ns",
+            "range": "± 2939161.885900614",
+            "bytesAllocated": 909752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 209009308.78,
+            "unit": "ns",
+            "range": "± 1903393.1725329855",
+            "bytesAllocated": 961560
           }
         ]
       }
