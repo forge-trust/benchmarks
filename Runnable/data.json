@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777619635527,
+  "lastUpdated": 1777622778416,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -7668,6 +7668,114 @@
             "unit": "ns",
             "range": "± 3111204.3685197085",
             "bytesAllocated": 862456
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "86e04001f6ec6f95b37bc7a0b0f8f032f06f9a5f",
+          "message": "fix(cli): rename RazorWire seed route option (#186)",
+          "timestamp": "2026-05-01T07:53:42Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/86e04001f6ec6f95b37bc7a0b0f8f032f06f9a5f"
+        },
+        "date": 1777622778416,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 373147445.97,
+            "unit": "ns",
+            "range": "± 6853693.679168562",
+            "bytesAllocated": 2513384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261094485.21,
+            "unit": "ns",
+            "range": "± 7938992.419901942",
+            "bytesAllocated": 1457040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 266720640.4,
+            "unit": "ns",
+            "range": "± 4197322.862448286",
+            "bytesAllocated": 1237136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 365765396.8,
+            "unit": "ns",
+            "range": "± 3864566.8771481817",
+            "bytesAllocated": 2541992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255477945.34,
+            "unit": "ns",
+            "range": "± 2150149.7915614345",
+            "bytesAllocated": 1390968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 265432698.88,
+            "unit": "ns",
+            "range": "± 3960470.8862584783",
+            "bytesAllocated": 1361088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 480177285.82,
+            "unit": "ns",
+            "range": "± 5177608.24195339",
+            "bytesAllocated": 4638256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381763228.53,
+            "unit": "ns",
+            "range": "± 7322049.497394172",
+            "bytesAllocated": 3454800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 379035790.27,
+            "unit": "ns",
+            "range": "± 4978019.098952554",
+            "bytesAllocated": 3294416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 316736021.13,
+            "unit": "ns",
+            "range": "± 4705348.856512574",
+            "bytesAllocated": 2076376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 238898231.66,
+            "unit": "ns",
+            "range": "± 3929602.774151999",
+            "bytesAllocated": 1476336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 204011473.85,
+            "unit": "ns",
+            "range": "± 2632635.766684344",
+            "bytesAllocated": 896096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 212083665.9,
+            "unit": "ns",
+            "range": "± 2650980.7912589274",
+            "bytesAllocated": 875640
           }
         ]
       }
