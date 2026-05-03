@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777836891355,
+  "lastUpdated": 1777837831009,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -9396,6 +9396,114 @@
             "unit": "ns",
             "range": "± 3525187.6997104427",
             "bytesAllocated": 858528
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ae5bf3ffd181b8db5f6307d33b0989a43a36bc42",
+          "message": "fix(web): stabilize public enum values (#205)",
+          "timestamp": "2026-05-03T19:37:57Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/ae5bf3ffd181b8db5f6307d33b0989a43a36bc42"
+        },
+        "date": 1777837831009,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 363093386.93,
+            "unit": "ns",
+            "range": "± 3522191.656802985",
+            "bytesAllocated": 2534208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254028691.18,
+            "unit": "ns",
+            "range": "± 2348495.1393649504",
+            "bytesAllocated": 1357104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 264116544.84,
+            "unit": "ns",
+            "range": "± 3243989.9737721537",
+            "bytesAllocated": 1238624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 363559701.64,
+            "unit": "ns",
+            "range": "± 3122103.641311444",
+            "bytesAllocated": 2549744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254282948.78,
+            "unit": "ns",
+            "range": "± 2145050.782691116",
+            "bytesAllocated": 1348632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 265024701.15,
+            "unit": "ns",
+            "range": "± 3475613.9993745843",
+            "bytesAllocated": 1337728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 478564361.1,
+            "unit": "ns",
+            "range": "± 4448519.178714827",
+            "bytesAllocated": 4662208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 377437767.01,
+            "unit": "ns",
+            "range": "± 5708070.34562048",
+            "bytesAllocated": 3426400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 376109060.85,
+            "unit": "ns",
+            "range": "± 4448352.200207767",
+            "bytesAllocated": 3299728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 315329441.21,
+            "unit": "ns",
+            "range": "± 3098480.7341820276",
+            "bytesAllocated": 2079680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237343064.93,
+            "unit": "ns",
+            "range": "± 1638723.453951019",
+            "bytesAllocated": 1476600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203558457.44,
+            "unit": "ns",
+            "range": "± 4957726.529367337",
+            "bytesAllocated": 909752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 211419610.31,
+            "unit": "ns",
+            "range": "± 1411587.8764270728",
+            "bytesAllocated": 863464
           }
         ]
       }
