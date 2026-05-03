@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777844023142,
+  "lastUpdated": 1777844084452,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -9828,6 +9828,114 @@
             "unit": "ns",
             "range": "± 2449768.8082485986",
             "bytesAllocated": 861896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f7fdcd6105106701369bf721a6a0788fca84bf6",
+          "message": "test: add OpenAPI module coverage (#216)",
+          "timestamp": "2026-05-03T21:22:04Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/3f7fdcd6105106701369bf721a6a0788fca84bf6"
+        },
+        "date": 1777844084452,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 369510210.38,
+            "unit": "ns",
+            "range": "± 5744625.432124853",
+            "bytesAllocated": 2533304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261109459.25,
+            "unit": "ns",
+            "range": "± 5444876.338551984",
+            "bytesAllocated": 1357832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 269098575.01,
+            "unit": "ns",
+            "range": "± 4920097.263291675",
+            "bytesAllocated": 1251776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 364150391.76,
+            "unit": "ns",
+            "range": "± 3766050.993901008",
+            "bytesAllocated": 2544512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255640148.25,
+            "unit": "ns",
+            "range": "± 3061449.6620402476",
+            "bytesAllocated": 1366600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 266245983.27,
+            "unit": "ns",
+            "range": "± 4007338.881508502",
+            "bytesAllocated": 1281832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 476874690.97,
+            "unit": "ns",
+            "range": "± 5703890.27320014",
+            "bytesAllocated": 4681392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 380996426.71,
+            "unit": "ns",
+            "range": "± 8966780.378650768",
+            "bytesAllocated": 3415320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 377329350.97,
+            "unit": "ns",
+            "range": "± 5161188.365820661",
+            "bytesAllocated": 3300168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 313358136.61,
+            "unit": "ns",
+            "range": "± 3563615.6162961046",
+            "bytesAllocated": 2078704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 235564669.04,
+            "unit": "ns",
+            "range": "± 2607469.101532969",
+            "bytesAllocated": 1491640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203513955.61,
+            "unit": "ns",
+            "range": "± 2325212.6833350053",
+            "bytesAllocated": 928432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 214544440.14,
+            "unit": "ns",
+            "range": "± 3713234.5396837904",
+            "bytesAllocated": 858296
           }
         ]
       }
