@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777837831009,
+  "lastUpdated": 1777841492145,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -9504,6 +9504,114 @@
             "unit": "ns",
             "range": "± 1411587.8764270728",
             "bytesAllocated": 863464
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f474ff4522d1f92a37cd8ee8b916a55eedd909b6",
+          "message": "test: add Scalar web module coverage (#213)",
+          "timestamp": "2026-05-03T20:38:49Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/f474ff4522d1f92a37cd8ee8b916a55eedd909b6"
+        },
+        "date": 1777841492145,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 366824260.52,
+            "unit": "ns",
+            "range": "± 5741754.613600585",
+            "bytesAllocated": 2534008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260275986.14,
+            "unit": "ns",
+            "range": "± 4664704.749611348",
+            "bytesAllocated": 1338376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 274706213.38,
+            "unit": "ns",
+            "range": "± 4099919.920053937",
+            "bytesAllocated": 1335024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371873864.82,
+            "unit": "ns",
+            "range": "± 4712226.410271716",
+            "bytesAllocated": 2566936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259338738.83,
+            "unit": "ns",
+            "range": "± 2756597.3795669577",
+            "bytesAllocated": 1365792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 266116740.92,
+            "unit": "ns",
+            "range": "± 3215934.0336348005",
+            "bytesAllocated": 1337760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 484708600.82,
+            "unit": "ns",
+            "range": "± 5070752.136059438",
+            "bytesAllocated": 4658704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381345586.76,
+            "unit": "ns",
+            "range": "± 6026654.516890798",
+            "bytesAllocated": 3411064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 375559556.27,
+            "unit": "ns",
+            "range": "± 3937684.1237173267",
+            "bytesAllocated": 3323416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 315413307.68,
+            "unit": "ns",
+            "range": "± 3385051.5492522093",
+            "bytesAllocated": 2052232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237933849.97,
+            "unit": "ns",
+            "range": "± 1852447.1746292163",
+            "bytesAllocated": 1493952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203848740.31,
+            "unit": "ns",
+            "range": "± 1737939.5607918787",
+            "bytesAllocated": 895304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 212052120.61,
+            "unit": "ns",
+            "range": "± 2006066.857696065",
+            "bytesAllocated": 854760
           }
         ]
       }
