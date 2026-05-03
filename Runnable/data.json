@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777796623315,
+  "lastUpdated": 1777799249248,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -8424,6 +8424,114 @@
             "unit": "ns",
             "range": "± 1922254.4148154273",
             "bytesAllocated": 874664
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83b95b4c7fe4af26687d0c7ac3371d20fe6ae6d6",
+          "message": "ci: enable docs provenance export (#196)",
+          "timestamp": "2026-05-03T08:54:49Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/83b95b4c7fe4af26687d0c7ac3371d20fe6ae6d6"
+        },
+        "date": 1777799249248,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 367414386.41,
+            "unit": "ns",
+            "range": "± 4837664.950210933",
+            "bytesAllocated": 2513832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256950314.45,
+            "unit": "ns",
+            "range": "± 2901503.251780465",
+            "bytesAllocated": 1355896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 267299833.34,
+            "unit": "ns",
+            "range": "± 3739247.181679535",
+            "bytesAllocated": 1251408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 367753442.83,
+            "unit": "ns",
+            "range": "± 4271792.148628393",
+            "bytesAllocated": 2542120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 257521575.25,
+            "unit": "ns",
+            "range": "± 2438745.9387414893",
+            "bytesAllocated": 1343544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 267800436.39,
+            "unit": "ns",
+            "range": "± 3801347.6494021066",
+            "bytesAllocated": 1360360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 484727701.04,
+            "unit": "ns",
+            "range": "± 5991992.633614387",
+            "bytesAllocated": 4660992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381606478.36,
+            "unit": "ns",
+            "range": "± 5622478.603624765",
+            "bytesAllocated": 3434936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 379668421.74,
+            "unit": "ns",
+            "range": "± 4565035.077653873",
+            "bytesAllocated": 3301152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 325616876.33,
+            "unit": "ns",
+            "range": "± 8546796.642054686",
+            "bytesAllocated": 2060536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 239734365.16,
+            "unit": "ns",
+            "range": "± 1793752.0389546135",
+            "bytesAllocated": 1492328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205737987.43,
+            "unit": "ns",
+            "range": "± 4072557.469494095",
+            "bytesAllocated": 913576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 213785869.53,
+            "unit": "ns",
+            "range": "± 2351215.6418681643",
+            "bytesAllocated": 871192
           }
         ]
       }
