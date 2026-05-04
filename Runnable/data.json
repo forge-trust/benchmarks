@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777844084452,
+  "lastUpdated": 1777862129008,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -9936,6 +9936,114 @@
             "unit": "ns",
             "range": "± 3713234.5396837904",
             "bytesAllocated": 858296
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fae8ca3b8fac7eab89dca53fb87cd756d25fa369",
+          "message": "docs: add contributor feature request form (#219)",
+          "timestamp": "2026-05-04T02:22:56Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/fae8ca3b8fac7eab89dca53fb87cd756d25fa369"
+        },
+        "date": 1777862129008,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 360632999.54,
+            "unit": "ns",
+            "range": "± 4150779.5562621146",
+            "bytesAllocated": 2517208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253790796.57,
+            "unit": "ns",
+            "range": "± 10551594.384464104",
+            "bytesAllocated": 1453160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 268491473.13,
+            "unit": "ns",
+            "range": "± 6124732.143957009",
+            "bytesAllocated": 1255456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 363172659.33,
+            "unit": "ns",
+            "range": "± 3782868.8103602454",
+            "bytesAllocated": 2536736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252868130.34,
+            "unit": "ns",
+            "range": "± 3187576.526000333",
+            "bytesAllocated": 1366800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 262833793.81,
+            "unit": "ns",
+            "range": "± 3669663.5597301377",
+            "bytesAllocated": 1262336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486937075.01,
+            "unit": "ns",
+            "range": "± 24717111.843225885",
+            "bytesAllocated": 4637616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 374550325.45,
+            "unit": "ns",
+            "range": "± 5555120.244804685",
+            "bytesAllocated": 3438384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 373665106.1,
+            "unit": "ns",
+            "range": "± 5207276.325155099",
+            "bytesAllocated": 3322048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 311370815.98,
+            "unit": "ns",
+            "range": "± 3932505.508130333",
+            "bytesAllocated": 2052232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 233610925.71,
+            "unit": "ns",
+            "range": "± 1340091.1541440145",
+            "bytesAllocated": 1477512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 201584133.71,
+            "unit": "ns",
+            "range": "± 3138970.157597382",
+            "bytesAllocated": 912200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 208905902.53,
+            "unit": "ns",
+            "range": "± 1477104.8220504927",
+            "bytesAllocated": 859784
           }
         ]
       }
