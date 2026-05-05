@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1777952014169,
+  "lastUpdated": 1777952529308,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -10476,6 +10476,114 @@
             "unit": "ns",
             "range": "± 3070435.684315079",
             "bytesAllocated": 874912
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1c23a77d20f684270de7acad417424180b2270b6",
+          "message": "feat(config): require config key presence (#226)",
+          "timestamp": "2026-05-05T03:29:22Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/1c23a77d20f684270de7acad417424180b2270b6"
+        },
+        "date": 1777952529308,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 373339503.96,
+            "unit": "ns",
+            "range": "± 3622151.360360596",
+            "bytesAllocated": 2519432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261256699.46,
+            "unit": "ns",
+            "range": "± 2687262.893510927",
+            "bytesAllocated": 1339000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 271006008.81,
+            "unit": "ns",
+            "range": "± 3231274.1721982467",
+            "bytesAllocated": 1254736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371374067.95,
+            "unit": "ns",
+            "range": "± 3823680.578243401",
+            "bytesAllocated": 2566952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259712366.74,
+            "unit": "ns",
+            "range": "± 3198742.919903928",
+            "bytesAllocated": 1367384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 270520228.04,
+            "unit": "ns",
+            "range": "± 3955458.938866258",
+            "bytesAllocated": 1257024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486424983.81,
+            "unit": "ns",
+            "range": "± 6008774.281835545",
+            "bytesAllocated": 4657080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 382639292.91,
+            "unit": "ns",
+            "range": "± 6497186.281951545",
+            "bytesAllocated": 3416680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 384088570.94,
+            "unit": "ns",
+            "range": "± 6197061.011582498",
+            "bytesAllocated": 3299336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327555094.7,
+            "unit": "ns",
+            "range": "± 4923222.6497167405",
+            "bytesAllocated": 2079664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241328584.49,
+            "unit": "ns",
+            "range": "± 2797130.8814049372",
+            "bytesAllocated": 1493496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208073581.35,
+            "unit": "ns",
+            "range": "± 2530414.899508085",
+            "bytesAllocated": 915312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 220510298.34,
+            "unit": "ns",
+            "range": "± 4035589.553136281",
+            "bytesAllocated": 860136
           }
         ]
       }
