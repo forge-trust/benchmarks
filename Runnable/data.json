@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778052642299,
+  "lastUpdated": 1778052982253,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -11124,6 +11124,114 @@
             "unit": "ns",
             "range": "± 4368830.401948551",
             "bytesAllocated": 958800
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "215e6394d119d8449e1f9714d8f3a45bc76c36de",
+          "message": "docs(razordocs): add consumer landing page (#232)",
+          "timestamp": "2026-05-06T07:23:44Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/215e6394d119d8449e1f9714d8f3a45bc76c36de"
+        },
+        "date": 1778052982253,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 362251556.63,
+            "unit": "ns",
+            "range": "± 3244229.3271775814",
+            "bytesAllocated": 2516320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254179597.48,
+            "unit": "ns",
+            "range": "± 2158297.158999053",
+            "bytesAllocated": 1358016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 264541882.1,
+            "unit": "ns",
+            "range": "± 4015432.7165647694",
+            "bytesAllocated": 1352032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 362746576.02,
+            "unit": "ns",
+            "range": "± 3065046.3794171535",
+            "bytesAllocated": 2567696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255631889.19,
+            "unit": "ns",
+            "range": "± 2584347.486441836",
+            "bytesAllocated": 1361384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 265309683.27,
+            "unit": "ns",
+            "range": "± 3644011.568412442",
+            "bytesAllocated": 1257096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 476684980.78,
+            "unit": "ns",
+            "range": "± 4066749.2827745834",
+            "bytesAllocated": 4662456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 377591142.01,
+            "unit": "ns",
+            "range": "± 4686161.080352902",
+            "bytesAllocated": 3414912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 376376432.03,
+            "unit": "ns",
+            "range": "± 4156969.2441343237",
+            "bytesAllocated": 3299080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 313487058.56,
+            "unit": "ns",
+            "range": "± 2793701.9156105584",
+            "bytesAllocated": 2033504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 235805947.53,
+            "unit": "ns",
+            "range": "± 1372193.5991887792",
+            "bytesAllocated": 1485736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203087879.88,
+            "unit": "ns",
+            "range": "± 1374184.6748394195",
+            "bytesAllocated": 895568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 210979767.06,
+            "unit": "ns",
+            "range": "± 1486271.16485058",
+            "bytesAllocated": 845424
           }
         ]
       }
