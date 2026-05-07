@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778053241476,
+  "lastUpdated": 1778121556869,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -11340,6 +11340,114 @@
             "unit": "ns",
             "range": "± 4145707.9020934356",
             "bytesAllocated": 847808
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "6ecff07bf826dbad43929cc1b75725e72304ac54",
+          "message": "feat(razordocs): add page-local outline rail (#218)",
+          "timestamp": "2026-05-07T02:26:14Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/6ecff07bf826dbad43929cc1b75725e72304ac54"
+        },
+        "date": 1778121556869,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 379149093.8,
+            "unit": "ns",
+            "range": "± 6150959.307237574",
+            "bytesAllocated": 2556008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 264669870.89,
+            "unit": "ns",
+            "range": "± 4818602.546537065",
+            "bytesAllocated": 1337440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 272324280.12,
+            "unit": "ns",
+            "range": "± 5266050.802975846",
+            "bytesAllocated": 1239880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 375381872.94,
+            "unit": "ns",
+            "range": "± 4487800.617926191",
+            "bytesAllocated": 2541936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263099916.29,
+            "unit": "ns",
+            "range": "± 4513812.760435711",
+            "bytesAllocated": 1464904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 275677832.34,
+            "unit": "ns",
+            "range": "± 5969404.942427719",
+            "bytesAllocated": 1244976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 494042137.18,
+            "unit": "ns",
+            "range": "± 9039357.789259128",
+            "bytesAllocated": 4661552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 390578107.95,
+            "unit": "ns",
+            "range": "± 8123975.201977854",
+            "bytesAllocated": 3410064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 392053723.65,
+            "unit": "ns",
+            "range": "± 7660196.250172704",
+            "bytesAllocated": 3323184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 329851017.61,
+            "unit": "ns",
+            "range": "± 5326694.700510742",
+            "bytesAllocated": 2052904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 249226594.52,
+            "unit": "ns",
+            "range": "± 4152466.1312269615",
+            "bytesAllocated": 1407904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213455986.44,
+            "unit": "ns",
+            "range": "± 4699820.384616034",
+            "bytesAllocated": 927384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 220004899.67,
+            "unit": "ns",
+            "range": "± 4016846.111132138",
+            "bytesAllocated": 845920
           }
         ]
       }
