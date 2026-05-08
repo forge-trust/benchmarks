@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778222430241,
+  "lastUpdated": 1778224131912,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -11880,6 +11880,114 @@
             "unit": "ns",
             "range": "± 12883415.077000702",
             "bytesAllocated": 859432
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "2bb35c5db4451d6e9a16a10b445a8c16bb835983",
+          "message": "fix: improve RazorDocs outline wayfinding (#244)",
+          "timestamp": "2026-05-08T06:56:03Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/2bb35c5db4451d6e9a16a10b445a8c16bb835983"
+        },
+        "date": 1778224131912,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 374196335.79,
+            "unit": "ns",
+            "range": "± 4885479.732002808",
+            "bytesAllocated": 2536032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 268499645.46,
+            "unit": "ns",
+            "range": "± 4528633.532438404",
+            "bytesAllocated": 1354240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 267310551.86,
+            "unit": "ns",
+            "range": "± 5580517.037324709",
+            "bytesAllocated": 1278736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 370033895.72,
+            "unit": "ns",
+            "range": "± 5396289.8775921725",
+            "bytesAllocated": 2567632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 265819462.98,
+            "unit": "ns",
+            "range": "± 5302020.12158672",
+            "bytesAllocated": 1390440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 270626391.32,
+            "unit": "ns",
+            "range": "± 5178750.729188499",
+            "bytesAllocated": 1257320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 490454335.97,
+            "unit": "ns",
+            "range": "± 7943998.704408629",
+            "bytesAllocated": 4640680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384113657.37,
+            "unit": "ns",
+            "range": "± 7110992.8389329305",
+            "bytesAllocated": 3416080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 388294666.35,
+            "unit": "ns",
+            "range": "± 7978272.55684114",
+            "bytesAllocated": 3322608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322946811.27,
+            "unit": "ns",
+            "range": "± 4207214.841366645",
+            "bytesAllocated": 2077632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242039786.25,
+            "unit": "ns",
+            "range": "± 3349634.13765264",
+            "bytesAllocated": 1506072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207979368.09,
+            "unit": "ns",
+            "range": "± 4035877.3445244795",
+            "bytesAllocated": 925352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 214081181.91,
+            "unit": "ns",
+            "range": "± 3051997.294789351",
+            "bytesAllocated": 863600
           }
         ]
       }
