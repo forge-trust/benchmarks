@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778433024794,
+  "lastUpdated": 1778461022195,
   "repoUrl": "https://github.com/forge-trust/Runnable",
   "entries": {
     "Runnable": [
@@ -12960,6 +12960,114 @@
             "unit": "ns",
             "range": "± 8810373.802414684",
             "bytesAllocated": 876384
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ada6319e042ec8290fd42c76379ae169ea8141b5",
+          "message": "feat: add prerelease package artifact workflow (#262)",
+          "timestamp": "2026-05-11T00:44:24Z",
+          "url": "https://github.com/forge-trust/Runnable/commit/ada6319e042ec8290fd42c76379ae169ea8141b5"
+        },
+        "date": 1778461022195,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 370264277.23,
+            "unit": "ns",
+            "range": "± 6118856.170153014",
+            "bytesAllocated": 2535456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260751855.86,
+            "unit": "ns",
+            "range": "± 4642594.781428304",
+            "bytesAllocated": 1358584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Runnable.Web]",
+            "value": 268972320.51,
+            "unit": "ns",
+            "range": "± 6275554.099147906",
+            "bytesAllocated": 1254864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 372214501.58,
+            "unit": "ns",
+            "range": "± 7261270.884229124",
+            "bytesAllocated": 2542616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252854206.62,
+            "unit": "ns",
+            "range": "± 3295980.762576897",
+            "bytesAllocated": 1374696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Runnable.Web]",
+            "value": 259034229.36,
+            "unit": "ns",
+            "range": "± 3466931.056825407",
+            "bytesAllocated": 1361216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 477705496.7,
+            "unit": "ns",
+            "range": "± 9164169.073796194",
+            "bytesAllocated": 4647912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 373229792.04,
+            "unit": "ns",
+            "range": "± 5076728.744170114",
+            "bytesAllocated": 3422024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Runnable.Web]",
+            "value": 375222906.05,
+            "unit": "ns",
+            "range": "± 5111433.518065451",
+            "bytesAllocated": 3336696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 310452320.73,
+            "unit": "ns",
+            "range": "± 4209722.419933347",
+            "bytesAllocated": 2051096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 236904145.65,
+            "unit": "ns",
+            "range": "± 4125723.714150158",
+            "bytesAllocated": 1491552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203527917.83,
+            "unit": "ns",
+            "range": "± 3362086.206167913",
+            "bytesAllocated": 925792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Runnable.Web]",
+            "value": 212025451.54,
+            "unit": "ns",
+            "range": "± 3400231.3791818675",
+            "bytesAllocated": 862992
           }
         ]
       }
