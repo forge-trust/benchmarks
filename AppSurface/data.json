@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778733208888,
+  "lastUpdated": 1778733813602,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -540,6 +540,114 @@
             "unit": "ns",
             "range": "± 2167637.1752498993",
             "bytesAllocated": 916928
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "6b7cf94115c05e7b893fcab21ac2e6df101964cb",
+          "message": "feat: add RazorDocs style tokens (#280)",
+          "timestamp": "2026-05-14T04:31:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/6b7cf94115c05e7b893fcab21ac2e6df101964cb"
+        },
+        "date": 1778733813602,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 365721455.3,
+            "unit": "ns",
+            "range": "± 3931204.1401752243",
+            "bytesAllocated": 2535384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 267289345.88,
+            "unit": "ns",
+            "range": "± 4561651.655345967",
+            "bytesAllocated": 1254224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256008708.9,
+            "unit": "ns",
+            "range": "± 3271849.6175912656",
+            "bytesAllocated": 1358640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 365912145.92,
+            "unit": "ns",
+            "range": "± 3507979.423318981",
+            "bytesAllocated": 2545408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 263212356.71,
+            "unit": "ns",
+            "range": "± 3815549.82487327",
+            "bytesAllocated": 1363952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256954371.92,
+            "unit": "ns",
+            "range": "± 3587898.2860441264",
+            "bytesAllocated": 1350784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 481494927.16,
+            "unit": "ns",
+            "range": "± 5541236.680765618",
+            "bytesAllocated": 4671400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 378173959.37,
+            "unit": "ns",
+            "range": "± 5368085.501867908",
+            "bytesAllocated": 3309424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 378214886.88,
+            "unit": "ns",
+            "range": "± 6244989.8021286335",
+            "bytesAllocated": 3425696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 316943763.03,
+            "unit": "ns",
+            "range": "± 3044586.2160989046",
+            "bytesAllocated": 2062240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 212987547.99,
+            "unit": "ns",
+            "range": "± 1881383.9458862175",
+            "bytesAllocated": 865528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 240669412.8,
+            "unit": "ns",
+            "range": "± 2537601.08510446",
+            "bytesAllocated": 1506104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 204839616.77,
+            "unit": "ns",
+            "range": "± 1821779.6447255197",
+            "bytesAllocated": 931136
           }
         ]
       }
