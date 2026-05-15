@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1778815773481,
+  "lastUpdated": 1778818387660,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -1620,6 +1620,114 @@
             "unit": "ns",
             "range": "± 1614511.289684071",
             "bytesAllocated": 923760
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a55d0127618c172c660bfe498e0cd88214f0b320",
+          "message": "feat: add appsurface docs cli (#287)",
+          "timestamp": "2026-05-15T04:01:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a55d0127618c172c660bfe498e0cd88214f0b320"
+        },
+        "date": 1778818387660,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 343619124.91,
+            "unit": "ns",
+            "range": "± 5227061.800187326",
+            "bytesAllocated": 2540464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 246248216.77,
+            "unit": "ns",
+            "range": "± 4326410.704065214",
+            "bytesAllocated": 1254240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 240432762.66,
+            "unit": "ns",
+            "range": "± 3784821.323985045",
+            "bytesAllocated": 1342136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 343985073.7,
+            "unit": "ns",
+            "range": "± 5087964.56381026",
+            "bytesAllocated": 2521104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 248429217.22,
+            "unit": "ns",
+            "range": "± 4225610.494246898",
+            "bytesAllocated": 1264728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 240948313.06,
+            "unit": "ns",
+            "range": "± 3560108.2982044746",
+            "bytesAllocated": 1364496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 459067388.44,
+            "unit": "ns",
+            "range": "± 7909375.87430761",
+            "bytesAllocated": 4671016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 359411862.1,
+            "unit": "ns",
+            "range": "± 6157788.371442726",
+            "bytesAllocated": 3308944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 358494421.02,
+            "unit": "ns",
+            "range": "± 6060649.518037541",
+            "bytesAllocated": 3426408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 298242175.11,
+            "unit": "ns",
+            "range": "± 4688249.076562901",
+            "bytesAllocated": 2036032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 201562887.51,
+            "unit": "ns",
+            "range": "± 3018387.6551784007",
+            "bytesAllocated": 876960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 223723949.64,
+            "unit": "ns",
+            "range": "± 3147557.8624307755",
+            "bytesAllocated": 1494640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 193253949.64,
+            "unit": "ns",
+            "range": "± 2728002.9179916326",
+            "bytesAllocated": 909824
           }
         ]
       }
