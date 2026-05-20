@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1779171465800,
+  "lastUpdated": 1779243785060,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -3564,6 +3564,114 @@
             "unit": "ns",
             "range": "± 4312783.00093622",
             "bytesAllocated": 917752
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5ffcfb896088fd2b5035edf5e34c5952b1e967",
+          "message": "fix(docs): keep brand titles bounded (#334)",
+          "timestamp": "2026-05-20T02:10:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5ffcfb896088fd2b5035edf5e34c5952b1e967"
+        },
+        "date": 1779243785060,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 384338373.3,
+            "unit": "ns",
+            "range": "± 88778457.40619911",
+            "bytesAllocated": 2533656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 273166877.66,
+            "unit": "ns",
+            "range": "± 6821950.729975257",
+            "bytesAllocated": 1258352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261326965.74,
+            "unit": "ns",
+            "range": "± 3632725.563544009",
+            "bytesAllocated": 1360344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 374505160.62,
+            "unit": "ns",
+            "range": "± 6499357.354262344",
+            "bytesAllocated": 2528296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 269303915.83,
+            "unit": "ns",
+            "range": "± 3793870.4119461677",
+            "bytesAllocated": 1244864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262199692.71,
+            "unit": "ns",
+            "range": "± 2982468.9253436713",
+            "bytesAllocated": 1369120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 490442447.5,
+            "unit": "ns",
+            "range": "± 6084333.63603613",
+            "bytesAllocated": 4648640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 388393199.8,
+            "unit": "ns",
+            "range": "± 6552356.419163338",
+            "bytesAllocated": 3312240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 394740757.61,
+            "unit": "ns",
+            "range": "± 8560602.032898264",
+            "bytesAllocated": 3440936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332117090.24,
+            "unit": "ns",
+            "range": "± 7035875.710548644",
+            "bytesAllocated": 2052928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 227109031.85,
+            "unit": "ns",
+            "range": "± 2773726.5407746676",
+            "bytesAllocated": 866800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 254847167.17,
+            "unit": "ns",
+            "range": "± 8144960.203947374",
+            "bytesAllocated": 1504824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212138419.8,
+            "unit": "ns",
+            "range": "± 3835763.2448475896",
+            "bytesAllocated": 918464
           }
         ]
       }
