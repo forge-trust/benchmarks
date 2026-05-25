@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1779661585416,
+  "lastUpdated": 1779669092707,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -7020,6 +7020,114 @@
             "unit": "ns",
             "range": "± 3767433.0711790174",
             "bytesAllocated": 861472
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "26b8d436450149a881b102798d3d21c44ece9baa",
+          "message": "feat: gate OpenAPI and Scalar docs exposure (#385)",
+          "timestamp": "2026-05-25T00:18:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/26b8d436450149a881b102798d3d21c44ece9baa"
+        },
+        "date": 1779669092707,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 397665632.05,
+            "unit": "ns",
+            "range": "± 96360499.27054599",
+            "bytesAllocated": 2687888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 270556510.87,
+            "unit": "ns",
+            "range": "± 5938824.771078686",
+            "bytesAllocated": 1203624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 270870767.37,
+            "unit": "ns",
+            "range": "± 5545392.091139317",
+            "bytesAllocated": 1323104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 392338247.42,
+            "unit": "ns",
+            "range": "± 7385663.616568772",
+            "bytesAllocated": 2702072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 269725259.19,
+            "unit": "ns",
+            "range": "± 4971498.113292084",
+            "bytesAllocated": 1326656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263391515.39,
+            "unit": "ns",
+            "range": "± 5721035.213653057",
+            "bytesAllocated": 1326680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 504194859.45,
+            "unit": "ns",
+            "range": "± 7986238.963139173",
+            "bytesAllocated": 4768768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 393032378.36,
+            "unit": "ns",
+            "range": "± 7398984.920317642",
+            "bytesAllocated": 3275392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384119343.52,
+            "unit": "ns",
+            "range": "± 7040991.014340591",
+            "bytesAllocated": 3388192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 329016828.49,
+            "unit": "ns",
+            "range": "± 8298956.808717394",
+            "bytesAllocated": 2170192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219492598.03,
+            "unit": "ns",
+            "range": "± 2424817.504538753",
+            "bytesAllocated": 840216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 247286527.28,
+            "unit": "ns",
+            "range": "± 23027488.343851797",
+            "bytesAllocated": 1437416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 218482610.89,
+            "unit": "ns",
+            "range": "± 6105939.02907357",
+            "bytesAllocated": 894432
           }
         ]
       }
