@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1780026651848,
+  "lastUpdated": 1780027743465,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -9072,6 +9072,114 @@
             "unit": "ns",
             "range": "± 1901156.5372207204",
             "bytesAllocated": 864872
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "05d36850ac23ed21d799ba5b41481f3d93dbd683",
+          "message": "chore(release): prepare v0.1.0-rc.1",
+          "timestamp": "2026-05-29T03:56:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/05d36850ac23ed21d799ba5b41481f3d93dbd683"
+        },
+        "date": 1780027743465,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 363288450.57,
+            "unit": "ns",
+            "range": "± 106255146.45703448",
+            "bytesAllocated": 2670680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 245982976.07,
+            "unit": "ns",
+            "range": "± 7748683.052875288",
+            "bytesAllocated": 1203008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 243026645.92,
+            "unit": "ns",
+            "range": "± 5211810.239758566",
+            "bytesAllocated": 1324000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 355391291.54,
+            "unit": "ns",
+            "range": "± 6948590.678122656",
+            "bytesAllocated": 2704232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 241191549.59,
+            "unit": "ns",
+            "range": "± 3458157.7524511837",
+            "bytesAllocated": 1212880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 241709927.11,
+            "unit": "ns",
+            "range": "± 4511818.858629818",
+            "bytesAllocated": 1328752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 465575616.2,
+            "unit": "ns",
+            "range": "± 7854524.19380895",
+            "bytesAllocated": 4768064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 360094408.76,
+            "unit": "ns",
+            "range": "± 6172693.814777631",
+            "bytesAllocated": 3321608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 359323193.93,
+            "unit": "ns",
+            "range": "± 7718633.24895046",
+            "bytesAllocated": 3384416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 308311129.76,
+            "unit": "ns",
+            "range": "± 14271743.306416426",
+            "bytesAllocated": 2170936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 199109367.53,
+            "unit": "ns",
+            "range": "± 4324245.958516067",
+            "bytesAllocated": 827120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 223311493.6,
+            "unit": "ns",
+            "range": "± 8691249.602903059",
+            "bytesAllocated": 1440432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 192296995.92,
+            "unit": "ns",
+            "range": "± 3736091.0002122326",
+            "bytesAllocated": 880808
           }
         ]
       }
