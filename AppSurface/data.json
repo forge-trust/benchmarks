@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1780457599505,
+  "lastUpdated": 1780463134933,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -12960,6 +12960,114 @@
             "unit": "ns",
             "range": "± 2593303.799131297",
             "bytesAllocated": 894952
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "84742be432e1830a324c63dc702a5996e0b0c7b9",
+          "message": "test: add shared test path policy (#477)",
+          "timestamp": "2026-06-03T04:53:15Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/84742be432e1830a324c63dc702a5996e0b0c7b9"
+        },
+        "date": 1780463134933,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 362028093,
+            "unit": "ns",
+            "range": "± 55951655.00162754",
+            "bytesAllocated": 2664400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 249644903.4,
+            "unit": "ns",
+            "range": "± 4383624.822121653",
+            "bytesAllocated": 1229928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 248984271.3,
+            "unit": "ns",
+            "range": "± 4606761.880149404",
+            "bytesAllocated": 1323864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 360865875.88,
+            "unit": "ns",
+            "range": "± 5473909.9089704715",
+            "bytesAllocated": 2670328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 249628448.84,
+            "unit": "ns",
+            "range": "± 3063110.9512847587",
+            "bytesAllocated": 1229888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 249676488.39,
+            "unit": "ns",
+            "range": "± 4129939.1107657677",
+            "bytesAllocated": 1334416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 473478492.05,
+            "unit": "ns",
+            "range": "± 5627205.481881084",
+            "bytesAllocated": 4739696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 373027652.24,
+            "unit": "ns",
+            "range": "± 6263676.930445867",
+            "bytesAllocated": 3288936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 372556214.05,
+            "unit": "ns",
+            "range": "± 6652734.574732184",
+            "bytesAllocated": 3410432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 312850515.14,
+            "unit": "ns",
+            "range": "± 6462480.310067157",
+            "bytesAllocated": 2220880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 204959793.85,
+            "unit": "ns",
+            "range": "± 3062164.5286959955",
+            "bytesAllocated": 829920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 229126559,
+            "unit": "ns",
+            "range": "± 6762418.980692292",
+            "bytesAllocated": 1431688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 199432520.79,
+            "unit": "ns",
+            "range": "± 3081199.4495041925",
+            "bytesAllocated": 881568
           }
         ]
       }
