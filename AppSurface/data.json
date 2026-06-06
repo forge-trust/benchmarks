@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1780709122169,
+  "lastUpdated": 1780711795881,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -14040,6 +14040,114 @@
             "unit": "ns",
             "range": "± 2274121.872711368",
             "bytesAllocated": 880688
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cff085da56f7a1734b4fb6c171c42b7ad16db64e",
+          "message": "feat(ci): add coverage workload runner (#494)",
+          "timestamp": "2026-06-06T01:56:25Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cff085da56f7a1734b4fb6c171c42b7ad16db64e"
+        },
+        "date": 1780711795881,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 400825676.94,
+            "unit": "ns",
+            "range": "± 85014445.91439201",
+            "bytesAllocated": 2664552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 275343572.55,
+            "unit": "ns",
+            "range": "± 6916916.816768619",
+            "bytesAllocated": 1205208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 272249624.51,
+            "unit": "ns",
+            "range": "± 5644406.203542935",
+            "bytesAllocated": 1323864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 386092154.37,
+            "unit": "ns",
+            "range": "± 7794525.614011936",
+            "bytesAllocated": 2673408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 280307017.7,
+            "unit": "ns",
+            "range": "± 4709516.110126037",
+            "bytesAllocated": 1228784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 278758499.85,
+            "unit": "ns",
+            "range": "± 5946065.382516479",
+            "bytesAllocated": 1329400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 511520848.01,
+            "unit": "ns",
+            "range": "± 9173211.76142181",
+            "bytesAllocated": 4749616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 409107155.26,
+            "unit": "ns",
+            "range": "± 8010911.510895458",
+            "bytesAllocated": 3271088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 410529969.74,
+            "unit": "ns",
+            "range": "± 12030527.857839568",
+            "bytesAllocated": 3417960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 350800666.43,
+            "unit": "ns",
+            "range": "± 7372469.949204756",
+            "bytesAllocated": 2224408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 235023225.21,
+            "unit": "ns",
+            "range": "± 6043669.194012521",
+            "bytesAllocated": 829896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 259630433.07,
+            "unit": "ns",
+            "range": "± 9756709.676877912",
+            "bytesAllocated": 1440800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 226056613.49,
+            "unit": "ns",
+            "range": "± 5688831.71016813",
+            "bytesAllocated": 894056
           }
         ]
       }
