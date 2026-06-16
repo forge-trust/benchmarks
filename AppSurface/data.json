@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781580393104,
+  "lastUpdated": 1781580823859,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -17388,6 +17388,114 @@
             "unit": "ns",
             "range": "± 9963055.015160013",
             "bytesAllocated": 864752
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "074e0d3c657b5cbf24435e190602fd6b5ad2f877",
+          "message": "build(deps-dev): bump esbuild from 0.27.0 to 0.28.1 in /Web (#541)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-16T03:20:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/074e0d3c657b5cbf24435e190602fd6b5ad2f877"
+        },
+        "date": 1781580823859,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 378029262,
+            "unit": "ns",
+            "range": "± 5717955.841286898",
+            "bytesAllocated": 2661152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 262884563.99,
+            "unit": "ns",
+            "range": "± 2868096.939079423",
+            "bytesAllocated": 1345720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 258905206.73,
+            "unit": "ns",
+            "range": "± 4076603.9507058924",
+            "bytesAllocated": 1321648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 373229407.76,
+            "unit": "ns",
+            "range": "± 4285542.512191412",
+            "bytesAllocated": 2671200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 263030215.84,
+            "unit": "ns",
+            "range": "± 4532005.613624774",
+            "bytesAllocated": 1230216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263783317.95,
+            "unit": "ns",
+            "range": "± 5125540.816260476",
+            "bytesAllocated": 1316656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 484869184.26,
+            "unit": "ns",
+            "range": "± 5358252.298290848",
+            "bytesAllocated": 4739592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 389598396.14,
+            "unit": "ns",
+            "range": "± 8098894.459131349",
+            "bytesAllocated": 3271528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381487855.59,
+            "unit": "ns",
+            "range": "± 5787898.270504982",
+            "bytesAllocated": 3391928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 325649148.54,
+            "unit": "ns",
+            "range": "± 4739351.915387155",
+            "bytesAllocated": 2206848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219996316.21,
+            "unit": "ns",
+            "range": "± 1819102.946155212",
+            "bytesAllocated": 824392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241591102.83,
+            "unit": "ns",
+            "range": "± 3746823.692295291",
+            "bytesAllocated": 1338656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208823077.9,
+            "unit": "ns",
+            "range": "± 3302046.418914288",
+            "bytesAllocated": 880176
           }
         ]
       }
