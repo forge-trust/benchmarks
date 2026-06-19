@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781885858984,
+  "lastUpdated": 1781908183526,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -19018,6 +19018,409 @@
             "value": 51803.30194854736,
             "unit": "ns",
             "range": "± 440.5204213595218",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 376584479.28,
+            "unit": "ns",
+            "range": "± 75339816.7859629",
+            "bytesAllocated": 2662880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 259739206.84,
+            "unit": "ns",
+            "range": "± 4849841.016851511",
+            "bytesAllocated": 1319920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255305337.44,
+            "unit": "ns",
+            "range": "± 3318362.835996663",
+            "bytesAllocated": 1303224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371638847.97,
+            "unit": "ns",
+            "range": "± 4722099.300871012",
+            "bytesAllocated": 2648856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 258522523.47,
+            "unit": "ns",
+            "range": "± 2032055.9896514248",
+            "bytesAllocated": 1229352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254356726.87,
+            "unit": "ns",
+            "range": "± 3050710.22290223",
+            "bytesAllocated": 1335224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 483310273.99,
+            "unit": "ns",
+            "range": "± 5457309.070797277",
+            "bytesAllocated": 4741048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 380644242.57,
+            "unit": "ns",
+            "range": "± 5734394.449898702",
+            "bytesAllocated": 3276264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 377652777.15,
+            "unit": "ns",
+            "range": "± 5787568.6355418805",
+            "bytesAllocated": 3406864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 319232489.51,
+            "unit": "ns",
+            "range": "± 5751285.903334771",
+            "bytesAllocated": 2220024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 212614880.55,
+            "unit": "ns",
+            "range": "± 1199768.9406570843",
+            "bytesAllocated": 826624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 236088649.59,
+            "unit": "ns",
+            "range": "± 3006766.072925397",
+            "bytesAllocated": 1435952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202921540.66,
+            "unit": "ns",
+            "range": "± 1377783.4907690035",
+            "bytesAllocated": 884664
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2356167627232417,
+            "unit": "ns",
+            "range": "± 0.0027556443163418284",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 335.49671721458435,
+            "unit": "ns",
+            "range": "± 0.27939189445307927",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 37.14266935735941,
+            "unit": "ns",
+            "range": "± 0.42394585899809467",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2708.279574394226,
+            "unit": "ns",
+            "range": "± 21.49958709355249",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.79475709370206,
+            "unit": "ns",
+            "range": "± 0.1160786429153082",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26713.186721801758,
+            "unit": "ns",
+            "range": "± 312.48024238077926",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.21693074703217,
+            "unit": "ns",
+            "range": "± 1.29158557246114",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 122.94423907995224,
+            "unit": "ns",
+            "range": "± 2.0848006302988127",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1011.2428703308105,
+            "unit": "ns",
+            "range": "± 10.000598724131795",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1173.5678313119072,
+            "unit": "ns",
+            "range": "± 19.109568019995155",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9850.413721084595,
+            "unit": "ns",
+            "range": "± 247.9114453687199",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11878.870264053345,
+            "unit": "ns",
+            "range": "± 237.63098374967143",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 118.14038819074631,
+            "unit": "ns",
+            "range": "± 1.126892452777986",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.0920557975769,
+            "unit": "ns",
+            "range": "± 1.0742928134956096",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1134.473949432373,
+            "unit": "ns",
+            "range": "± 70.80867888810954",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1078.0312695503235,
+            "unit": "ns",
+            "range": "± 6.409939810892179",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10517.518180847168,
+            "unit": "ns",
+            "range": "± 22.26347264057301",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10481.054452896118,
+            "unit": "ns",
+            "range": "± 70.88927566508768",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 357.31797756467546,
+            "unit": "ns",
+            "range": "± 0.37165136530858023",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 450.52921253442764,
+            "unit": "ns",
+            "range": "± 0.684868823179567",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 335.4691542983055,
+            "unit": "ns",
+            "range": "± 0.4631251456949946",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2660.6993460655212,
+            "unit": "ns",
+            "range": "± 4.736876808920634",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3887.114930289132,
+            "unit": "ns",
+            "range": "± 3.559703335956135",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2774.859704017639,
+            "unit": "ns",
+            "range": "± 4.755907070455613",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26259.667072296143,
+            "unit": "ns",
+            "range": "± 23.69011050499794",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 37874.962562561035,
+            "unit": "ns",
+            "range": "± 73.8311692874518",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27495.43034362793,
+            "unit": "ns",
+            "range": "± 82.52915663596276",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ac386c34eb9f80352870d4807a7906092d009d02",
+          "message": "feat(auth): define durable app user mapping contracts (#547)",
+          "timestamp": "2026-06-19T22:11:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ac386c34eb9f80352870d4807a7906092d009d02"
+        },
+        "date": 1781908183526,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 627.9065589904785,
+            "unit": "ns",
+            "range": "± 2.043315804533986",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5372.137060165405,
+            "unit": "ns",
+            "range": "± 31.304001045656076",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 53112.19381713867,
+            "unit": "ns",
+            "range": "± 349.66603653244755",
             "bytesAllocated": 96224
           }
         ]
