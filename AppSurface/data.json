@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781855960326,
+  "lastUpdated": 1781857762461,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -18045,6 +18045,173 @@
             "value": 49826.914474487305,
             "unit": "ns",
             "range": "± 195.95239403966198",
+            "bytesAllocated": 88176
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f9e77acf9cf158a388bf4571230e7ce0ee97c191",
+          "message": "perf(flow): reduce in-memory runner routing overhead (#548)",
+          "timestamp": "2026-06-19T08:15:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f9e77acf9cf158a388bf4571230e7ce0ee97c191"
+        },
+        "date": 1781857762461,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 388089938.71,
+            "unit": "ns",
+            "range": "± 191836020.0296368",
+            "bytesAllocated": 2664016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 257860889.93,
+            "unit": "ns",
+            "range": "± 10156906.126722092",
+            "bytesAllocated": 1219232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 252983272.72,
+            "unit": "ns",
+            "range": "± 3368815.216334159",
+            "bytesAllocated": 1322064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 368681159.07,
+            "unit": "ns",
+            "range": "± 4011975.838323309",
+            "bytesAllocated": 2690888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 258004240.8,
+            "unit": "ns",
+            "range": "± 2196108.572753058",
+            "bytesAllocated": 1208160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 253144473.07,
+            "unit": "ns",
+            "range": "± 2721939.316223835",
+            "bytesAllocated": 1415904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486044493.81,
+            "unit": "ns",
+            "range": "± 5767217.322078446",
+            "bytesAllocated": 4764248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 381970279.18,
+            "unit": "ns",
+            "range": "± 5637680.67885815",
+            "bytesAllocated": 3324112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 376441126.94,
+            "unit": "ns",
+            "range": "± 5773281.144724412",
+            "bytesAllocated": 3394944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322521989.78,
+            "unit": "ns",
+            "range": "± 18099750.984718565",
+            "bytesAllocated": 2220968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 212815192.1,
+            "unit": "ns",
+            "range": "± 3873896.6116334293",
+            "bytesAllocated": 826680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 238773046.84,
+            "unit": "ns",
+            "range": "± 13200854.688534167",
+            "bytesAllocated": 1420376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203222159.61,
+            "unit": "ns",
+            "range": "± 2013511.7852858938",
+            "bytesAllocated": 882672
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f9e77acf9cf158a388bf4571230e7ce0ee97c191",
+          "message": "perf(flow): reduce in-memory runner routing overhead (#548)",
+          "timestamp": "2026-06-19T08:15:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f9e77acf9cf158a388bf4571230e7ce0ee97c191"
+        },
+        "date": 1781857762461,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3014141470193863,
+            "unit": "ns",
+            "range": "± 0.02054074555943963",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 444.5086842775345,
+            "unit": "ns",
+            "range": "± 1.7678527258435908",
+            "bytesAllocated": 1056
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.66402368247509,
+            "unit": "ns",
+            "range": "± 0.04076181191851459",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 3457.1779351234436,
+            "unit": "ns",
+            "range": "± 9.27682814638146",
+            "bytesAllocated": 8976
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.8068878991263,
+            "unit": "ns",
+            "range": "± 0.3616059773910502",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 33583.263931274414,
+            "unit": "ns",
+            "range": "± 222.84603217343056",
             "bytesAllocated": 88176
           }
         ]
