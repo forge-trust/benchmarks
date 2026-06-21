@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782029187044,
+  "lastUpdated": 1782058753835,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -21034,6 +21034,409 @@
             "unit": "ns",
             "range": "± 23.433785068390346",
             "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 378823204.07,
+            "unit": "ns",
+            "range": "± 21074981.45692823",
+            "bytesAllocated": 2664424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 263131620.24,
+            "unit": "ns",
+            "range": "± 3409831.0979654402",
+            "bytesAllocated": 1218616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 258234866.34,
+            "unit": "ns",
+            "range": "± 4296172.471211109",
+            "bytesAllocated": 1306952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 375640149.77,
+            "unit": "ns",
+            "range": "± 4808494.742859813",
+            "bytesAllocated": 2648200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 266996335,
+            "unit": "ns",
+            "range": "± 4465809.949764424",
+            "bytesAllocated": 1327552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259277042.77,
+            "unit": "ns",
+            "range": "± 3425679.4693943914",
+            "bytesAllocated": 1328288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 496183182.66,
+            "unit": "ns",
+            "range": "± 8461920.574249702",
+            "bytesAllocated": 4751528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 388546083.7,
+            "unit": "ns",
+            "range": "± 5816690.082170991",
+            "bytesAllocated": 3274760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384767976.82,
+            "unit": "ns",
+            "range": "± 5974405.6556646",
+            "bytesAllocated": 3396984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327222911.66,
+            "unit": "ns",
+            "range": "± 5492298.208590555",
+            "bytesAllocated": 2224408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 217750129.43,
+            "unit": "ns",
+            "range": "± 3823097.3838460757",
+            "bytesAllocated": 827432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243885909.87,
+            "unit": "ns",
+            "range": "± 5481976.032547439",
+            "bytesAllocated": 1436192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208183736.52,
+            "unit": "ns",
+            "range": "± 3008477.1256411253",
+            "bytesAllocated": 859488
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.289784888071673,
+            "unit": "ns",
+            "range": "± 0.0037018294687339117",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 325.76100677251816,
+            "unit": "ns",
+            "range": "± 4.229900215984356",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.82846227288246,
+            "unit": "ns",
+            "range": "± 0.49146658990432496",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2567.5504613603866,
+            "unit": "ns",
+            "range": "± 7.973904537899644",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.3748133778572,
+            "unit": "ns",
+            "range": "± 0.21239943831397395",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24768.836769104004,
+            "unit": "ns",
+            "range": "± 144.03228400493398",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.68529178202152,
+            "unit": "ns",
+            "range": "± 0.7693596835763467",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 111.87937877859387,
+            "unit": "ns",
+            "range": "± 0.4158988838249392",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1026.9796504974365,
+            "unit": "ns",
+            "range": "± 9.732448715001945",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 999.9933011191232,
+            "unit": "ns",
+            "range": "± 14.892665949577799",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9969.861209869385,
+            "unit": "ns",
+            "range": "± 232.86781031324955",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10208.621850149972,
+            "unit": "ns",
+            "range": "± 19.7064255568582",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 316.70612403324674,
+            "unit": "ns",
+            "range": "± 1.2429182085019965",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 499.20497834682465,
+            "unit": "ns",
+            "range": "± 2.960769345640765",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 324.7686811685562,
+            "unit": "ns",
+            "range": "± 2.040759173980626",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2556.816568647112,
+            "unit": "ns",
+            "range": "± 10.502994244950305",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4205.909734725952,
+            "unit": "ns",
+            "range": "± 25.228345961809083",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2629.196988242013,
+            "unit": "ns",
+            "range": "± 6.503838963214957",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24626.29927280971,
+            "unit": "ns",
+            "range": "± 72.92458579025529",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41098.16958182199,
+            "unit": "ns",
+            "range": "± 86.32858803042245",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27837.72910308838,
+            "unit": "ns",
+            "range": "± 149.9291815275301",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.71877031666892,
+            "unit": "ns",
+            "range": "± 0.5157095402412373",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 114.30277095735073,
+            "unit": "ns",
+            "range": "± 1.2898444841202015",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 927.8967533111572,
+            "unit": "ns",
+            "range": "± 5.890455281977784",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1116.600439786911,
+            "unit": "ns",
+            "range": "± 11.423309744199392",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10265.989141464233,
+            "unit": "ns",
+            "range": "± 99.21891337857728",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10860.47161102295,
+            "unit": "ns",
+            "range": "± 196.82907700172524",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e496d73ac8e1956c23da176eefd4e6b34a29a9a2",
+          "message": "fix: harden RazorWire island module specifiers (#555)",
+          "timestamp": "2026-06-21T16:00:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e496d73ac8e1956c23da176eefd4e6b34a29a9a2"
+        },
+        "date": 1782058753835,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 648.7091571092606,
+            "unit": "ns",
+            "range": "± 2.323771635623578",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5403.934616088867,
+            "unit": "ns",
+            "range": "± 14.687580459021158",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51446.31206512451,
+            "unit": "ns",
+            "range": "± 534.7970478314164",
+            "bytesAllocated": 96224
           }
         ]
       }
