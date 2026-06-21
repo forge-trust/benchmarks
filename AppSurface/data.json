@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782028541864,
+  "lastUpdated": 1782029187044,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -20631,6 +20631,409 @@
             "unit": "ns",
             "range": "± 825.0791989017123",
             "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 380926515.56,
+            "unit": "ns",
+            "range": "± 36875581.52367967",
+            "bytesAllocated": 2665248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 263712253.82,
+            "unit": "ns",
+            "range": "± 4557758.673943209",
+            "bytesAllocated": 1244752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256556629.57,
+            "unit": "ns",
+            "range": "± 2657826.2038794043",
+            "bytesAllocated": 1328008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376788186,
+            "unit": "ns",
+            "range": "± 5537334.185003268",
+            "bytesAllocated": 2667152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 263291712.79,
+            "unit": "ns",
+            "range": "± 3230186.9029242187",
+            "bytesAllocated": 1230408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 257573458.87,
+            "unit": "ns",
+            "range": "± 2863604.400244921",
+            "bytesAllocated": 1310216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 494883255.11,
+            "unit": "ns",
+            "range": "± 6856441.391320188",
+            "bytesAllocated": 4737624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 386731693.87,
+            "unit": "ns",
+            "range": "± 5412541.227350351",
+            "bytesAllocated": 3284200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 386327324.11,
+            "unit": "ns",
+            "range": "± 7599370.878076901",
+            "bytesAllocated": 3387728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 330639941.53,
+            "unit": "ns",
+            "range": "± 6602626.225812892",
+            "bytesAllocated": 2220024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 216336930.55,
+            "unit": "ns",
+            "range": "± 2244387.158114306",
+            "bytesAllocated": 929360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242595495.92,
+            "unit": "ns",
+            "range": "± 3147784.856528325",
+            "bytesAllocated": 1434624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 210465673.2,
+            "unit": "ns",
+            "range": "± 3950031.8816557396",
+            "bytesAllocated": 862200
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 312.523487499782,
+            "unit": "ns",
+            "range": "± 1.2144934539688799",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 480.7286491394043,
+            "unit": "ns",
+            "range": "± 0.8080407277714772",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 327.75970016207015,
+            "unit": "ns",
+            "range": "± 1.0631721949734043",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2525.387879507882,
+            "unit": "ns",
+            "range": "± 10.513923302907639",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4075.780014038086,
+            "unit": "ns",
+            "range": "± 10.884735644144136",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2565.386496861776,
+            "unit": "ns",
+            "range": "± 4.55304386734182",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 23903.519817352295,
+            "unit": "ns",
+            "range": "± 78.63801776914185",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 40741.16555023193,
+            "unit": "ns",
+            "range": "± 139.93392051081463",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25067.002731323242,
+            "unit": "ns",
+            "range": "± 358.25604313802023",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.90839184820652,
+            "unit": "ns",
+            "range": "± 0.5346689371033126",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.59951792444501,
+            "unit": "ns",
+            "range": "± 0.4375671875475331",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1015.4885437488556,
+            "unit": "ns",
+            "range": "± 13.45442549549979",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 989.9704987662179,
+            "unit": "ns",
+            "range": "± 9.913853330606921",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9769.15453529358,
+            "unit": "ns",
+            "range": "± 54.86144601584293",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10495.837490081787,
+            "unit": "ns",
+            "range": "± 160.6217434685837",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 95.54915291922433,
+            "unit": "ns",
+            "range": "± 0.2342055598931288",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.47823762893677,
+            "unit": "ns",
+            "range": "± 0.4195228882979131",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 941.3431813716888,
+            "unit": "ns",
+            "range": "± 10.68619635191111",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1075.1739025115967,
+            "unit": "ns",
+            "range": "± 5.35809495108256",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9119.60256576538,
+            "unit": "ns",
+            "range": "± 40.13954628006545",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10526.784999847412,
+            "unit": "ns",
+            "range": "± 22.8347014405145",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 633.3451842069626,
+            "unit": "ns",
+            "range": "± 5.451377644747733",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5222.318619864328,
+            "unit": "ns",
+            "range": "± 11.781154028589384",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 52718.94344329834,
+            "unit": "ns",
+            "range": "± 136.42029752020474",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "295913d77e904fd7c34d5773c40cd93e788d6a0e",
+          "message": "feat(auth): add OIDC convenience package (#553)",
+          "timestamp": "2026-06-21T07:48:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/295913d77e904fd7c34d5773c40cd93e788d6a0e"
+        },
+        "date": 1782029187044,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2926709139719605,
+            "unit": "ns",
+            "range": "± 0.003446597122263474",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 313.7904506325722,
+            "unit": "ns",
+            "range": "± 0.9910724304322768",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.91031066328287,
+            "unit": "ns",
+            "range": "± 0.5889728254895068",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2515.2186827659607,
+            "unit": "ns",
+            "range": "± 15.225970688673724",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.76995284216747,
+            "unit": "ns",
+            "range": "± 0.1964923869221647",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24152.910387311662,
+            "unit": "ns",
+            "range": "± 23.433785068390346",
+            "bytesAllocated": 32120
           }
         ]
       }
