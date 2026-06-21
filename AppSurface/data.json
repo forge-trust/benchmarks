@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782058753835,
+  "lastUpdated": 1782061670523,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -21436,6 +21436,409 @@
             "value": 51446.31206512451,
             "unit": "ns",
             "range": "± 534.7970478314164",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 379482717.27,
+            "unit": "ns",
+            "range": "± 51098434.07172707",
+            "bytesAllocated": 2685256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 264138910.59,
+            "unit": "ns",
+            "range": "± 5203717.03849248",
+            "bytesAllocated": 1222440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 258929163.86,
+            "unit": "ns",
+            "range": "± 4388985.3055716995",
+            "bytesAllocated": 1306952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376142203.93,
+            "unit": "ns",
+            "range": "± 5262574.104912569",
+            "bytesAllocated": 2654448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264711336.04,
+            "unit": "ns",
+            "range": "± 3821471.121568045",
+            "bytesAllocated": 1230440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262183736.99,
+            "unit": "ns",
+            "range": "± 4338576.439062675",
+            "bytesAllocated": 1334552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 494236970.92,
+            "unit": "ns",
+            "range": "± 8038526.390851378",
+            "bytesAllocated": 4762200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 387796066.37,
+            "unit": "ns",
+            "range": "± 6628212.510894895",
+            "bytesAllocated": 3274264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 382209777.26,
+            "unit": "ns",
+            "range": "± 5651700.55190958",
+            "bytesAllocated": 3413112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 324751099.47,
+            "unit": "ns",
+            "range": "± 5350673.680511127",
+            "bytesAllocated": 2247592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 215387058.14,
+            "unit": "ns",
+            "range": "± 1965734.7946182794",
+            "bytesAllocated": 827568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 240064288.71,
+            "unit": "ns",
+            "range": "± 2796244.0799859003",
+            "bytesAllocated": 1445816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206269259.13,
+            "unit": "ns",
+            "range": "± 2957937.8145877235",
+            "bytesAllocated": 990072
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2956514296432338,
+            "unit": "ns",
+            "range": "± 0.0034447967843887414",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 323.2790455818176,
+            "unit": "ns",
+            "range": "± 2.1507460431754666",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.559582718781066,
+            "unit": "ns",
+            "range": "± 0.049364675767391716",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2539.5710220336914,
+            "unit": "ns",
+            "range": "± 10.640577337661542",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.98842280251637,
+            "unit": "ns",
+            "range": "± 0.7542162412515852",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25150.73592049735,
+            "unit": "ns",
+            "range": "± 152.0997598758292",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.60541874170303,
+            "unit": "ns",
+            "range": "± 0.5583473444016891",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.53860393166542,
+            "unit": "ns",
+            "range": "± 1.8656351600217616",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1029.4217841625214,
+            "unit": "ns",
+            "range": "± 12.32552760246921",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1008.0396676063538,
+            "unit": "ns",
+            "range": "± 12.74844903281619",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9793.876317977905,
+            "unit": "ns",
+            "range": "± 160.42848586490803",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10161.186580113002,
+            "unit": "ns",
+            "range": "± 70.15494500373387",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.1164172142744,
+            "unit": "ns",
+            "range": "± 0.47957724489766396",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.67929172515869,
+            "unit": "ns",
+            "range": "± 0.4562987495885859",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 924.1945676803589,
+            "unit": "ns",
+            "range": "± 8.574476793167193",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1095.7144620418549,
+            "unit": "ns",
+            "range": "± 13.498503999709925",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9415.416704177856,
+            "unit": "ns",
+            "range": "± 114.66887651732694",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10743.703850882393,
+            "unit": "ns",
+            "range": "± 77.15966213114547",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 332.02903386524747,
+            "unit": "ns",
+            "range": "± 1.8815809705386464",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 502.9594546556473,
+            "unit": "ns",
+            "range": "± 1.682549744235971",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 328.35894083976746,
+            "unit": "ns",
+            "range": "± 0.9419760522093343",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2570.649004459381,
+            "unit": "ns",
+            "range": "± 30.575673153793964",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4181.833829879761,
+            "unit": "ns",
+            "range": "± 40.06514231658351",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2615.0282342093333,
+            "unit": "ns",
+            "range": "± 15.134932446597578",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24928.862407684326,
+            "unit": "ns",
+            "range": "± 328.9134088953407",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 47132.64952087402,
+            "unit": "ns",
+            "range": "± 249.73223535322157",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 24860.70560836792,
+            "unit": "ns",
+            "range": "± 86.71503338081324",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f87648cb0ec5daf17991a2fa711b7b2f21abf3e8",
+          "message": "feat(observability): add AppSurface OpenTelemetry package (#552)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T16:49:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f87648cb0ec5daf17991a2fa711b7b2f21abf3e8"
+        },
+        "date": 1782061670523,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 639.851043343544,
+            "unit": "ns",
+            "range": "± 12.27744270032419",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5223.871623039246,
+            "unit": "ns",
+            "range": "± 41.70264355594012",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 52465.04250335693,
+            "unit": "ns",
+            "range": "± 638.2578727867266",
             "bytesAllocated": 96224
           }
         ]
