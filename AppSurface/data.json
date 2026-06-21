@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1781925691440,
+  "lastUpdated": 1782020251383,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -19824,6 +19824,409 @@
             "value": 51860.46293640137,
             "unit": "ns",
             "range": "± 178.69292483717197",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 351526540.67,
+            "unit": "ns",
+            "range": "± 68386477.80435951",
+            "bytesAllocated": 2661128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 241889092.98,
+            "unit": "ns",
+            "range": "± 4855101.712758556",
+            "bytesAllocated": 1221416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 236340239.55,
+            "unit": "ns",
+            "range": "± 2394600.6657088655",
+            "bytesAllocated": 1405464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 344934079.06,
+            "unit": "ns",
+            "range": "± 4454176.032040471",
+            "bytesAllocated": 2666272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 241278069.85,
+            "unit": "ns",
+            "range": "± 3248131.317841002",
+            "bytesAllocated": 1229464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 237541213.61,
+            "unit": "ns",
+            "range": "± 2655098.8912437167",
+            "bytesAllocated": 1334400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 455168165.29,
+            "unit": "ns",
+            "range": "± 6181813.251678369",
+            "bytesAllocated": 4758048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 359880284.79,
+            "unit": "ns",
+            "range": "± 6950779.021757612",
+            "bytesAllocated": 3278896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 355794422.1,
+            "unit": "ns",
+            "range": "± 4898881.377164926",
+            "bytesAllocated": 3391688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 302004260.1,
+            "unit": "ns",
+            "range": "± 9406277.264347702",
+            "bytesAllocated": 2248784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 200342615.98,
+            "unit": "ns",
+            "range": "± 2256939.1753972927",
+            "bytesAllocated": 812144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 221190217.8,
+            "unit": "ns",
+            "range": "± 6781696.0284811035",
+            "bytesAllocated": 1427672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 189584088.21,
+            "unit": "ns",
+            "range": "± 2265288.9963274505",
+            "bytesAllocated": 865776
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.734694518148899,
+            "unit": "ns",
+            "range": "± 0.020535968794936327",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 323.40297120809555,
+            "unit": "ns",
+            "range": "± 1.03887617291728",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.047683451856884,
+            "unit": "ns",
+            "range": "± 0.01863476831936239",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2716.800151824951,
+            "unit": "ns",
+            "range": "± 10.616648209451135",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 379.5369828087943,
+            "unit": "ns",
+            "range": "± 0.10972422468108707",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26206.723022460938,
+            "unit": "ns",
+            "range": "± 345.236814394585",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.22181889414787,
+            "unit": "ns",
+            "range": "± 1.608082909114495",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 101.54401814937592,
+            "unit": "ns",
+            "range": "± 1.4037211202526683",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 870.5529140744891,
+            "unit": "ns",
+            "range": "± 9.940162683163594",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 874.0601274967194,
+            "unit": "ns",
+            "range": "± 10.137639143904323",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8696.519721984863,
+            "unit": "ns",
+            "range": "± 94.8604512337996",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8354.170616149902,
+            "unit": "ns",
+            "range": "± 117.92947584723612",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 332.4785587191582,
+            "unit": "ns",
+            "range": "± 1.954510697579936",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 452.26825016736984,
+            "unit": "ns",
+            "range": "± 3.3123427033845814",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 339.39689111709595,
+            "unit": "ns",
+            "range": "± 3.4822180030252627",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2693.842580318451,
+            "unit": "ns",
+            "range": "± 5.693306544053085",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3732.7084465026855,
+            "unit": "ns",
+            "range": "± 11.132371764588793",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2833.1673698425293,
+            "unit": "ns",
+            "range": "± 5.926175587720816",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26393.095672607422,
+            "unit": "ns",
+            "range": "± 104.82952084708037",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 37715.627205984936,
+            "unit": "ns",
+            "range": "± 87.25015615798391",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 29188.08310699463,
+            "unit": "ns",
+            "range": "± 165.2504743629134",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 83.2825437273298,
+            "unit": "ns",
+            "range": "± 0.5616748421095029",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 109.65265749394894,
+            "unit": "ns",
+            "range": "± 2.258888854440374",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 821.6262956857681,
+            "unit": "ns",
+            "range": "± 21.845060214045088",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1080.0291644505091,
+            "unit": "ns",
+            "range": "± 8.548808388045146",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7135.736305236816,
+            "unit": "ns",
+            "range": "± 108.32791381805418",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10400.644540786743,
+            "unit": "ns",
+            "range": "± 115.28125191519013",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bc9f58e800a47e5ba16af06cb3419f96266a2ecd",
+          "message": "fix(config): repair stale LocalSecrets platform index (#551)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-21T05:19:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bc9f58e800a47e5ba16af06cb3419f96266a2ecd"
+        },
+        "date": 1782020251383,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 613.7663779258728,
+            "unit": "ns",
+            "range": "± 6.9846776690379295",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5049.957347869873,
+            "unit": "ns",
+            "range": "± 64.42026147047338",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 47634.482902526855,
+            "unit": "ns",
+            "range": "± 261.6948331360731",
             "bytesAllocated": 96224
           }
         ]
