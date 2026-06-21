@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782061670523,
+  "lastUpdated": 1782061953719,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -21839,6 +21839,409 @@
             "value": 52465.04250335693,
             "unit": "ns",
             "range": "± 638.2578727867266",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 387318470.98,
+            "unit": "ns",
+            "range": "± 91064820.83967814",
+            "bytesAllocated": 2668360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 275670660.97,
+            "unit": "ns",
+            "range": "± 10636679.514014259",
+            "bytesAllocated": 1224280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 280709952.94,
+            "unit": "ns",
+            "range": "± 12843629.896941734",
+            "bytesAllocated": 1320120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 407438788.48,
+            "unit": "ns",
+            "range": "± 8919361.513316581",
+            "bytesAllocated": 2669656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 265450844.2,
+            "unit": "ns",
+            "range": "± 4478621.3380847825",
+            "bytesAllocated": 1328576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259016792.14,
+            "unit": "ns",
+            "range": "± 4015706.83620149",
+            "bytesAllocated": 1333456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 498682234.25,
+            "unit": "ns",
+            "range": "± 10557687.413565071",
+            "bytesAllocated": 4780264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 390108002.32,
+            "unit": "ns",
+            "range": "± 7821825.763618143",
+            "bytesAllocated": 3323728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 383531038.61,
+            "unit": "ns",
+            "range": "± 6266621.209390818",
+            "bytesAllocated": 3400744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 339913376.15,
+            "unit": "ns",
+            "range": "± 13925530.463742329",
+            "bytesAllocated": 2243312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 228296470.46,
+            "unit": "ns",
+            "range": "± 4476459.284113782",
+            "bytesAllocated": 829304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 253695856.79,
+            "unit": "ns",
+            "range": "± 7303248.163642824",
+            "bytesAllocated": 1438008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 220147038.87,
+            "unit": "ns",
+            "range": "± 4670395.74391603",
+            "bytesAllocated": 864752
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 323.4448480606079,
+            "unit": "ns",
+            "range": "± 1.4462756757041786",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 505.63819205760956,
+            "unit": "ns",
+            "range": "± 3.0853491990473225",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 336.10402220487595,
+            "unit": "ns",
+            "range": "± 5.114404215493427",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2942.970015525818,
+            "unit": "ns",
+            "range": "± 28.683624868441832",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4299.262798854283,
+            "unit": "ns",
+            "range": "± 26.754910050528775",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2719.012532711029,
+            "unit": "ns",
+            "range": "± 7.778551680552447",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25414.390689849854,
+            "unit": "ns",
+            "range": "± 128.62863579103507",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 40086.92305755615,
+            "unit": "ns",
+            "range": "± 162.75093477189418",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25508.44097137451,
+            "unit": "ns",
+            "range": "± 236.4593900008046",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.296543131981577,
+            "unit": "ns",
+            "range": "± 0.008518964216729503",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 317.2303182056972,
+            "unit": "ns",
+            "range": "± 1.7907929702597543",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.44902279227972,
+            "unit": "ns",
+            "range": "± 0.0992354805213206",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2555.37273311615,
+            "unit": "ns",
+            "range": "± 33.723772548182914",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7559145518712,
+            "unit": "ns",
+            "range": "± 0.3555557516791139",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24921.44846343994,
+            "unit": "ns",
+            "range": "± 256.76820224468656",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 106.11752620339394,
+            "unit": "ns",
+            "range": "± 1.706132090432414",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.65924887359142,
+            "unit": "ns",
+            "range": "± 0.7024086045242707",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1030.3474493026733,
+            "unit": "ns",
+            "range": "± 19.8790858075843",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 993.3514552116394,
+            "unit": "ns",
+            "range": "± 11.787334029581015",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9802.092687606812,
+            "unit": "ns",
+            "range": "± 240.261830515664",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10248.714292526245,
+            "unit": "ns",
+            "range": "± 203.24021407382085",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.59572651982307,
+            "unit": "ns",
+            "range": "± 0.48733832455992276",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.94386230196271,
+            "unit": "ns",
+            "range": "± 0.6498024965036747",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 965.6878383159637,
+            "unit": "ns",
+            "range": "± 10.465741875289584",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1125.238804101944,
+            "unit": "ns",
+            "range": "± 28.8472536075627",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9439.496644973755,
+            "unit": "ns",
+            "range": "± 369.9836667420344",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10731.17021560669,
+            "unit": "ns",
+            "range": "± 175.11756849761463",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "327556c2ab19b6202b63df8a04a439bb08ae7251",
+          "message": "fix: fail closed on production CORS wildcard (#556)",
+          "timestamp": "2026-06-21T16:53:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/327556c2ab19b6202b63df8a04a439bb08ae7251"
+        },
+        "date": 1782061953719,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 618.4725667408535,
+            "unit": "ns",
+            "range": "± 4.371558860174667",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5223.486854553223,
+            "unit": "ns",
+            "range": "± 91.3749319612612",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 53053.46581595285,
+            "unit": "ns",
+            "range": "± 370.8075004399749",
             "bytesAllocated": 96224
           }
         ]
