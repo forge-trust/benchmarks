@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782061953719,
+  "lastUpdated": 1782064471779,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -22242,6 +22242,409 @@
             "value": 53053.46581595285,
             "unit": "ns",
             "range": "± 370.8075004399749",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 380186755.39,
+            "unit": "ns",
+            "range": "± 51310786.876854196",
+            "bytesAllocated": 2671064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 264221332.24,
+            "unit": "ns",
+            "range": "± 7426576.889468446",
+            "bytesAllocated": 1223352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 257889873.62,
+            "unit": "ns",
+            "range": "± 2614869.265396321",
+            "bytesAllocated": 1323816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 377670968.98,
+            "unit": "ns",
+            "range": "± 5393109.900477329",
+            "bytesAllocated": 2648432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 271770210.96,
+            "unit": "ns",
+            "range": "± 5388078.018163539",
+            "bytesAllocated": 1231088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 270789444.84,
+            "unit": "ns",
+            "range": "± 3856044.059109689",
+            "bytesAllocated": 1328288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 499834157.89,
+            "unit": "ns",
+            "range": "± 8601553.655183036",
+            "bytesAllocated": 4738424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 402563720.01,
+            "unit": "ns",
+            "range": "± 8009015.309965124",
+            "bytesAllocated": 3292504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 404630040.49,
+            "unit": "ns",
+            "range": "± 10204311.560055764",
+            "bytesAllocated": 3405944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 345999510.34,
+            "unit": "ns",
+            "range": "± 8468445.418970997",
+            "bytesAllocated": 2205808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 232515964.87,
+            "unit": "ns",
+            "range": "± 3162162.0680288314",
+            "bytesAllocated": 830792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 254776752.03,
+            "unit": "ns",
+            "range": "± 5078410.920286261",
+            "bytesAllocated": 1431792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 224085398.56,
+            "unit": "ns",
+            "range": "± 8123735.508913732",
+            "bytesAllocated": 879232
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 323.2275144713266,
+            "unit": "ns",
+            "range": "± 0.4127325327698963",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 458.51754796504974,
+            "unit": "ns",
+            "range": "± 3.4839943918013554",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 341.1073756814003,
+            "unit": "ns",
+            "range": "± 0.7660769478223683",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2676.7727372305735,
+            "unit": "ns",
+            "range": "± 10.186346515064063",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3879.400839669364,
+            "unit": "ns",
+            "range": "± 9.05136496821985",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2792.7283875601634,
+            "unit": "ns",
+            "range": "± 4.1190432931126315",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26369.68194961548,
+            "unit": "ns",
+            "range": "± 50.58144081444367",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 38177.593841552734,
+            "unit": "ns",
+            "range": "± 19.104247809630674",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27715.499339512415,
+            "unit": "ns",
+            "range": "± 17.454078582092915",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 117.58664338929313,
+            "unit": "ns",
+            "range": "± 1.4378385008865924",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 124.12703403830528,
+            "unit": "ns",
+            "range": "± 1.2887393818484165",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1088.6843054294586,
+            "unit": "ns",
+            "range": "± 18.92964592754779",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1183.2855467796326,
+            "unit": "ns",
+            "range": "± 7.183308437305709",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11017.930070877075,
+            "unit": "ns",
+            "range": "± 242.11679909160537",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10649.562860488892,
+            "unit": "ns",
+            "range": "± 144.55959097985374",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.23682597811733,
+            "unit": "ns",
+            "range": "± 0.0020704450202909544",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 324.7557728290558,
+            "unit": "ns",
+            "range": "± 3.3758057237786767",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.57809452073915,
+            "unit": "ns",
+            "range": "± 0.034309207463865135",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2701.4417631966726,
+            "unit": "ns",
+            "range": "± 10.758034967208824",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.6625470433916,
+            "unit": "ns",
+            "range": "± 0.22342682593169555",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26338.642024448938,
+            "unit": "ns",
+            "range": "± 27.913049032170406",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.1087383372443,
+            "unit": "ns",
+            "range": "± 1.352769045898068",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.84015053510666,
+            "unit": "ns",
+            "range": "± 2.411424992418992",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 980.8591248648507,
+            "unit": "ns",
+            "range": "± 4.494753313227602",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1195.983242034912,
+            "unit": "ns",
+            "range": "± 14.364329359700738",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10976.812477111816,
+            "unit": "ns",
+            "range": "± 197.11737763212588",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11754.227682113647,
+            "unit": "ns",
+            "range": "± 107.98126600043858",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f003e179bdcd9b018ee167df8cba4376f111ce8",
+          "message": "fix(local-secrets): harden Linux secret-tool resolution (#558)",
+          "timestamp": "2026-06-21T17:35:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f003e179bdcd9b018ee167df8cba4376f111ce8"
+        },
+        "date": 1782064471779,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 614.6812940835953,
+            "unit": "ns",
+            "range": "± 1.2748522684295234",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5269.999059677124,
+            "unit": "ns",
+            "range": "± 28.752318289682346",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51187.030665806364,
+            "unit": "ns",
+            "range": "± 172.49852733295805",
             "bytesAllocated": 96224
           }
         ]
