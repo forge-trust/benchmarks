@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782064471779,
+  "lastUpdated": 1782098876857,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -22645,6 +22645,409 @@
             "value": 51187.030665806364,
             "unit": "ns",
             "range": "± 172.49852733295805",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 393183941.27,
+            "unit": "ns",
+            "range": "± 220651146.75870526",
+            "bytesAllocated": 2661520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 260885926.55,
+            "unit": "ns",
+            "range": "± 8644895.6964171",
+            "bytesAllocated": 1223384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256189274.48,
+            "unit": "ns",
+            "range": "± 2522444.654101646",
+            "bytesAllocated": 1325824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 370777455.36,
+            "unit": "ns",
+            "range": "± 3501193.286390627",
+            "bytesAllocated": 2671960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 261357525.33,
+            "unit": "ns",
+            "range": "± 3103623.913063875",
+            "bytesAllocated": 1214392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256702118.33,
+            "unit": "ns",
+            "range": "± 2055662.5076898537",
+            "bytesAllocated": 1311512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487712758.57,
+            "unit": "ns",
+            "range": "± 5260660.314355111",
+            "bytesAllocated": 4758080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 383206484.87,
+            "unit": "ns",
+            "range": "± 5158514.998478275",
+            "bytesAllocated": 3294720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 380262724.92,
+            "unit": "ns",
+            "range": "± 5500508.1345014265",
+            "bytesAllocated": 3388680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 324041306.99,
+            "unit": "ns",
+            "range": "± 17846472.835316014",
+            "bytesAllocated": 2218288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 215414732.99,
+            "unit": "ns",
+            "range": "± 2309963.487910409",
+            "bytesAllocated": 826720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 239113382.74,
+            "unit": "ns",
+            "range": "± 8180516.906457562",
+            "bytesAllocated": 1436192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205577706.87,
+            "unit": "ns",
+            "range": "± 2192194.3169006724",
+            "bytesAllocated": 865776
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 123.77036315202713,
+            "unit": "ns",
+            "range": "± 1.42605711489681",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.35632479190826,
+            "unit": "ns",
+            "range": "± 1.4044964219845464",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1142.7417695522308,
+            "unit": "ns",
+            "range": "± 18.289486930596667",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1056.3127346038818,
+            "unit": "ns",
+            "range": "± 24.16029909804971",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10449.70477104187,
+            "unit": "ns",
+            "range": "± 128.7395311891803",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10700.265924453735,
+            "unit": "ns",
+            "range": "± 136.82708864983968",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.232451406972749,
+            "unit": "ns",
+            "range": "± 0.0012287226621008698",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 322.28063344955444,
+            "unit": "ns",
+            "range": "± 1.3574470746345277",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.70846026710102,
+            "unit": "ns",
+            "range": "± 0.1582447770790321",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2718.1275482177734,
+            "unit": "ns",
+            "range": "± 2.5749658669287765",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.9546149798802,
+            "unit": "ns",
+            "range": "± 0.2680453543818053",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26327.839275360107,
+            "unit": "ns",
+            "range": "± 38.52597024319593",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.20319962501526,
+            "unit": "ns",
+            "range": "± 1.6313994620457284",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 128.35602936148643,
+            "unit": "ns",
+            "range": "± 2.429125560921271",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 993.8638463020325,
+            "unit": "ns",
+            "range": "± 19.662151234406288",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1154.9342318943568,
+            "unit": "ns",
+            "range": "± 13.535661460653612",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9554.442575454712,
+            "unit": "ns",
+            "range": "± 30.346568884306873",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11680.492285592216,
+            "unit": "ns",
+            "range": "± 110.337005870449",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 326.2637171149254,
+            "unit": "ns",
+            "range": "± 0.496583804967057",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 445.4940526826041,
+            "unit": "ns",
+            "range": "± 0.26041802530800273",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 339.065977369036,
+            "unit": "ns",
+            "range": "± 0.7190208998544123",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2674.385823249817,
+            "unit": "ns",
+            "range": "± 7.364128800012242",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3830.35578591483,
+            "unit": "ns",
+            "range": "± 4.457303762234305",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 4668.451011657715,
+            "unit": "ns",
+            "range": "± 17.306396148677923",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 27032.860545567102,
+            "unit": "ns",
+            "range": "± 55.21935546975417",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 37964.084213256836,
+            "unit": "ns",
+            "range": "± 84.37445044898487",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27295.369899204798,
+            "unit": "ns",
+            "range": "± 24.16688677484042",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fbd3ae685ddcef841d93bcd0efdf6231dbcef43f",
+          "message": "fix(config): harden LocalSecrets file fallback posture (#561)",
+          "timestamp": "2026-06-22T03:09:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fbd3ae685ddcef841d93bcd0efdf6231dbcef43f"
+        },
+        "date": 1782098876857,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 643.5523567199707,
+            "unit": "ns",
+            "range": "± 2.532822136226366",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5333.617281232561,
+            "unit": "ns",
+            "range": "± 5.741298672171096",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51639.16923522949,
+            "unit": "ns",
+            "range": "± 175.78234052844098",
             "bytesAllocated": 96224
           }
         ]
