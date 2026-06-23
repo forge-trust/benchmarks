@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782098876857,
+  "lastUpdated": 1782202301172,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -23048,6 +23048,409 @@
             "value": 51639.16923522949,
             "unit": "ns",
             "range": "± 175.78234052844098",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385360857.36,
+            "unit": "ns",
+            "range": "± 82127923.24961823",
+            "bytesAllocated": 2686168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 265223781.24,
+            "unit": "ns",
+            "range": "± 5544385.102010796",
+            "bytesAllocated": 1222776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 266995209.14,
+            "unit": "ns",
+            "range": "± 5600372.327219465",
+            "bytesAllocated": 1324792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 380465303.26,
+            "unit": "ns",
+            "range": "± 9229938.196678383",
+            "bytesAllocated": 2653784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264937220.73,
+            "unit": "ns",
+            "range": "± 3285980.3371613855",
+            "bytesAllocated": 1225576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263646857.95,
+            "unit": "ns",
+            "range": "± 6039663.278443487",
+            "bytesAllocated": 1333608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 491242079.26,
+            "unit": "ns",
+            "range": "± 8197086.353637772",
+            "bytesAllocated": 4740504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 395124841.76,
+            "unit": "ns",
+            "range": "± 9393043.488842916",
+            "bytesAllocated": 3292912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 383527838.86,
+            "unit": "ns",
+            "range": "± 6321420.670003848",
+            "bytesAllocated": 3384032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 324874295.99,
+            "unit": "ns",
+            "range": "± 5698503.410511287",
+            "bytesAllocated": 2223648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 223282343.64,
+            "unit": "ns",
+            "range": "± 5456801.8186520655",
+            "bytesAllocated": 924976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243372034.43,
+            "unit": "ns",
+            "range": "± 12284336.352965515",
+            "bytesAllocated": 1435832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 209454603,
+            "unit": "ns",
+            "range": "± 2845817.2607623474",
+            "bytesAllocated": 880008
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2354659321052686,
+            "unit": "ns",
+            "range": "± 0.0029528017693101747",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 333.82100665569305,
+            "unit": "ns",
+            "range": "± 1.1548577131160471",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.66736228018999,
+            "unit": "ns",
+            "range": "± 0.43233696546353984",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2685.6730668204173,
+            "unit": "ns",
+            "range": "± 3.827133349796045",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.85729217529297,
+            "unit": "ns",
+            "range": "± 0.3358169713060673",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26266.264156341553,
+            "unit": "ns",
+            "range": "± 10.624887445566886",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 120.81955391168594,
+            "unit": "ns",
+            "range": "± 1.3599176548772032",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.65380212664604,
+            "unit": "ns",
+            "range": "± 1.5328458103630636",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1068.8566274642944,
+            "unit": "ns",
+            "range": "± 12.873086324726454",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1081.888620376587,
+            "unit": "ns",
+            "range": "± 9.586278427217586",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 12169.109279632568,
+            "unit": "ns",
+            "range": "± 117.32319314552085",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11573.045850753784,
+            "unit": "ns",
+            "range": "± 56.792642004230316",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.84479594230652,
+            "unit": "ns",
+            "range": "± 2.101097302087231",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.48393830657005,
+            "unit": "ns",
+            "range": "± 1.488034321359229",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1113.2081451416016,
+            "unit": "ns",
+            "range": "± 11.332368383857082",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1287.784252166748,
+            "unit": "ns",
+            "range": "± 4.122653615177096",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9709.325243268695,
+            "unit": "ns",
+            "range": "± 60.655086714983675",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12667.598613739014,
+            "unit": "ns",
+            "range": "± 168.51904982144393",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 324.94312156949724,
+            "unit": "ns",
+            "range": "± 0.9725547426830836",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 456.8636538386345,
+            "unit": "ns",
+            "range": "± 1.3082727614726515",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 339.0544866153172,
+            "unit": "ns",
+            "range": "± 2.3661580874946955",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2684.100440979004,
+            "unit": "ns",
+            "range": "± 4.649188247000995",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4179.046926498413,
+            "unit": "ns",
+            "range": "± 13.39289651551885",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2780.7308638436452,
+            "unit": "ns",
+            "range": "± 3.716501287502202",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26450.968065534318,
+            "unit": "ns",
+            "range": "± 64.01572398215995",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 38197.74335588728,
+            "unit": "ns",
+            "range": "± 56.38140672243475",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 30333.87468610491,
+            "unit": "ns",
+            "range": "± 31.89801519367212",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "51ea8de61e924c0815b8b70a3828dd90a3c987f4",
+          "message": "feat(razorwire): add stable form interactions (#562)",
+          "timestamp": "2026-06-23T07:52:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/51ea8de61e924c0815b8b70a3828dd90a3c987f4"
+        },
+        "date": 1782202301172,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 637.8429641723633,
+            "unit": "ns",
+            "range": "± 1.1528791783265058",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5287.657989501953,
+            "unit": "ns",
+            "range": "± 74.84744967415683",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51821.21733311244,
+            "unit": "ns",
+            "range": "± 195.81778374573108",
             "bytesAllocated": 96224
           }
         ]
