@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782204766234,
+  "lastUpdated": 1782268927224,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -23854,6 +23854,409 @@
             "value": 50874.79411315918,
             "unit": "ns",
             "range": "± 286.3707460793894",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 372079209.34,
+            "unit": "ns",
+            "range": "± 32858767.34143461",
+            "bytesAllocated": 2665008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 257695640.9,
+            "unit": "ns",
+            "range": "± 3643148.897170168",
+            "bytesAllocated": 1224448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 252299348.25,
+            "unit": "ns",
+            "range": "± 2770939.5152392066",
+            "bytesAllocated": 1324944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 369299356.57,
+            "unit": "ns",
+            "range": "± 4591951.098264331",
+            "bytesAllocated": 2671360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 258117191.08,
+            "unit": "ns",
+            "range": "± 3328091.212978008",
+            "bytesAllocated": 1211544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252899144.21,
+            "unit": "ns",
+            "range": "± 2909548.1802110886",
+            "bytesAllocated": 1329384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 484073777.59,
+            "unit": "ns",
+            "range": "± 5460283.770248963",
+            "bytesAllocated": 4738616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 380225175.03,
+            "unit": "ns",
+            "range": "± 6148048.345547903",
+            "bytesAllocated": 3318272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 376720043.41,
+            "unit": "ns",
+            "range": "± 5811017.631223045",
+            "bytesAllocated": 3389400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 320792946.1,
+            "unit": "ns",
+            "range": "± 5764141.389408138",
+            "bytesAllocated": 2223464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 212560278.12,
+            "unit": "ns",
+            "range": "± 1835478.0295372775",
+            "bytesAllocated": 811912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237573311.75,
+            "unit": "ns",
+            "range": "± 6533016.912569424",
+            "bytesAllocated": 1436896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202850782.69,
+            "unit": "ns",
+            "range": "± 2537781.4313055417",
+            "bytesAllocated": 889688
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.289000025817326,
+            "unit": "ns",
+            "range": "± 0.0032698437418351295",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 312.37025002070834,
+            "unit": "ns",
+            "range": "± 0.6952054516608542",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.46110491241728,
+            "unit": "ns",
+            "range": "± 0.19142754673929566",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2555.6649175371444,
+            "unit": "ns",
+            "range": "± 4.328840940654224",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5158326285226,
+            "unit": "ns",
+            "range": "± 0.2680967786830943",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24279.564749581474,
+            "unit": "ns",
+            "range": "± 49.01594140174461",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.799727669784,
+            "unit": "ns",
+            "range": "± 0.23114760551664618",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 109.52417586743832,
+            "unit": "ns",
+            "range": "± 0.5018734487423792",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1008.7105085849762,
+            "unit": "ns",
+            "range": "± 8.940141029046842",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 988.7241537570953,
+            "unit": "ns",
+            "range": "± 8.115284553188397",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9577.640613555908,
+            "unit": "ns",
+            "range": "± 25.263748748885984",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9922.068994522095,
+            "unit": "ns",
+            "range": "± 29.41964704198518",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 317.0312581062317,
+            "unit": "ns",
+            "range": "± 0.7977884250354476",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 483.2052603960037,
+            "unit": "ns",
+            "range": "± 1.8418255522079425",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 324.85788375139236,
+            "unit": "ns",
+            "range": "± 1.726470777028378",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2494.9732127189636,
+            "unit": "ns",
+            "range": "± 7.101543743127288",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4053.647074699402,
+            "unit": "ns",
+            "range": "± 11.543806371148266",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2567.8051654270716,
+            "unit": "ns",
+            "range": "± 6.4223821468365765",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 23933.24894496373,
+            "unit": "ns",
+            "range": "± 38.28707184268956",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 40655.42059326172,
+            "unit": "ns",
+            "range": "± 147.87620728495273",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25769.777221679688,
+            "unit": "ns",
+            "range": "± 47.38375515169729",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.41795699085507,
+            "unit": "ns",
+            "range": "± 0.22446506845921835",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.92611733078957,
+            "unit": "ns",
+            "range": "± 0.36761469683654807",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 908.3422376087734,
+            "unit": "ns",
+            "range": "± 1.708903624004338",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1062.3528876304626,
+            "unit": "ns",
+            "range": "± 2.680436112256159",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9024.724031448364,
+            "unit": "ns",
+            "range": "± 22.17165240365867",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10518.630979265485,
+            "unit": "ns",
+            "range": "± 26.054320233261166",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4f6f6440e89cc027a9c348224120c2abaa866d5e",
+          "message": "fix: disable AppSurface export auto redirects (#570)",
+          "timestamp": "2026-06-24T02:23:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4f6f6440e89cc027a9c348224120c2abaa866d5e"
+        },
+        "date": 1782268927224,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 607.9354376111712,
+            "unit": "ns",
+            "range": "± 1.8372506401603845",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5121.155312538147,
+            "unit": "ns",
+            "range": "± 17.760152805816933",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 49356.67014857701,
+            "unit": "ns",
+            "range": "± 49.34490773550892",
             "bytesAllocated": 96224
           }
         ]
