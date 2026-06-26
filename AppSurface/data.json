@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782360630034,
+  "lastUpdated": 1782448554939,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -25063,6 +25063,409 @@
             "value": 52174.32573699951,
             "unit": "ns",
             "range": "± 208.62050163335408",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 395101330.72,
+            "unit": "ns",
+            "range": "± 78141515.82016963",
+            "bytesAllocated": 2685784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 271297400.72,
+            "unit": "ns",
+            "range": "± 6984675.593255763",
+            "bytesAllocated": 1222312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 266672021.87,
+            "unit": "ns",
+            "range": "± 4224954.675523333",
+            "bytesAllocated": 1324088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 387037673.94,
+            "unit": "ns",
+            "range": "± 4298300.338261696",
+            "bytesAllocated": 2670136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 269111867.97,
+            "unit": "ns",
+            "range": "± 3061939.8924711943",
+            "bytesAllocated": 1330208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 264922696.46,
+            "unit": "ns",
+            "range": "± 3492746.062902168",
+            "bytesAllocated": 1328144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 507738940.08,
+            "unit": "ns",
+            "range": "± 7642124.383563395",
+            "bytesAllocated": 4764824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 394330621.39,
+            "unit": "ns",
+            "range": "± 5786353.069514004",
+            "bytesAllocated": 3301448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 392248151.44,
+            "unit": "ns",
+            "range": "± 6216322.937510546",
+            "bytesAllocated": 3410064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 334246876.84,
+            "unit": "ns",
+            "range": "± 7713583.411519215",
+            "bytesAllocated": 2245456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 220764288.86,
+            "unit": "ns",
+            "range": "± 2046539.6135898281",
+            "bytesAllocated": 830936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 247664448.7,
+            "unit": "ns",
+            "range": "± 6166273.771724354",
+            "bytesAllocated": 1436616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212726019.24,
+            "unit": "ns",
+            "range": "± 3070225.620414911",
+            "bytesAllocated": 864504
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 108.28153371810913,
+            "unit": "ns",
+            "range": "± 0.9899873299864317",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.70024721324444,
+            "unit": "ns",
+            "range": "± 1.2801089568844057",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1064.7300102710724,
+            "unit": "ns",
+            "range": "± 8.522572111257949",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1061.485904932022,
+            "unit": "ns",
+            "range": "± 9.840640702984556",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9972.393478393555,
+            "unit": "ns",
+            "range": "± 132.28767526987028",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10458.738569259644,
+            "unit": "ns",
+            "range": "± 109.3264473186281",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.294516551308334,
+            "unit": "ns",
+            "range": "± 0.0066129035163294166",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 326.91042333841324,
+            "unit": "ns",
+            "range": "± 1.9804464314930428",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.752899961812155,
+            "unit": "ns",
+            "range": "± 0.11926361756917424",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2564.068876902262,
+            "unit": "ns",
+            "range": "± 4.53871596527643",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7272165843419,
+            "unit": "ns",
+            "range": "± 0.14157092278351135",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24553.67723083496,
+            "unit": "ns",
+            "range": "± 76.8602347789063",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.02678954601288,
+            "unit": "ns",
+            "range": "± 0.4640917051771284",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 114.62417411804199,
+            "unit": "ns",
+            "range": "± 2.3180368730807124",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 947.9588828086853,
+            "unit": "ns",
+            "range": "± 11.15147513328784",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1126.7498841285706,
+            "unit": "ns",
+            "range": "± 29.413676070143246",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9192.390668869019,
+            "unit": "ns",
+            "range": "± 27.973706944549875",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10836.611572265625,
+            "unit": "ns",
+            "range": "± 74.6018690715042",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 327.4034908612569,
+            "unit": "ns",
+            "range": "± 0.3886488113682228",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 496.0451680421829,
+            "unit": "ns",
+            "range": "± 1.464695054966505",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 336.7625826426915,
+            "unit": "ns",
+            "range": "± 1.5252261606105426",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2650.455255780901,
+            "unit": "ns",
+            "range": "± 4.455281508210923",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4192.516097068787,
+            "unit": "ns",
+            "range": "± 22.83759428871994",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2688.532641887665,
+            "unit": "ns",
+            "range": "± 6.4500172001411675",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24968.54135131836,
+            "unit": "ns",
+            "range": "± 84.3275381836403",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41701.21721540178,
+            "unit": "ns",
+            "range": "± 83.06156242275378",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25987.642665863037,
+            "unit": "ns",
+            "range": "± 91.53937283264732",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a1e39ae67b88fe9553ee1f2d415718bd1ece61ce",
+          "message": "docs(auth-cli): add CLI authenticated command design (#566)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-26T04:16:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a1e39ae67b88fe9553ee1f2d415718bd1ece61ce"
+        },
+        "date": 1782448554939,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 626.4031585454941,
+            "unit": "ns",
+            "range": "± 2.4641271213660705",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5273.141620635986,
+            "unit": "ns",
+            "range": "± 74.63144436680204",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50636.002423967635,
+            "unit": "ns",
+            "range": "± 91.30274713685564",
             "bytesAllocated": 96224
           }
         ]
