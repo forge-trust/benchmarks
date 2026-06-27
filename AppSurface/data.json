@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782465671188,
+  "lastUpdated": 1782533852484,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -26676,6 +26676,409 @@
             "unit": "ns",
             "range": "± 185.01364551887397",
             "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 406000947.05,
+            "unit": "ns",
+            "range": "± 236767210.18447208",
+            "bytesAllocated": 2665472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 273851160.79,
+            "unit": "ns",
+            "range": "± 9614034.180999888",
+            "bytesAllocated": 1224080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267852975.51,
+            "unit": "ns",
+            "range": "± 5067382.132917605",
+            "bytesAllocated": 1324200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 391570412.95,
+            "unit": "ns",
+            "range": "± 9194520.915766437",
+            "bytesAllocated": 2654032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 267045861.47,
+            "unit": "ns",
+            "range": "± 5296487.131682789",
+            "bytesAllocated": 1213992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259041497.37,
+            "unit": "ns",
+            "range": "± 4126064.709756566",
+            "bytesAllocated": 1332416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 502732046.56,
+            "unit": "ns",
+            "range": "± 8238708.564090495",
+            "bytesAllocated": 4786216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 387705204.22,
+            "unit": "ns",
+            "range": "± 5979323.419347455",
+            "bytesAllocated": 3278384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 388987423.63,
+            "unit": "ns",
+            "range": "± 8404751.770000486",
+            "bytesAllocated": 3387224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 334265572.53,
+            "unit": "ns",
+            "range": "± 36471772.76568707",
+            "bytesAllocated": 2235848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 220858525.33,
+            "unit": "ns",
+            "range": "± 3165608.1897101295",
+            "bytesAllocated": 813000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 252167671.92,
+            "unit": "ns",
+            "range": "± 9834906.88054419",
+            "bytesAllocated": 1445776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 215730078.37,
+            "unit": "ns",
+            "range": "± 3624593.302926925",
+            "bytesAllocated": 865264
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 356.12847769260406,
+            "unit": "ns",
+            "range": "± 4.138735670223258",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 498.9267883300781,
+            "unit": "ns",
+            "range": "± 3.652020799745394",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 327.0602859258652,
+            "unit": "ns",
+            "range": "± 3.484899112836831",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2686.5622334480286,
+            "unit": "ns",
+            "range": "± 16.919769823186975",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4236.555690765381,
+            "unit": "ns",
+            "range": "± 35.33373786103893",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2656.1787667274475,
+            "unit": "ns",
+            "range": "± 26.662346007113555",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24613.360317230225,
+            "unit": "ns",
+            "range": "± 454.37122674533106",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41518.61796569824,
+            "unit": "ns",
+            "range": "± 346.8154516852249",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 24832.525861467635,
+            "unit": "ns",
+            "range": "± 93.14462161960121",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 115.69343519210815,
+            "unit": "ns",
+            "range": "± 0.3527424356874565",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.32642543315887,
+            "unit": "ns",
+            "range": "± 0.20377839433967632",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1112.7259922027588,
+            "unit": "ns",
+            "range": "± 12.460589474746172",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1173.708788394928,
+            "unit": "ns",
+            "range": "± 14.982882262829532",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10702.878997802734,
+            "unit": "ns",
+            "range": "± 153.21842761167207",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10965.354505266461,
+            "unit": "ns",
+            "range": "± 61.943670092693544",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.51518223115376,
+            "unit": "ns",
+            "range": "± 1.0579234239664477",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 121.25223337113857,
+            "unit": "ns",
+            "range": "± 1.1097299497082662",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 982.2799230303083,
+            "unit": "ns",
+            "range": "± 9.007303447782345",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1167.5611045360565,
+            "unit": "ns",
+            "range": "± 9.815223650171191",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9637.48515701294,
+            "unit": "ns",
+            "range": "± 231.4951166257901",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11932.740154266357,
+            "unit": "ns",
+            "range": "± 116.33387701113736",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 621.937459400722,
+            "unit": "ns",
+            "range": "± 2.0632820206110525",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5275.026160103934,
+            "unit": "ns",
+            "range": "± 47.50991152534449",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50592.701499938965,
+            "unit": "ns",
+            "range": "± 255.52336593294808",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "442a2cd50c189318979d9b6f4becaeb80828d7ac",
+          "message": "build(deps): bump the github-actions group across 1 directory with 3 updates (#579)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-06-27T03:58:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/442a2cd50c189318979d9b6f4becaeb80828d7ac"
+        },
+        "date": 1782533852484,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.291800827852317,
+            "unit": "ns",
+            "range": "± 0.003130557284584151",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 327.2227557727269,
+            "unit": "ns",
+            "range": "± 2.857266889147378",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.72710923637663,
+            "unit": "ns",
+            "range": "± 0.06941843439262749",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2651.978377342224,
+            "unit": "ns",
+            "range": "± 33.23732291219805",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.1787275586809,
+            "unit": "ns",
+            "range": "± 1.0065083336418859",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24732.741790771484,
+            "unit": "ns",
+            "range": "± 155.43045841542173",
+            "bytesAllocated": 32120
           }
         ]
       }
