@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782612528177,
+  "lastUpdated": 1782622209224,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -29093,6 +29093,409 @@
             "value": 51421.58059692383,
             "unit": "ns",
             "range": "± 144.75056076001482",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 379135928.21,
+            "unit": "ns",
+            "range": "± 72584577.47568886",
+            "bytesAllocated": 2661272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 261765410.59,
+            "unit": "ns",
+            "range": "± 5043173.870724751",
+            "bytesAllocated": 1206256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256039618.56,
+            "unit": "ns",
+            "range": "± 2014128.8134866292",
+            "bytesAllocated": 1320752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371736565.11,
+            "unit": "ns",
+            "range": "± 3664831.9139592447",
+            "bytesAllocated": 2671192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 261842741.76,
+            "unit": "ns",
+            "range": "± 2578547.664962268",
+            "bytesAllocated": 1214552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256844494.68,
+            "unit": "ns",
+            "range": "± 2355850.2923499425",
+            "bytesAllocated": 1328840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487971018.99,
+            "unit": "ns",
+            "range": "± 5572474.2098753955",
+            "bytesAllocated": 4738176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 384517677.08,
+            "unit": "ns",
+            "range": "± 4907811.683827339",
+            "bytesAllocated": 3280240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 379055592.39,
+            "unit": "ns",
+            "range": "± 5473742.204475896",
+            "bytesAllocated": 3387928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322359954.23,
+            "unit": "ns",
+            "range": "± 5587039.40504727",
+            "bytesAllocated": 2225072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 215770659.87,
+            "unit": "ns",
+            "range": "± 2082752.507080108",
+            "bytesAllocated": 841000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 238690463.37,
+            "unit": "ns",
+            "range": "± 4036771.480800593",
+            "bytesAllocated": 1444592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205253251.74,
+            "unit": "ns",
+            "range": "± 1594213.8033930773",
+            "bytesAllocated": 880704
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2340749140296663,
+            "unit": "ns",
+            "range": "± 0.003002564817225094",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 322.64894907815113,
+            "unit": "ns",
+            "range": "± 0.8953085392619804",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.59192040988377,
+            "unit": "ns",
+            "range": "± 0.05985490610455103",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2718.885184764862,
+            "unit": "ns",
+            "range": "± 6.446061521777491",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.68672692775726,
+            "unit": "ns",
+            "range": "± 0.1431033046796362",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 27080.647879464286,
+            "unit": "ns",
+            "range": "± 80.16968798050834",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 117.4227911233902,
+            "unit": "ns",
+            "range": "± 1.9189479457848995",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 119.0338499546051,
+            "unit": "ns",
+            "range": "± 1.8675578180342352",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1085.5571234226227,
+            "unit": "ns",
+            "range": "± 16.648685210533586",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1087.8875470161438,
+            "unit": "ns",
+            "range": "± 16.202872500857726",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10428.140159606934,
+            "unit": "ns",
+            "range": "± 184.3259866361808",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10813.909307479858,
+            "unit": "ns",
+            "range": "± 205.44576452530478",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.98191092908382,
+            "unit": "ns",
+            "range": "± 1.2698718126948798",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 114.55933885063443,
+            "unit": "ns",
+            "range": "± 0.5688448776412192",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1053.7781250476837,
+            "unit": "ns",
+            "range": "± 47.566675348877055",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1172.1652538776398,
+            "unit": "ns",
+            "range": "± 25.11580360412147",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9741.845193862915,
+            "unit": "ns",
+            "range": "± 135.28587557482626",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11705.364599227905,
+            "unit": "ns",
+            "range": "± 226.8024382467901",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 334.3290156722069,
+            "unit": "ns",
+            "range": "± 0.2847339892485113",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 450.09915989637375,
+            "unit": "ns",
+            "range": "± 0.7657248835023182",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 335.554404939924,
+            "unit": "ns",
+            "range": "± 0.4415787344883395",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2656.6750586373464,
+            "unit": "ns",
+            "range": "± 1.900755793981797",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3896.3052346365794,
+            "unit": "ns",
+            "range": "± 10.258602008765289",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2785.7403602600098,
+            "unit": "ns",
+            "range": "± 7.653430119465252",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26444.172208513533,
+            "unit": "ns",
+            "range": "± 64.0311469438471",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 37986.78657749721,
+            "unit": "ns",
+            "range": "± 42.56214253149732",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27624.10597882952,
+            "unit": "ns",
+            "range": "± 32.799601698819416",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ef01ed087ef3be2980ed3092b5ed50cc636bf8b3",
+          "message": "feat(web): add PWA install support (#576)",
+          "timestamp": "2026-06-28T04:31:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ef01ed087ef3be2980ed3092b5ed50cc636bf8b3"
+        },
+        "date": 1782622209224,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 627.5963197435651,
+            "unit": "ns",
+            "range": "± 1.320642918607148",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5276.725937843323,
+            "unit": "ns",
+            "range": "± 14.341341742047872",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 52062.083871024,
+            "unit": "ns",
+            "range": "± 51.110338099715655",
             "bytesAllocated": 96224
           }
         ]
