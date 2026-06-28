@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782662160559,
+  "lastUpdated": 1782662572271,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -30302,6 +30302,409 @@
             "value": 53453.92473602295,
             "unit": "ns",
             "range": "± 161.13024613463006",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 298666950.45,
+            "unit": "ns",
+            "range": "± 65860459.15803627",
+            "bytesAllocated": 2664024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 203965297.12,
+            "unit": "ns",
+            "range": "± 12154288.992860122",
+            "bytesAllocated": 1222128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 201107281.34,
+            "unit": "ns",
+            "range": "± 3928965.399570185",
+            "bytesAllocated": 1323568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 293615654.2,
+            "unit": "ns",
+            "range": "± 5493935.725680103",
+            "bytesAllocated": 2672104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 203171545.01,
+            "unit": "ns",
+            "range": "± 2462057.857099644",
+            "bytesAllocated": 1230352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 199486734.34,
+            "unit": "ns",
+            "range": "± 2606344.880142494",
+            "bytesAllocated": 1310168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 379616432.53,
+            "unit": "ns",
+            "range": "± 3928114.0871675825",
+            "bytesAllocated": 4763512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 298012588.65,
+            "unit": "ns",
+            "range": "± 4798086.113362335",
+            "bytesAllocated": 3281104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 298405734.66,
+            "unit": "ns",
+            "range": "± 7095715.582887155",
+            "bytesAllocated": 3389280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 252326458.12,
+            "unit": "ns",
+            "range": "± 8492765.467322877",
+            "bytesAllocated": 2220976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 165845250.28,
+            "unit": "ns",
+            "range": "± 901871.6625560749",
+            "bytesAllocated": 845368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 185086216.6,
+            "unit": "ns",
+            "range": "± 6888963.661755001",
+            "bytesAllocated": 1448736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 158025899.13,
+            "unit": "ns",
+            "range": "± 1170455.446886034",
+            "bytesAllocated": 862648
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 84.98122148215771,
+            "unit": "ns",
+            "range": "± 0.9263381346041836",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 92.10806398732322,
+            "unit": "ns",
+            "range": "± 1.0873507375245735",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 909.254735827446,
+            "unit": "ns",
+            "range": "± 8.193422564217634",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 934.7718405723572,
+            "unit": "ns",
+            "range": "± 6.9137587103423375",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8947.769794464111,
+            "unit": "ns",
+            "range": "± 374.4371485668667",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8424.306308746338,
+            "unit": "ns",
+            "range": "± 192.16797036907127",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.510370577685535,
+            "unit": "ns",
+            "range": "± 0.0021317210785104022",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 251.98994718279158,
+            "unit": "ns",
+            "range": "± 0.12260039484197044",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.221232511103153,
+            "unit": "ns",
+            "range": "± 0.01611185209257015",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2060.8736686706543,
+            "unit": "ns",
+            "range": "± 2.032618668823099",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.5079993406932,
+            "unit": "ns",
+            "range": "± 0.18533960545507058",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 20691.074544270832,
+            "unit": "ns",
+            "range": "± 14.838609290920111",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 78.09618391096592,
+            "unit": "ns",
+            "range": "± 1.2697846981839707",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 106.37956130504608,
+            "unit": "ns",
+            "range": "± 0.24611615507957713",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 762.4071437290737,
+            "unit": "ns",
+            "range": "± 7.800367456615844",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 919.2945331335068,
+            "unit": "ns",
+            "range": "± 17.74516826411446",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7454.045467376709,
+            "unit": "ns",
+            "range": "± 43.619721838916234",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 9901.42784500122,
+            "unit": "ns",
+            "range": "± 129.47193875091975",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 249.65101182460785,
+            "unit": "ns",
+            "range": "± 0.48888528235004625",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 351.2637574332101,
+            "unit": "ns",
+            "range": "± 0.2031743312362724",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 258.4154625620161,
+            "unit": "ns",
+            "range": "± 0.19189874169567697",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2102.0443274180093,
+            "unit": "ns",
+            "range": "± 0.7919886042767875",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 2993.00698362078,
+            "unit": "ns",
+            "range": "± 3.804466206616722",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2142.786656515939,
+            "unit": "ns",
+            "range": "± 1.470374144933045",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 20518.301204136438,
+            "unit": "ns",
+            "range": "± 33.765649480157634",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 29582.23024368286,
+            "unit": "ns",
+            "range": "± 73.8679238356957",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 21552.596530914307,
+            "unit": "ns",
+            "range": "± 35.736954964788964",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "038e5ff160f2f617295acb7f4ad9406722de57a1",
+          "message": "fix(config): stabilize LocalSecrets startup diagnostics (#583)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-06-28T15:47:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/038e5ff160f2f617295acb7f4ad9406722de57a1"
+        },
+        "date": 1782662572271,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 468.9627822637558,
+            "unit": "ns",
+            "range": "± 0.6009134701128646",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 3987.3601722717285,
+            "unit": "ns",
+            "range": "± 5.327481156523668",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 39474.28531319754,
+            "unit": "ns",
+            "range": "± 62.186121492734785",
             "bytesAllocated": 96224
           }
         ]
