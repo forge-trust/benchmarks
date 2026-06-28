@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782627806442,
+  "lastUpdated": 1782662160559,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -29899,6 +29899,409 @@
             "value": 52316.841468811035,
             "unit": "ns",
             "range": "± 558.0754388822876",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 394791002.06,
+            "unit": "ns",
+            "range": "± 54970095.29009316",
+            "bytesAllocated": 2660848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 278561817.68,
+            "unit": "ns",
+            "range": "± 4615995.221203607",
+            "bytesAllocated": 1248712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 272087356.54,
+            "unit": "ns",
+            "range": "± 5679107.147311816",
+            "bytesAllocated": 1325376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 388970689.64,
+            "unit": "ns",
+            "range": "± 6936714.032059593",
+            "bytesAllocated": 2651184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 273592961.17,
+            "unit": "ns",
+            "range": "± 4636436.558902419",
+            "bytesAllocated": 1224240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 261913867.44,
+            "unit": "ns",
+            "range": "± 3717236.4675864396",
+            "bytesAllocated": 1333584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 503899090.01,
+            "unit": "ns",
+            "range": "± 7243407.610785033",
+            "bytesAllocated": 4740608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 394693819.01,
+            "unit": "ns",
+            "range": "± 6669760.476023677",
+            "bytesAllocated": 3308992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 395924602.8,
+            "unit": "ns",
+            "range": "± 7906002.777797751",
+            "bytesAllocated": 3387600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 337768267.79,
+            "unit": "ns",
+            "range": "± 9472552.137289431",
+            "bytesAllocated": 2206608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 225919698.65,
+            "unit": "ns",
+            "range": "± 4256087.067432238",
+            "bytesAllocated": 830792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 251751808.11,
+            "unit": "ns",
+            "range": "± 5584271.304849653",
+            "bytesAllocated": 1412056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 218400177.27,
+            "unit": "ns",
+            "range": "± 3665910.124841418",
+            "bytesAllocated": 895744
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 332.23159033060074,
+            "unit": "ns",
+            "range": "± 1.3187135044030094",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 499.4047290086746,
+            "unit": "ns",
+            "range": "± 1.3057153763822946",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 344.17080998420715,
+            "unit": "ns",
+            "range": "± 1.4427467565864411",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 3033.8359053475515,
+            "unit": "ns",
+            "range": "± 7.630624292939382",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4266.461751937866,
+            "unit": "ns",
+            "range": "± 6.916591170730726",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2707.770026070731,
+            "unit": "ns",
+            "range": "± 5.335696518139199",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25481.387897491455,
+            "unit": "ns",
+            "range": "± 76.77793551670194",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 42046.90604400635,
+            "unit": "ns",
+            "range": "± 97.5185637904528",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25875.84380340576,
+            "unit": "ns",
+            "range": "± 109.28681199276792",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 114.01351016759872,
+            "unit": "ns",
+            "range": "± 0.3610395729013945",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.90232375264168,
+            "unit": "ns",
+            "range": "± 1.4045186929277182",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1105.3506009578705,
+            "unit": "ns",
+            "range": "± 5.2460206985088975",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1060.965607881546,
+            "unit": "ns",
+            "range": "± 5.92296388849326",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10544.478328159877,
+            "unit": "ns",
+            "range": "± 89.1992362042576",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10745.997190475464,
+            "unit": "ns",
+            "range": "± 41.48262249744961",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.76602248847485,
+            "unit": "ns",
+            "range": "± 0.5911899727864693",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 121.51574996113777,
+            "unit": "ns",
+            "range": "± 0.9611735551729926",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 981.4279499053955,
+            "unit": "ns",
+            "range": "± 9.966842511860655",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1190.804071187973,
+            "unit": "ns",
+            "range": "± 15.254577362103701",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9799.725490570068,
+            "unit": "ns",
+            "range": "± 66.34643272730793",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11738.3344039917,
+            "unit": "ns",
+            "range": "± 167.81293247447644",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2897487389189854,
+            "unit": "ns",
+            "range": "± 0.0033162948208899394",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 327.5524054169655,
+            "unit": "ns",
+            "range": "± 1.1066485086556137",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.733053068319954,
+            "unit": "ns",
+            "range": "± 0.061160951302589986",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2631.8030128479004,
+            "unit": "ns",
+            "range": "± 11.540804043171574",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.53762783323015,
+            "unit": "ns",
+            "range": "± 0.22471139289120293",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25528.68238067627,
+            "unit": "ns",
+            "range": "± 119.84845473519653",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e5715f27fdfa269f1ff70dad4485fb029609c6d5",
+          "message": "test(cli): disable signing for coverage gate git fixtures (#581)",
+          "timestamp": "2026-06-28T15:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e5715f27fdfa269f1ff70dad4485fb029609c6d5"
+        },
+        "date": 1782662160559,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 654.1857912540436,
+            "unit": "ns",
+            "range": "± 3.1822161866806513",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5513.785027503967,
+            "unit": "ns",
+            "range": "± 21.796084198298217",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 53453.92473602295,
+            "unit": "ns",
+            "range": "± 161.13024613463006",
             "bytesAllocated": 96224
           }
         ]
