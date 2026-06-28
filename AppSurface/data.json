@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782622209224,
+  "lastUpdated": 1782627806442,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -29496,6 +29496,409 @@
             "value": 52062.083871024,
             "unit": "ns",
             "range": "± 51.110338099715655",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 393084234.11,
+            "unit": "ns",
+            "range": "± 59804019.31922854",
+            "bytesAllocated": 2665120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 273200426.63,
+            "unit": "ns",
+            "range": "± 6972371.030059225",
+            "bytesAllocated": 1346240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 271437023.67,
+            "unit": "ns",
+            "range": "± 4695883.773197155",
+            "bytesAllocated": 1324480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 400073573.04,
+            "unit": "ns",
+            "range": "± 6306524.756455688",
+            "bytesAllocated": 2665992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 291267564.53,
+            "unit": "ns",
+            "range": "± 7913129.4057974955",
+            "bytesAllocated": 1232392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254694588.22,
+            "unit": "ns",
+            "range": "± 3708175.3754196307",
+            "bytesAllocated": 1333432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 543479883.85,
+            "unit": "ns",
+            "range": "± 8013872.058330728",
+            "bytesAllocated": 4755496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 392636598.06,
+            "unit": "ns",
+            "range": "± 9375478.945199333",
+            "bytesAllocated": 3299088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 382792970.2,
+            "unit": "ns",
+            "range": "± 10189197.685325574",
+            "bytesAllocated": 3429040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 323198501.33,
+            "unit": "ns",
+            "range": "± 7012160.753574787",
+            "bytesAllocated": 2220032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 215986206.85,
+            "unit": "ns",
+            "range": "± 2664784.192468142",
+            "bytesAllocated": 844208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 244349710.67,
+            "unit": "ns",
+            "range": "± 5867732.863231252",
+            "bytesAllocated": 1337560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206493495.33,
+            "unit": "ns",
+            "range": "± 5200243.342184279",
+            "bytesAllocated": 878952
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 332.5376241207123,
+            "unit": "ns",
+            "range": "± 1.6344640031564774",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 498.8003149032593,
+            "unit": "ns",
+            "range": "± 0.954740525611356",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 334.47667210442677,
+            "unit": "ns",
+            "range": "± 0.8174717802127496",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2635.4503388404846,
+            "unit": "ns",
+            "range": "± 7.717488112939061",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4206.368911743164,
+            "unit": "ns",
+            "range": "± 11.345813711111216",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2719.346978187561,
+            "unit": "ns",
+            "range": "± 8.565904240180856",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25131.727378845215,
+            "unit": "ns",
+            "range": "± 48.43874727119865",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 42109.675537109375,
+            "unit": "ns",
+            "range": "± 106.48950039783912",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 26072.58055986677,
+            "unit": "ns",
+            "range": "± 42.73021495202119",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2891224984611784,
+            "unit": "ns",
+            "range": "± 0.0009909106053758465",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 336.9787460565567,
+            "unit": "ns",
+            "range": "± 0.7383425589314364",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.51982687910398,
+            "unit": "ns",
+            "range": "± 0.020566933746111904",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2631.581395830427,
+            "unit": "ns",
+            "range": "± 2.6609618433678865",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.6748166765486,
+            "unit": "ns",
+            "range": "± 0.1927997207279001",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25115.27124786377,
+            "unit": "ns",
+            "range": "± 21.685807635451372",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 114.21847987174988,
+            "unit": "ns",
+            "range": "± 0.3711535093098809",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.12747862935066,
+            "unit": "ns",
+            "range": "± 0.4497080133942647",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1102.8293511526924,
+            "unit": "ns",
+            "range": "± 8.263574739208869",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1084.6076126098633,
+            "unit": "ns",
+            "range": "± 4.274332560026456",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10664.88395690918,
+            "unit": "ns",
+            "range": "± 36.59599908602766",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11112.745189666748,
+            "unit": "ns",
+            "range": "± 165.20587950048244",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.14094330370426,
+            "unit": "ns",
+            "range": "± 0.42205926061320354",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 121.7617560327053,
+            "unit": "ns",
+            "range": "± 0.6727346353091949",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 983.1670657566616,
+            "unit": "ns",
+            "range": "± 3.769695256343512",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1193.5220983028412,
+            "unit": "ns",
+            "range": "± 11.651877826108128",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9809.142395019531,
+            "unit": "ns",
+            "range": "± 34.69910251448473",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11760.278009414673,
+            "unit": "ns",
+            "range": "± 104.24894253079792",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7eedf311ff294f7326dcfc23f848d6a97f98009e",
+          "message": "fix(web): scope PWA cache cleanup (#586)",
+          "timestamp": "2026-06-28T06:04:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7eedf311ff294f7326dcfc23f848d6a97f98009e"
+        },
+        "date": 1782627806442,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 658.9424737691879,
+            "unit": "ns",
+            "range": "± 3.0519559967975773",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5454.273955345154,
+            "unit": "ns",
+            "range": "± 16.531542780004102",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 52316.841468811035,
+            "unit": "ns",
+            "range": "± 558.0754388822876",
             "bytesAllocated": 96224
           }
         ]
