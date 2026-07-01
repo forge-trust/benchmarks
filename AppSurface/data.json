@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782876473908,
+  "lastUpdated": 1782878235308,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -34735,6 +34735,409 @@
             "value": 50653.965087890625,
             "unit": "ns",
             "range": "± 516.3126890448556",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 383504264.88,
+            "unit": "ns",
+            "range": "± 72583096.6354311",
+            "bytesAllocated": 2664576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 294477399.9,
+            "unit": "ns",
+            "range": "± 12625177.799364943",
+            "bytesAllocated": 1373552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255935534.57,
+            "unit": "ns",
+            "range": "± 4383128.222482167",
+            "bytesAllocated": 1306672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371355518.16,
+            "unit": "ns",
+            "range": "± 3835822.8507788084",
+            "bytesAllocated": 2671344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 293523733.25,
+            "unit": "ns",
+            "range": "± 3818505.353025682",
+            "bytesAllocated": 1384768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254630971.02,
+            "unit": "ns",
+            "range": "± 2754296.8121658433",
+            "bytesAllocated": 1333216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487512212.17,
+            "unit": "ns",
+            "range": "± 5156027.371931259",
+            "bytesAllocated": 4757400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 406333425.01,
+            "unit": "ns",
+            "range": "± 4970797.3356684195",
+            "bytesAllocated": 3459176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381461239.12,
+            "unit": "ns",
+            "range": "± 6786244.092853867",
+            "bytesAllocated": 3412760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322184963.83,
+            "unit": "ns",
+            "range": "± 4382188.628262366",
+            "bytesAllocated": 2202848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 234851769.46,
+            "unit": "ns",
+            "range": "± 2216061.9196949913",
+            "bytesAllocated": 1052872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 240699006.13,
+            "unit": "ns",
+            "range": "± 9250330.781106437",
+            "bytesAllocated": 1415032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205079358.01,
+            "unit": "ns",
+            "range": "± 2371950.6160305035",
+            "bytesAllocated": 876104
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2912157149985433,
+            "unit": "ns",
+            "range": "± 0.0018190604464834294",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 321.1627436876297,
+            "unit": "ns",
+            "range": "± 2.1038868652112277",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.51463914910952,
+            "unit": "ns",
+            "range": "± 0.019471975271023158",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2517.353630065918,
+            "unit": "ns",
+            "range": "± 15.073994618079354",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.76215291023254,
+            "unit": "ns",
+            "range": "± 0.4442076490624351",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25224.312604631697,
+            "unit": "ns",
+            "range": "± 105.3876258786322",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.60464631659644,
+            "unit": "ns",
+            "range": "± 0.2507682712043441",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.86981871724129,
+            "unit": "ns",
+            "range": "± 2.1151759810687385",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1034.7187881469727,
+            "unit": "ns",
+            "range": "± 13.183799802772763",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1019.7180387973785,
+            "unit": "ns",
+            "range": "± 33.67258439738132",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9702.560265677315,
+            "unit": "ns",
+            "range": "± 51.68753002950896",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10243.16379220145,
+            "unit": "ns",
+            "range": "± 62.501999414315",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 95.16543294702258,
+            "unit": "ns",
+            "range": "± 0.6658045660131671",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 112.83543393015862,
+            "unit": "ns",
+            "range": "± 0.7293962795116691",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 945.2258714437485,
+            "unit": "ns",
+            "range": "± 7.226806113424029",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1092.5190680027008,
+            "unit": "ns",
+            "range": "± 14.748675394273766",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9234.712136404854,
+            "unit": "ns",
+            "range": "± 30.395559804648315",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10956.521123886108,
+            "unit": "ns",
+            "range": "± 150.95881456023162",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 333.31105476617813,
+            "unit": "ns",
+            "range": "± 1.864415078780999",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 491.98537397384644,
+            "unit": "ns",
+            "range": "± 5.0736140890651855",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 344.8290762901306,
+            "unit": "ns",
+            "range": "± 1.1693500565407273",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2592.8482961654663,
+            "unit": "ns",
+            "range": "± 9.310161148474064",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4187.996075630188,
+            "unit": "ns",
+            "range": "± 4.7702332784687815",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2671.825138568878,
+            "unit": "ns",
+            "range": "± 27.92258871107024",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24867.72357559204,
+            "unit": "ns",
+            "range": "± 44.79771089817288",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41212.99013519287,
+            "unit": "ns",
+            "range": "± 118.27761693568162",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25694.293865203857,
+            "unit": "ns",
+            "range": "± 43.55385102066577",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "12467f1b2544199f112d938ada57ac662ef07377",
+          "message": "feat: add DurableTask-first worker contracts (#594)",
+          "timestamp": "2026-07-01T03:38:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/12467f1b2544199f112d938ada57ac662ef07377"
+        },
+        "date": 1782878235308,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 639.3109642267227,
+            "unit": "ns",
+            "range": "± 20.467004801973374",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5233.983327865601,
+            "unit": "ns",
+            "range": "± 78.0177667125647",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50635.946937561035,
+            "unit": "ns",
+            "range": "± 466.9726793989879",
             "bytesAllocated": 96224
           }
         ]
