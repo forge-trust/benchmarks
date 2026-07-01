@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1782851734482,
+  "lastUpdated": 1782873279344,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -33527,6 +33527,409 @@
             "unit": "ns",
             "range": "± 58.52907368258215",
             "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 404985605.59,
+            "unit": "ns",
+            "range": "± 53447927.27312866",
+            "bytesAllocated": 2661272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 312064471.97,
+            "unit": "ns",
+            "range": "± 13227482.62644415",
+            "bytesAllocated": 1379592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 271716201.17,
+            "unit": "ns",
+            "range": "± 10059268.923285985",
+            "bytesAllocated": 1308024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 395525909.45,
+            "unit": "ns",
+            "range": "± 13404126.583187748",
+            "bytesAllocated": 2665992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 319147332.93,
+            "unit": "ns",
+            "range": "± 11461347.039187727",
+            "bytesAllocated": 1409816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 277145964.03,
+            "unit": "ns",
+            "range": "± 10385249.300640566",
+            "bytesAllocated": 1334120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 529927326.9,
+            "unit": "ns",
+            "range": "± 19579872.383521445",
+            "bytesAllocated": 4763056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 441402734.21,
+            "unit": "ns",
+            "range": "± 17402841.066096436",
+            "bytesAllocated": 3460616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 415599536.7,
+            "unit": "ns",
+            "range": "± 14806106.971900752",
+            "bytesAllocated": 3406536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 344495194.45,
+            "unit": "ns",
+            "range": "± 12459667.176845461",
+            "bytesAllocated": 2220976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 255869875.23,
+            "unit": "ns",
+            "range": "± 7824703.410221884",
+            "bytesAllocated": 952896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 253917653.91,
+            "unit": "ns",
+            "range": "± 8373655.829525535",
+            "bytesAllocated": 1435672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 222460250.22,
+            "unit": "ns",
+            "range": "± 7231947.299245187",
+            "bytesAllocated": 881632
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.293645558257898,
+            "unit": "ns",
+            "range": "± 0.0028939769284848445",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 330.8917963845389,
+            "unit": "ns",
+            "range": "± 3.8864470252143692",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.6749572455883,
+            "unit": "ns",
+            "range": "± 0.04321073278439184",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2626.752594947815,
+            "unit": "ns",
+            "range": "± 33.50945024208794",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7065944671631,
+            "unit": "ns",
+            "range": "± 0.16019822664199804",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25499.947185516357,
+            "unit": "ns",
+            "range": "± 128.0242172991521",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 330.29553669691086,
+            "unit": "ns",
+            "range": "± 2.3349587482610543",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 504.7473395211356,
+            "unit": "ns",
+            "range": "± 1.8394885296324668",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 338.42471593618393,
+            "unit": "ns",
+            "range": "± 4.7135039047624945",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2643.5833950042725,
+            "unit": "ns",
+            "range": "± 22.97392024608261",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4279.729056358337,
+            "unit": "ns",
+            "range": "± 26.950894548196374",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2709.533463001251,
+            "unit": "ns",
+            "range": "± 24.06337368156398",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25607.714263916016,
+            "unit": "ns",
+            "range": "± 54.09654119452731",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41828.642893473305,
+            "unit": "ns",
+            "range": "± 43.97038212755754",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 26255.60018157959,
+            "unit": "ns",
+            "range": "± 46.671523809356714",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 112.96559602022171,
+            "unit": "ns",
+            "range": "± 3.89341816281525",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.85043394565582,
+            "unit": "ns",
+            "range": "± 4.913522562820202",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1053.9224746227264,
+            "unit": "ns",
+            "range": "± 41.664150182398366",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1096.9706120491028,
+            "unit": "ns",
+            "range": "± 42.96731130027087",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10543.332456588745,
+            "unit": "ns",
+            "range": "± 564.4780932458037",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11138.195777893066,
+            "unit": "ns",
+            "range": "± 374.966095578745",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.62894140822547,
+            "unit": "ns",
+            "range": "± 1.2287521969979056",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 122.6308485865593,
+            "unit": "ns",
+            "range": "± 6.768848891742974",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 996.0909812450409,
+            "unit": "ns",
+            "range": "± 31.40120656956881",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1131.5911650657654,
+            "unit": "ns",
+            "range": "± 54.75654135820631",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9874.578037261963,
+            "unit": "ns",
+            "range": "± 323.9231154665751",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12139.840501785278,
+            "unit": "ns",
+            "range": "± 286.78687554660644",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "19588f9ac4e264a3a4b39bee01aebb7d423f9bef",
+          "message": "feat(web): add health and readiness endpoints (#598)",
+          "timestamp": "2026-07-01T02:15:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/19588f9ac4e264a3a4b39bee01aebb7d423f9bef"
+        },
+        "date": 1782873279344,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 629.442499433245,
+            "unit": "ns",
+            "range": "± 3.7726138822669846",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5636.878174781799,
+            "unit": "ns",
+            "range": "± 72.4215135855681",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 53429.86925506592,
+            "unit": "ns",
+            "range": "± 1362.8345260191006",
+            "bytesAllocated": 96224
           }
         ]
       }
