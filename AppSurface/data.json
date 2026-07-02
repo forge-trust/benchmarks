@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783024154925,
+  "lastUpdated": 1783024430137,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -36348,6 +36348,409 @@
             "unit": "ns",
             "range": "± 261.04743694450286",
             "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 391489276.58,
+            "unit": "ns",
+            "range": "± 84784094.18569791",
+            "bytesAllocated": 2660328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 302136856.1,
+            "unit": "ns",
+            "range": "± 10682693.660929872",
+            "bytesAllocated": 1376144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261155444.65,
+            "unit": "ns",
+            "range": "± 3486415.361236728",
+            "bytesAllocated": 1322544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 381332767.54,
+            "unit": "ns",
+            "range": "± 5076951.446066462",
+            "bytesAllocated": 2696440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 304253166.01,
+            "unit": "ns",
+            "range": "± 7744583.830297826",
+            "bytesAllocated": 1384168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 261322511.69,
+            "unit": "ns",
+            "range": "± 3402290.130932953",
+            "bytesAllocated": 1333496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 501313667.97,
+            "unit": "ns",
+            "range": "± 8475169.068602027",
+            "bytesAllocated": 4763120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 425895401.22,
+            "unit": "ns",
+            "range": "± 10939419.490103444",
+            "bytesAllocated": 3460880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 392514428.62,
+            "unit": "ns",
+            "range": "± 9981101.559181506",
+            "bytesAllocated": 3399376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 338078914.93,
+            "unit": "ns",
+            "range": "± 8530611.371685391",
+            "bytesAllocated": 2243512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 248599668.12,
+            "unit": "ns",
+            "range": "± 6908478.009952006",
+            "bytesAllocated": 953296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 254037205.22,
+            "unit": "ns",
+            "range": "± 11503837.55583214",
+            "bytesAllocated": 1415336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 217062040.07,
+            "unit": "ns",
+            "range": "± 6555913.126221126",
+            "bytesAllocated": 883448
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.291250563093594,
+            "unit": "ns",
+            "range": "± 0.0024858281062013388",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 352.94646126031876,
+            "unit": "ns",
+            "range": "± 1.6063031452281515",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.676288740975515,
+            "unit": "ns",
+            "range": "± 0.024462691287584704",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2662.800549507141,
+            "unit": "ns",
+            "range": "± 27.300599160670178",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.4282227243696,
+            "unit": "ns",
+            "range": "± 0.13204208669890435",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24740.12935747419,
+            "unit": "ns",
+            "range": "± 77.76813234144545",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 115.94979253411293,
+            "unit": "ns",
+            "range": "± 2.5433786478825717",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.27271321841648,
+            "unit": "ns",
+            "range": "± 2.7458669020821276",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1044.2293899059296,
+            "unit": "ns",
+            "range": "± 8.25846510147456",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1019.5020768642426,
+            "unit": "ns",
+            "range": "± 14.739351277145769",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9989.505170549664,
+            "unit": "ns",
+            "range": "± 89.47069900143187",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10657.95147895813,
+            "unit": "ns",
+            "range": "± 371.3186863216006",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.75905452668667,
+            "unit": "ns",
+            "range": "± 1.696658895218934",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 130.91981041431427,
+            "unit": "ns",
+            "range": "± 2.664581620601773",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 993.9310832023621,
+            "unit": "ns",
+            "range": "± 19.67370249677894",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1184.2083632946014,
+            "unit": "ns",
+            "range": "± 26.108588412382986",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9736.564910888672,
+            "unit": "ns",
+            "range": "± 130.34183449582235",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11420.925142288208,
+            "unit": "ns",
+            "range": "± 311.49747518171654",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 676.5751620531082,
+            "unit": "ns",
+            "range": "± 14.855724724019332",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5434.414367675781,
+            "unit": "ns",
+            "range": "± 94.70652538675238",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 54216.76136779785,
+            "unit": "ns",
+            "range": "± 140.06344187697113",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b57a75f9129aeeebf48f9ad857c0c07946bb00fb",
+          "message": "feat(razorwire): add native behavior kit (#609)",
+          "timestamp": "2026-07-02T20:14:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b57a75f9129aeeebf48f9ad857c0c07946bb00fb"
+        },
+        "date": 1783024430137,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 322.4031398296356,
+            "unit": "ns",
+            "range": "± 1.5755477805150242",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 502.9158015932356,
+            "unit": "ns",
+            "range": "± 0.9040386658804058",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 329.08614887510026,
+            "unit": "ns",
+            "range": "± 1.0530922730580283",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 3067.4239139556885,
+            "unit": "ns",
+            "range": "± 19.587167571647253",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4139.36000919342,
+            "unit": "ns",
+            "range": "± 12.857402696704206",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2681.2108334132604,
+            "unit": "ns",
+            "range": "± 14.192621520144424",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24786.02090072632,
+            "unit": "ns",
+            "range": "± 345.42922906307325",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41748.96285574777,
+            "unit": "ns",
+            "range": "± 296.3840881492914",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25575.755358014787,
+            "unit": "ns",
+            "range": "± 81.95706732784815",
+            "bytesAllocated": 32120
           }
         ]
       }
