@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783021240054,
+  "lastUpdated": 1783023161663,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -35542,6 +35542,409 @@
             "unit": "ns",
             "range": "± 4770838.4575455645",
             "bytesAllocated": 883336
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.732743578031659,
+            "unit": "ns",
+            "range": "± 0.016543579250639765",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 340.7039692401886,
+            "unit": "ns",
+            "range": "± 2.06660252609462",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.04054881845202,
+            "unit": "ns",
+            "range": "± 0.03317294963913283",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2756.597638811384,
+            "unit": "ns",
+            "range": "± 4.99099981069425",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 379.6667141318321,
+            "unit": "ns",
+            "range": "± 0.13554832854036997",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26352.855215890067,
+            "unit": "ns",
+            "range": "± 51.68820010312081",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.08820994198322,
+            "unit": "ns",
+            "range": "± 0.4804037199963904",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.65979725122452,
+            "unit": "ns",
+            "range": "± 1.3770870393361332",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 935.6293106079102,
+            "unit": "ns",
+            "range": "± 11.683527353090362",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1072.1643362045288,
+            "unit": "ns",
+            "range": "± 12.793599385366225",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9795.200256347656,
+            "unit": "ns",
+            "range": "± 104.45730703119145",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9074.379093170166,
+            "unit": "ns",
+            "range": "± 78.0053570520487",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 84.60652375221252,
+            "unit": "ns",
+            "range": "± 0.7505493742754618",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 118.84558230638504,
+            "unit": "ns",
+            "range": "± 1.8686078967640283",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 885.717848777771,
+            "unit": "ns",
+            "range": "± 5.341135465208703",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1105.649322271347,
+            "unit": "ns",
+            "range": "± 10.662188223365218",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8782.546711512974,
+            "unit": "ns",
+            "range": "± 60.065538013471",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10784.836624145508,
+            "unit": "ns",
+            "range": "± 159.1577912795086",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 339.2981463074684,
+            "unit": "ns",
+            "range": "± 0.9247270971028211",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 451.57488829748974,
+            "unit": "ns",
+            "range": "± 0.9906071223514716",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 342.7742537856102,
+            "unit": "ns",
+            "range": "± 0.5002716135289409",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2729.1504407610214,
+            "unit": "ns",
+            "range": "± 4.276478930455506",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3746.032744816371,
+            "unit": "ns",
+            "range": "± 2.7941265253611878",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2934.401864188058,
+            "unit": "ns",
+            "range": "± 6.2313996199676245",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 29308.58609008789,
+            "unit": "ns",
+            "range": "± 94.11436056911657",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 36712.86387634277,
+            "unit": "ns",
+            "range": "± 88.34196391836237",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 30918.703521728516,
+            "unit": "ns",
+            "range": "± 44.50490915291758",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 634.5383721760342,
+            "unit": "ns",
+            "range": "± 1.102409388609263",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5391.612747192383,
+            "unit": "ns",
+            "range": "± 19.15589512735623",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50500.88254656111,
+            "unit": "ns",
+            "range": "± 201.20893856660186",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "fad9cee9194fc1685813072b25421488787a07fb",
+          "message": "fix: publish hidden docs manifest to pages (#613)",
+          "timestamp": "2026-07-02T19:53:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/fad9cee9194fc1685813072b25421488787a07fb"
+        },
+        "date": 1783023161663,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 386270557.53,
+            "unit": "ns",
+            "range": "± 200834951.58752206",
+            "bytesAllocated": 2664056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 291680470.01,
+            "unit": "ns",
+            "range": "± 24114565.742337182",
+            "bytesAllocated": 1375584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 250642042.75,
+            "unit": "ns",
+            "range": "± 3754654.5245695836",
+            "bytesAllocated": 1302944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 363240291.9,
+            "unit": "ns",
+            "range": "± 5288635.8808043795",
+            "bytesAllocated": 2666840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 290373802.28,
+            "unit": "ns",
+            "range": "± 5530625.105108289",
+            "bytesAllocated": 1409472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250510096.74,
+            "unit": "ns",
+            "range": "± 4981733.352142199",
+            "bytesAllocated": 1333776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 485175076.03,
+            "unit": "ns",
+            "range": "± 7933635.125657084",
+            "bytesAllocated": 4786024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 401777147.55,
+            "unit": "ns",
+            "range": "± 6603019.036781239",
+            "bytesAllocated": 3437424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 371277458.92,
+            "unit": "ns",
+            "range": "± 6987917.705232414",
+            "bytesAllocated": 3401920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 316138600.47,
+            "unit": "ns",
+            "range": "± 5390319.727617145",
+            "bytesAllocated": 2245624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 232088625.2,
+            "unit": "ns",
+            "range": "± 3658835.822535445",
+            "bytesAllocated": 967944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 232973286.24,
+            "unit": "ns",
+            "range": "± 6520777.718459814",
+            "bytesAllocated": 1432232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 200843150.46,
+            "unit": "ns",
+            "range": "± 3050648.0584726054",
+            "bytesAllocated": 894048
           }
         ]
       }
