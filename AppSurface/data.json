@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783024430137,
+  "lastUpdated": 1783026178170,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -36750,6 +36750,409 @@
             "value": 25575.755358014787,
             "unit": "ns",
             "range": "± 81.95706732784815",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 332.072319149971,
+            "unit": "ns",
+            "range": "± 2.4881548818609542",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 506.4664395196097,
+            "unit": "ns",
+            "range": "± 0.7551347212631422",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 336.8086109161377,
+            "unit": "ns",
+            "range": "± 4.543615498675094",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2579.0794318062917,
+            "unit": "ns",
+            "range": "± 9.053600571342333",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4200.139614105225,
+            "unit": "ns",
+            "range": "± 14.535207378894272",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2714.0499243736267,
+            "unit": "ns",
+            "range": "± 17.453464425471342",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24949.708011627197,
+            "unit": "ns",
+            "range": "± 107.87249530034687",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41680.90847015381,
+            "unit": "ns",
+            "range": "± 207.2045764021575",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25981.5454788208,
+            "unit": "ns",
+            "range": "± 112.79478747292944",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.40132907032967,
+            "unit": "ns",
+            "range": "± 1.6233093032506734",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.91135212779045,
+            "unit": "ns",
+            "range": "± 2.522963031007212",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1088.517793416977,
+            "unit": "ns",
+            "range": "± 15.54509215991008",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1068.2064905166626,
+            "unit": "ns",
+            "range": "± 12.164797516731811",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10357.386558532715,
+            "unit": "ns",
+            "range": "± 159.8733017841942",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10774.895950317383,
+            "unit": "ns",
+            "range": "± 152.76427458375576",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.33935321867466,
+            "unit": "ns",
+            "range": "± 1.2920474682876721",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.45124316215515,
+            "unit": "ns",
+            "range": "± 3.8973850571678677",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 951.0490589141846,
+            "unit": "ns",
+            "range": "± 11.864860188055989",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1157.4255998134613,
+            "unit": "ns",
+            "range": "± 14.62178070654177",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9876.550218582153,
+            "unit": "ns",
+            "range": "± 78.02797929473138",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11792.35546875,
+            "unit": "ns",
+            "range": "± 94.79309824055161",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 656.1143894195557,
+            "unit": "ns",
+            "range": "± 6.0509836408940085",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5376.911842346191,
+            "unit": "ns",
+            "range": "± 67.77970889554047",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51153.65267944336,
+            "unit": "ns",
+            "range": "± 671.1358615983723",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 402769846.54,
+            "unit": "ns",
+            "range": "± 69997710.50386664",
+            "bytesAllocated": 2664968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 317109478.28,
+            "unit": "ns",
+            "range": "± 16014379.281572562",
+            "bytesAllocated": 1378752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 264747939.3,
+            "unit": "ns",
+            "range": "± 7004091.413523283",
+            "bytesAllocated": 1324480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 386848840.35,
+            "unit": "ns",
+            "range": "± 7079165.6201865915",
+            "bytesAllocated": 2665960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 317542908.72,
+            "unit": "ns",
+            "range": "± 5808294.93996128",
+            "bytesAllocated": 1379504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 279764723.8,
+            "unit": "ns",
+            "range": "± 6175486.553456163",
+            "bytesAllocated": 1328008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 516685452.79,
+            "unit": "ns",
+            "range": "± 11469665.873456161",
+            "bytesAllocated": 4740848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 436465719.8,
+            "unit": "ns",
+            "range": "± 10025192.35886109",
+            "bytesAllocated": 3437656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 427994781.39,
+            "unit": "ns",
+            "range": "± 9677394.628355537",
+            "bytesAllocated": 3402472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 350434969.58,
+            "unit": "ns",
+            "range": "± 6497764.208357999",
+            "bytesAllocated": 2223368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 257134613.31,
+            "unit": "ns",
+            "range": "± 5453051.3801912395",
+            "bytesAllocated": 962496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 258742550.53,
+            "unit": "ns",
+            "range": "± 6768039.950241448",
+            "bytesAllocated": 1433416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 223566584.91,
+            "unit": "ns",
+            "range": "± 4959585.204910302",
+            "bytesAllocated": 866496
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "23b5edd88f272fc9a53b1515dea94e6315389995",
+          "message": "feat: add Google Secret Manager config provider (#599)",
+          "timestamp": "2026-07-02T20:43:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/23b5edd88f272fc9a53b1515dea94e6315389995"
+        },
+        "date": 1783026178170,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2942778329764093,
+            "unit": "ns",
+            "range": "± 0.002895939565562806",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 327.9328868985176,
+            "unit": "ns",
+            "range": "± 1.7968962528108372",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.784185118973255,
+            "unit": "ns",
+            "range": "± 0.13492378660972956",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2600.5879073143005,
+            "unit": "ns",
+            "range": "± 10.193201277738824",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.86773695264543,
+            "unit": "ns",
+            "range": "± 0.14596401531848485",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24851.478160858154,
+            "unit": "ns",
+            "range": "± 84.32003670767331",
             "bytesAllocated": 32120
           }
         ]
