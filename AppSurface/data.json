@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783051375981,
+  "lastUpdated": 1783094589167,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -37959,6 +37959,409 @@
             "value": 25928.684078216553,
             "unit": "ns",
             "range": "± 143.1783677032532",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 391806045.07,
+            "unit": "ns",
+            "range": "± 84855821.46965924",
+            "bytesAllocated": 2660328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 308100201.31,
+            "unit": "ns",
+            "range": "± 15662001.32864091",
+            "bytesAllocated": 1379328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260507246.35,
+            "unit": "ns",
+            "range": "± 3712157.0613670894",
+            "bytesAllocated": 1324512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 378372241.35,
+            "unit": "ns",
+            "range": "± 3778777.81909614",
+            "bytesAllocated": 2665992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 317553865.83,
+            "unit": "ns",
+            "range": "± 7611476.6447127275",
+            "bytesAllocated": 1386064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262163578.2,
+            "unit": "ns",
+            "range": "± 4654396.842225822",
+            "bytesAllocated": 1332784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 507650480.82,
+            "unit": "ns",
+            "range": "± 11502505.730520781",
+            "bytesAllocated": 4761408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 435109503.26,
+            "unit": "ns",
+            "range": "± 9015446.86030747",
+            "bytesAllocated": 3437984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 387484374.93,
+            "unit": "ns",
+            "range": "± 5758855.687794935",
+            "bytesAllocated": 3410128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 329236913.65,
+            "unit": "ns",
+            "range": "± 5483948.647781309",
+            "bytesAllocated": 2202848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 245835955.02,
+            "unit": "ns",
+            "range": "± 5077242.887013028",
+            "bytesAllocated": 935624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 250836626.78,
+            "unit": "ns",
+            "range": "± 7997607.417377422",
+            "bytesAllocated": 1445944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213234958.6,
+            "unit": "ns",
+            "range": "± 6790525.697852232",
+            "bytesAllocated": 874280
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.354891744442284,
+            "unit": "ns",
+            "range": "± 0.0613745264845963",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 323.3715360760689,
+            "unit": "ns",
+            "range": "± 4.502226933766369",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.372948221862316,
+            "unit": "ns",
+            "range": "± 0.024119398329933078",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2520.461881365095,
+            "unit": "ns",
+            "range": "± 6.501444189759079",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.48737382888794,
+            "unit": "ns",
+            "range": "± 0.3040693808711054",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25350.9391746521,
+            "unit": "ns",
+            "range": "± 349.51660725079273",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.4038088619709,
+            "unit": "ns",
+            "range": "± 0.4230812428814334",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.19248130491802,
+            "unit": "ns",
+            "range": "± 1.012968421698546",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1081.736174583435,
+            "unit": "ns",
+            "range": "± 25.977514994022787",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1029.2932357788086,
+            "unit": "ns",
+            "range": "± 24.270525600200333",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9665.935692923409,
+            "unit": "ns",
+            "range": "± 41.26514385643819",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10058.925107955933,
+            "unit": "ns",
+            "range": "± 60.44228206886638",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.01487100124359,
+            "unit": "ns",
+            "range": "± 1.4718302745997431",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.21579898255212,
+            "unit": "ns",
+            "range": "± 1.4645422886883042",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 913.9291571208408,
+            "unit": "ns",
+            "range": "± 3.3098439322130755",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1079.513899564743,
+            "unit": "ns",
+            "range": "± 13.362957989800343",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9331.254477364677,
+            "unit": "ns",
+            "range": "± 97.01559875071499",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11120.524726867676,
+            "unit": "ns",
+            "range": "± 227.9610760556474",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 636.5146280016218,
+            "unit": "ns",
+            "range": "± 6.961890395065243",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5244.393388748169,
+            "unit": "ns",
+            "range": "± 73.34607749553601",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 49171.12393624442,
+            "unit": "ns",
+            "range": "± 90.02807544724135",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dfcde91138a1f9c484cdc0c631ab178d1739be7f",
+          "message": "fix(ci): split stable and prerelease tag triggers (#619)\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-03T15:43:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dfcde91138a1f9c484cdc0c631ab178d1739be7f"
+        },
+        "date": 1783094589167,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 423.4923391342163,
+            "unit": "ns",
+            "range": "± 3.9055379774208374",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 513.8390743732452,
+            "unit": "ns",
+            "range": "± 1.8741816291278324",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 333.6368275369917,
+            "unit": "ns",
+            "range": "± 2.7085791846444844",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2646.3266372680664,
+            "unit": "ns",
+            "range": "± 38.53402923075848",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4302.8684332711355,
+            "unit": "ns",
+            "range": "± 12.340274731822467",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2705.7046327590942,
+            "unit": "ns",
+            "range": "± 48.85047469609849",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 24330.001414707727,
+            "unit": "ns",
+            "range": "± 102.31920506159958",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 41587.29609680176,
+            "unit": "ns",
+            "range": "± 181.06016844828576",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25016.76946258545,
+            "unit": "ns",
+            "range": "± 191.52893527298266",
             "bytesAllocated": 32120
           }
         ]
