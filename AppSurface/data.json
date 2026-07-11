@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783734388526,
+  "lastUpdated": 1783781418947,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -40378,6 +40378,409 @@
             "unit": "ns",
             "range": "± 2806123.946435094",
             "bytesAllocated": 881608
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 316.61234533786774,
+            "unit": "ns",
+            "range": "± 2.2926035118405106",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 494.3669546842575,
+            "unit": "ns",
+            "range": "± 3.1877169249341026",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 321.4866084456444,
+            "unit": "ns",
+            "range": "± 2.332263499379218",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2602.5190380641393,
+            "unit": "ns",
+            "range": "± 4.117937070118751",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4114.4222728184295,
+            "unit": "ns",
+            "range": "± 11.90160190647871",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2570.9035938807897,
+            "unit": "ns",
+            "range": "± 7.519817878706682",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 23805.240100860596,
+            "unit": "ns",
+            "range": "± 56.14265688757765",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 39844.972915649414,
+            "unit": "ns",
+            "range": "± 102.59063150346178",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 24899.76766204834,
+            "unit": "ns",
+            "range": "± 74.46799383064064",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 379631832.99,
+            "unit": "ns",
+            "range": "± 65929293.342807375",
+            "bytesAllocated": 2689376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 295963351.3,
+            "unit": "ns",
+            "range": "± 10792802.565021023",
+            "bytesAllocated": 1378352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255402199.67,
+            "unit": "ns",
+            "range": "± 2674967.0802785032",
+            "bytesAllocated": 1320784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376774223.95,
+            "unit": "ns",
+            "range": "± 5172236.512064732",
+            "bytesAllocated": 2665048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 296125395.45,
+            "unit": "ns",
+            "range": "± 4878769.468452637",
+            "bytesAllocated": 1384192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258975093.51,
+            "unit": "ns",
+            "range": "± 4633874.226993872",
+            "bytesAllocated": 1314528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493780445.26,
+            "unit": "ns",
+            "range": "± 6513860.655110537",
+            "bytesAllocated": 4762128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 408841104.73,
+            "unit": "ns",
+            "range": "± 5537847.3387770895",
+            "bytesAllocated": 3436096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 382241609.59,
+            "unit": "ns",
+            "range": "± 5298745.50077894",
+            "bytesAllocated": 3405848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 325519966.49,
+            "unit": "ns",
+            "range": "± 4469926.648975796",
+            "bytesAllocated": 2223472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 239084089.13,
+            "unit": "ns",
+            "range": "± 4552879.765566465",
+            "bytesAllocated": 1064472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241776679.25,
+            "unit": "ns",
+            "range": "± 8737894.769623859",
+            "bytesAllocated": 1435368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205258634.71,
+            "unit": "ns",
+            "range": "± 1395009.7866427233",
+            "bytesAllocated": 879544
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.291766502894461,
+            "unit": "ns",
+            "range": "± 0.005089932301842429",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 316.4959177970886,
+            "unit": "ns",
+            "range": "± 1.6058067126429039",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.656714141368866,
+            "unit": "ns",
+            "range": "± 0.037464684929409686",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2603.665338243757,
+            "unit": "ns",
+            "range": "± 7.415502907796145",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.39577620370045,
+            "unit": "ns",
+            "range": "± 1.2646828034558535",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24320.4095589774,
+            "unit": "ns",
+            "range": "± 133.50569573600637",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.33297327160835,
+            "unit": "ns",
+            "range": "± 1.3912733350021955",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 109.85439618144717,
+            "unit": "ns",
+            "range": "± 1.3996263929694148",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1011.0288685389927,
+            "unit": "ns",
+            "range": "± 5.5382961003770195",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1001.6250370570591,
+            "unit": "ns",
+            "range": "± 11.761975398806573",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9591.366943359375,
+            "unit": "ns",
+            "range": "± 21.171693803858517",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10061.562490463257,
+            "unit": "ns",
+            "range": "± 44.13186586106963",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.74686558544636,
+            "unit": "ns",
+            "range": "± 1.200243202360232",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.26080648601055,
+            "unit": "ns",
+            "range": "± 0.23359823272826624",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1010.152795791626,
+            "unit": "ns",
+            "range": "± 5.545056152801845",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1066.5663859844208,
+            "unit": "ns",
+            "range": "± 1.9108824208299495",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9036.88330078125,
+            "unit": "ns",
+            "range": "± 27.817870894606813",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10546.313210623604,
+            "unit": "ns",
+            "range": "± 108.34631052646232",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "11e15309c489871ca3abf5822e8f540b6d7b4145",
+          "message": "feat: improve PWA verifier readiness evidence (#629)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T14:31:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/11e15309c489871ca3abf5822e8f540b6d7b4145"
+        },
+        "date": 1783781418947,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 642.4533793926239,
+            "unit": "ns",
+            "range": "± 6.398368816856474",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5194.0164251327515,
+            "unit": "ns",
+            "range": "± 44.3346634071374",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50579.890625,
+            "unit": "ns",
+            "range": "± 123.38137732191551",
+            "bytesAllocated": 96224
           }
         ]
       }
