@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1783677107570,
+  "lastUpdated": 1783734388526,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -39975,6 +39975,409 @@
             "unit": "ns",
             "range": "± 236.24602628675984",
             "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.29355616401881,
+            "unit": "ns",
+            "range": "± 0.003400261279373582",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 329.24144629069735,
+            "unit": "ns",
+            "range": "± 1.1737283476034992",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.65924295783043,
+            "unit": "ns",
+            "range": "± 0.028722860623566465",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2651.3650693893433,
+            "unit": "ns",
+            "range": "± 8.905219124476751",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.60736882686615,
+            "unit": "ns",
+            "range": "± 0.31861275945120093",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25220.701305389404,
+            "unit": "ns",
+            "range": "± 100.13088984970484",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 113.2190942466259,
+            "unit": "ns",
+            "range": "± 1.8168244868449628",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 117.14536144903728,
+            "unit": "ns",
+            "range": "± 0.6796582243670026",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1088.4727894919258,
+            "unit": "ns",
+            "range": "± 9.195191578636148",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1062.350207567215,
+            "unit": "ns",
+            "range": "± 12.03171208091872",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10410.51905632019,
+            "unit": "ns",
+            "range": "± 156.05259827999805",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10724.445957183838,
+            "unit": "ns",
+            "range": "± 87.44986455080105",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 330.8842329978943,
+            "unit": "ns",
+            "range": "± 1.18044287081385",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 508.77816092967987,
+            "unit": "ns",
+            "range": "± 2.316414855346408",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 331.4586879866464,
+            "unit": "ns",
+            "range": "± 1.3029288772850622",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2647.7873725891113,
+            "unit": "ns",
+            "range": "± 11.924376849236056",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4252.363002232143,
+            "unit": "ns",
+            "range": "± 4.770337419071974",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2686.024443626404,
+            "unit": "ns",
+            "range": "± 12.866525912101979",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25296.88599068778,
+            "unit": "ns",
+            "range": "± 134.67836324728341",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 42322.81246948242,
+            "unit": "ns",
+            "range": "± 76.02462178769126",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 26077.35605239868,
+            "unit": "ns",
+            "range": "± 47.15762772075332",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.63119133029666,
+            "unit": "ns",
+            "range": "± 0.6879170280776709",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.60110354423523,
+            "unit": "ns",
+            "range": "± 1.6679420960510718",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 978.7813401222229,
+            "unit": "ns",
+            "range": "± 6.107191893878741",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1188.810527563095,
+            "unit": "ns",
+            "range": "± 14.33737411295315",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9861.757369995117,
+            "unit": "ns",
+            "range": "± 102.00013739031034",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11469.968910217285,
+            "unit": "ns",
+            "range": "± 239.654383817324",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 651.4839210510254,
+            "unit": "ns",
+            "range": "± 3.3997730627715033",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5389.530837059021,
+            "unit": "ns",
+            "range": "± 45.0700998054164",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 52300.07370758057,
+            "unit": "ns",
+            "range": "± 370.22643675773037",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "93d0529f4aa1ae55c92ed021f60febf19a397176",
+          "message": "feat(docs): add AppSurface Docs Theme Contract v1 (#616)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-11T01:26:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/93d0529f4aa1ae55c92ed021f60febf19a397176"
+        },
+        "date": 1783734388526,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 401009960.8,
+            "unit": "ns",
+            "range": "± 74198494.5366128",
+            "bytesAllocated": 2660328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 313084409.33,
+            "unit": "ns",
+            "range": "± 10264730.53982536",
+            "bytesAllocated": 1356752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 268973306.8,
+            "unit": "ns",
+            "range": "± 3008762.582045592",
+            "bytesAllocated": 1323456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 393317338.21,
+            "unit": "ns",
+            "range": "± 5308052.406864968",
+            "bytesAllocated": 2670400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 311861916.68,
+            "unit": "ns",
+            "range": "± 4767975.784646956",
+            "bytesAllocated": 1386712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 271045595.8,
+            "unit": "ns",
+            "range": "± 3105482.886924175",
+            "bytesAllocated": 1334640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 516542400.2,
+            "unit": "ns",
+            "range": "± 8818346.88447608",
+            "bytesAllocated": 4745160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 428355319.95,
+            "unit": "ns",
+            "range": "± 6664431.906939978",
+            "bytesAllocated": 3430832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 399951646.29,
+            "unit": "ns",
+            "range": "± 6133157.977282565",
+            "bytesAllocated": 3388320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 340928145.31,
+            "unit": "ns",
+            "range": "± 4266152.760007019",
+            "bytesAllocated": 2222712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 249808951.41,
+            "unit": "ns",
+            "range": "± 2729036.4094247334",
+            "bytesAllocated": 1035136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 253321608.36,
+            "unit": "ns",
+            "range": "± 3713717.9490163885",
+            "bytesAllocated": 1436432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 217673915.2,
+            "unit": "ns",
+            "range": "± 2806123.946435094",
+            "bytesAllocated": 881608
           }
         ]
       }
