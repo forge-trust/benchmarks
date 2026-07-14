@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784012271059,
+  "lastUpdated": 1784013911449,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -41989,6 +41989,409 @@
             "value": 53355.817237854004,
             "unit": "ns",
             "range": "± 371.22465446704103",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382136279.12,
+            "unit": "ns",
+            "range": "± 58857723.92092266",
+            "bytesAllocated": 2665720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 298116647.16,
+            "unit": "ns",
+            "range": "± 10119009.226712868",
+            "bytesAllocated": 1381160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256419465.86,
+            "unit": "ns",
+            "range": "± 3623232.806862165",
+            "bytesAllocated": 1304040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 368938445.6,
+            "unit": "ns",
+            "range": "± 3991541.4996322193",
+            "bytesAllocated": 2670536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 298738343.5,
+            "unit": "ns",
+            "range": "± 5356311.959512098",
+            "bytesAllocated": 1382192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263219548.09,
+            "unit": "ns",
+            "range": "± 4551140.737687077",
+            "bytesAllocated": 1333328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487026379.74,
+            "unit": "ns",
+            "range": "± 5509618.61542115",
+            "bytesAllocated": 4738512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 424923821.21,
+            "unit": "ns",
+            "range": "± 18633382.721835285",
+            "bytesAllocated": 3442200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 388846207.05,
+            "unit": "ns",
+            "range": "± 7181782.904671287",
+            "bytesAllocated": 3405368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327966088.83,
+            "unit": "ns",
+            "range": "± 5175769.702638363",
+            "bytesAllocated": 2221400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 242361475.93,
+            "unit": "ns",
+            "range": "± 4041207.1128938016",
+            "bytesAllocated": 955424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242742344.85,
+            "unit": "ns",
+            "range": "± 6740282.906031219",
+            "bytesAllocated": 1435856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207008371.15,
+            "unit": "ns",
+            "range": "± 2523544.6029229974",
+            "bytesAllocated": 893992
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 349.26360770634244,
+            "unit": "ns",
+            "range": "± 0.28341520149708005",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 460.8124867081642,
+            "unit": "ns",
+            "range": "± 0.6251084659739674",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 342.88184225559235,
+            "unit": "ns",
+            "range": "± 1.920614013625098",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2715.4817641122,
+            "unit": "ns",
+            "range": "± 4.393028853283378",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 3877.211399623326,
+            "unit": "ns",
+            "range": "± 7.37369396799541",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2824.8124438694545,
+            "unit": "ns",
+            "range": "± 3.306313687066506",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 26103.24486214774,
+            "unit": "ns",
+            "range": "± 34.423623787954035",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 38021.46315220424,
+            "unit": "ns",
+            "range": "± 42.661694025767936",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 27281.54321507045,
+            "unit": "ns",
+            "range": "± 24.293980947110352",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 117.29679255187511,
+            "unit": "ns",
+            "range": "± 2.306420979475953",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.19266724586487,
+            "unit": "ns",
+            "range": "± 1.7157937303110666",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1137.5886135101318,
+            "unit": "ns",
+            "range": "± 19.607850187618954",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1101.8610751628876,
+            "unit": "ns",
+            "range": "± 9.267541171568306",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11545.362230573382,
+            "unit": "ns",
+            "range": "± 174.79839328628293",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10435.579879760742,
+            "unit": "ns",
+            "range": "± 182.5386006556801",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2339545637369156,
+            "unit": "ns",
+            "range": "± 0.0025869710033841007",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 323.4587564468384,
+            "unit": "ns",
+            "range": "± 1.070633917683979",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.67110938578844,
+            "unit": "ns",
+            "range": "± 0.2698217202086472",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2695.859983444214,
+            "unit": "ns",
+            "range": "± 5.397833868743836",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 362.0737736565726,
+            "unit": "ns",
+            "range": "± 0.5167498024144799",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 26516.642626081193,
+            "unit": "ns",
+            "range": "± 165.3708377858501",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.26640738546848,
+            "unit": "ns",
+            "range": "± 0.6586177804567458",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.02599561214447,
+            "unit": "ns",
+            "range": "± 2.287327643733014",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 990.1904277801514,
+            "unit": "ns",
+            "range": "± 19.661692356174203",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1173.5531976222992,
+            "unit": "ns",
+            "range": "± 18.021471325782144",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9873.436136245728,
+            "unit": "ns",
+            "range": "± 161.54021771823213",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12547.384399414062,
+            "unit": "ns",
+            "range": "± 22.57371911504582",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "940cfe825e71b9fdab68401045a02c7d61b0e3de",
+          "message": "docs(release): restore canonical v0.1.0 release record (#644)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-14T07:06:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/940cfe825e71b9fdab68401045a02c7d61b0e3de"
+        },
+        "date": 1784013911449,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 658.3220317363739,
+            "unit": "ns",
+            "range": "± 4.047862270312099",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5286.071108818054,
+            "unit": "ns",
+            "range": "± 11.20569706488185",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 50790.70977783203,
+            "unit": "ns",
+            "range": "± 110.08194042487334",
             "bytesAllocated": 96224
           }
         ]
