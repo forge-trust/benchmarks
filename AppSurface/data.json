@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784011890927,
+  "lastUpdated": 1784012271059,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -41586,6 +41586,409 @@
             "value": 50674.62748718262,
             "unit": "ns",
             "range": "± 423.4633221422564",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 391106407.8,
+            "unit": "ns",
+            "range": "± 61574840.661284275",
+            "bytesAllocated": 2643432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 311349935.64,
+            "unit": "ns",
+            "range": "± 8962337.591316741",
+            "bytesAllocated": 1379208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267246349.95,
+            "unit": "ns",
+            "range": "± 4475995.853454546",
+            "bytesAllocated": 1402360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 387239399.3,
+            "unit": "ns",
+            "range": "± 6692997.741589173",
+            "bytesAllocated": 2656272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 307263833.53,
+            "unit": "ns",
+            "range": "± 6159533.833873164",
+            "bytesAllocated": 1370488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 267233829.98,
+            "unit": "ns",
+            "range": "± 6447158.30974934",
+            "bytesAllocated": 1334240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 503704227.72,
+            "unit": "ns",
+            "range": "± 9754211.874148363",
+            "bytesAllocated": 4759168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 427984709.09,
+            "unit": "ns",
+            "range": "± 8199016.945943672",
+            "bytesAllocated": 3441840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 392490634.74,
+            "unit": "ns",
+            "range": "± 7424476.744320192",
+            "bytesAllocated": 3404120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 330466215.44,
+            "unit": "ns",
+            "range": "± 4858731.255515265",
+            "bytesAllocated": 2223184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 245329453.5,
+            "unit": "ns",
+            "range": "± 5947459.936136657",
+            "bytesAllocated": 1037720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 244856373.95,
+            "unit": "ns",
+            "range": "± 6555022.8334135",
+            "bytesAllocated": 1437192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212054959.6,
+            "unit": "ns",
+            "range": "± 3381374.7775029778",
+            "bytesAllocated": 886536
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.301633724144527,
+            "unit": "ns",
+            "range": "± 0.010093412808845013",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 329.46126115322113,
+            "unit": "ns",
+            "range": "± 1.8655668593924513",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.75563845038414,
+            "unit": "ns",
+            "range": "± 0.12142853157036174",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2719.779842921666,
+            "unit": "ns",
+            "range": "± 5.346879425157564",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.91060304641724,
+            "unit": "ns",
+            "range": "± 0.31941664783885554",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 25377.218223571777,
+            "unit": "ns",
+            "range": "± 200.55390598966875",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 113.18373790383339,
+            "unit": "ns",
+            "range": "± 2.8321547819271315",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 159.30692234635353,
+            "unit": "ns",
+            "range": "± 1.418683013045409",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1093.1616823673248,
+            "unit": "ns",
+            "range": "± 9.899181549011765",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1063.0121278762817,
+            "unit": "ns",
+            "range": "± 12.129707660615985",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10468.49497795105,
+            "unit": "ns",
+            "range": "± 135.45691739647",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10790.41044807434,
+            "unit": "ns",
+            "range": "± 63.05935092915566",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.37743121385574,
+            "unit": "ns",
+            "range": "± 1.260926348091417",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 122.55827036499977,
+            "unit": "ns",
+            "range": "± 1.3572573033001065",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 994.1013693128314,
+            "unit": "ns",
+            "range": "± 4.708445840201236",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1154.1670546531677,
+            "unit": "ns",
+            "range": "± 27.94117802574178",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9618.752297537667,
+            "unit": "ns",
+            "range": "± 85.21397088349056",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11451.355503627232,
+            "unit": "ns",
+            "range": "± 126.91031243044488",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 327.37505120038986,
+            "unit": "ns",
+            "range": "± 1.3364973011420611",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 503.77087933676586,
+            "unit": "ns",
+            "range": "± 1.4424144459306867",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 337.6120915412903,
+            "unit": "ns",
+            "range": "± 2.393428406050704",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2601.9750266075134,
+            "unit": "ns",
+            "range": "± 14.060252870740195",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4229.242710113525,
+            "unit": "ns",
+            "range": "± 38.75119821811469",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2701.086992536272,
+            "unit": "ns",
+            "range": "± 7.9955547777117415",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 25307.18683242798,
+            "unit": "ns",
+            "range": "± 109.20362437307736",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 43271.82546125139,
+            "unit": "ns",
+            "range": "± 54.13121515924158",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25358.685291290283,
+            "unit": "ns",
+            "range": "± 218.67267885473768",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c0548cf49a07568e01f2ee12294de5305d7018f1",
+          "message": "feat(web): add push-capable PWA worker foundation (#639)",
+          "timestamp": "2026-07-14T06:38:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c0548cf49a07568e01f2ee12294de5305d7018f1"
+        },
+        "date": 1784012271059,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 651.8821250200272,
+            "unit": "ns",
+            "range": "± 4.1059656360971575",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5418.079936436245,
+            "unit": "ns",
+            "range": "± 28.786855154940678",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 53355.817237854004,
+            "unit": "ns",
+            "range": "± 371.22465446704103",
             "bytesAllocated": 96224
           }
         ]
