@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784077570474,
+  "lastUpdated": 1784082577769,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -42796,6 +42796,409 @@
             "unit": "ns",
             "range": "± 369.59860344508553",
             "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 361410887.46,
+            "unit": "ns",
+            "range": "± 3840386.496678008",
+            "bytesAllocated": 2665168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 291052536.5,
+            "unit": "ns",
+            "range": "± 5662005.744023549",
+            "bytesAllocated": 1380120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 249258378.01,
+            "unit": "ns",
+            "range": "± 2761770.370196922",
+            "bytesAllocated": 1320752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 361072423.46,
+            "unit": "ns",
+            "range": "± 3865652.5720075625",
+            "bytesAllocated": 2654264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 290201322.11,
+            "unit": "ns",
+            "range": "± 4436809.807707145",
+            "bytesAllocated": 1381680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250688297.06,
+            "unit": "ns",
+            "range": "± 2937484.6077620573",
+            "bytesAllocated": 1310200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 477875472.08,
+            "unit": "ns",
+            "range": "± 5749441.135010032",
+            "bytesAllocated": 4741016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 401151932.23,
+            "unit": "ns",
+            "range": "± 4916444.8212715555",
+            "bytesAllocated": 3456408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 373420597.29,
+            "unit": "ns",
+            "range": "± 6093597.686636924",
+            "bytesAllocated": 3389680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 314494169.46,
+            "unit": "ns",
+            "range": "± 3696187.620673459",
+            "bytesAllocated": 2205816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230775299.1,
+            "unit": "ns",
+            "range": "± 2344624.993283684",
+            "bytesAllocated": 954480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 230789093.31,
+            "unit": "ns",
+            "range": "± 1934952.1001513745",
+            "bytesAllocated": 1448368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 199180847.36,
+            "unit": "ns",
+            "range": "± 2041545.9119335169",
+            "bytesAllocated": 882576
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.7125908753701617,
+            "unit": "ns",
+            "range": "± 0.009258862275788248",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1051.983348608017,
+            "unit": "ns",
+            "range": "± 4.421231723277808",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.0422837237517,
+            "unit": "ns",
+            "range": "± 0.01546493685501054",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9323.311571393695,
+            "unit": "ns",
+            "range": "± 45.74794520531871",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 379.2004263997078,
+            "unit": "ns",
+            "range": "± 0.3785619350022253",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 90226.5424194336,
+            "unit": "ns",
+            "range": "± 488.2382640049475",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.95215882360935,
+            "unit": "ns",
+            "range": "± 0.972916609134563",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 109.69571510383061,
+            "unit": "ns",
+            "range": "± 0.31516465585767345",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 973.2830593585968,
+            "unit": "ns",
+            "range": "± 7.0375684796821485",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1067.9189624786377,
+            "unit": "ns",
+            "range": "± 9.46897499721051",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10375.608310699463,
+            "unit": "ns",
+            "range": "± 62.34906772022703",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8799.403015136719,
+            "unit": "ns",
+            "range": "± 54.96782756886661",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1067.788910150528,
+            "unit": "ns",
+            "range": "± 2.892193928603656",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1195.2328629493713,
+            "unit": "ns",
+            "range": "± 3.054609685237805",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1039.3134262561798,
+            "unit": "ns",
+            "range": "± 2.841212534464195",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9441.928939819336,
+            "unit": "ns",
+            "range": "± 26.538822269659867",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10395.916887555804,
+            "unit": "ns",
+            "range": "± 19.23483489473207",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9980.539136886597,
+            "unit": "ns",
+            "range": "± 29.31909531068714",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92379.9471282959,
+            "unit": "ns",
+            "range": "± 308.2346654521533",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 106764.74659729004,
+            "unit": "ns",
+            "range": "± 255.28392947110248",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92117.44560241699,
+            "unit": "ns",
+            "range": "± 426.02635128907684",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 82.49744009971619,
+            "unit": "ns",
+            "range": "± 0.6855479508894883",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 113.75774511694908,
+            "unit": "ns",
+            "range": "± 1.8437646321914363",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 775.7427672147751,
+            "unit": "ns",
+            "range": "± 3.60236761905351",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1162.000094652176,
+            "unit": "ns",
+            "range": "± 9.081851889811764",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8535.218618392944,
+            "unit": "ns",
+            "range": "± 75.6045473152897",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10584.468811035156,
+            "unit": "ns",
+            "range": "± 64.22776890535359",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "9c582ea3c451827a732718599211868a3d4c2033",
+          "message": "feat(flow): add portable transition evaluation foundation (#646)",
+          "timestamp": "2026-07-15T02:11:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/9c582ea3c451827a732718599211868a3d4c2033"
+        },
+        "date": 1784082577769,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1373.1244185311455,
+            "unit": "ns",
+            "range": "± 3.354450625479611",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 11899.873163223267,
+            "unit": "ns",
+            "range": "± 23.411602447876493",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 118113.62013244629,
+            "unit": "ns",
+            "range": "± 303.1658050158024",
+            "bytesAllocated": 232376
           }
         ]
       }
