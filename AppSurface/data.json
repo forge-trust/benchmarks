@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784082577769,
+  "lastUpdated": 1784086858963,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -43198,6 +43198,409 @@
             "value": 118113.62013244629,
             "unit": "ns",
             "range": "± 303.1658050158024",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 384978644.36,
+            "unit": "ns",
+            "range": "± 5931611.97479824",
+            "bytesAllocated": 2664056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 306857496.72,
+            "unit": "ns",
+            "range": "± 7989397.546952483",
+            "bytesAllocated": 1377336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 265522702.79,
+            "unit": "ns",
+            "range": "± 5569762.903910716",
+            "bytesAllocated": 1323568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 381002985.37,
+            "unit": "ns",
+            "range": "± 9340352.505335053",
+            "bytesAllocated": 2654264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 311284846.58,
+            "unit": "ns",
+            "range": "± 5058239.655205002",
+            "bytesAllocated": 1371560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 266132474.58,
+            "unit": "ns",
+            "range": "± 5917819.132560498",
+            "bytesAllocated": 1414632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 497966319.58,
+            "unit": "ns",
+            "range": "± 10466052.01544381",
+            "bytesAllocated": 4732904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 424960266.57,
+            "unit": "ns",
+            "range": "± 8405081.312350105",
+            "bytesAllocated": 3469568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 391169862.57,
+            "unit": "ns",
+            "range": "± 7546816.999836787",
+            "bytesAllocated": 3429728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 336264914.98,
+            "unit": "ns",
+            "range": "± 4810717.531120615",
+            "bytesAllocated": 2246592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 248114696.38,
+            "unit": "ns",
+            "range": "± 3706709.0542555694",
+            "bytesAllocated": 1037856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 250685765.04,
+            "unit": "ns",
+            "range": "± 4284349.922732356",
+            "bytesAllocated": 1436808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 214832255.25,
+            "unit": "ns",
+            "range": "± 3781820.0349010485",
+            "bytesAllocated": 883632
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1104.9502940177917,
+            "unit": "ns",
+            "range": "± 6.167360382371039",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1554.363923549652,
+            "unit": "ns",
+            "range": "± 5.030627895489464",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1113.0217366899763,
+            "unit": "ns",
+            "range": "± 6.486542080451027",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9926.128763471332,
+            "unit": "ns",
+            "range": "± 40.57745043116538",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11445.174713134766,
+            "unit": "ns",
+            "range": "± 55.01723777884132",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9579.621952601841,
+            "unit": "ns",
+            "range": "± 36.03630474953026",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 99084.89904785156,
+            "unit": "ns",
+            "range": "± 574.969692467073",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113525.4945678711,
+            "unit": "ns",
+            "range": "± 684.5559461853564",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94738.08825683594,
+            "unit": "ns",
+            "range": "± 469.7877711999238",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.281961944885552,
+            "unit": "ns",
+            "range": "± 0.020684139812195967",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1078.979041337967,
+            "unit": "ns",
+            "range": "± 8.421501838144767",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.32541401045663,
+            "unit": "ns",
+            "range": "± 0.019462491827266303",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9914.15849522182,
+            "unit": "ns",
+            "range": "± 83.5255978598864",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.78030347824097,
+            "unit": "ns",
+            "range": "± 0.5705774891974101",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97112.69062805176,
+            "unit": "ns",
+            "range": "± 696.9049060466624",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.87405323982239,
+            "unit": "ns",
+            "range": "± 0.11674049433994516",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 109.67863529069083,
+            "unit": "ns",
+            "range": "± 0.2782038169416932",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1015.0615723133087,
+            "unit": "ns",
+            "range": "± 7.995948922983307",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1029.8356442451477,
+            "unit": "ns",
+            "range": "± 13.547213422572893",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10129.232526779175,
+            "unit": "ns",
+            "range": "± 234.95139570197125",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10045.775716781616,
+            "unit": "ns",
+            "range": "± 42.35864880466551",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.21710750460625,
+            "unit": "ns",
+            "range": "± 1.2008181667994953",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 114.25403098762035,
+            "unit": "ns",
+            "range": "± 2.6335894747033106",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 917.3946689878192,
+            "unit": "ns",
+            "range": "± 3.56563598041333",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1058.4622220993042,
+            "unit": "ns",
+            "range": "± 3.927347135101859",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9079.5608253479,
+            "unit": "ns",
+            "range": "± 62.03199162134247",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10650.030181884766,
+            "unit": "ns",
+            "range": "± 67.25092122558414",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "859eadc4e8c4311da45c4e4ba74c5894296ae9a3",
+          "message": "fix(docs): isolate package layout in consumers (#649)",
+          "timestamp": "2026-07-15T03:21:26Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/859eadc4e8c4311da45c4e4ba74c5894296ae9a3"
+        },
+        "date": 1784086858963,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1442.7990624904633,
+            "unit": "ns",
+            "range": "± 13.262722609727716",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13327.250595092773,
+            "unit": "ns",
+            "range": "± 41.80074395943735",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123726.32591247559,
+            "unit": "ns",
+            "range": "± 1724.7812778004109",
             "bytesAllocated": 232376
           }
         ]
