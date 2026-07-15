@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784099664026,
+  "lastUpdated": 1784103116670,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -44005,6 +44005,409 @@
             "unit": "ns",
             "range": "± 1568.9447942767963",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.295494602194854,
+            "unit": "ns",
+            "range": "± 0.00402168767807359",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1282.19274020195,
+            "unit": "ns",
+            "range": "± 16.444230033687322",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.68926021882466,
+            "unit": "ns",
+            "range": "± 0.09589876792886796",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9876.686323165894,
+            "unit": "ns",
+            "range": "± 27.080935931275924",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.0699990817479,
+            "unit": "ns",
+            "range": "± 1.003416660101598",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 98597.36763000488,
+            "unit": "ns",
+            "range": "± 869.5705946654805",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 113.71405866742134,
+            "unit": "ns",
+            "range": "± 1.2755560555430234",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 117.7690908908844,
+            "unit": "ns",
+            "range": "± 2.913227284021518",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1082.1161648886543,
+            "unit": "ns",
+            "range": "± 10.485133440955806",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1047.795500278473,
+            "unit": "ns",
+            "range": "± 15.821100566808266",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10300.894979476929,
+            "unit": "ns",
+            "range": "± 173.83965616721488",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10527.361799240112,
+            "unit": "ns",
+            "range": "± 144.8876836497307",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.99512857198715,
+            "unit": "ns",
+            "range": "± 2.7045201816650115",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.98415024578571,
+            "unit": "ns",
+            "range": "± 1.8801292621606547",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 957.0047813653946,
+            "unit": "ns",
+            "range": "± 11.511910250721263",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1165.2797031402588,
+            "unit": "ns",
+            "range": "± 10.944108150861002",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9649.962816238403,
+            "unit": "ns",
+            "range": "± 96.72861442416634",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11284.740101405552,
+            "unit": "ns",
+            "range": "± 151.45829191411136",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1472.5132203102112,
+            "unit": "ns",
+            "range": "± 24.84193268944734",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12650.517957687378,
+            "unit": "ns",
+            "range": "± 168.90102632367868",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 126264.63391113281,
+            "unit": "ns",
+            "range": "± 1611.1380491112438",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 397841210.68,
+            "unit": "ns",
+            "range": "± 5691937.314028519",
+            "bytesAllocated": 2647112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 318951631.64,
+            "unit": "ns",
+            "range": "± 5952266.045659911",
+            "bytesAllocated": 1376336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 271209927.94,
+            "unit": "ns",
+            "range": "± 3915572.586994325",
+            "bytesAllocated": 1324664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 395774535.08,
+            "unit": "ns",
+            "range": "± 7926395.3204024425",
+            "bytesAllocated": 2654264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 318994600.47,
+            "unit": "ns",
+            "range": "± 7337964.447232678",
+            "bytesAllocated": 1387792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263630999.46,
+            "unit": "ns",
+            "range": "± 6599953.7343021305",
+            "bytesAllocated": 1328112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 522240701.93,
+            "unit": "ns",
+            "range": "± 8559240.587190157",
+            "bytesAllocated": 4739152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 422641228.78,
+            "unit": "ns",
+            "range": "± 6882023.823646112",
+            "bytesAllocated": 3467328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 391390698.44,
+            "unit": "ns",
+            "range": "± 7199272.20362445",
+            "bytesAllocated": 3390432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 333755431.04,
+            "unit": "ns",
+            "range": "± 7696335.532523366",
+            "bytesAllocated": 2246824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 246008222.34,
+            "unit": "ns",
+            "range": "± 4035715.6608141595",
+            "bytesAllocated": 1051176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 247890747.34,
+            "unit": "ns",
+            "range": "± 4044244.965618834",
+            "bytesAllocated": 1435312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 209325193.89,
+            "unit": "ns",
+            "range": "± 3166484.8927833294",
+            "bytesAllocated": 880784
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d1d28739ed04cfd646ee434c5aee6e594e9b1b8c",
+          "message": "feat(web): add protected named canary endpoints (#647)",
+          "timestamp": "2026-07-15T07:52:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d1d28739ed04cfd646ee434c5aee6e594e9b1b8c"
+        },
+        "date": 1784103116670,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1106.1379446302142,
+            "unit": "ns",
+            "range": "± 9.02266729482291",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1292.4259893894196,
+            "unit": "ns",
+            "range": "± 8.860335176463005",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1111.9668579101562,
+            "unit": "ns",
+            "range": "± 8.35719698649768",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10217.900654384068,
+            "unit": "ns",
+            "range": "± 47.91834721005819",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11831.230802263532,
+            "unit": "ns",
+            "range": "± 39.66975005932872",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9922.023983001709,
+            "unit": "ns",
+            "range": "± 48.648570210016445",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98459.57536315918,
+            "unit": "ns",
+            "range": "± 656.9601256948487",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111778.8735874721,
+            "unit": "ns",
+            "range": "± 399.7828867330874",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95733.85480608259,
+            "unit": "ns",
+            "range": "± 245.60795671641384",
+            "bytesAllocated": 168272
           }
         ]
       }
