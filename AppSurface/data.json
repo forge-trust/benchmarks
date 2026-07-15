@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784013911449,
+  "lastUpdated": 1784077570474,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -42393,6 +42393,409 @@
             "unit": "ns",
             "range": "± 110.08194042487334",
             "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2877092393381253,
+            "unit": "ns",
+            "range": "± 0.0029944510388620342",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 317.7996142251151,
+            "unit": "ns",
+            "range": "± 0.6154598233637903",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.60513495653868,
+            "unit": "ns",
+            "range": "± 0.022937228622505502",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 2475.572615623474,
+            "unit": "ns",
+            "range": "± 14.112341800303678",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.084838117872,
+            "unit": "ns",
+            "range": "± 0.40274272659288785",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 24704.041709899902,
+            "unit": "ns",
+            "range": "± 264.1403414560802",
+            "bytesAllocated": 32120
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.93311458826065,
+            "unit": "ns",
+            "range": "± 2.829921549578676",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.40185295045376,
+            "unit": "ns",
+            "range": "± 1.029114349281648",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1034.2179464612689,
+            "unit": "ns",
+            "range": "± 4.129887886507248",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 999.0741062164307,
+            "unit": "ns",
+            "range": "± 4.9711720549580924",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9889.738170078823,
+            "unit": "ns",
+            "range": "± 59.85023949041196",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10248.075511932373,
+            "unit": "ns",
+            "range": "± 55.7782050760622",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.50734874606133,
+            "unit": "ns",
+            "range": "± 1.4756497671102442",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 118.60892674326897,
+            "unit": "ns",
+            "range": "± 1.23290642950138",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 934.4468475069318,
+            "unit": "ns",
+            "range": "± 8.566286837876865",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1176.8867230415344,
+            "unit": "ns",
+            "range": "± 9.314010895484254",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9065.13261795044,
+            "unit": "ns",
+            "range": "± 40.949209621870025",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10673.887014389038,
+            "unit": "ns",
+            "range": "± 229.01412153644046",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 636.4476503133774,
+            "unit": "ns",
+            "range": "± 5.233727346564827",
+            "bytesAllocated": 1184
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5438.926246643066,
+            "unit": "ns",
+            "range": "± 43.99433677405257",
+            "bytesAllocated": 9824
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 51947.74803161621,
+            "unit": "ns",
+            "range": "± 569.1483186233628",
+            "bytesAllocated": 96224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 391324343.27,
+            "unit": "ns",
+            "range": "± 9482481.101847269",
+            "bytesAllocated": 2647160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 313309836.7,
+            "unit": "ns",
+            "range": "± 6234835.236148226",
+            "bytesAllocated": 1365128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 273926507.66,
+            "unit": "ns",
+            "range": "± 5280837.912638854",
+            "bytesAllocated": 1323888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 397995258.95,
+            "unit": "ns",
+            "range": "± 8091293.5800666325",
+            "bytesAllocated": 2667104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 322534259.05,
+            "unit": "ns",
+            "range": "± 7959609.443981763",
+            "bytesAllocated": 1388624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 282474532.96,
+            "unit": "ns",
+            "range": "± 6174137.565795629",
+            "bytesAllocated": 1328008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 525829007.79,
+            "unit": "ns",
+            "range": "± 10569730.244706538",
+            "bytesAllocated": 4738816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 450026521.27,
+            "unit": "ns",
+            "range": "± 13795392.578358905",
+            "bytesAllocated": 3471400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 411409924.23,
+            "unit": "ns",
+            "range": "± 10858563.968342528",
+            "bytesAllocated": 3417600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 339805317.36,
+            "unit": "ns",
+            "range": "± 7913480.864418367",
+            "bytesAllocated": 2206576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 243938237.42,
+            "unit": "ns",
+            "range": "± 5184561.71096319",
+            "bytesAllocated": 970776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243823068.77,
+            "unit": "ns",
+            "range": "± 3662413.8572806944",
+            "bytesAllocated": 1435936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208242310.77,
+            "unit": "ns",
+            "range": "± 4128585.3894659285",
+            "bytesAllocated": 878952
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7f3181a1beff2aed9ed81ade77e78ef5ccab9648",
+          "message": "feat(deployment): add native Aspire GCP deployment layer (#640)",
+          "timestamp": "2026-07-15T00:46:09Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7f3181a1beff2aed9ed81ade77e78ef5ccab9648"
+        },
+        "date": 1784077570474,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 317.0616822923933,
+            "unit": "ns",
+            "range": "± 4.1117715532371335",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 484.83218274797713,
+            "unit": "ns",
+            "range": "± 1.1541665805799988",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 326.9145109653473,
+            "unit": "ns",
+            "range": "± 4.840272928795984",
+            "bytesAllocated": 440
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 2509.5298643112183,
+            "unit": "ns",
+            "range": "± 25.123025590891448",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 4135.448526382446,
+            "unit": "ns",
+            "range": "± 23.993461386730793",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 2565.9593135288783,
+            "unit": "ns",
+            "range": "± 6.208995444508312",
+            "bytesAllocated": 3320
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 23935.084821428572,
+            "unit": "ns",
+            "range": "± 103.67967472881045",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 42455.912048339844,
+            "unit": "ns",
+            "range": "± 177.00702931398177",
+            "bytesAllocated": 32120
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 25421.754356384277,
+            "unit": "ns",
+            "range": "± 369.59860344508553",
+            "bytesAllocated": 32120
           }
         ]
       }
