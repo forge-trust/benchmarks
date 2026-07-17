@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784262586079,
+  "lastUpdated": 1784264362407,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -45214,6 +45214,409 @@
             "unit": "ns",
             "range": "± 2707.0034231972472",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2946469709277153,
+            "unit": "ns",
+            "range": "± 0.0031526232911735954",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1101.7393856048584,
+            "unit": "ns",
+            "range": "± 2.692279449195892",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.6947558298707,
+            "unit": "ns",
+            "range": "± 0.058140586247654134",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9691.2350025177,
+            "unit": "ns",
+            "range": "± 23.00798263991785",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7207920891898,
+            "unit": "ns",
+            "range": "± 0.19888431970168371",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 94844.28079659598,
+            "unit": "ns",
+            "range": "± 205.74326002788533",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1049.8783392224993,
+            "unit": "ns",
+            "range": "± 1.6096126956198205",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1244.1917740958077,
+            "unit": "ns",
+            "range": "± 3.116217644441621",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1063.9189348220825,
+            "unit": "ns",
+            "range": "± 3.2923163330078515",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9435.559282575336,
+            "unit": "ns",
+            "range": "± 14.570769892138413",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10990.913890838623,
+            "unit": "ns",
+            "range": "± 64.07352708761434",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9246.670656204224,
+            "unit": "ns",
+            "range": "± 41.001239751794095",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92902.56614685059,
+            "unit": "ns",
+            "range": "± 414.3006854223822",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113728.37509155273,
+            "unit": "ns",
+            "range": "± 288.1690268545122",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92931.222429548,
+            "unit": "ns",
+            "range": "± 464.9337011301619",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 106.6533887386322,
+            "unit": "ns",
+            "range": "± 0.8302506834309766",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.28617078065872,
+            "unit": "ns",
+            "range": "± 1.0591214765227326",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1025.1591121128627,
+            "unit": "ns",
+            "range": "± 4.5315862801280185",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1009.1635646820068,
+            "unit": "ns",
+            "range": "± 4.654399569656257",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9860.555646623883,
+            "unit": "ns",
+            "range": "± 46.75381856255086",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10219.304420471191,
+            "unit": "ns",
+            "range": "± 68.82826074626674",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.24191507697105,
+            "unit": "ns",
+            "range": "± 0.27136593966192624",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 112.71784317493439,
+            "unit": "ns",
+            "range": "± 0.6872597920290993",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 930.5379118919373,
+            "unit": "ns",
+            "range": "± 4.3467977752325915",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1183.2859694957733,
+            "unit": "ns",
+            "range": "± 6.142514982492901",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9192.523141860962,
+            "unit": "ns",
+            "range": "± 35.517555148376125",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10767.921831130981,
+            "unit": "ns",
+            "range": "± 92.32999629574462",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1414.1242871284485,
+            "unit": "ns",
+            "range": "± 8.532218515755059",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12451.093727111816,
+            "unit": "ns",
+            "range": "± 57.99580749099215",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123889.50186157227,
+            "unit": "ns",
+            "range": "± 386.7294826943293",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7698ca61ce15a834b67cf93d82d4acc176e581c2",
+          "message": "feat(web-push): add safe delivery rail (#654)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T04:40:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7698ca61ce15a834b67cf93d82d4acc176e581c2"
+        },
+        "date": 1784264362407,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382315505.96,
+            "unit": "ns",
+            "range": "± 3464891.2318916987",
+            "bytesAllocated": 2671808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 304687636.65,
+            "unit": "ns",
+            "range": "± 3665017.3715514815",
+            "bytesAllocated": 1365240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 262180840.01,
+            "unit": "ns",
+            "range": "± 3147349.3370701913",
+            "bytesAllocated": 1321880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 382483044.12,
+            "unit": "ns",
+            "range": "± 3881623.8438657867",
+            "bytesAllocated": 2654264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 305282871.73,
+            "unit": "ns",
+            "range": "± 4082671.6521646027",
+            "bytesAllocated": 1370464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262575996.96,
+            "unit": "ns",
+            "range": "± 2683375.7378145983",
+            "bytesAllocated": 1315704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 501325531.55,
+            "unit": "ns",
+            "range": "± 5374144.531883782",
+            "bytesAllocated": 4756248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 420003777.98,
+            "unit": "ns",
+            "range": "± 5825463.8111482",
+            "bytesAllocated": 3463904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 390341501.65,
+            "unit": "ns",
+            "range": "± 6050770.810226881",
+            "bytesAllocated": 3406872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 331418729.95,
+            "unit": "ns",
+            "range": "± 3155036.0116249304",
+            "bytesAllocated": 2208688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 244695805.1,
+            "unit": "ns",
+            "range": "± 2558643.057305829",
+            "bytesAllocated": 1050152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 245955523.45,
+            "unit": "ns",
+            "range": "± 1802706.4410069007",
+            "bytesAllocated": 1415056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 210739028.5,
+            "unit": "ns",
+            "range": "± 1771754.9309621055",
+            "bytesAllocated": 881800
           }
         ]
       }
