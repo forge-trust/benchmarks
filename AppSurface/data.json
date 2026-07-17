@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784264362407,
+  "lastUpdated": 1784271707721,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -45617,6 +45617,409 @@
             "unit": "ns",
             "range": "± 1771754.9309621055",
             "bytesAllocated": 881800
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 383860083.89,
+            "unit": "ns",
+            "range": "± 5747255.544193916",
+            "bytesAllocated": 2647160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 309925951.81,
+            "unit": "ns",
+            "range": "± 7063157.628168456",
+            "bytesAllocated": 1380728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 265303504.95,
+            "unit": "ns",
+            "range": "± 4322375.77194516",
+            "bytesAllocated": 1323536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 383625984.7,
+            "unit": "ns",
+            "range": "± 4408853.431668485",
+            "bytesAllocated": 2697072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 308432742.29,
+            "unit": "ns",
+            "range": "± 6202981.189151714",
+            "bytesAllocated": 1387392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 264999378.12,
+            "unit": "ns",
+            "range": "± 5485499.658822983",
+            "bytesAllocated": 1328872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 503415109.91,
+            "unit": "ns",
+            "range": "± 8483812.38163876",
+            "bytesAllocated": 4786064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 418111856.87,
+            "unit": "ns",
+            "range": "± 6050128.600821611",
+            "bytesAllocated": 3437208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 396334005.35,
+            "unit": "ns",
+            "range": "± 8082730.199012863",
+            "bytesAllocated": 3395336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332213073.76,
+            "unit": "ns",
+            "range": "± 6126827.89609204",
+            "bytesAllocated": 2223224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 255560289.88,
+            "unit": "ns",
+            "range": "± 4661687.012182131",
+            "bytesAllocated": 1055048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 255723510.21,
+            "unit": "ns",
+            "range": "± 4967359.169471404",
+            "bytesAllocated": 1435936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 220745157,
+            "unit": "ns",
+            "range": "± 3272638.024516866",
+            "bytesAllocated": 868072
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.292458992983614,
+            "unit": "ns",
+            "range": "± 0.004305741434531045",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1122.691808462143,
+            "unit": "ns",
+            "range": "± 8.159805495494217",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.84613562375307,
+            "unit": "ns",
+            "range": "± 0.2363141890369863",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9929.628799438477,
+            "unit": "ns",
+            "range": "± 22.047913681204935",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.1413040842329,
+            "unit": "ns",
+            "range": "± 0.09979844747798484",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 94614.66857910156,
+            "unit": "ns",
+            "range": "± 191.3883625025331",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1098.894615990775,
+            "unit": "ns",
+            "range": "± 1.8408762987054468",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1303.4029455184937,
+            "unit": "ns",
+            "range": "± 4.721623452378765",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1098.8703532218933,
+            "unit": "ns",
+            "range": "± 6.255033826022173",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9647.641241073608,
+            "unit": "ns",
+            "range": "± 44.97856756598737",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11242.45023727417,
+            "unit": "ns",
+            "range": "± 59.01598472581199",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 10054.007621765137,
+            "unit": "ns",
+            "range": "± 33.03301779242034",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 119569.36526925223,
+            "unit": "ns",
+            "range": "± 300.12907143646066",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 108571.11228724888,
+            "unit": "ns",
+            "range": "± 210.92730279883517",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92180.00561523438,
+            "unit": "ns",
+            "range": "± 369.7871488105923",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 108.31235706806183,
+            "unit": "ns",
+            "range": "± 0.8904499972686877",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 111.73013634341103,
+            "unit": "ns",
+            "range": "± 0.8149963523146482",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1067.4231181144714,
+            "unit": "ns",
+            "range": "± 9.21935093021724",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1040.7817742824554,
+            "unit": "ns",
+            "range": "± 4.290479789283781",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10200.967668533325,
+            "unit": "ns",
+            "range": "± 109.250330693696",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10588.654122488839,
+            "unit": "ns",
+            "range": "± 66.1971089234653",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.53223780223301,
+            "unit": "ns",
+            "range": "± 0.7261411273064127",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.67304898798466,
+            "unit": "ns",
+            "range": "± 0.8291495944664041",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 944.1185610294342,
+            "unit": "ns",
+            "range": "± 10.76659477683821",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1116.2384518214635,
+            "unit": "ns",
+            "range": "± 10.953324619433248",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9302.651779174805,
+            "unit": "ns",
+            "range": "± 56.990689772895394",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10972.964803695679,
+            "unit": "ns",
+            "range": "± 71.36678902837737",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0b957156546c49267f88685a7ec5a72213485102",
+          "message": "feat(durable): split adopter and provider contracts (#651)",
+          "timestamp": "2026-07-17T06:41:58Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0b957156546c49267f88685a7ec5a72213485102"
+        },
+        "date": 1784271707721,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1423.12855386734,
+            "unit": "ns",
+            "range": "± 5.096356509235063",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12707.85112953186,
+            "unit": "ns",
+            "range": "± 37.231312073933225",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121933.31819152832,
+            "unit": "ns",
+            "range": "± 436.7368862427434",
+            "bytesAllocated": 232376
           }
         ]
       }
