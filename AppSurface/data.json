@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784271707721,
+  "lastUpdated": 1784275146595,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -46019,6 +46019,409 @@
             "value": 121933.31819152832,
             "unit": "ns",
             "range": "± 436.7368862427434",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 370325274.24,
+            "unit": "ns",
+            "range": "± 3268961.598379952",
+            "bytesAllocated": 2662352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 295779084.5,
+            "unit": "ns",
+            "range": "± 4723563.864975078",
+            "bytesAllocated": 1365992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254647810.06,
+            "unit": "ns",
+            "range": "± 2608784.8734840117",
+            "bytesAllocated": 1323752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371221421.6,
+            "unit": "ns",
+            "range": "± 3475712.520361593",
+            "bytesAllocated": 2671928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 298444767.88,
+            "unit": "ns",
+            "range": "± 6084725.204649438",
+            "bytesAllocated": 1386848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256282216.27,
+            "unit": "ns",
+            "range": "± 3012853.669309279",
+            "bytesAllocated": 1334976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486969390.53,
+            "unit": "ns",
+            "range": "± 5128937.509846095",
+            "bytesAllocated": 4759576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 408415231.07,
+            "unit": "ns",
+            "range": "± 4973313.170146939",
+            "bytesAllocated": 3464304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 379848255.36,
+            "unit": "ns",
+            "range": "± 5584121.903478013",
+            "bytesAllocated": 3383824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 326298827.95,
+            "unit": "ns",
+            "range": "± 5134989.892695065",
+            "bytesAllocated": 2220032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 240381241.37,
+            "unit": "ns",
+            "range": "± 2539113.4256293923",
+            "bytesAllocated": 951728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242571042.13,
+            "unit": "ns",
+            "range": "± 3071434.621259444",
+            "bytesAllocated": 1430232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208558616.11,
+            "unit": "ns",
+            "range": "± 3045665.4978742083",
+            "bytesAllocated": 892040
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1056.744041442871,
+            "unit": "ns",
+            "range": "± 4.739939802263491",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1203.8428910573323,
+            "unit": "ns",
+            "range": "± 0.6580011763691538",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1019.2574383871896,
+            "unit": "ns",
+            "range": "± 1.2841339674671712",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9428.975476946149,
+            "unit": "ns",
+            "range": "± 19.51861159291195",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10793.630466461182,
+            "unit": "ns",
+            "range": "± 35.93340017746159",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9583.499900817871,
+            "unit": "ns",
+            "range": "± 43.393140869361666",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93309.89287458148,
+            "unit": "ns",
+            "range": "± 175.37641833388534",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 105580.03982543945,
+            "unit": "ns",
+            "range": "± 332.70654864670274",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 90699.05991908482,
+            "unit": "ns",
+            "range": "± 45.07851050515776",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.01742757856846,
+            "unit": "ns",
+            "range": "± 0.2898293522417019",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 108.9858950972557,
+            "unit": "ns",
+            "range": "± 0.673332001383109",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1004.107626914978,
+            "unit": "ns",
+            "range": "± 6.9673674420348215",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 981.2118101119995,
+            "unit": "ns",
+            "range": "± 1.260814813294356",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9547.171308244977,
+            "unit": "ns",
+            "range": "± 13.920102741261912",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9871.673858642578,
+            "unit": "ns",
+            "range": "± 47.454153582499295",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.55547648668289,
+            "unit": "ns",
+            "range": "± 0.3172272199608412",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.25150083005428,
+            "unit": "ns",
+            "range": "± 0.5580319354208041",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 910.867429971695,
+            "unit": "ns",
+            "range": "± 2.9022162180416857",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1052.640056337629,
+            "unit": "ns",
+            "range": "± 1.5839782570338938",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9011.771412440708,
+            "unit": "ns",
+            "range": "± 12.729880575508455",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10560.229407174247,
+            "unit": "ns",
+            "range": "± 36.14994736308573",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2951115242072513,
+            "unit": "ns",
+            "range": "± 0.009375157900465995",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1042.2082996368408,
+            "unit": "ns",
+            "range": "± 7.115443599151787",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.673605403729844,
+            "unit": "ns",
+            "range": "± 0.02415974151192895",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9118.360321044922,
+            "unit": "ns",
+            "range": "± 22.242849103350174",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.4513304233551,
+            "unit": "ns",
+            "range": "± 0.06204111149043558",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 90229.94782366071,
+            "unit": "ns",
+            "range": "± 193.0592470028391",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "94828bab76c8d0d0801fe69f0ca9c1d36060658f",
+          "message": "feat(aspire): add deterministic profile testing (#653)",
+          "timestamp": "2026-07-17T07:39:57Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/94828bab76c8d0d0801fe69f0ca9c1d36060658f"
+        },
+        "date": 1784275146595,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1379.0484889348347,
+            "unit": "ns",
+            "range": "± 0.9441717340546325",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12209.958182198661,
+            "unit": "ns",
+            "range": "± 29.66019326522911",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 120681.82675170898,
+            "unit": "ns",
+            "range": "± 428.52645282547587",
             "bytesAllocated": 232376
           }
         ]
