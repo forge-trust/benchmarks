@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784275146595,
+  "lastUpdated": 1784275672854,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -46422,6 +46422,409 @@
             "value": 120681.82675170898,
             "unit": "ns",
             "range": "± 428.52645282547587",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 398043380.81,
+            "unit": "ns",
+            "range": "± 8666502.615392141",
+            "bytesAllocated": 2664144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 314345776.09,
+            "unit": "ns",
+            "range": "± 8753528.006850004",
+            "bytesAllocated": 1383312
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261546882.25,
+            "unit": "ns",
+            "range": "± 5390039.333394443",
+            "bytesAllocated": 1323672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 391180756.35,
+            "unit": "ns",
+            "range": "± 9055150.187510097",
+            "bytesAllocated": 2671080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 312482308.95,
+            "unit": "ns",
+            "range": "± 10385843.341370972",
+            "bytesAllocated": 1388648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 273316052.06,
+            "unit": "ns",
+            "range": "± 6191127.518958093",
+            "bytesAllocated": 1359864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 516809111.95,
+            "unit": "ns",
+            "range": "± 10155980.484548355",
+            "bytesAllocated": 4738776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 430358230.5,
+            "unit": "ns",
+            "range": "± 16526889.389488542",
+            "bytesAllocated": 3442280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 403145866.41,
+            "unit": "ns",
+            "range": "± 7027793.823447744",
+            "bytesAllocated": 3384664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 340580985.55,
+            "unit": "ns",
+            "range": "± 7524010.018614846",
+            "bytesAllocated": 2223656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 249936407.58,
+            "unit": "ns",
+            "range": "± 4092422.101150724",
+            "bytesAllocated": 1053952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 251368027.95,
+            "unit": "ns",
+            "range": "± 4543680.185567334",
+            "bytesAllocated": 1433232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 216847253.46,
+            "unit": "ns",
+            "range": "± 6847706.564976389",
+            "bytesAllocated": 862880
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1049.655728816986,
+            "unit": "ns",
+            "range": "± 1.33064968900193",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1189.989021028791,
+            "unit": "ns",
+            "range": "± 1.2551599934322315",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1052.4924068450928,
+            "unit": "ns",
+            "range": "± 4.245727150870546",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9458.359296526227,
+            "unit": "ns",
+            "range": "± 29.859440358917244",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11131.138078689575,
+            "unit": "ns",
+            "range": "± 66.20469363878601",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9451.124662399292,
+            "unit": "ns",
+            "range": "± 41.36581409150347",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93686.46203613281,
+            "unit": "ns",
+            "range": "± 199.61290748291242",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110434.6724155971,
+            "unit": "ns",
+            "range": "± 142.52884487340242",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91641.49546813965,
+            "unit": "ns",
+            "range": "± 214.0897580910028",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2338891997933388,
+            "unit": "ns",
+            "range": "± 0.0016824436426732586",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1061.1458885669708,
+            "unit": "ns",
+            "range": "± 10.012366815085743",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.589184741179146,
+            "unit": "ns",
+            "range": "± 0.018887689201966106",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9449.52428817749,
+            "unit": "ns",
+            "range": "± 101.6387433848384",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.79890298843384,
+            "unit": "ns",
+            "range": "± 0.47810555783928144",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 89694.88443429129,
+            "unit": "ns",
+            "range": "± 79.0967763040108",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 128.31990799307823,
+            "unit": "ns",
+            "range": "± 0.8811398358049151",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 121.26298907399178,
+            "unit": "ns",
+            "range": "± 1.1313130093742374",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1096.3212618146624,
+            "unit": "ns",
+            "range": "± 5.80896035595105",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1091.8179531097412,
+            "unit": "ns",
+            "range": "± 16.994790486306854",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10743.672348022461,
+            "unit": "ns",
+            "range": "± 144.70142829844409",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10735.60863685608,
+            "unit": "ns",
+            "range": "± 172.81894969771056",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.83720707893372,
+            "unit": "ns",
+            "range": "± 0.650525013307416",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.66726651787758,
+            "unit": "ns",
+            "range": "± 1.8587785334995002",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 977.583517074585,
+            "unit": "ns",
+            "range": "± 13.747137056632203",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1163.0363404750824,
+            "unit": "ns",
+            "range": "± 35.97360604521123",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9462.014426095146,
+            "unit": "ns",
+            "range": "± 89.24389900970267",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11807.888301849365,
+            "unit": "ns",
+            "range": "± 171.99779426222034",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ed1e2edad3866a66a3665def1875c10f953b7c1f",
+          "message": "feat(web): add PWA badging runtime rail (#662)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-17T07:48:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ed1e2edad3866a66a3665def1875c10f953b7c1f"
+        },
+        "date": 1784275672854,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1394.6399350847516,
+            "unit": "ns",
+            "range": "± 3.11136199024586",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12403.022016525269,
+            "unit": "ns",
+            "range": "± 14.03408148930718",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123900.23737444196,
+            "unit": "ns",
+            "range": "± 654.0389205134579",
             "bytesAllocated": 232376
           }
         ]
