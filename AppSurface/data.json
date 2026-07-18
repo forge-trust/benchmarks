@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784345704511,
+  "lastUpdated": 1784346914185,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -47228,6 +47228,409 @@
             "value": 71781.06135559082,
             "unit": "ns",
             "range": "± 240.75384656021575",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 399543627,
+            "unit": "ns",
+            "range": "± 6949156.415786444",
+            "bytesAllocated": 2643432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 320867558.19,
+            "unit": "ns",
+            "range": "± 6275856.887621293",
+            "bytesAllocated": 1360456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 276780567.27,
+            "unit": "ns",
+            "range": "± 4862443.455095354",
+            "bytesAllocated": 1324208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 401792064.32,
+            "unit": "ns",
+            "range": "± 5644572.5313951075",
+            "bytesAllocated": 2671512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 320465386.7,
+            "unit": "ns",
+            "range": "± 5762206.540970133",
+            "bytesAllocated": 1369480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 277510804.33,
+            "unit": "ns",
+            "range": "± 8000110.291006987",
+            "bytesAllocated": 1455304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 526054835.21,
+            "unit": "ns",
+            "range": "± 7881533.072853681",
+            "bytesAllocated": 4755560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 440971563.7,
+            "unit": "ns",
+            "range": "± 6111695.365876148",
+            "bytesAllocated": 3439128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 411357661.56,
+            "unit": "ns",
+            "range": "± 8140935.711970203",
+            "bytesAllocated": 3391296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 348502720.76,
+            "unit": "ns",
+            "range": "± 4852309.077621657",
+            "bytesAllocated": 2233336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 257437423.17,
+            "unit": "ns",
+            "range": "± 5214246.179195889",
+            "bytesAllocated": 957352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 258650567.01,
+            "unit": "ns",
+            "range": "± 5445232.424686735",
+            "bytesAllocated": 1436728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 220843873.75,
+            "unit": "ns",
+            "range": "± 4618915.545607742",
+            "bytesAllocated": 880848
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2920768931508064,
+            "unit": "ns",
+            "range": "± 0.004204665249985225",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1099.239445924759,
+            "unit": "ns",
+            "range": "± 5.817071275919789",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.66713583469391,
+            "unit": "ns",
+            "range": "± 0.021572075001260776",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10222.283033370972,
+            "unit": "ns",
+            "range": "± 47.879010282599374",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5910957654317,
+            "unit": "ns",
+            "range": "± 0.1118744652400352",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 106247.01446533203,
+            "unit": "ns",
+            "range": "± 317.33700396031253",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 114.77736327052116,
+            "unit": "ns",
+            "range": "± 1.643014502454074",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.93459758162498,
+            "unit": "ns",
+            "range": "± 2.3031454002833813",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1102.4090647697449,
+            "unit": "ns",
+            "range": "± 14.839848353399846",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1086.851040158953,
+            "unit": "ns",
+            "range": "± 4.810298864156807",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10620.652822494507,
+            "unit": "ns",
+            "range": "± 228.13082025895227",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 12043.812139511108,
+            "unit": "ns",
+            "range": "± 105.53413757520347",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.79259519066129,
+            "unit": "ns",
+            "range": "± 0.44596631343955034",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 124.33383515902928,
+            "unit": "ns",
+            "range": "± 1.2459552560463067",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 988.4275414603097,
+            "unit": "ns",
+            "range": "± 5.6052312017700805",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1191.4324196406774,
+            "unit": "ns",
+            "range": "± 6.67853321131744",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9771.541765213013,
+            "unit": "ns",
+            "range": "± 47.60096598842229",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11780.731130599976,
+            "unit": "ns",
+            "range": "± 179.47951660476085",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1469.7479269504547,
+            "unit": "ns",
+            "range": "± 8.510327416867952",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13117.406265258789,
+            "unit": "ns",
+            "range": "± 125.1221935900101",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 128442.54473876953,
+            "unit": "ns",
+            "range": "± 688.7682794370902",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e1781ab53b04ecb3db60c3ac47f174e499bf988c",
+          "message": "feat(razorwire): bundle deterministic Turbo runtime (#661)",
+          "timestamp": "2026-07-18T03:35:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e1781ab53b04ecb3db60c3ac47f174e499bf988c"
+        },
+        "date": 1784346914185,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1123.1626317501068,
+            "unit": "ns",
+            "range": "± 6.568440036845566",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1380.0890095233917,
+            "unit": "ns",
+            "range": "± 6.186591290807262",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1130.145214353289,
+            "unit": "ns",
+            "range": "± 5.6914317683932785",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9979.200119018555,
+            "unit": "ns",
+            "range": "± 83.86293135876873",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11366.885153634208,
+            "unit": "ns",
+            "range": "± 55.65398021314385",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9834.127225875854,
+            "unit": "ns",
+            "range": "± 78.100088087213",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97852.47616577148,
+            "unit": "ns",
+            "range": "± 788.5591729239412",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 116089.47831726074,
+            "unit": "ns",
+            "range": "± 255.57754859621136",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95898.47019958496,
+            "unit": "ns",
+            "range": "± 231.42434120196486",
             "bytesAllocated": 168272
           }
         ]
