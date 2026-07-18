@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784275672854,
+  "lastUpdated": 1784345704511,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -46826,6 +46826,409 @@
             "unit": "ns",
             "range": "± 654.0389205134579",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 299786794.87,
+            "unit": "ns",
+            "range": "± 3895639.636843586",
+            "bytesAllocated": 2662384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 241169346.87,
+            "unit": "ns",
+            "range": "± 3138503.343764062",
+            "bytesAllocated": 1380576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 205390063.03,
+            "unit": "ns",
+            "range": "± 3497315.420928217",
+            "bytesAllocated": 1324352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 300668875.5,
+            "unit": "ns",
+            "range": "± 3696794.0827990393",
+            "bytesAllocated": 2657328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 243554565.87,
+            "unit": "ns",
+            "range": "± 4243287.6474111825",
+            "bytesAllocated": 1387352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 206012245.82,
+            "unit": "ns",
+            "range": "± 2815846.1176397223",
+            "bytesAllocated": 1333176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 395708168.9,
+            "unit": "ns",
+            "range": "± 5639046.54862129",
+            "bytesAllocated": 4736216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 333841911.27,
+            "unit": "ns",
+            "range": "± 6814376.119901498",
+            "bytesAllocated": 3465712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 307756190.23,
+            "unit": "ns",
+            "range": "± 5427101.590539082",
+            "bytesAllocated": 3404896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 263589110.88,
+            "unit": "ns",
+            "range": "± 3807922.981147671",
+            "bytesAllocated": 2244112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 197605559.83,
+            "unit": "ns",
+            "range": "± 4123690.1220295504",
+            "bytesAllocated": 956304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 196243482.99,
+            "unit": "ns",
+            "range": "± 3530414.1786668273",
+            "bytesAllocated": 1431720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 169257016.84,
+            "unit": "ns",
+            "range": "± 3142644.2513024956",
+            "bytesAllocated": 862648
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.5237977536661282,
+            "unit": "ns",
+            "range": "± 0.0013825901251573413",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 828.1286107472012,
+            "unit": "ns",
+            "range": "± 2.267975624435252",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.37717318534851,
+            "unit": "ns",
+            "range": "± 0.0074705107510956775",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7484.1426792144775,
+            "unit": "ns",
+            "range": "± 65.29747864808225",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.4248237609863,
+            "unit": "ns",
+            "range": "± 0.09842885507628535",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 73004.54131208148,
+            "unit": "ns",
+            "range": "± 345.24258396837575",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 86.91731271147728,
+            "unit": "ns",
+            "range": "± 1.097346674754708",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 95.84724545478821,
+            "unit": "ns",
+            "range": "± 1.384077489229579",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 939.2331078052521,
+            "unit": "ns",
+            "range": "± 12.764021473190924",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 846.4876729420254,
+            "unit": "ns",
+            "range": "± 2.8790829397540523",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8637.677551269531,
+            "unit": "ns",
+            "range": "± 83.44687910374141",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8478.495950698853,
+            "unit": "ns",
+            "range": "± 217.94222528606338",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 80.58045423030853,
+            "unit": "ns",
+            "range": "± 1.2564359085258527",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 98.5949406772852,
+            "unit": "ns",
+            "range": "± 1.5158266345884455",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 788.1912808418274,
+            "unit": "ns",
+            "range": "± 5.80614292259179",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 925.0633111000061,
+            "unit": "ns",
+            "range": "± 14.067530802728353",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7470.15153503418,
+            "unit": "ns",
+            "range": "± 34.615589809391274",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 9815.200298309326,
+            "unit": "ns",
+            "range": "± 398.2581058901723",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1071.0046702793666,
+            "unit": "ns",
+            "range": "± 5.281392681389206",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9670.117593765259,
+            "unit": "ns",
+            "range": "± 79.57384696626046",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 92847.92370605469,
+            "unit": "ns",
+            "range": "± 742.628233438323",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46",
+          "message": "fix(durable): harden slice 2 contract boundary (#665)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-07-18T03:18:24Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1eae3f4edc785a51a8b3b24e137d84d5e2bcfe46"
+        },
+        "date": 1784345704511,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 829.9912327528,
+            "unit": "ns",
+            "range": "± 3.5433909551469034",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1369.241944551468,
+            "unit": "ns",
+            "range": "± 5.907411586601769",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 832.2014438084194,
+            "unit": "ns",
+            "range": "± 3.4053846029300745",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7669.445492744446,
+            "unit": "ns",
+            "range": "± 18.622957768011556",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 8291.471660614014,
+            "unit": "ns",
+            "range": "± 43.95554640720312",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7336.025680541992,
+            "unit": "ns",
+            "range": "± 11.774884652531075",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 73229.98608398438,
+            "unit": "ns",
+            "range": "± 123.66276966725933",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 79566.85888671875,
+            "unit": "ns",
+            "range": "± 245.54708126904367",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 71781.06135559082,
+            "unit": "ns",
+            "range": "± 240.75384656021575",
+            "bytesAllocated": 168272
           }
         ]
       }
