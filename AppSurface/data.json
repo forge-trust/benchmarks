@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784356232615,
+  "lastUpdated": 1784387475761,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -48438,6 +48438,440 @@
             "unit": "ns",
             "range": "± 1968.0925326553513",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 249710542.72,
+            "unit": "ns",
+            "range": "± 4376740.946552694",
+            "bytesAllocated": 820120
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 259571839.08,
+            "unit": "ns",
+            "range": "± 6867564.865505702",
+            "bytesAllocated": 996168
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1118.954761505127,
+            "unit": "ns",
+            "range": "± 4.439146316195629",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1303.5866802760534,
+            "unit": "ns",
+            "range": "± 2.423581130979794",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1125.0471867152623,
+            "unit": "ns",
+            "range": "± 4.105391582581381",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10298.168888636998,
+            "unit": "ns",
+            "range": "± 48.168393335006435",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11901.565860748291,
+            "unit": "ns",
+            "range": "± 23.276604026565543",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9946.209629058838,
+            "unit": "ns",
+            "range": "± 31.178960793888827",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 100170.84146554129,
+            "unit": "ns",
+            "range": "± 284.1370924530398",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 114245.07875279018,
+            "unit": "ns",
+            "range": "± 418.873302966357",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 96783.51311383929,
+            "unit": "ns",
+            "range": "± 82.04273500154346",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 117.9860385209322,
+            "unit": "ns",
+            "range": "± 0.9631087212146471",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 124.84626388549805,
+            "unit": "ns",
+            "range": "± 1.4941313492724897",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1150.1470439434052,
+            "unit": "ns",
+            "range": "± 15.218121985462508",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1103.5269396645683,
+            "unit": "ns",
+            "range": "± 3.80110636124616",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10942.80069732666,
+            "unit": "ns",
+            "range": "± 53.50211323179918",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11324.269352504185,
+            "unit": "ns",
+            "range": "± 31.173389983312397",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.292994855592648,
+            "unit": "ns",
+            "range": "± 0.007097326899083571",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1129.1381258964539,
+            "unit": "ns",
+            "range": "± 5.404852360796669",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.71977719664574,
+            "unit": "ns",
+            "range": "± 0.047844239521389505",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10066.52611732483,
+            "unit": "ns",
+            "range": "± 39.54410801972511",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.1715021133423,
+            "unit": "ns",
+            "range": "± 0.7442160270282635",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97836.58013916016,
+            "unit": "ns",
+            "range": "± 789.2517580106398",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 106.27441093325615,
+            "unit": "ns",
+            "range": "± 0.7152182590724246",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 127.53517192602158,
+            "unit": "ns",
+            "range": "± 2.3203769637017246",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1014.9383273124695,
+            "unit": "ns",
+            "range": "± 6.581679271101578",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1233.2058124542236,
+            "unit": "ns",
+            "range": "± 25.325804686582064",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10065.955599103656,
+            "unit": "ns",
+            "range": "± 46.75295106340641",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11917.409341812134,
+            "unit": "ns",
+            "range": "± 174.8895046846139",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1532.1342296600342,
+            "unit": "ns",
+            "range": "± 4.252001673194194",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13290.263168334961,
+            "unit": "ns",
+            "range": "± 61.76341524560612",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 132496.03359985352,
+            "unit": "ns",
+            "range": "± 1354.0817021711202",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b5263dcef78e15f60e3134274a7ba7591967b9a2",
+          "message": "perf(web): make health probes opt-in (#667)",
+          "timestamp": "2026-07-18T14:49:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b5263dcef78e15f60e3134274a7ba7591967b9a2"
+        },
+        "date": 1784387475761,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 412290063.75,
+            "unit": "ns",
+            "range": "± 6517353.845945086",
+            "bytesAllocated": 2640592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 291604970.26,
+            "unit": "ns",
+            "range": "± 5844848.3485757625",
+            "bytesAllocated": 1192336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 280568992.06,
+            "unit": "ns",
+            "range": "± 4806420.48531195",
+            "bytesAllocated": 1266296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 416504037.62,
+            "unit": "ns",
+            "range": "± 7320757.0395156825",
+            "bytesAllocated": 2624152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 288478540.52,
+            "unit": "ns",
+            "range": "± 4050828.634625211",
+            "bytesAllocated": 1202208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 283584653.3,
+            "unit": "ns",
+            "range": "± 6574012.787097095",
+            "bytesAllocated": 1309752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 549622712.19,
+            "unit": "ns",
+            "range": "± 21485079.074076053",
+            "bytesAllocated": 4736816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 436035037.67,
+            "unit": "ns",
+            "range": "± 11286959.960709762",
+            "bytesAllocated": 3252904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 422573751.26,
+            "unit": "ns",
+            "range": "± 10047724.5601478",
+            "bytesAllocated": 3388992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 361538384.09,
+            "unit": "ns",
+            "range": "± 7057634.270924213",
+            "bytesAllocated": 2213632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 254525003.99,
+            "unit": "ns",
+            "range": "± 6592073.639311323",
+            "bytesAllocated": 807848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 277342565.5,
+            "unit": "ns",
+            "range": "± 5953432.047332418",
+            "bytesAllocated": 1415904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 237294190.84,
+            "unit": "ns",
+            "range": "± 4214012.0571138775",
+            "bytesAllocated": 863768
           }
         ]
       }
