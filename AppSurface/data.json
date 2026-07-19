@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784432959018,
+  "lastUpdated": 1784480955979,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -49306,6 +49306,440 @@
             "unit": "ns",
             "range": "± 1910.2030357526794",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1141.1961402893066,
+            "unit": "ns",
+            "range": "± 4.403728786285201",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1291.462886095047,
+            "unit": "ns",
+            "range": "± 7.617367963996253",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1118.272628545761,
+            "unit": "ns",
+            "range": "± 4.477077474314492",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10127.869663238525,
+            "unit": "ns",
+            "range": "± 61.05351819766496",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11419.954912185669,
+            "unit": "ns",
+            "range": "± 56.00100741746055",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9876.262474060059,
+            "unit": "ns",
+            "range": "± 69.4539152693043",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97556.9341583252,
+            "unit": "ns",
+            "range": "± 668.0352886889923",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111211.20629882812,
+            "unit": "ns",
+            "range": "± 138.09034718687744",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95270.68270874023,
+            "unit": "ns",
+            "range": "± 433.3273702648693",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2965173785175597,
+            "unit": "ns",
+            "range": "± 0.01480016711795504",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1123.357040643692,
+            "unit": "ns",
+            "range": "± 5.531514988067166",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.69475236109325,
+            "unit": "ns",
+            "range": "± 0.0229660341038075",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9848.809612819126,
+            "unit": "ns",
+            "range": "± 147.42922302904682",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 320.12515694754467,
+            "unit": "ns",
+            "range": "± 2.4318488019358284",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 99157.15132141113,
+            "unit": "ns",
+            "range": "± 774.0713794645103",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 114.42926175892353,
+            "unit": "ns",
+            "range": "± 1.159487286584455",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.41787332296371,
+            "unit": "ns",
+            "range": "± 1.026107097620111",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1095.6164181232452,
+            "unit": "ns",
+            "range": "± 13.512580952206463",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1092.4740915298462,
+            "unit": "ns",
+            "range": "± 12.74418426903677",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10757.2799949646,
+            "unit": "ns",
+            "range": "± 179.2198344864765",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10772.543199811664,
+            "unit": "ns",
+            "range": "± 56.47552041509147",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.66627070307732,
+            "unit": "ns",
+            "range": "± 0.46995689124747303",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 123.20317560434341,
+            "unit": "ns",
+            "range": "± 0.8766471524193038",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 978.1091684613909,
+            "unit": "ns",
+            "range": "± 5.52985237786481",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1160.0215599536896,
+            "unit": "ns",
+            "range": "± 6.2564297877207",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9707.635974884033,
+            "unit": "ns",
+            "range": "± 89.75842585201953",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11542.887825012207,
+            "unit": "ns",
+            "range": "± 91.30086132462053",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1484.247873544693,
+            "unit": "ns",
+            "range": "± 10.389501970099333",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13092.375648498535,
+            "unit": "ns",
+            "range": "± 96.63703117503151",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 130837.46923828125,
+            "unit": "ns",
+            "range": "± 1107.9000372190203",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 235863139.73,
+            "unit": "ns",
+            "range": "± 4804449.925886784",
+            "bytesAllocated": 807136
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 253693799.18,
+            "unit": "ns",
+            "range": "± 4923432.968133912",
+            "bytesAllocated": 979984
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "e95973ee81331d7f2640fdd501657caa72e1faf8",
+          "message": "feat(web): enrich named canary evidence envelope (#666)",
+          "timestamp": "2026-07-19T16:48:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/e95973ee81331d7f2640fdd501657caa72e1faf8"
+        },
+        "date": 1784480955979,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 391748945.57,
+            "unit": "ns",
+            "range": "± 4615349.293509333",
+            "bytesAllocated": 2641536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 280030504.42,
+            "unit": "ns",
+            "range": "± 5799750.511530508",
+            "bytesAllocated": 1218352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267216733.16,
+            "unit": "ns",
+            "range": "± 3930322.066737356",
+            "bytesAllocated": 1284336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 392303973.32,
+            "unit": "ns",
+            "range": "± 4191856.9635594287",
+            "bytesAllocated": 2647808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 285219747.96,
+            "unit": "ns",
+            "range": "± 5444416.695470703",
+            "bytesAllocated": 1186208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 268281161.75,
+            "unit": "ns",
+            "range": "± 5605847.896255652",
+            "bytesAllocated": 1304664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 523722393.58,
+            "unit": "ns",
+            "range": "± 8924415.31329693",
+            "bytesAllocated": 4721776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 415826255.98,
+            "unit": "ns",
+            "range": "± 10578671.109180031",
+            "bytesAllocated": 3251784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 399490646.78,
+            "unit": "ns",
+            "range": "± 7846557.802818235",
+            "bytesAllocated": 3369032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 345278300.69,
+            "unit": "ns",
+            "range": "± 6580231.79537102",
+            "bytesAllocated": 2210728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 236584048.17,
+            "unit": "ns",
+            "range": "± 4871975.851655888",
+            "bytesAllocated": 789712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 263650943.58,
+            "unit": "ns",
+            "range": "± 5584672.179850245",
+            "bytesAllocated": 1417280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 223140495.78,
+            "unit": "ns",
+            "range": "± 4509598.380724841",
+            "bytesAllocated": 955584
           }
         ]
       }
