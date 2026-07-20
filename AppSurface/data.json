@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784480955979,
+  "lastUpdated": 1784515943259,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -49740,6 +49740,440 @@
             "unit": "ns",
             "range": "± 4509598.380724841",
             "bytesAllocated": 955584
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 214496067.11,
+            "unit": "ns",
+            "range": "± 1928304.0027041286",
+            "bytesAllocated": 850888
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 226920482.68,
+            "unit": "ns",
+            "range": "± 1728034.7012785375",
+            "bytesAllocated": 981200
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1027.1587100028992,
+            "unit": "ns",
+            "range": "± 1.2900727169365571",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1203.789547920227,
+            "unit": "ns",
+            "range": "± 5.596750366076232",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1060.0975834982735,
+            "unit": "ns",
+            "range": "± 1.1488927762524954",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9467.626916885376,
+            "unit": "ns",
+            "range": "± 15.46676080009304",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10690.258670806885,
+            "unit": "ns",
+            "range": "± 17.905385460973218",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9888.657522201538,
+            "unit": "ns",
+            "range": "± 19.31859885815316",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93126.3289642334,
+            "unit": "ns",
+            "range": "± 137.23095426751635",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 105638.44439697266,
+            "unit": "ns",
+            "range": "± 170.62090986525592",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91417.74101911273,
+            "unit": "ns",
+            "range": "± 88.25453677289691",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 370425522.66,
+            "unit": "ns",
+            "range": "± 3735319.3444423913",
+            "bytesAllocated": 2642680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 263392365.9,
+            "unit": "ns",
+            "range": "± 2828632.319285541",
+            "bytesAllocated": 1191920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 251713613.12,
+            "unit": "ns",
+            "range": "± 2454639.302782919",
+            "bytesAllocated": 1284824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 368303901.72,
+            "unit": "ns",
+            "range": "± 4304029.75496544",
+            "bytesAllocated": 2629984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 261957522.02,
+            "unit": "ns",
+            "range": "± 2476558.6210762286",
+            "bytesAllocated": 1204232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250961561.67,
+            "unit": "ns",
+            "range": "± 2491617.1527939504",
+            "bytesAllocated": 1310808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 484953161.26,
+            "unit": "ns",
+            "range": "± 4048796.195200354",
+            "bytesAllocated": 4734424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 385674218.58,
+            "unit": "ns",
+            "range": "± 5509287.880095402",
+            "bytesAllocated": 3274368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 375033106.13,
+            "unit": "ns",
+            "range": "± 4745007.287735819",
+            "bytesAllocated": 3365504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 320752438.16,
+            "unit": "ns",
+            "range": "± 5201177.806974927",
+            "bytesAllocated": 2210240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 216190987.42,
+            "unit": "ns",
+            "range": "± 1470009.0368587766",
+            "bytesAllocated": 821424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 234199631.05,
+            "unit": "ns",
+            "range": "± 1386040.4497137575",
+            "bytesAllocated": 1409304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202557139.62,
+            "unit": "ns",
+            "range": "± 2053399.5139525149",
+            "bytesAllocated": 854600
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2333405409008265,
+            "unit": "ns",
+            "range": "± 0.003139664902507051",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1044.0624120235443,
+            "unit": "ns",
+            "range": "± 2.4970663515364078",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.58121973276138,
+            "unit": "ns",
+            "range": "± 0.03053190042440514",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9407.896293640137,
+            "unit": "ns",
+            "range": "± 37.31872358586693",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.9692345261574,
+            "unit": "ns",
+            "range": "± 0.2046977288948726",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91512.41700744629,
+            "unit": "ns",
+            "range": "± 185.13235350269517",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.5205217897892,
+            "unit": "ns",
+            "range": "± 1.2319530177503566",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 131.28988429903984,
+            "unit": "ns",
+            "range": "± 3.119900230341358",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1121.6893463134766,
+            "unit": "ns",
+            "range": "± 19.623795690393326",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1072.9156289100647,
+            "unit": "ns",
+            "range": "± 13.102075754051938",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10528.843278884888,
+            "unit": "ns",
+            "range": "± 141.71969120465218",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10613.04971749442,
+            "unit": "ns",
+            "range": "± 35.45667561628997",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.53398904204369,
+            "unit": "ns",
+            "range": "± 1.7272049167781234",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.15393981337547,
+            "unit": "ns",
+            "range": "± 1.2962123157967538",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 983.1788120269775,
+            "unit": "ns",
+            "range": "± 9.693658455655926",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1214.5198066234589,
+            "unit": "ns",
+            "range": "± 14.078506103359247",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10421.923649379185,
+            "unit": "ns",
+            "range": "± 101.89051685912894",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11767.248767852783,
+            "unit": "ns",
+            "range": "± 156.83162360429733",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7646543a0043c293731bf4b8126fc144005576cd",
+          "message": "chore(razorwire): upgrade bundled Turbo to 8.0.23 (#673)",
+          "timestamp": "2026-07-20T02:32:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7646543a0043c293731bf4b8126fc144005576cd"
+        },
+        "date": 1784515943259,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1405.8109238147736,
+            "unit": "ns",
+            "range": "± 6.442657115975631",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12558.092380523682,
+            "unit": "ns",
+            "range": "± 42.8732511924717",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122535.2380719866,
+            "unit": "ns",
+            "range": "± 472.95686695827",
+            "bytesAllocated": 232376
           }
         ]
       }
