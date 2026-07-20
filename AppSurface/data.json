@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784515943259,
+  "lastUpdated": 1784523965781,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -50173,6 +50173,440 @@
             "value": 122535.2380719866,
             "unit": "ns",
             "range": "± 472.95686695827",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 167133447.4,
+            "unit": "ns",
+            "range": "± 1782211.7136891764",
+            "bytesAllocated": 805896
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 176400555.01,
+            "unit": "ns",
+            "range": "± 997806.3330158693",
+            "bytesAllocated": 911832
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 817.1778116226196,
+            "unit": "ns",
+            "range": "± 0.8146590980832084",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 916.1620975732803,
+            "unit": "ns",
+            "range": "± 1.056724095511311",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 798.8255439485822,
+            "unit": "ns",
+            "range": "± 1.3441265947467194",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7316.255579630534,
+            "unit": "ns",
+            "range": "± 1.2921991908384176",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 7999.49761390686,
+            "unit": "ns",
+            "range": "± 11.791994810938826",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7175.6642161778045,
+            "unit": "ns",
+            "range": "± 6.698994759597801",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 71137.3754119873,
+            "unit": "ns",
+            "range": "± 115.73034709850722",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 79723.16529846191,
+            "unit": "ns",
+            "range": "± 174.47332987087498",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 71891.28806849888,
+            "unit": "ns",
+            "range": "± 41.343200453742845",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 286482454.67,
+            "unit": "ns",
+            "range": "± 2839652.248141336",
+            "bytesAllocated": 2641536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 201868588.45,
+            "unit": "ns",
+            "range": "± 2121123.3529862952",
+            "bytesAllocated": 1189336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 192215097.36,
+            "unit": "ns",
+            "range": "± 1059263.1876933004",
+            "bytesAllocated": 1287120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 287007532.57,
+            "unit": "ns",
+            "range": "± 3033757.9725021026",
+            "bytesAllocated": 2671528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 202331666.65,
+            "unit": "ns",
+            "range": "± 2145373.222946192",
+            "bytesAllocated": 1202968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 192726163.72,
+            "unit": "ns",
+            "range": "± 1025710.3671276374",
+            "bytesAllocated": 1367528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 375702177.41,
+            "unit": "ns",
+            "range": "± 3493013.721064353",
+            "bytesAllocated": 4735392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 297592788.6,
+            "unit": "ns",
+            "range": "± 5310998.353953011",
+            "bytesAllocated": 3276760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 292166626.79,
+            "unit": "ns",
+            "range": "± 4478842.175532774",
+            "bytesAllocated": 3367728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 249197878.58,
+            "unit": "ns",
+            "range": "± 3071717.2617873945",
+            "bytesAllocated": 2200240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 167443606.96,
+            "unit": "ns",
+            "range": "± 930745.4040911653",
+            "bytesAllocated": 787656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 181768158.72,
+            "unit": "ns",
+            "range": "± 1036259.1194090139",
+            "bytesAllocated": 1418224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 156418089.85,
+            "unit": "ns",
+            "range": "± 1216306.6535635313",
+            "bytesAllocated": 856560
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.5253486250128065,
+            "unit": "ns",
+            "range": "± 0.0016024398451943045",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 824.5344559805734,
+            "unit": "ns",
+            "range": "± 3.849505163928308",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.37435076917921,
+            "unit": "ns",
+            "range": "± 0.014902960852039515",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7208.237798418318,
+            "unit": "ns",
+            "range": "± 9.096181579211342",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.5284035205841,
+            "unit": "ns",
+            "range": "± 0.10554770795010139",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 72139.66966029575,
+            "unit": "ns",
+            "range": "± 38.648317366757595",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.19149971859795,
+            "unit": "ns",
+            "range": "± 0.5997202781732706",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 92.09719004801342,
+            "unit": "ns",
+            "range": "± 1.5648514415997559",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 824.6118963956833,
+            "unit": "ns",
+            "range": "± 0.674576272354623",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 843.5490748882294,
+            "unit": "ns",
+            "range": "± 11.892125988631687",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8448.697272164482,
+            "unit": "ns",
+            "range": "± 38.384483962473844",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8333.17367553711,
+            "unit": "ns",
+            "range": "± 79.93316411517658",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 80.3366377800703,
+            "unit": "ns",
+            "range": "± 1.0114956770803263",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 99.76343838870525,
+            "unit": "ns",
+            "range": "± 1.1690598707584599",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 753.3052409887314,
+            "unit": "ns",
+            "range": "± 6.459922431023051",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 915.1562064886093,
+            "unit": "ns",
+            "range": "± 15.132091655699586",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7540.83264541626,
+            "unit": "ns",
+            "range": "± 130.21304778367806",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8839.797874450684,
+            "unit": "ns",
+            "range": "± 92.41221956928736",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ce967af0f26e3b5ddc5435c6390ac680df097055",
+          "message": "fix(auth): make DevAuth startup proof deterministic (#676)",
+          "timestamp": "2026-07-20T04:49:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ce967af0f26e3b5ddc5435c6390ac680df097055"
+        },
+        "date": 1784523965781,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1087.1530501842499,
+            "unit": "ns",
+            "range": "± 5.210175718936044",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9569.200249808175,
+            "unit": "ns",
+            "range": "± 51.57687402099922",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 91947.68801879883,
+            "unit": "ns",
+            "range": "± 403.2258929718309",
             "bytesAllocated": 232376
           }
         ]
