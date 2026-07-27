@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1784952508803,
+  "lastUpdated": 1785128802473,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -51476,6 +51476,440 @@
             "unit": "ns",
             "range": "± 5338641.362231724",
             "bytesAllocated": 944968
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 235294709.51,
+            "unit": "ns",
+            "range": "± 4801576.846690147",
+            "bytesAllocated": 823312
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 247792787.99,
+            "unit": "ns",
+            "range": "± 4705242.345627255",
+            "bytesAllocated": 899472
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1116.645964384079,
+            "unit": "ns",
+            "range": "± 9.008417387384682",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1264.9944177355085,
+            "unit": "ns",
+            "range": "± 7.311570535518326",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1102.5144262313843,
+            "unit": "ns",
+            "range": "± 6.146457483227548",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10018.864612579346,
+            "unit": "ns",
+            "range": "± 84.97941870296583",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11445.199039459229,
+            "unit": "ns",
+            "range": "± 90.22660915356806",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9575.052949905396,
+            "unit": "ns",
+            "range": "± 104.95599678623282",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97322.33686828613,
+            "unit": "ns",
+            "range": "± 758.023045143991",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 116350.76977539062,
+            "unit": "ns",
+            "range": "± 621.2228462089975",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95866.47373962402,
+            "unit": "ns",
+            "range": "± 564.7784164950342",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 401795615.32,
+            "unit": "ns",
+            "range": "± 97934153.47682363",
+            "bytesAllocated": 2667360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 278901619.71,
+            "unit": "ns",
+            "range": "± 6256681.33017123",
+            "bytesAllocated": 1293016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267489609.51,
+            "unit": "ns",
+            "range": "± 3897502.3023331007",
+            "bytesAllocated": 1284304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 393310206.38,
+            "unit": "ns",
+            "range": "± 5595982.635612834",
+            "bytesAllocated": 2641472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 278702887.47,
+            "unit": "ns",
+            "range": "± 3966450.2476961184",
+            "bytesAllocated": 1203728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 266075116.38,
+            "unit": "ns",
+            "range": "± 4275810.745231598",
+            "bytesAllocated": 1292936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 519241063.71,
+            "unit": "ns",
+            "range": "± 7787157.583402285",
+            "bytesAllocated": 4741928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 409458717.74,
+            "unit": "ns",
+            "range": "± 7051231.031686752",
+            "bytesAllocated": 3248784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 396927437.86,
+            "unit": "ns",
+            "range": "± 8849654.95954263",
+            "bytesAllocated": 3366504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 344138222.81,
+            "unit": "ns",
+            "range": "± 9797482.756989483",
+            "bytesAllocated": 2194672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 232900244.98,
+            "unit": "ns",
+            "range": "± 4314342.659804864",
+            "bytesAllocated": 804584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 253736531.15,
+            "unit": "ns",
+            "range": "± 5908827.210215756",
+            "bytesAllocated": 1417064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 220571227.41,
+            "unit": "ns",
+            "range": "± 5090155.52932799",
+            "bytesAllocated": 860384
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2947490800704275,
+            "unit": "ns",
+            "range": "± 0.005963165743527917",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1095.7136240005493,
+            "unit": "ns",
+            "range": "± 13.705618892429268",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.649678871035576,
+            "unit": "ns",
+            "range": "± 0.031866830182590594",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9772.663291931152,
+            "unit": "ns",
+            "range": "± 50.43336852711939",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.43670749664307,
+            "unit": "ns",
+            "range": "± 0.18942834170278444",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95371.66232299805,
+            "unit": "ns",
+            "range": "± 773.6554772433444",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.03102667629719,
+            "unit": "ns",
+            "range": "± 1.0577505860442549",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 116.71985468268394,
+            "unit": "ns",
+            "range": "± 1.4735020440701665",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1091.5035178661346,
+            "unit": "ns",
+            "range": "± 12.865667351963431",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1157.770647764206,
+            "unit": "ns",
+            "range": "± 13.06877171091479",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10249.293474197388,
+            "unit": "ns",
+            "range": "± 140.5631014010374",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10675.967109680176,
+            "unit": "ns",
+            "range": "± 53.57926499934169",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1440.2619907855988,
+            "unit": "ns",
+            "range": "± 4.934512699281772",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13062.378652572632,
+            "unit": "ns",
+            "range": "± 89.12490814712042",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 129995.603515625,
+            "unit": "ns",
+            "range": "± 1217.9156132649148",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b3d4ad85ee81711abc22977e9f91257d2b8fefaa",
+          "message": "fix(aspire): dispose partial providers after failed builds (#684)",
+          "timestamp": "2026-07-27T04:45:41Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b3d4ad85ee81711abc22977e9f91257d2b8fefaa"
+        },
+        "date": 1785128802473,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.42404754459858,
+            "unit": "ns",
+            "range": "± 1.1623910089379317",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.29693022370338,
+            "unit": "ns",
+            "range": "± 0.6455569602750855",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 973.8120970726013,
+            "unit": "ns",
+            "range": "± 7.623549459807761",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1147.066073008946,
+            "unit": "ns",
+            "range": "± 5.635002674534648",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9667.995281219482,
+            "unit": "ns",
+            "range": "± 87.7621864177858",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12323.539679391044,
+            "unit": "ns",
+            "range": "± 62.763488796295675",
+            "bytesAllocated": 40024
           }
         ]
       }
