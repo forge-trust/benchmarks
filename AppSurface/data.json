@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785128830688,
+  "lastUpdated": 1785131349488,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -52344,6 +52344,440 @@
             "unit": "ns",
             "range": "± 562.8641560532784",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1153.6796782016754,
+            "unit": "ns",
+            "range": "± 2.6879528061326297",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1336.1916875839233,
+            "unit": "ns",
+            "range": "± 4.169545598635833",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1105.77037191391,
+            "unit": "ns",
+            "range": "± 1.9248476279143605",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10210.345308303833,
+            "unit": "ns",
+            "range": "± 29.679497200048065",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11584.53332901001,
+            "unit": "ns",
+            "range": "± 26.17387467422566",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9846.581588745117,
+            "unit": "ns",
+            "range": "± 23.07003394359022",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 99738.90458679199,
+            "unit": "ns",
+            "range": "± 195.043762020389",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 116254.64835902622,
+            "unit": "ns",
+            "range": "± 283.33783075177996",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 97320.33290100098,
+            "unit": "ns",
+            "range": "± 502.52776915044524",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2672912222998485,
+            "unit": "ns",
+            "range": "± 0.009428746642433036",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1131.5462100505829,
+            "unit": "ns",
+            "range": "± 4.346629459107537",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.38604216277599,
+            "unit": "ns",
+            "range": "± 0.035433080517267755",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9948.719411849976,
+            "unit": "ns",
+            "range": "± 14.98220606860701",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.9753134250641,
+            "unit": "ns",
+            "range": "± 0.2506940644510568",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97325.99192810059,
+            "unit": "ns",
+            "range": "± 324.6959116315068",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 414473163.68,
+            "unit": "ns",
+            "range": "± 105430519.1246063",
+            "bytesAllocated": 2641616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 289730693.23,
+            "unit": "ns",
+            "range": "± 13662402.119432606",
+            "bytesAllocated": 1291008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 274572147.98,
+            "unit": "ns",
+            "range": "± 3415288.2389142774",
+            "bytesAllocated": 1288064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 405004018.87,
+            "unit": "ns",
+            "range": "± 5793993.897014676",
+            "bytesAllocated": 2631336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 287407172.86,
+            "unit": "ns",
+            "range": "± 4030393.83027491",
+            "bytesAllocated": 1203024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 277195028.96,
+            "unit": "ns",
+            "range": "± 4561925.841568119",
+            "bytesAllocated": 1408216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 537781657.68,
+            "unit": "ns",
+            "range": "± 8894483.450940661",
+            "bytesAllocated": 4711784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 425726151.71,
+            "unit": "ns",
+            "range": "± 6042172.377154739",
+            "bytesAllocated": 3252112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 416110257.51,
+            "unit": "ns",
+            "range": "± 7939638.506707088",
+            "bytesAllocated": 3364224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 354453940.98,
+            "unit": "ns",
+            "range": "± 8026249.661665676",
+            "bytesAllocated": 2210704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 240638353.29,
+            "unit": "ns",
+            "range": "± 3274174.8014932554",
+            "bytesAllocated": 809592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 262217830.71,
+            "unit": "ns",
+            "range": "± 6855939.846896565",
+            "bytesAllocated": 1396944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 225811608.93,
+            "unit": "ns",
+            "range": "± 3004636.48280985",
+            "bytesAllocated": 844040
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 115.27875156913485,
+            "unit": "ns",
+            "range": "± 0.562241967092153",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.64291962981224,
+            "unit": "ns",
+            "range": "± 0.6462919881156269",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1130.4358850206647,
+            "unit": "ns",
+            "range": "± 5.434976882154578",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1099.7154996054512,
+            "unit": "ns",
+            "range": "± 2.612998118138657",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10716.073907034737,
+            "unit": "ns",
+            "range": "± 45.28750673155364",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11064.258028030396,
+            "unit": "ns",
+            "range": "± 42.66667260507175",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.6426010131836,
+            "unit": "ns",
+            "range": "± 0.4942475037410073",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 125.59883791208267,
+            "unit": "ns",
+            "range": "± 0.6730065676945313",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1003.6596846580505,
+            "unit": "ns",
+            "range": "± 4.9165943058182195",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1206.5904941558838,
+            "unit": "ns",
+            "range": "± 3.957608525611563",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9906.624975204468,
+            "unit": "ns",
+            "range": "± 35.537951475594056",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11904.046203613281,
+            "unit": "ns",
+            "range": "± 58.67511057123653",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1487.4882957935333,
+            "unit": "ns",
+            "range": "± 5.422807135801919",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13393.301090240479,
+            "unit": "ns",
+            "range": "± 44.79970768482562",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 135688.5805053711,
+            "unit": "ns",
+            "range": "± 220.70779448202873",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cb61d646a6e67c210a7404ff40088f502f50812d",
+          "message": "feat(config): add declared secret promotion (#634)",
+          "timestamp": "2026-07-27T05:27:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cb61d646a6e67c210a7404ff40088f502f50812d"
+        },
+        "date": 1785131349488,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 239280078.8,
+            "unit": "ns",
+            "range": "± 4017597.312525321",
+            "bytesAllocated": 803224
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 252126820.08,
+            "unit": "ns",
+            "range": "± 2963568.0383062717",
+            "bytesAllocated": 900288
           }
         ]
       }
