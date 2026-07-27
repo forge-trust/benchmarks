@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785128802473,
+  "lastUpdated": 1785128830688,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -51910,6 +51910,440 @@
             "unit": "ns",
             "range": "± 62.763488796295675",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225925148.42,
+            "unit": "ns",
+            "range": "± 2277852.1163486186",
+            "bytesAllocated": 837328
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 238937194.38,
+            "unit": "ns",
+            "range": "± 2849741.0902306484",
+            "bytesAllocated": 1013472
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1147.1692943572998,
+            "unit": "ns",
+            "range": "± 3.6463422663264793",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1306.0668754577637,
+            "unit": "ns",
+            "range": "± 6.812982913781306",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1108.592918395996,
+            "unit": "ns",
+            "range": "± 2.171341168353046",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9863.270975112915,
+            "unit": "ns",
+            "range": "± 34.75921977503883",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11460.117050170898,
+            "unit": "ns",
+            "range": "± 97.11648429087549",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9869.499008178711,
+            "unit": "ns",
+            "range": "± 35.448736225561454",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98421.79666137695,
+            "unit": "ns",
+            "range": "± 475.00687875278834",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 114316.23634556362,
+            "unit": "ns",
+            "range": "± 810.524457741406",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 97033.70776367188,
+            "unit": "ns",
+            "range": "± 634.055858604909",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2904174476861954,
+            "unit": "ns",
+            "range": "± 0.006449666197096034",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1126.5088720321655,
+            "unit": "ns",
+            "range": "± 14.512369648149107",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.69892483204603,
+            "unit": "ns",
+            "range": "± 0.038153593682715876",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9966.136701311383,
+            "unit": "ns",
+            "range": "± 48.298452501472546",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.508900642395,
+            "unit": "ns",
+            "range": "± 0.21231198215257152",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 98051.6441192627,
+            "unit": "ns",
+            "range": "± 521.7987752173439",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.67299945652485,
+            "unit": "ns",
+            "range": "± 1.0428204056053907",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.96968697011471,
+            "unit": "ns",
+            "range": "± 1.2469394415086608",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1067.93869638443,
+            "unit": "ns",
+            "range": "± 9.549822336591577",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1031.6126520633698,
+            "unit": "ns",
+            "range": "± 5.619925508959168",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10168.145713806152,
+            "unit": "ns",
+            "range": "± 136.88337723112488",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10428.132152012417,
+            "unit": "ns",
+            "range": "± 27.021751685640012",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 394642796.03,
+            "unit": "ns",
+            "range": "± 76507967.95404845",
+            "bytesAllocated": 2665016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 273881393.38,
+            "unit": "ns",
+            "range": "± 7343116.095434688",
+            "bytesAllocated": 1193784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261668412.83,
+            "unit": "ns",
+            "range": "± 4398309.0286160335",
+            "bytesAllocated": 1290024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 385224555.67,
+            "unit": "ns",
+            "range": "± 4410831.446965302",
+            "bytesAllocated": 2643368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 272383714.76,
+            "unit": "ns",
+            "range": "± 3237931.8293925268",
+            "bytesAllocated": 1203744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262346518.22,
+            "unit": "ns",
+            "range": "± 3593693.3372932854",
+            "bytesAllocated": 1410888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 509906749.8,
+            "unit": "ns",
+            "range": "± 6809532.228031917",
+            "bytesAllocated": 4713008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 400807287.18,
+            "unit": "ns",
+            "range": "± 6215481.317927029",
+            "bytesAllocated": 3274520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 394076474.59,
+            "unit": "ns",
+            "range": "± 7845103.205424716",
+            "bytesAllocated": 3373040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 336773032.55,
+            "unit": "ns",
+            "range": "± 7151707.48956518",
+            "bytesAllocated": 2212168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 227644461.34,
+            "unit": "ns",
+            "range": "± 2442641.913331676",
+            "bytesAllocated": 800888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 248276679.65,
+            "unit": "ns",
+            "range": "± 5781698.330537911",
+            "bytesAllocated": 1417264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212720354.08,
+            "unit": "ns",
+            "range": "± 1936022.8312863444",
+            "bytesAllocated": 857144
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.3862185222762,
+            "unit": "ns",
+            "range": "± 0.46332958429007687",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 118.20308712550572,
+            "unit": "ns",
+            "range": "± 0.5869483649026112",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 955.3599910736084,
+            "unit": "ns",
+            "range": "± 6.802234691643444",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1139.7526576519012,
+            "unit": "ns",
+            "range": "± 19.813000833163574",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9489.551355361938,
+            "unit": "ns",
+            "range": "± 76.27449342206874",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11194.78911781311,
+            "unit": "ns",
+            "range": "± 125.93232004349896",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f863f9bfe74f57d3ea4678a1df6ba541de671970",
+          "message": "fix(security): upgrade AngleSharp sanitizer graph (#690)",
+          "timestamp": "2026-07-27T04:46:33Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f863f9bfe74f57d3ea4678a1df6ba541de671970"
+        },
+        "date": 1785128830688,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1434.3633077144623,
+            "unit": "ns",
+            "range": "± 5.947694971118784",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12702.556011199951,
+            "unit": "ns",
+            "range": "± 87.64480676822045",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 128584.49963378906,
+            "unit": "ns",
+            "range": "± 562.8641560532784",
+            "bytesAllocated": 232376
           }
         ]
       }
