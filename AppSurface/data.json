@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785131349488,
+  "lastUpdated": 1785212050039,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -52778,6 +52778,440 @@
             "unit": "ns",
             "range": "± 2963568.0383062717",
             "bytesAllocated": 900288
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1047.0275893211365,
+            "unit": "ns",
+            "range": "± 3.9592252775905123",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1225.974375963211,
+            "unit": "ns",
+            "range": "± 2.5304843518287288",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1064.1803624289375,
+            "unit": "ns",
+            "range": "± 1.7433806883844358",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9282.113080978394,
+            "unit": "ns",
+            "range": "± 8.724773760463275",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10945.861428397042,
+            "unit": "ns",
+            "range": "± 81.42848554219363",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9521.418424606323,
+            "unit": "ns",
+            "range": "± 15.695376992327187",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92315.38108825684,
+            "unit": "ns",
+            "range": "± 215.89735782980554",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 105669.63890075684,
+            "unit": "ns",
+            "range": "± 103.66530789621108",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93610.55601501465,
+            "unit": "ns",
+            "range": "± 251.5328862438926",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2377496095640317,
+            "unit": "ns",
+            "range": "± 0.007437912237563186",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1068.4146835803986,
+            "unit": "ns",
+            "range": "± 1.71686289410569",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.57768807240895,
+            "unit": "ns",
+            "range": "± 0.026005913820916483",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9433.562992095947,
+            "unit": "ns",
+            "range": "± 15.769442069330099",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.88042729241505,
+            "unit": "ns",
+            "range": "± 0.0910176604435778",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91362.53004455566,
+            "unit": "ns",
+            "range": "± 125.7686555579729",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 126.02206405997276,
+            "unit": "ns",
+            "range": "± 0.8036426907710246",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 123.16306680440903,
+            "unit": "ns",
+            "range": "± 1.4465566011658229",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1073.1981625556946,
+            "unit": "ns",
+            "range": "± 28.387539277515312",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1119.6493404933385,
+            "unit": "ns",
+            "range": "± 2.1223638721066984",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10804.121015548706,
+            "unit": "ns",
+            "range": "± 204.92926869879582",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10660.286727905273,
+            "unit": "ns",
+            "range": "± 24.79315125700196",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.44426321983337,
+            "unit": "ns",
+            "range": "± 1.9000471700009003",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.34683309282575,
+            "unit": "ns",
+            "range": "± 0.25905424023358653",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1004.3827216625214,
+            "unit": "ns",
+            "range": "± 14.599641333652418",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1177.6289854049683,
+            "unit": "ns",
+            "range": "± 14.78429072031412",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9663.62141418457,
+            "unit": "ns",
+            "range": "± 26.22842275973084",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11922.488534109933,
+            "unit": "ns",
+            "range": "± 170.16535023709548",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1426.8368837833405,
+            "unit": "ns",
+            "range": "± 9.79435430306653",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12562.229130336216,
+            "unit": "ns",
+            "range": "± 23.955089536010025",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 139929.6941833496,
+            "unit": "ns",
+            "range": "± 361.50270023608795",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 220175728.81,
+            "unit": "ns",
+            "range": "± 1354107.550946511",
+            "bytesAllocated": 827384
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 232988868.87,
+            "unit": "ns",
+            "range": "± 1330830.1917606806",
+            "bytesAllocated": 992864
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b434d2489bb657ab33ed6361621b291807558437",
+          "message": "feat(cli): make collector coverage reliable (#680)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>\nCo-authored-by: Copilot Autofix powered by AI <223894421+github-code-quality[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-28T03:54:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b434d2489bb657ab33ed6361621b291807558437"
+        },
+        "date": 1785212050039,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 384940863.3,
+            "unit": "ns",
+            "range": "± 53252526.74804484",
+            "bytesAllocated": 2644304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 271163119.85,
+            "unit": "ns",
+            "range": "± 6430301.900098214",
+            "bytesAllocated": 1274480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 258827001.68,
+            "unit": "ns",
+            "range": "± 2149816.148261703",
+            "bytesAllocated": 1288760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 384190976.12,
+            "unit": "ns",
+            "range": "± 4451818.738992478",
+            "bytesAllocated": 2674248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 268902229.08,
+            "unit": "ns",
+            "range": "± 3439416.8805219275",
+            "bytesAllocated": 1188768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256560964.73,
+            "unit": "ns",
+            "range": "± 2028371.5350786077",
+            "bytesAllocated": 1311240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 495722308.42,
+            "unit": "ns",
+            "range": "± 5237393.433612371",
+            "bytesAllocated": 4719800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 392976782.83,
+            "unit": "ns",
+            "range": "± 5703608.663654391",
+            "bytesAllocated": 3279352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 384066692.45,
+            "unit": "ns",
+            "range": "± 4636802.475068916",
+            "bytesAllocated": 3374272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327484036.66,
+            "unit": "ns",
+            "range": "± 7348047.7943164725",
+            "bytesAllocated": 2204744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 222102804.19,
+            "unit": "ns",
+            "range": "± 2887626.598165467",
+            "bytesAllocated": 822680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241371687.19,
+            "unit": "ns",
+            "range": "± 3657328.4762035264",
+            "bytesAllocated": 1432160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208406118.05,
+            "unit": "ns",
+            "range": "± 2011305.2141102096",
+            "bytesAllocated": 874984
           }
         ]
       }
