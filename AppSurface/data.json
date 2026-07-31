@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785460917598,
+  "lastUpdated": 1785466391731,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -54080,6 +54080,440 @@
             "unit": "ns",
             "range": "± 1754801.0457462522",
             "bytesAllocated": 862584
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 926.793790102005,
+            "unit": "ns",
+            "range": "± 2.9559812305493764",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1088.6212854385376,
+            "unit": "ns",
+            "range": "± 2.69881718157768",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 910.4249275525411,
+            "unit": "ns",
+            "range": "± 0.9840713390423697",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 8440.795080184937,
+            "unit": "ns",
+            "range": "± 17.325296624839005",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 9195.814910888672,
+            "unit": "ns",
+            "range": "± 17.52717991494974",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 8098.767414093018,
+            "unit": "ns",
+            "range": "± 37.31215217571111",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 78691.42869567871,
+            "unit": "ns",
+            "range": "± 275.43255660790896",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 93327.17276000977,
+            "unit": "ns",
+            "range": "± 212.35139951748698",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 77175.45895385742,
+            "unit": "ns",
+            "range": "± 316.9146202853665",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 4.171041649367128,
+            "unit": "ns",
+            "range": "± 0.011119002170145605",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 922.771844455174,
+            "unit": "ns",
+            "range": "± 3.8838744256237927",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.330741345882416,
+            "unit": "ns",
+            "range": "± 0.18902463831468058",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 8125.654944283621,
+            "unit": "ns",
+            "range": "± 20.78065917759893",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 369.7971198899405,
+            "unit": "ns",
+            "range": "± 0.709454009699403",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 79388.21186828613,
+            "unit": "ns",
+            "range": "± 412.8203128712625",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 123.01654270291328,
+            "unit": "ns",
+            "range": "± 1.3622236042258689",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 126.42891189030239,
+            "unit": "ns",
+            "range": "± 1.2948703034080786",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1043.9271426200867,
+            "unit": "ns",
+            "range": "± 3.0318547761379535",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1187.6423771381378,
+            "unit": "ns",
+            "range": "± 10.040555425099726",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10096.292554582868,
+            "unit": "ns",
+            "range": "± 59.422886887054005",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 12426.867290496826,
+            "unit": "ns",
+            "range": "± 106.74414108398955",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.53464320727757,
+            "unit": "ns",
+            "range": "± 0.7983046286727735",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 135.90091320872307,
+            "unit": "ns",
+            "range": "± 1.9624973881904035",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 989.694699048996,
+            "unit": "ns",
+            "range": "± 2.648041235022337",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1324.4865067005157,
+            "unit": "ns",
+            "range": "± 15.048811803190445",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10159.136195591518,
+            "unit": "ns",
+            "range": "± 87.48507801016304",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 13046.688762664795,
+            "unit": "ns",
+            "range": "± 228.96919226734593",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1278.2217049598694,
+            "unit": "ns",
+            "range": "± 7.123917110301001",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 11014.107847213745,
+            "unit": "ns",
+            "range": "± 75.31262795183761",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 108069.88568115234,
+            "unit": "ns",
+            "range": "± 315.76493428214076",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 200350803.31,
+            "unit": "ns",
+            "range": "± 2727823.424317324",
+            "bytesAllocated": 817760
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 212431479.61,
+            "unit": "ns",
+            "range": "± 2279167.9155329172",
+            "bytesAllocated": 899048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bd2a09e6339664ce343a7024db2d6652f101a22f",
+          "message": "feat(durable): add crash-resumable Flow protocol (#693)",
+          "timestamp": "2026-07-31T02:34:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bd2a09e6339664ce343a7024db2d6652f101a22f"
+        },
+        "date": 1785466391731,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 348871716.29,
+            "unit": "ns",
+            "range": "± 39317433.11058961",
+            "bytesAllocated": 2645280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 246165397.42,
+            "unit": "ns",
+            "range": "± 4759077.243734431",
+            "bytesAllocated": 1197808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 234277214.97,
+            "unit": "ns",
+            "range": "± 3157654.029052762",
+            "bytesAllocated": 1348056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 345304363.74,
+            "unit": "ns",
+            "range": "± 5983994.209414268",
+            "bytesAllocated": 2649600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 246678584.57,
+            "unit": "ns",
+            "range": "± 3443790.639185026",
+            "bytesAllocated": 1204784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 238358996.56,
+            "unit": "ns",
+            "range": "± 3178482.2161011216",
+            "bytesAllocated": 1311368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 463627360.14,
+            "unit": "ns",
+            "range": "± 5952219.418399998",
+            "bytesAllocated": 4717472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 372955050.96,
+            "unit": "ns",
+            "range": "± 6555274.876109687",
+            "bytesAllocated": 3253912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 362438644.57,
+            "unit": "ns",
+            "range": "± 6836670.931650705",
+            "bytesAllocated": 3373800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 298914352.38,
+            "unit": "ns",
+            "range": "± 6109656.025912539",
+            "bytesAllocated": 2215256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 205137471.21,
+            "unit": "ns",
+            "range": "± 3436302.0817705817",
+            "bytesAllocated": 820352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 221608516.64,
+            "unit": "ns",
+            "range": "± 3739817.671979609",
+            "bytesAllocated": 1403104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 187138147.21,
+            "unit": "ns",
+            "range": "± 2229971.4779389664",
+            "bytesAllocated": 859496
           }
         ]
       }
