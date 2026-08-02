@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785685374577,
+  "lastUpdated": 1785693203988,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -57986,6 +57986,440 @@
             "unit": "ns",
             "range": "± 186.8041796858548",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1079.4794330596924,
+            "unit": "ns",
+            "range": "± 4.198401957853513",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1265.7227725982666,
+            "unit": "ns",
+            "range": "± 4.756081978177489",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1068.597908258438,
+            "unit": "ns",
+            "range": "± 6.13772238403484",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9618.15186882019,
+            "unit": "ns",
+            "range": "± 36.33016873804077",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11287.910606384277,
+            "unit": "ns",
+            "range": "± 25.9226951228592",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9517.599082946777,
+            "unit": "ns",
+            "range": "± 37.991794501081415",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 96249.93566894531,
+            "unit": "ns",
+            "range": "± 493.8807872100892",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113182.4224395752,
+            "unit": "ns",
+            "range": "± 715.5362420831818",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 96136.75837053571,
+            "unit": "ns",
+            "range": "± 354.7002737854264",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.322345552034676,
+            "unit": "ns",
+            "range": "± 0.034777822824077466",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1106.1404912471771,
+            "unit": "ns",
+            "range": "± 5.752055317152379",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 39.2749225795269,
+            "unit": "ns",
+            "range": "± 0.059250610308521356",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9691.693561008999,
+            "unit": "ns",
+            "range": "± 59.256090270561465",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 320.708565056324,
+            "unit": "ns",
+            "range": "± 1.702037511476906",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93917.9500579834,
+            "unit": "ns",
+            "range": "± 771.881395273549",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 226806790.52,
+            "unit": "ns",
+            "range": "± 3770032.6515003922",
+            "bytesAllocated": 920648
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 239152885.78,
+            "unit": "ns",
+            "range": "± 3935497.8737739758",
+            "bytesAllocated": 1001088
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 388519685.45,
+            "unit": "ns",
+            "range": "± 48777068.141708314",
+            "bytesAllocated": 2625656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 274172168.01,
+            "unit": "ns",
+            "range": "± 5703581.913222646",
+            "bytesAllocated": 1194760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 262074443.18,
+            "unit": "ns",
+            "range": "± 4193063.6115797544",
+            "bytesAllocated": 1271104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 382682812.47,
+            "unit": "ns",
+            "range": "± 4661469.106527788",
+            "bytesAllocated": 2626352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 275715193.5,
+            "unit": "ns",
+            "range": "± 4811198.557489051",
+            "bytesAllocated": 1302840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258552045.85,
+            "unit": "ns",
+            "range": "± 2132031.2823164505",
+            "bytesAllocated": 1295584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 511935162.36,
+            "unit": "ns",
+            "range": "± 7868088.802452183",
+            "bytesAllocated": 4715736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 397904652.91,
+            "unit": "ns",
+            "range": "± 6664414.5122006",
+            "bytesAllocated": 3278512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 389819971.05,
+            "unit": "ns",
+            "range": "± 5897400.095482924",
+            "bytesAllocated": 3394208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 334218148.51,
+            "unit": "ns",
+            "range": "± 5949957.957988061",
+            "bytesAllocated": 2213192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 225979881.07,
+            "unit": "ns",
+            "range": "± 3060959.528836565",
+            "bytesAllocated": 809656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 245840238.23,
+            "unit": "ns",
+            "range": "± 3592148.8185607865",
+            "bytesAllocated": 1404168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 211090471.43,
+            "unit": "ns",
+            "range": "± 2074765.6558436053",
+            "bytesAllocated": 856056
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 108.75552798807621,
+            "unit": "ns",
+            "range": "± 1.4029325804564357",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.88570809364319,
+            "unit": "ns",
+            "range": "± 1.932320592496611",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1050.3217642307281,
+            "unit": "ns",
+            "range": "± 12.638149215417807",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1011.620172228132,
+            "unit": "ns",
+            "range": "± 5.715057414493682",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9994.780841827393,
+            "unit": "ns",
+            "range": "± 109.4333981781926",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10360.450996398926,
+            "unit": "ns",
+            "range": "± 93.87018165958663",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.85175049304962,
+            "unit": "ns",
+            "range": "± 2.1793178497637355",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 125.66275677084923,
+            "unit": "ns",
+            "range": "± 0.7508499287049232",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 980.3208250999451,
+            "unit": "ns",
+            "range": "± 18.141242259246592",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1151.998199735369,
+            "unit": "ns",
+            "range": "± 8.760830775068632",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9514.216693878174,
+            "unit": "ns",
+            "range": "± 104.25239494417914",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10934.588115147182,
+            "unit": "ns",
+            "range": "± 93.40904209450385",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f7a774258a78dd14e97072d98182e35ee3e22935",
+          "message": "feat(durable): add PostgreSQL schedule gate (#702)",
+          "timestamp": "2026-08-02T17:33:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f7a774258a78dd14e97072d98182e35ee3e22935"
+        },
+        "date": 1785693203988,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1475.0897279466901,
+            "unit": "ns",
+            "range": "± 6.819420316863676",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13258.517610549927,
+            "unit": "ns",
+            "range": "± 146.94849447197618",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 125230.61010742188,
+            "unit": "ns",
+            "range": "± 1810.2165268792915",
+            "bytesAllocated": 232376
           }
         ]
       }
