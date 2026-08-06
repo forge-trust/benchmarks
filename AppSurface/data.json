@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1785983883182,
+  "lastUpdated": 1785985193097,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -60590,6 +60590,440 @@
             "unit": "ns",
             "range": "± 109.51855235143003",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1068.3377838134766,
+            "unit": "ns",
+            "range": "± 11.311218374307144",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1274.2328815460205,
+            "unit": "ns",
+            "range": "± 4.087118308516923",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1063.7490146160126,
+            "unit": "ns",
+            "range": "± 11.192453326388735",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9558.805446624756,
+            "unit": "ns",
+            "range": "± 82.96865791225191",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11250.591243743896,
+            "unit": "ns",
+            "range": "± 139.45410926874865",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9306.328954696655,
+            "unit": "ns",
+            "range": "± 48.57733294378562",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98819.82681274414,
+            "unit": "ns",
+            "range": "± 533.2517864536873",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 108516.74592590332,
+            "unit": "ns",
+            "range": "± 1006.6224273115592",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91693.42050170898,
+            "unit": "ns",
+            "range": "± 1180.8360355790812",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2919537212167467,
+            "unit": "ns",
+            "range": "± 0.0029960472574103564",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1067.4164237976074,
+            "unit": "ns",
+            "range": "± 8.717158136549314",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.76357961552484,
+            "unit": "ns",
+            "range": "± 0.2252955011974189",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9670.225521087646,
+            "unit": "ns",
+            "range": "± 132.3516118670383",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.62929193178815,
+            "unit": "ns",
+            "range": "± 0.11141943892920225",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93371.66256277902,
+            "unit": "ns",
+            "range": "± 262.57252121574714",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.73188157592502,
+            "unit": "ns",
+            "range": "± 0.7190475163709948",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.22555844272885,
+            "unit": "ns",
+            "range": "± 0.700818422048122",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1004.2811763286591,
+            "unit": "ns",
+            "range": "± 4.000886996562888",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 986.1284790039062,
+            "unit": "ns",
+            "range": "± 1.6436066703672372",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9636.714464187622,
+            "unit": "ns",
+            "range": "± 15.508829898022702",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10147.861637115479,
+            "unit": "ns",
+            "range": "± 100.49530884380366",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.01740962266922,
+            "unit": "ns",
+            "range": "± 1.633497109559818",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.08985434472561,
+            "unit": "ns",
+            "range": "± 2.477470349691034",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 934.8952020406723,
+            "unit": "ns",
+            "range": "± 13.929449319170873",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1070.951346533639,
+            "unit": "ns",
+            "range": "± 15.505053433310854",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9159.367736816406,
+            "unit": "ns",
+            "range": "± 71.26859006600196",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10669.719161987305,
+            "unit": "ns",
+            "range": "± 128.4924336273968",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1428.897408246994,
+            "unit": "ns",
+            "range": "± 12.760138789835928",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13005.192401885986,
+            "unit": "ns",
+            "range": "± 179.06296693486297",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124126.97806803386,
+            "unit": "ns",
+            "range": "± 266.3085167979479",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 222386923.25,
+            "unit": "ns",
+            "range": "± 4560826.081445999",
+            "bytesAllocated": 863856
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 233397172.11,
+            "unit": "ns",
+            "range": "± 3051672.070130896",
+            "bytesAllocated": 1010704
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "abe26ea1d63667986dcbb8d0496a25722a692d84",
+          "message": "fix(coverage): align patch gate with Codecov (#720)",
+          "timestamp": "2026-08-06T02:39:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/abe26ea1d63667986dcbb8d0496a25722a692d84"
+        },
+        "date": 1785985193097,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 388877095.65,
+            "unit": "ns",
+            "range": "± 66505016.627063096",
+            "bytesAllocated": 2643264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 280063294.29,
+            "unit": "ns",
+            "range": "± 7688741.632818611",
+            "bytesAllocated": 1291376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267538064.86,
+            "unit": "ns",
+            "range": "± 6635529.263974579",
+            "bytesAllocated": 1286600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 378437991.72,
+            "unit": "ns",
+            "range": "± 7179086.586135307",
+            "bytesAllocated": 2651576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264743919.05,
+            "unit": "ns",
+            "range": "± 4001381.5796776693",
+            "bytesAllocated": 1204656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258718227,
+            "unit": "ns",
+            "range": "± 4134507.0293895053",
+            "bytesAllocated": 1293848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493552031.43,
+            "unit": "ns",
+            "range": "± 7882108.533554202",
+            "bytesAllocated": 4717536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 388063438.4,
+            "unit": "ns",
+            "range": "± 6109539.125371602",
+            "bytesAllocated": 3278320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 396852939.59,
+            "unit": "ns",
+            "range": "± 9954554.352117121",
+            "bytesAllocated": 3396184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 340732265.47,
+            "unit": "ns",
+            "range": "± 9089813.989325538",
+            "bytesAllocated": 2209376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 226087151.89,
+            "unit": "ns",
+            "range": "± 4988966.740548435",
+            "bytesAllocated": 819520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243583670.53,
+            "unit": "ns",
+            "range": "± 5790287.04141374",
+            "bytesAllocated": 1420560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208996579.41,
+            "unit": "ns",
+            "range": "± 4490233.231675521",
+            "bytesAllocated": 875512
           }
         ]
       }
