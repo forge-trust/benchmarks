@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786000844396,
+  "lastUpdated": 1786070439648,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -61892,6 +61892,440 @@
             "unit": "ns",
             "range": "± 280.41943822922485",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 170973042.21,
+            "unit": "ns",
+            "range": "± 2244902.238645843",
+            "bytesAllocated": 834656
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 179213462.67,
+            "unit": "ns",
+            "range": "± 1291684.0058445046",
+            "bytesAllocated": 885056
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 838.3529607057571,
+            "unit": "ns",
+            "range": "± 3.6553330067434913",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 888.0294774770737,
+            "unit": "ns",
+            "range": "± 1.6766529664396654",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 805.8249660219465,
+            "unit": "ns",
+            "range": "± 0.9072158297678732",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7217.186517715454,
+            "unit": "ns",
+            "range": "± 4.891919875602292",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 8018.752349853516,
+            "unit": "ns",
+            "range": "± 8.166891529969323",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7429.392924717495,
+            "unit": "ns",
+            "range": "± 18.248892395204653",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 74236.74458312988,
+            "unit": "ns",
+            "range": "± 63.38466509363803",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 80698.19972446987,
+            "unit": "ns",
+            "range": "± 90.28750324122589",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 70681.44915771484,
+            "unit": "ns",
+            "range": "± 94.26601761369456",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.530115343630314,
+            "unit": "ns",
+            "range": "± 0.007064664085148477",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 857.6352799279349,
+            "unit": "ns",
+            "range": "± 1.3764990498942533",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.379576619182313,
+            "unit": "ns",
+            "range": "± 0.0046934907030571895",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7247.773999895368,
+            "unit": "ns",
+            "range": "± 7.867192442579099",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 282.51706475019455,
+            "unit": "ns",
+            "range": "± 2.259542825649524",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 70473.331804548,
+            "unit": "ns",
+            "range": "± 73.0621345098091",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 87.24266494810581,
+            "unit": "ns",
+            "range": "± 1.005323370592443",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 91.20037990808487,
+            "unit": "ns",
+            "range": "± 0.7697195917110831",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 834.2175282239914,
+            "unit": "ns",
+            "range": "± 14.89795303642244",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 847.4427518844604,
+            "unit": "ns",
+            "range": "± 11.40686204593359",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8472.721979141235,
+            "unit": "ns",
+            "range": "± 104.7607898531043",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8146.540887832642,
+            "unit": "ns",
+            "range": "± 184.32053519708654",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 294623118.69,
+            "unit": "ns",
+            "range": "± 25100357.977679785",
+            "bytesAllocated": 2641280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 207232564.52,
+            "unit": "ns",
+            "range": "± 4436663.55610666",
+            "bytesAllocated": 1192528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 195783108.25,
+            "unit": "ns",
+            "range": "± 2277981.388753783",
+            "bytesAllocated": 1287840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 292275953.75,
+            "unit": "ns",
+            "range": "± 3673584.9980661534",
+            "bytesAllocated": 2627448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 205002516.83,
+            "unit": "ns",
+            "range": "± 1694118.5853910628",
+            "bytesAllocated": 1199400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 196476981.01,
+            "unit": "ns",
+            "range": "± 2169966.938769156",
+            "bytesAllocated": 1387104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 381276079.5,
+            "unit": "ns",
+            "range": "± 4129474.5812006146",
+            "bytesAllocated": 4739432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 301816643.42,
+            "unit": "ns",
+            "range": "± 4836333.013177817",
+            "bytesAllocated": 3252288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 298714973.5,
+            "unit": "ns",
+            "range": "± 5361468.181029485",
+            "bytesAllocated": 3394600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 256845115.93,
+            "unit": "ns",
+            "range": "± 4163484.9970249087",
+            "bytesAllocated": 2201520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 172496721.71,
+            "unit": "ns",
+            "range": "± 3017820.787242847",
+            "bytesAllocated": 818432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 195332050.75,
+            "unit": "ns",
+            "range": "± 72548913.04357749",
+            "bytesAllocated": 1414504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 162567377.86,
+            "unit": "ns",
+            "range": "± 3086561.216603361",
+            "bytesAllocated": 959336
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 80.60701869215283,
+            "unit": "ns",
+            "range": "± 0.4857714025698678",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 99.2376524657011,
+            "unit": "ns",
+            "range": "± 1.6118886109068613",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 753.5869647264481,
+            "unit": "ns",
+            "range": "± 9.963978322547812",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 901.6849249601364,
+            "unit": "ns",
+            "range": "± 10.266641556069157",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7441.286623273577,
+            "unit": "ns",
+            "range": "± 25.653599415970156",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8533.90440750122,
+            "unit": "ns",
+            "range": "± 147.68583039615945",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7b8a3f980829716d1ac93524bab1192e42c4752a",
+          "message": "feat(local-secrets): add macos keychain v2 migration (#717)",
+          "timestamp": "2026-08-07T02:23:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7b8a3f980829716d1ac93524bab1192e42c4752a"
+        },
+        "date": 1786070439648,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1090.3512153625488,
+            "unit": "ns",
+            "range": "± 1.282031049530634",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9292.232737949917,
+            "unit": "ns",
+            "range": "± 29.019854587712103",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 94411.40313720703,
+            "unit": "ns",
+            "range": "± 150.47013326442553",
+            "bytesAllocated": 232376
           }
         ]
       }
