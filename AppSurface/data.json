@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786070439648,
+  "lastUpdated": 1786171766666,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -62326,6 +62326,440 @@
             "unit": "ns",
             "range": "± 150.47013326442553",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1049.7435133457184,
+            "unit": "ns",
+            "range": "± 3.5254369075309615",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1286.9510830470495,
+            "unit": "ns",
+            "range": "± 4.354523871121565",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1078.947985649109,
+            "unit": "ns",
+            "range": "± 9.220367270124804",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9496.795114517212,
+            "unit": "ns",
+            "range": "± 39.35234085418797",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10920.563847133091,
+            "unit": "ns",
+            "range": "± 31.08490300429756",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9195.776262283325,
+            "unit": "ns",
+            "range": "± 33.41740104456866",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92423.70135498047,
+            "unit": "ns",
+            "range": "± 662.3538026690632",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 108441.43209838867,
+            "unit": "ns",
+            "range": "± 444.672329421751",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91837.2156110491,
+            "unit": "ns",
+            "range": "± 407.3700761967925",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.289079563692212,
+            "unit": "ns",
+            "range": "± 0.006968387263361115",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1104.054983774821,
+            "unit": "ns",
+            "range": "± 3.711309553173952",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.3902291229793,
+            "unit": "ns",
+            "range": "± 0.026855485923430965",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9369.136438369751,
+            "unit": "ns",
+            "range": "± 27.46911089371139",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.41380848203386,
+            "unit": "ns",
+            "range": "± 0.19238193751468263",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 105119.85401916504,
+            "unit": "ns",
+            "range": "± 1211.534652490613",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.03735254704952,
+            "unit": "ns",
+            "range": "± 1.0568279413154302",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.4371825158596,
+            "unit": "ns",
+            "range": "± 0.4643653731241485",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1029.3524782657623,
+            "unit": "ns",
+            "range": "± 15.867476438097238",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 999.7128908634186,
+            "unit": "ns",
+            "range": "± 9.767284836328708",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9770.705848693848,
+            "unit": "ns",
+            "range": "± 55.63366449202701",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10100.6663646698,
+            "unit": "ns",
+            "range": "± 35.969984084970335",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.86627773940563,
+            "unit": "ns",
+            "range": "± 0.48709232094489263",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 113.03773412108421,
+            "unit": "ns",
+            "range": "± 1.488303202981451",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 925.3931077718735,
+            "unit": "ns",
+            "range": "± 5.551369603035172",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1078.5676395893097,
+            "unit": "ns",
+            "range": "± 10.245648950950514",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9126.108131408691,
+            "unit": "ns",
+            "range": "± 42.264929342115835",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10661.288469314575,
+            "unit": "ns",
+            "range": "± 126.64455561097185",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1398.170446395874,
+            "unit": "ns",
+            "range": "± 11.915102447228197",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12536.57010759626,
+            "unit": "ns",
+            "range": "± 41.13905006010305",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122817.17006138393,
+            "unit": "ns",
+            "range": "± 654.7908279923059",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 220374570.15,
+            "unit": "ns",
+            "range": "± 2469869.536924128",
+            "bytesAllocated": 949080
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 232669302.23,
+            "unit": "ns",
+            "range": "± 2229607.7842479805",
+            "bytesAllocated": 998544
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "00269313426ec737ffb396c14beb5e06e9186ebe",
+          "message": "feat(durable): add PostgreSQL adoption path (#721)",
+          "timestamp": "2026-08-08T06:29:10Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/00269313426ec737ffb396c14beb5e06e9186ebe"
+        },
+        "date": 1786171766666,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 380136866.27,
+            "unit": "ns",
+            "range": "± 35797137.11888005",
+            "bytesAllocated": 2671544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 265649579.22,
+            "unit": "ns",
+            "range": "± 3612897.0092814257",
+            "bytesAllocated": 1178976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253484030.12,
+            "unit": "ns",
+            "range": "± 2859946.400501835",
+            "bytesAllocated": 1272944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 375713044.14,
+            "unit": "ns",
+            "range": "± 4230824.356649107",
+            "bytesAllocated": 2649752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 266618121.43,
+            "unit": "ns",
+            "range": "± 3613153.246056965",
+            "bytesAllocated": 1230184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255227178.41,
+            "unit": "ns",
+            "range": "± 2984559.1993161384",
+            "bytesAllocated": 1293872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 494654976.69,
+            "unit": "ns",
+            "range": "± 6622473.714366354",
+            "bytesAllocated": 4715504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 390873097.76,
+            "unit": "ns",
+            "range": "± 5311558.975642585",
+            "bytesAllocated": 3254104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 382860606.05,
+            "unit": "ns",
+            "range": "± 7294227.274855156",
+            "bytesAllocated": 3377392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327873571.59,
+            "unit": "ns",
+            "range": "± 5992199.478637126",
+            "bytesAllocated": 2195536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 222015932.9,
+            "unit": "ns",
+            "range": "± 2969625.1387014636",
+            "bytesAllocated": 792760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242338968.86,
+            "unit": "ns",
+            "range": "± 4440327.254492735",
+            "bytesAllocated": 1420000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207245737,
+            "unit": "ns",
+            "range": "± 2209384.7079664054",
+            "bytesAllocated": 970392
           }
         ]
       }
