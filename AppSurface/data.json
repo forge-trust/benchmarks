@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786215057809,
+  "lastUpdated": 1786303250301,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -63194,6 +63194,440 @@
             "unit": "ns",
             "range": "± 1666528.9135573688",
             "bytesAllocated": 858048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225946282.02,
+            "unit": "ns",
+            "range": "± 3339114.352102476",
+            "bytesAllocated": 863320
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 238703299.43,
+            "unit": "ns",
+            "range": "± 3497714.8888801853",
+            "bytesAllocated": 884792
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1117.6232782091413,
+            "unit": "ns",
+            "range": "± 3.9751410931714606",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1277.207932472229,
+            "unit": "ns",
+            "range": "± 5.878957175417112",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1089.3239448070526,
+            "unit": "ns",
+            "range": "± 7.673960576913511",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9702.683737618583,
+            "unit": "ns",
+            "range": "± 84.77133408182151",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11212.60200718471,
+            "unit": "ns",
+            "range": "± 37.803916764234465",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9770.093252182007,
+            "unit": "ns",
+            "range": "± 50.77705124560615",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 95772.99194335938,
+            "unit": "ns",
+            "range": "± 307.2368252132331",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 118065.61798967634,
+            "unit": "ns",
+            "range": "± 385.00989566149343",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95475.11720275879,
+            "unit": "ns",
+            "range": "± 610.1722387780255",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2897924995049834,
+            "unit": "ns",
+            "range": "± 0.002046615393984675",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1134.45452608381,
+            "unit": "ns",
+            "range": "± 5.71261118878705",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.68189491118704,
+            "unit": "ns",
+            "range": "± 0.07110821919480978",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9798.0954246521,
+            "unit": "ns",
+            "range": "± 55.30076376369321",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7279922366142,
+            "unit": "ns",
+            "range": "± 0.25103638235131953",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95827.28982543945,
+            "unit": "ns",
+            "range": "± 319.15343416482943",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385773824.68,
+            "unit": "ns",
+            "range": "± 10395735.634733655",
+            "bytesAllocated": 2645248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 272687116,
+            "unit": "ns",
+            "range": "± 4694113.535071304",
+            "bytesAllocated": 1195808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260361878.34,
+            "unit": "ns",
+            "range": "± 3845242.2403207985",
+            "bytesAllocated": 1371296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 384935934.96,
+            "unit": "ns",
+            "range": "± 5220463.450315341",
+            "bytesAllocated": 2650200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 271885774.03,
+            "unit": "ns",
+            "range": "± 4466436.54546432",
+            "bytesAllocated": 1213432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 262352430.04,
+            "unit": "ns",
+            "range": "± 4659411.80612372",
+            "bytesAllocated": 1313296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 507224345.56,
+            "unit": "ns",
+            "range": "± 10955729.447003732",
+            "bytesAllocated": 4742680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 400754079.88,
+            "unit": "ns",
+            "range": "± 6676767.965603483",
+            "bytesAllocated": 3254328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 393955717.83,
+            "unit": "ns",
+            "range": "± 7254563.166297482",
+            "bytesAllocated": 3369936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 336033044.44,
+            "unit": "ns",
+            "range": "± 5637379.197367858",
+            "bytesAllocated": 2216120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 227777953.45,
+            "unit": "ns",
+            "range": "± 3616505.9288086207",
+            "bytesAllocated": 808920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 247781347.8,
+            "unit": "ns",
+            "range": "± 4305786.534849281",
+            "bytesAllocated": 1402872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213009200.24,
+            "unit": "ns",
+            "range": "± 3574130.501684339",
+            "bytesAllocated": 856056
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.02938090051923,
+            "unit": "ns",
+            "range": "± 0.5948067648187808",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 119.02358843386173,
+            "unit": "ns",
+            "range": "± 1.554079913168991",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1076.0882949829102,
+            "unit": "ns",
+            "range": "± 11.156729433731014",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1048.7023613452911,
+            "unit": "ns",
+            "range": "± 9.44510229750559",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10265.324779510498,
+            "unit": "ns",
+            "range": "± 109.56369147308827",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10654.487075805664,
+            "unit": "ns",
+            "range": "± 43.88636675624387",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.32415325301034,
+            "unit": "ns",
+            "range": "± 0.4396434072366614",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 118.30030205845833,
+            "unit": "ns",
+            "range": "± 1.2644531625980164",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 970.5746560096741,
+            "unit": "ns",
+            "range": "± 5.136945134669994",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1150.5807292461395,
+            "unit": "ns",
+            "range": "± 8.717640049240696",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9574.986925397601,
+            "unit": "ns",
+            "range": "± 34.83186974827536",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11349.352130889893,
+            "unit": "ns",
+            "range": "± 96.07130524392322",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4bb2c742ac7c93eb45f2521ba179f24e8262087e",
+          "message": "feat(durable): add verified flow retention lifecycle (#723)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-09T19:00:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4bb2c742ac7c93eb45f2521ba179f24e8262087e"
+        },
+        "date": 1786303250301,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1549.2915725708008,
+            "unit": "ns",
+            "range": "± 17.24285592731373",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12839.630001068115,
+            "unit": "ns",
+            "range": "± 74.02904129517557",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 129665.03506469727,
+            "unit": "ns",
+            "range": "± 999.2503197948727",
+            "bytesAllocated": 232376
           }
         ]
       }
