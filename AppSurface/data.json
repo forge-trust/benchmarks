@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786303250301,
+  "lastUpdated": 1786305672756,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -63628,6 +63628,440 @@
             "unit": "ns",
             "range": "± 999.2503197948727",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1456.7212090492249,
+            "unit": "ns",
+            "range": "± 7.56668356354141",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1211.1396326337542,
+            "unit": "ns",
+            "range": "± 1.5026291534902614",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1038.6893122536796,
+            "unit": "ns",
+            "range": "± 4.319708198635184",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9343.490072250366,
+            "unit": "ns",
+            "range": "± 17.08043105208608",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10610.12919807434,
+            "unit": "ns",
+            "range": "± 18.65352773280456",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 10065.030679702759,
+            "unit": "ns",
+            "range": "± 45.63651524322038",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93797.63732910156,
+            "unit": "ns",
+            "range": "± 168.05566406760474",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 105035.75842285156,
+            "unit": "ns",
+            "range": "± 325.64990307775",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91736.77604675293,
+            "unit": "ns",
+            "range": "± 385.50358316865146",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2378095611929893,
+            "unit": "ns",
+            "range": "± 0.008540056946945783",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1039.1235656738281,
+            "unit": "ns",
+            "range": "± 0.9266441113571507",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.58270331791469,
+            "unit": "ns",
+            "range": "± 0.029811081123122012",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9477.659924825033,
+            "unit": "ns",
+            "range": "± 5.208539603176834",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.93112564086914,
+            "unit": "ns",
+            "range": "± 0.6026413669616403",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91758.75815836589,
+            "unit": "ns",
+            "range": "± 80.51732934381666",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 375923389.62,
+            "unit": "ns",
+            "range": "± 55961705.85861703",
+            "bytesAllocated": 2646376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 262941122.89,
+            "unit": "ns",
+            "range": "± 4401111.883705512",
+            "bytesAllocated": 1176888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 250963647.27,
+            "unit": "ns",
+            "range": "± 3389668.4009888633",
+            "bytesAllocated": 1289000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 370118331.27,
+            "unit": "ns",
+            "range": "± 4684832.386561393",
+            "bytesAllocated": 2643912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 263165949.5,
+            "unit": "ns",
+            "range": "± 3672580.095918478",
+            "bytesAllocated": 1198776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 251548850.09,
+            "unit": "ns",
+            "range": "± 1723036.4152497032",
+            "bytesAllocated": 1311592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486448769.45,
+            "unit": "ns",
+            "range": "± 5363716.066439085",
+            "bytesAllocated": 4728776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 386552191.78,
+            "unit": "ns",
+            "range": "± 5349384.822388213",
+            "bytesAllocated": 3249568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 378327061.82,
+            "unit": "ns",
+            "range": "± 5820564.700339324",
+            "bytesAllocated": 3373744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322363697.24,
+            "unit": "ns",
+            "range": "± 6965844.232064727",
+            "bytesAllocated": 2204976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219270980.45,
+            "unit": "ns",
+            "range": "± 2752899.456006987",
+            "bytesAllocated": 822960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237636933.52,
+            "unit": "ns",
+            "range": "± 3516097.8282999136",
+            "bytesAllocated": 1430344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205198475.42,
+            "unit": "ns",
+            "range": "± 3125688.179482918",
+            "bytesAllocated": 862752
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 118.98028486967087,
+            "unit": "ns",
+            "range": "± 1.6842306978941535",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.3219901919365,
+            "unit": "ns",
+            "range": "± 1.5122591753427856",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1094.8488562107086,
+            "unit": "ns",
+            "range": "± 17.80453990599712",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1097.6511900424957,
+            "unit": "ns",
+            "range": "± 15.53049086793215",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10750.518096923828,
+            "unit": "ns",
+            "range": "± 153.97429408365187",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10551.746019363403,
+            "unit": "ns",
+            "range": "± 199.66484260381554",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1409.4187602996826,
+            "unit": "ns",
+            "range": "± 2.9343102483043153",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 15089.696027755737,
+            "unit": "ns",
+            "range": "± 32.97563717286374",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 119104.46498325893,
+            "unit": "ns",
+            "range": "± 129.2108719645928",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.37893004715443,
+            "unit": "ns",
+            "range": "± 2.7470144479163734",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.5262830555439,
+            "unit": "ns",
+            "range": "± 1.5402942528128407",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 955.3000378608704,
+            "unit": "ns",
+            "range": "± 20.32870776055354",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1177.6952738761902,
+            "unit": "ns",
+            "range": "± 14.829303653831703",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9957.603551864624,
+            "unit": "ns",
+            "range": "± 24.641084672793703",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11749.170450210571,
+            "unit": "ns",
+            "range": "± 226.06481487976689",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "bed60978fd21937cd81c1ba733dce5a8aa74fd00",
+          "message": "feat(auth): add Keycloak theme lifecycle (#724)",
+          "timestamp": "2026-08-09T19:41:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/bed60978fd21937cd81c1ba733dce5a8aa74fd00"
+        },
+        "date": 1786305672756,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 217926078.06,
+            "unit": "ns",
+            "range": "± 3263904.990691727",
+            "bytesAllocated": 836640
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 229688818.54,
+            "unit": "ns",
+            "range": "± 2269773.1016725325",
+            "bytesAllocated": 903976
           }
         ]
       }
