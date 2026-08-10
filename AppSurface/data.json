@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786328557054,
+  "lastUpdated": 1786404984719,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -65364,6 +65364,440 @@
             "unit": "ns",
             "range": "± 2327.652319219021",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 179704320.51,
+            "unit": "ns",
+            "range": "± 6863291.696288184",
+            "bytesAllocated": 837744
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 189704182.08,
+            "unit": "ns",
+            "range": "± 6789936.8677191585",
+            "bytesAllocated": 984520
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 799.0375946760178,
+            "unit": "ns",
+            "range": "± 13.382071870987646",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 954.8226606845856,
+            "unit": "ns",
+            "range": "± 24.402430908947427",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 782.1592545509338,
+            "unit": "ns",
+            "range": "± 17.675875912498004",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7495.298233985901,
+            "unit": "ns",
+            "range": "± 202.39745999767305",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 8102.81378364563,
+            "unit": "ns",
+            "range": "± 280.7697477008297",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 6514.912293434143,
+            "unit": "ns",
+            "range": "± 157.74474384405138",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 68075.48231506348,
+            "unit": "ns",
+            "range": "± 3883.9287365612204",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 74103.52155412946,
+            "unit": "ns",
+            "range": "± 1387.150325815072",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 66571.44255065918,
+            "unit": "ns",
+            "range": "± 2502.600876140538",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.5977445114403963,
+            "unit": "ns",
+            "range": "± 0.04543764555711792",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 711.7318952083588,
+            "unit": "ns",
+            "range": "± 14.705356050802187",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 29.420039422810078,
+            "unit": "ns",
+            "range": "± 0.6208149714319174",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 6493.886313302176,
+            "unit": "ns",
+            "range": "± 55.31440197030885",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 328.90838474035263,
+            "unit": "ns",
+            "range": "± 5.741341351717768",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 65245.489693777905,
+            "unit": "ns",
+            "range": "± 1472.4528964790002",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 90.88825578987598,
+            "unit": "ns",
+            "range": "± 2.721200988962989",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 102.25398941338062,
+            "unit": "ns",
+            "range": "± 5.958446659663176",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 794.9175661802292,
+            "unit": "ns",
+            "range": "± 28.03750581892124",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 863.395664691925,
+            "unit": "ns",
+            "range": "± 23.07933868178293",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8254.975820541382,
+            "unit": "ns",
+            "range": "± 110.48894102427353",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8919.691341400146,
+            "unit": "ns",
+            "range": "± 192.40123431059598",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 72.9275781661272,
+            "unit": "ns",
+            "range": "± 1.5712495986869324",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 102.99506002664566,
+            "unit": "ns",
+            "range": "± 1.2933320479012147",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 704.8535753488541,
+            "unit": "ns",
+            "range": "± 26.32359062573717",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1006.4650688171387,
+            "unit": "ns",
+            "range": "± 57.31245939869424",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6942.82173538208,
+            "unit": "ns",
+            "range": "± 158.89645086853835",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10287.613208770752,
+            "unit": "ns",
+            "range": "± 369.7538910147691",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1035.919830083847,
+            "unit": "ns",
+            "range": "± 38.369628567590766",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9842.3792552948,
+            "unit": "ns",
+            "range": "± 331.3522565741516",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 84287.45853097098,
+            "unit": "ns",
+            "range": "± 1003.2693856835708",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f83c5ee899529810cb325a5af867f8e2d85f7dcb",
+          "message": "feat(durable): define audited Flow repair operator contract (#725)",
+          "timestamp": "2026-08-10T23:18:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f83c5ee899529810cb325a5af867f8e2d85f7dcb"
+        },
+        "date": 1786404984719,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 308184492.73,
+            "unit": "ns",
+            "range": "± 48642229.56554152",
+            "bytesAllocated": 2645040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 215709590.85,
+            "unit": "ns",
+            "range": "± 7732259.00859424",
+            "bytesAllocated": 1291896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 205870541.9,
+            "unit": "ns",
+            "range": "± 7460241.5862068115",
+            "bytesAllocated": 1272000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 305865236.9,
+            "unit": "ns",
+            "range": "± 10391518.6407059",
+            "bytesAllocated": 2660400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 217548776.83,
+            "unit": "ns",
+            "range": "± 8020158.550766638",
+            "bytesAllocated": 1204600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 206731729.56,
+            "unit": "ns",
+            "range": "± 7853500.664884129",
+            "bytesAllocated": 1385976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 407609367.45,
+            "unit": "ns",
+            "range": "± 12817486.282753414",
+            "bytesAllocated": 4730360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 331277844.21,
+            "unit": "ns",
+            "range": "± 11435588.322694808",
+            "bytesAllocated": 3252400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 325860030.77,
+            "unit": "ns",
+            "range": "± 12727557.824204687",
+            "bytesAllocated": 3369944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 276962634.92,
+            "unit": "ns",
+            "range": "± 22851539.511561494",
+            "bytesAllocated": 2221824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 179284937.36,
+            "unit": "ns",
+            "range": "± 5397596.362202815",
+            "bytesAllocated": 809512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 203490900.65,
+            "unit": "ns",
+            "range": "± 10466403.227827998",
+            "bytesAllocated": 1434008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 172427277.67,
+            "unit": "ns",
+            "range": "± 6032558.710623252",
+            "bytesAllocated": 857000
           }
         ]
       }
