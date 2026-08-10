@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786328298977,
+  "lastUpdated": 1786328557054,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -64930,6 +64930,440 @@
             "unit": "ns",
             "range": "± 2355843.4910555426",
             "bytesAllocated": 863384
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 230962537.67,
+            "unit": "ns",
+            "range": "± 4385534.500132299",
+            "bytesAllocated": 823328
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 243990789.48,
+            "unit": "ns",
+            "range": "± 4390394.16153521",
+            "bytesAllocated": 903208
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 376233685.48,
+            "unit": "ns",
+            "range": "± 57197281.26033866",
+            "bytesAllocated": 2645536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 260875436.09,
+            "unit": "ns",
+            "range": "± 3988778.256349054",
+            "bytesAllocated": 1175864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 250233094.31,
+            "unit": "ns",
+            "range": "± 3919498.1371870628",
+            "bytesAllocated": 1289840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 372871505.74,
+            "unit": "ns",
+            "range": "± 5216154.099436339",
+            "bytesAllocated": 2632880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 263762353.79,
+            "unit": "ns",
+            "range": "± 4290696.18870398",
+            "bytesAllocated": 1204784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255464490.15,
+            "unit": "ns",
+            "range": "± 5609424.908129239",
+            "bytesAllocated": 1388752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 488481430.34,
+            "unit": "ns",
+            "range": "± 6946845.057010571",
+            "bytesAllocated": 4718968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 399593791.34,
+            "unit": "ns",
+            "range": "± 7461925.466672383",
+            "bytesAllocated": 3277560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 379227028.28,
+            "unit": "ns",
+            "range": "± 6831009.956348622",
+            "bytesAllocated": 3374280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327838111.85,
+            "unit": "ns",
+            "range": "± 8081780.019538594",
+            "bytesAllocated": 2220648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 220199548.77,
+            "unit": "ns",
+            "range": "± 3960449.6618025005",
+            "bytesAllocated": 823888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243680342.45,
+            "unit": "ns",
+            "range": "± 7818179.229556735",
+            "bytesAllocated": 1419680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212863743.61,
+            "unit": "ns",
+            "range": "± 5343036.154936442",
+            "bytesAllocated": 872784
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.30012671276927,
+            "unit": "ns",
+            "range": "± 0.009228579060944757",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1080.498254776001,
+            "unit": "ns",
+            "range": "± 14.280810278407612",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.84109685250691,
+            "unit": "ns",
+            "range": "± 0.24929339333301584",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9894.135749816895,
+            "unit": "ns",
+            "range": "± 73.87298823221256",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.52737154279436,
+            "unit": "ns",
+            "range": "± 0.21856292754927664",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 90058.88201904297,
+            "unit": "ns",
+            "range": "± 440.69616344866483",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 95.17684942483902,
+            "unit": "ns",
+            "range": "± 0.6913649355710063",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.94978608191013,
+            "unit": "ns",
+            "range": "± 0.5351973878182711",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 918.1296125139509,
+            "unit": "ns",
+            "range": "± 3.607124060016824",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1074.7420790536064,
+            "unit": "ns",
+            "range": "± 10.303783981839539",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9291.183440072196,
+            "unit": "ns",
+            "range": "± 83.22135434952916",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10890.445985794067,
+            "unit": "ns",
+            "range": "± 213.90177195985217",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 108.2507746049336,
+            "unit": "ns",
+            "range": "± 1.5637929754560562",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 124.61472484469414,
+            "unit": "ns",
+            "range": "± 1.3360055881891328",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1108.8746917247772,
+            "unit": "ns",
+            "range": "± 6.416422919359093",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1053.753740787506,
+            "unit": "ns",
+            "range": "± 15.516140103969839",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10132.441204071045,
+            "unit": "ns",
+            "range": "± 255.58591880056724",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10204.673006330218,
+            "unit": "ns",
+            "range": "± 169.9367883875908",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1418.2749271392822,
+            "unit": "ns",
+            "range": "± 3.8226195085520214",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12893.242603302002,
+            "unit": "ns",
+            "range": "± 59.371294254166365",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121925.40298461914,
+            "unit": "ns",
+            "range": "± 786.6214332141373",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "7545b8c0698585ebdb1d10db927a10d4f23c9b16",
+          "message": "feat(web): add named canary adoption lab (#722)",
+          "timestamp": "2026-08-10T02:02:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/7545b8c0698585ebdb1d10db927a10d4f23c9b16"
+        },
+        "date": 1786328557054,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1070.471749169486,
+            "unit": "ns",
+            "range": "± 2.8701045348307486",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1290.1705750056676,
+            "unit": "ns",
+            "range": "± 6.362894688409137",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1077.1940441131592,
+            "unit": "ns",
+            "range": "± 1.8770642284275667",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9809.756223678589,
+            "unit": "ns",
+            "range": "± 131.29354712800958",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11334.08642578125,
+            "unit": "ns",
+            "range": "± 175.85761911006904",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9102.608487447103,
+            "unit": "ns",
+            "range": "± 26.79394155436428",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 94488.93486676898,
+            "unit": "ns",
+            "range": "± 635.6032508415973",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 115068.5806274414,
+            "unit": "ns",
+            "range": "± 1974.1453639217605",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93658.9461517334,
+            "unit": "ns",
+            "range": "± 2327.652319219021",
+            "bytesAllocated": 168272
           }
         ]
       }
