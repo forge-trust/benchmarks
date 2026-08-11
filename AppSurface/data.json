@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786423382125,
+  "lastUpdated": 1786423985600,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -67100,6 +67100,440 @@
             "unit": "ns",
             "range": "± 456.7590996290213",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1072.9817733764648,
+            "unit": "ns",
+            "range": "± 3.873595629074345",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1201.4088077545166,
+            "unit": "ns",
+            "range": "± 0.9126414106056775",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1044.4371454715729,
+            "unit": "ns",
+            "range": "± 2.8664424799783186",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9192.181399754116,
+            "unit": "ns",
+            "range": "± 15.86971356209035",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10854.515424728394,
+            "unit": "ns",
+            "range": "± 33.08815275015941",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9668.13597869873,
+            "unit": "ns",
+            "range": "± 19.616119656906147",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91706.64697265625,
+            "unit": "ns",
+            "range": "± 300.5358319076263",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 108689.40245056152,
+            "unit": "ns",
+            "range": "± 1318.8303341828084",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93053.21209716797,
+            "unit": "ns",
+            "range": "± 573.1368905754812",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2407931461930275,
+            "unit": "ns",
+            "range": "± 0.008251047690834543",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1050.8646562099457,
+            "unit": "ns",
+            "range": "± 3.455344358739999",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.605563917330336,
+            "unit": "ns",
+            "range": "± 0.02495654928484453",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9856.418678283691,
+            "unit": "ns",
+            "range": "± 31.299163644057973",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.99063464573453,
+            "unit": "ns",
+            "range": "± 0.1976786398880206",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 92270.16407993862,
+            "unit": "ns",
+            "range": "± 238.64016640443714",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 116.1810427159071,
+            "unit": "ns",
+            "range": "± 1.0974610396329643",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.82005217671394,
+            "unit": "ns",
+            "range": "± 1.3460951671232941",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1127.118689775467,
+            "unit": "ns",
+            "range": "± 25.913757127928122",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1099.7335846424103,
+            "unit": "ns",
+            "range": "± 17.733275029826455",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10390.72407749721,
+            "unit": "ns",
+            "range": "± 133.2708339073035",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10632.640968322754,
+            "unit": "ns",
+            "range": "± 85.65121425103864",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.60690233111382,
+            "unit": "ns",
+            "range": "± 1.3038114990672915",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 125.47098967007229,
+            "unit": "ns",
+            "range": "± 0.89714978812131",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1011.0398551395962,
+            "unit": "ns",
+            "range": "± 9.07175894304077",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1313.642190660749,
+            "unit": "ns",
+            "range": "± 17.797491293691508",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9974.89612034389,
+            "unit": "ns",
+            "range": "± 44.117269341791726",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11529.656841278076,
+            "unit": "ns",
+            "range": "± 179.55863428902578",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1409.6851224899292,
+            "unit": "ns",
+            "range": "± 2.6681811249956353",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12638.159749984741,
+            "unit": "ns",
+            "range": "± 104.1725557745145",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 119918.69131469727,
+            "unit": "ns",
+            "range": "± 257.68639941972583",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 218949290.71,
+            "unit": "ns",
+            "range": "± 4213439.625460871",
+            "bytesAllocated": 837712
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 229243505.73,
+            "unit": "ns",
+            "range": "± 3896403.1122620697",
+            "bytesAllocated": 983408
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "83f441c5a0661cc5a78ed6bcc69b790f293c6e4b",
+          "message": "build(deps): bump pnpm/action-setup from 6.0.9 to 6.0.10 in the github-actions group (#733)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-11T04:33:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/83f441c5a0661cc5a78ed6bcc69b790f293c6e4b"
+        },
+        "date": 1786423985600,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 375410802.74,
+            "unit": "ns",
+            "range": "± 64889077.587336965",
+            "bytesAllocated": 2645584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 263806496.69,
+            "unit": "ns",
+            "range": "± 4362924.295967792",
+            "bytesAllocated": 1291208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 252172033.44,
+            "unit": "ns",
+            "range": "± 2295111.879562787",
+            "bytesAllocated": 1287736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 372174717.67,
+            "unit": "ns",
+            "range": "± 6868880.665402006",
+            "bytesAllocated": 2650648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264674590.95,
+            "unit": "ns",
+            "range": "± 2515055.6519599697",
+            "bytesAllocated": 1205680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254345834.89,
+            "unit": "ns",
+            "range": "± 1629770.7466019983",
+            "bytesAllocated": 1293872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 487821283.15,
+            "unit": "ns",
+            "range": "± 4909464.402619297",
+            "bytesAllocated": 4717096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 390472572.94,
+            "unit": "ns",
+            "range": "± 6236031.526973823",
+            "bytesAllocated": 3296048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381771343.77,
+            "unit": "ns",
+            "range": "± 4974064.627442172",
+            "bytesAllocated": 3393712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322846156.42,
+            "unit": "ns",
+            "range": "± 7314998.102499613",
+            "bytesAllocated": 2225552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219602494.98,
+            "unit": "ns",
+            "range": "± 2645843.1834509303",
+            "bytesAllocated": 904720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237981558.91,
+            "unit": "ns",
+            "range": "± 3812497.4427579497",
+            "bytesAllocated": 1432112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205969941.09,
+            "unit": "ns",
+            "range": "± 3734910.2202195846",
+            "bytesAllocated": 863432
           }
         ]
       }
