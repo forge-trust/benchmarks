@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786507910424,
+  "lastUpdated": 1786516180392,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -70572,6 +70572,440 @@
             "unit": "ns",
             "range": "± 2311602.44197236",
             "bytesAllocated": 901104
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 213575619.15,
+            "unit": "ns",
+            "range": "± 1540947.2833593804",
+            "bytesAllocated": 806800
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 225988535.37,
+            "unit": "ns",
+            "range": "± 1422304.8901531233",
+            "bytesAllocated": 998544
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1071.9194855690002,
+            "unit": "ns",
+            "range": "± 11.391176090605022",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1348.8787111554827,
+            "unit": "ns",
+            "range": "± 8.183525109782778",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1053.6845149993896,
+            "unit": "ns",
+            "range": "± 13.570070438601883",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9364.430366516113,
+            "unit": "ns",
+            "range": "± 82.31045664950165",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10699.005584716797,
+            "unit": "ns",
+            "range": "± 24.72341803699564",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9135.225319998604,
+            "unit": "ns",
+            "range": "± 35.5434182869459",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91428.1797688802,
+            "unit": "ns",
+            "range": "± 316.10639104063523",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 112642.02075195312,
+            "unit": "ns",
+            "range": "± 417.92771836081624",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 88831.29085867746,
+            "unit": "ns",
+            "range": "± 170.20732854389922",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.297593276415552,
+            "unit": "ns",
+            "range": "± 0.023348052866696507",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1108.5595605373383,
+            "unit": "ns",
+            "range": "± 18.729773593541335",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.69047268373625,
+            "unit": "ns",
+            "range": "± 0.009340841475163798",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9520.190090179443,
+            "unit": "ns",
+            "range": "± 112.42566296526525",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5808447429112,
+            "unit": "ns",
+            "range": "± 0.40912496446385155",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 94715.67953491211,
+            "unit": "ns",
+            "range": "± 402.820536757424",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 364595835.38,
+            "unit": "ns",
+            "range": "± 3671245.3539907495",
+            "bytesAllocated": 2643616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 259127842.91,
+            "unit": "ns",
+            "range": "± 3134465.4833393944",
+            "bytesAllocated": 1195880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 246367595.16,
+            "unit": "ns",
+            "range": "± 1936367.381772691",
+            "bytesAllocated": 1288152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 364912212.33,
+            "unit": "ns",
+            "range": "± 3208883.5771865826",
+            "bytesAllocated": 2647904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 258531109.15,
+            "unit": "ns",
+            "range": "± 1989140.403206798",
+            "bytesAllocated": 1188328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 247314939.08,
+            "unit": "ns",
+            "range": "± 2983546.7037744666",
+            "bytesAllocated": 1310864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 482946311.63,
+            "unit": "ns",
+            "range": "± 5197525.032786518",
+            "bytesAllocated": 4715368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 381677778.91,
+            "unit": "ns",
+            "range": "± 5299162.109154076",
+            "bytesAllocated": 3260856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 373568047.64,
+            "unit": "ns",
+            "range": "± 5161994.210885879",
+            "bytesAllocated": 3369256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 318414538.39,
+            "unit": "ns",
+            "range": "± 3235981.6214041854",
+            "bytesAllocated": 2195696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 215227007.36,
+            "unit": "ns",
+            "range": "± 1792968.4975824142",
+            "bytesAllocated": 805824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 234556567.98,
+            "unit": "ns",
+            "range": "± 1575939.4433797381",
+            "bytesAllocated": 1402464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 201256805.57,
+            "unit": "ns",
+            "range": "± 1581928.6143015064",
+            "bytesAllocated": 858640
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.26552219901767,
+            "unit": "ns",
+            "range": "± 0.2592902609681067",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 109.72378741204739,
+            "unit": "ns",
+            "range": "± 0.642238892985208",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1005.2253615856171,
+            "unit": "ns",
+            "range": "± 3.9928713483299365",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 980.6402833461761,
+            "unit": "ns",
+            "range": "± 1.9585782417319708",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9637.37421962193,
+            "unit": "ns",
+            "range": "± 17.061955599577587",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9938.032265799386,
+            "unit": "ns",
+            "range": "± 14.345275951126068",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.81066173315048,
+            "unit": "ns",
+            "range": "± 0.3109524416398489",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.07008984259197,
+            "unit": "ns",
+            "range": "± 0.43163718950378505",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 908.055498940604,
+            "unit": "ns",
+            "range": "± 1.1335227623224706",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1094.467246055603,
+            "unit": "ns",
+            "range": "± 23.580741835726716",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9032.714546203613,
+            "unit": "ns",
+            "range": "± 29.24695197019615",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10528.39914049421,
+            "unit": "ns",
+            "range": "± 90.8573764969595",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "788fdc364329f7263befaf1c3003d03cdf6a8c50",
+          "message": "feat(web): add host-owned theme selection (#737)",
+          "timestamp": "2026-08-12T06:09:44Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/788fdc364329f7263befaf1c3003d03cdf6a8c50"
+        },
+        "date": 1786516180392,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1398.1939656734467,
+            "unit": "ns",
+            "range": "± 16.46787398599315",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12242.167665754047,
+            "unit": "ns",
+            "range": "± 16.265422521674203",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 120466.73551940918,
+            "unit": "ns",
+            "range": "± 266.6366526903656",
+            "bytesAllocated": 232376
           }
         ]
       }
