@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786516774094,
+  "lastUpdated": 1786517549007,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -71440,6 +71440,440 @@
             "unit": "ns",
             "range": "± 4393642.259105326",
             "bytesAllocated": 875232
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 221617240.46,
+            "unit": "ns",
+            "range": "± 3193798.0661774594",
+            "bytesAllocated": 837232
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 228842126.71,
+            "unit": "ns",
+            "range": "± 2976177.20064009",
+            "bytesAllocated": 997832
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382439262.21,
+            "unit": "ns",
+            "range": "± 6380705.73136321",
+            "bytesAllocated": 2640808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 269181706.43,
+            "unit": "ns",
+            "range": "± 3447280.2584066954",
+            "bytesAllocated": 1173624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256720218.23,
+            "unit": "ns",
+            "range": "± 3984420.328939945",
+            "bytesAllocated": 1271256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 382672153.1,
+            "unit": "ns",
+            "range": "± 4210026.400218624",
+            "bytesAllocated": 2649872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 270521985.46,
+            "unit": "ns",
+            "range": "± 4127267.11051137",
+            "bytesAllocated": 1298480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258226659.06,
+            "unit": "ns",
+            "range": "± 3129980.3998618666",
+            "bytesAllocated": 1312128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 506651365.69,
+            "unit": "ns",
+            "range": "± 4882689.871153986",
+            "bytesAllocated": 4739784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 396902577.88,
+            "unit": "ns",
+            "range": "± 6857413.345034031",
+            "bytesAllocated": 3275856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 387159277.55,
+            "unit": "ns",
+            "range": "± 6983010.272360695",
+            "bytesAllocated": 3370688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332752610.33,
+            "unit": "ns",
+            "range": "± 4172543.5037242975",
+            "bytesAllocated": 2213384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 222681874.62,
+            "unit": "ns",
+            "range": "± 3127189.4720374285",
+            "bytesAllocated": 805832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 240976970.15,
+            "unit": "ns",
+            "range": "± 3926303.835090735",
+            "bytesAllocated": 1419592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 210753948.99,
+            "unit": "ns",
+            "range": "± 2837903.274957865",
+            "bytesAllocated": 957192
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1123.8775777816772,
+            "unit": "ns",
+            "range": "± 14.351139658417447",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1282.6391966342926,
+            "unit": "ns",
+            "range": "± 7.488830068193076",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1097.7312524318695,
+            "unit": "ns",
+            "range": "± 12.54883761195199",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9746.545581817627,
+            "unit": "ns",
+            "range": "± 55.05209274418909",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11287.717714309692,
+            "unit": "ns",
+            "range": "± 99.10022821412429",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9364.01640510559,
+            "unit": "ns",
+            "range": "± 156.11840439023402",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 94071.2746887207,
+            "unit": "ns",
+            "range": "± 1170.6967131290453",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 106405.22722516741,
+            "unit": "ns",
+            "range": "± 327.7127140219065",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93493.19323730469,
+            "unit": "ns",
+            "range": "± 1644.0010234856986",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 112.97780914604664,
+            "unit": "ns",
+            "range": "± 1.638106885303276",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 117.78252166509628,
+            "unit": "ns",
+            "range": "± 0.7391428369489678",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1076.8555345535278,
+            "unit": "ns",
+            "range": "± 4.062336267654176",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1346.29736328125,
+            "unit": "ns",
+            "range": "± 12.312068094402056",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10492.17580986023,
+            "unit": "ns",
+            "range": "± 168.38152594318626",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10565.112531661987,
+            "unit": "ns",
+            "range": "± 245.2788721871262",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.291087427309581,
+            "unit": "ns",
+            "range": "± 0.003114920184144029",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1103.899899482727,
+            "unit": "ns",
+            "range": "± 5.143537920185557",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.61216449737549,
+            "unit": "ns",
+            "range": "± 0.019498348909022342",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9819.284002304077,
+            "unit": "ns",
+            "range": "± 53.64984592534837",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.06280442646573,
+            "unit": "ns",
+            "range": "± 0.48178362296547805",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97126.84777832031,
+            "unit": "ns",
+            "range": "± 781.9915063752834",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.19025622308254,
+            "unit": "ns",
+            "range": "± 0.5140725014909917",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.94399294257164,
+            "unit": "ns",
+            "range": "± 1.7047115916678468",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 977.0148169994354,
+            "unit": "ns",
+            "range": "± 10.7635378560305",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1145.215297460556,
+            "unit": "ns",
+            "range": "± 28.297020499076144",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9455.352725982666,
+            "unit": "ns",
+            "range": "± 100.42343356907097",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11373.332929611206,
+            "unit": "ns",
+            "range": "± 84.383886484131",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "96070825e81dd47dbc294b057bc0248cce147011",
+          "message": "feat(auth): add delegated agent approval contracts (#745)\n\nCo-authored-by: Claude Opus 4.7 <noreply@anthropic.com>",
+          "timestamp": "2026-08-12T06:32:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/96070825e81dd47dbc294b057bc0248cce147011"
+        },
+        "date": 1786517549007,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1586.307719707489,
+            "unit": "ns",
+            "range": "± 9.560910708137964",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13048.068687438965,
+            "unit": "ns",
+            "range": "± 75.56375290566412",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 127236.20013427734,
+            "unit": "ns",
+            "range": "± 861.539085172752",
+            "bytesAllocated": 232376
           }
         ]
       }
