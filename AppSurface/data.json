@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786507368812,
+  "lastUpdated": 1786507910424,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -70138,6 +70138,440 @@
             "unit": "ns",
             "range": "± 721.7470446026724",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 378823011.7,
+            "unit": "ns",
+            "range": "± 4559615.984170864",
+            "bytesAllocated": 2640672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 272889314.17,
+            "unit": "ns",
+            "range": "± 5311959.246961215",
+            "bytesAllocated": 1192376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261049707.07,
+            "unit": "ns",
+            "range": "± 3665782.6964954697",
+            "bytesAllocated": 1388432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 387297660.64,
+            "unit": "ns",
+            "range": "± 6826292.131988952",
+            "bytesAllocated": 2642608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 277437160.92,
+            "unit": "ns",
+            "range": "± 3583822.2614212125",
+            "bytesAllocated": 1182024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263718564.58,
+            "unit": "ns",
+            "range": "± 3175302.901995877",
+            "bytesAllocated": 1387440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 515716273.28,
+            "unit": "ns",
+            "range": "± 7879858.287070882",
+            "bytesAllocated": 4739144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 408621332.87,
+            "unit": "ns",
+            "range": "± 6021432.7492376445",
+            "bytesAllocated": 3249240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 395369728.82,
+            "unit": "ns",
+            "range": "± 8503174.095358213",
+            "bytesAllocated": 3369688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 338571194.55,
+            "unit": "ns",
+            "range": "± 4292169.069556046",
+            "bytesAllocated": 2215824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 224785574.71,
+            "unit": "ns",
+            "range": "± 3708868.3448913386",
+            "bytesAllocated": 810200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 245223882.41,
+            "unit": "ns",
+            "range": "± 3595679.6307559935",
+            "bytesAllocated": 1431944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 214124351.16,
+            "unit": "ns",
+            "range": "± 4681077.37447649",
+            "bytesAllocated": 875712
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1109.1654689311981,
+            "unit": "ns",
+            "range": "± 7.921657611727984",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1276.5878784656525,
+            "unit": "ns",
+            "range": "± 11.535909212358634",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1099.2187213897705,
+            "unit": "ns",
+            "range": "± 4.328258061702447",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9514.904998779297,
+            "unit": "ns",
+            "range": "± 70.54277379112054",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11342.439618791852,
+            "unit": "ns",
+            "range": "± 95.0664885595644",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9360.398420333862,
+            "unit": "ns",
+            "range": "± 86.67316648034974",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 95236.25666809082,
+            "unit": "ns",
+            "range": "± 1160.8600300782343",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 114300.64057922363,
+            "unit": "ns",
+            "range": "± 741.0370276538316",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93002.29928588867,
+            "unit": "ns",
+            "range": "± 423.90421335878324",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2935104370117188,
+            "unit": "ns",
+            "range": "± 0.008217137528632032",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1082.707597732544,
+            "unit": "ns",
+            "range": "± 10.445275672031837",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.70266318321228,
+            "unit": "ns",
+            "range": "± 0.016792879034244278",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9521.849212646484,
+            "unit": "ns",
+            "range": "± 79.2276856500371",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5118110520499,
+            "unit": "ns",
+            "range": "± 0.16796574691242508",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97565.61075265067,
+            "unit": "ns",
+            "range": "± 318.68583015349395",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 109.10241892933846,
+            "unit": "ns",
+            "range": "± 2.5042254611889656",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.93174089491367,
+            "unit": "ns",
+            "range": "± 2.00276802335883",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1056.8058428764343,
+            "unit": "ns",
+            "range": "± 10.276046073483355",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1120.6249406337738,
+            "unit": "ns",
+            "range": "± 14.4258070306065",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10128.502254486084,
+            "unit": "ns",
+            "range": "± 96.23757567374265",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10598.847645350865,
+            "unit": "ns",
+            "range": "± 152.94963966108332",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1470.756052017212,
+            "unit": "ns",
+            "range": "± 15.709224617886976",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13157.889343261719,
+            "unit": "ns",
+            "range": "± 65.91311450176995",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124456.52746582031,
+            "unit": "ns",
+            "range": "± 1413.1342079737942",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.52645733952522,
+            "unit": "ns",
+            "range": "± 1.4280133814123408",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.30010978877544,
+            "unit": "ns",
+            "range": "± 2.430640103476078",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 945.4982497692108,
+            "unit": "ns",
+            "range": "± 14.02467726195676",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1109.0561041150775,
+            "unit": "ns",
+            "range": "± 12.382062808728213",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9477.480239868164,
+            "unit": "ns",
+            "range": "± 81.982841693884",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10999.132875442505,
+            "unit": "ns",
+            "range": "± 227.481537228815",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aaad3ecf4485e013fc175cc3c7279c14b9f36391",
+          "message": "test(docs): capture outline layout failure evidence (#739)",
+          "timestamp": "2026-08-12T03:51:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aaad3ecf4485e013fc175cc3c7279c14b9f36391"
+        },
+        "date": 1786507910424,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 227482459.34,
+            "unit": "ns",
+            "range": "± 2662985.7299178955",
+            "bytesAllocated": 836696
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 240639123.51,
+            "unit": "ns",
+            "range": "± 2311602.44197236",
+            "bytesAllocated": 901104
           }
         ]
       }
