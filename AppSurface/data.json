@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786599504263,
+  "lastUpdated": 1786604390966,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -72742,6 +72742,440 @@
             "unit": "ns",
             "range": "± 4270844.9107623845",
             "bytesAllocated": 855624
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1151.0676114218575,
+            "unit": "ns",
+            "range": "± 1.9997347188544712",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1321.1079894474574,
+            "unit": "ns",
+            "range": "± 2.146264259599705",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1391.9576277051654,
+            "unit": "ns",
+            "range": "± 3.2461972522425024",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9885.359516143799,
+            "unit": "ns",
+            "range": "± 42.45920395782193",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11409.022422790527,
+            "unit": "ns",
+            "range": "± 31.03959555688942",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9728.906703948975,
+            "unit": "ns",
+            "range": "± 42.19181692893944",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98641.97875976562,
+            "unit": "ns",
+            "range": "± 216.66105440773546",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 112984.05238342285,
+            "unit": "ns",
+            "range": "± 513.8622450219924",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 98826.39656066895,
+            "unit": "ns",
+            "range": "± 659.9563693162484",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.300536423921585,
+            "unit": "ns",
+            "range": "± 0.009979950381266438",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1188.507247686386,
+            "unit": "ns",
+            "range": "± 2.1992187120512487",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.7087432295084,
+            "unit": "ns",
+            "range": "± 0.06188982434685946",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10237.379787445068,
+            "unit": "ns",
+            "range": "± 33.48400421016843",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5564285687038,
+            "unit": "ns",
+            "range": "± 0.19293191882610544",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97042.44659423828,
+            "unit": "ns",
+            "range": "± 322.19753248481817",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 106.93069404363632,
+            "unit": "ns",
+            "range": "± 1.4852520832959826",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.27054350078106,
+            "unit": "ns",
+            "range": "± 1.6965037862973262",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1090.8540060520172,
+            "unit": "ns",
+            "range": "± 16.745581112128264",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1062.5282757282257,
+            "unit": "ns",
+            "range": "± 28.288663305843425",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9978.41187286377,
+            "unit": "ns",
+            "range": "± 142.52416469061998",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10150.630105154854,
+            "unit": "ns",
+            "range": "± 48.60913563159967",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.53816893696785,
+            "unit": "ns",
+            "range": "± 0.6663966190240264",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 112.23054946959019,
+            "unit": "ns",
+            "range": "± 2.322380436060522",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 915.3239638805389,
+            "unit": "ns",
+            "range": "± 5.301835401469824",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1084.3519927433558,
+            "unit": "ns",
+            "range": "± 6.569455753021026",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9147.88932800293,
+            "unit": "ns",
+            "range": "± 59.93471444890354",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10608.188808441162,
+            "unit": "ns",
+            "range": "± 73.01941356937073",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1406.8375515937805,
+            "unit": "ns",
+            "range": "± 8.233217471091525",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12308.160202026367,
+            "unit": "ns",
+            "range": "± 72.0417571364369",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122902.64120483398,
+            "unit": "ns",
+            "range": "± 533.2669909530191",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 215768419.89,
+            "unit": "ns",
+            "range": "± 2688203.0202827486",
+            "bytesAllocated": 848216
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 228587694.87,
+            "unit": "ns",
+            "range": "± 3139487.0718227644",
+            "bytesAllocated": 914744
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b6a8bf6cb209231173b70f55c77aacbe86cc979a",
+          "message": "feat(docs): add JavaScript API lifecycle metadata (#748)",
+          "timestamp": "2026-08-13T06:39:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b6a8bf6cb209231173b70f55c77aacbe86cc979a"
+        },
+        "date": 1786604390966,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 386098127.66,
+            "unit": "ns",
+            "range": "± 6406366.651862316",
+            "bytesAllocated": 2643464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 263418945.26,
+            "unit": "ns",
+            "range": "± 6032338.884423684",
+            "bytesAllocated": 1174632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 251642567.03,
+            "unit": "ns",
+            "range": "± 4141983.875212173",
+            "bytesAllocated": 1362544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 374415646.86,
+            "unit": "ns",
+            "range": "± 6093483.933159383",
+            "bytesAllocated": 2632136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264985743.36,
+            "unit": "ns",
+            "range": "± 2468922.7741683503",
+            "bytesAllocated": 1204400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254341333.51,
+            "unit": "ns",
+            "range": "± 2414466.530156458",
+            "bytesAllocated": 1313072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 495123054.3,
+            "unit": "ns",
+            "range": "± 9907798.680630947",
+            "bytesAllocated": 4741824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 391611628.97,
+            "unit": "ns",
+            "range": "± 10781898.65613012",
+            "bytesAllocated": 3252528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 379011853.19,
+            "unit": "ns",
+            "range": "± 7589770.002668491",
+            "bytesAllocated": 3372744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 320198177.43,
+            "unit": "ns",
+            "range": "± 3684604.6127203507",
+            "bytesAllocated": 2208872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 216884368.94,
+            "unit": "ns",
+            "range": "± 2609495.8268648223",
+            "bytesAllocated": 789056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 236327442.16,
+            "unit": "ns",
+            "range": "± 2891604.0926943365",
+            "bytesAllocated": 1318512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203238446.67,
+            "unit": "ns",
+            "range": "± 2562104.688676196",
+            "bytesAllocated": 962184
           }
         ]
       }
