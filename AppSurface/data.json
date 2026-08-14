@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786665841467,
+  "lastUpdated": 1786666866072,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -73610,6 +73610,440 @@
             "unit": "ns",
             "range": "± 149.67169393384918",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 872.284431219101,
+            "unit": "ns",
+            "range": "± 2.2361385596708883",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 917.7286227941513,
+            "unit": "ns",
+            "range": "± 3.5849927736367233",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 815.8948125839233,
+            "unit": "ns",
+            "range": "± 2.3365491618222474",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7459.329693385533,
+            "unit": "ns",
+            "range": "± 9.385029676745082",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 8282.009420394897,
+            "unit": "ns",
+            "range": "± 37.589058432536525",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7352.36047744751,
+            "unit": "ns",
+            "range": "± 17.426000413934798",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 73173.74119567871,
+            "unit": "ns",
+            "range": "± 173.43639990063008",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 81796.44398498535,
+            "unit": "ns",
+            "range": "± 505.5345871151132",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 73067.74630737305,
+            "unit": "ns",
+            "range": "± 202.3841389422637",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.525222879834473,
+            "unit": "ns",
+            "range": "± 0.0013922620834639617",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 852.8639717102051,
+            "unit": "ns",
+            "range": "± 2.654624388267497",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.37588288954326,
+            "unit": "ns",
+            "range": "± 0.014188728574310513",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7418.211686270578,
+            "unit": "ns",
+            "range": "± 27.930098032112898",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 281.2067586353847,
+            "unit": "ns",
+            "range": "± 1.047376700514078",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 75410.83818054199,
+            "unit": "ns",
+            "range": "± 193.6885296043521",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 311242589.56,
+            "unit": "ns",
+            "range": "± 4666925.756510242",
+            "bytesAllocated": 2668480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 218997372.37,
+            "unit": "ns",
+            "range": "± 4852839.558050065",
+            "bytesAllocated": 1193400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 207368132.79,
+            "unit": "ns",
+            "range": "± 3744441.2550100037",
+            "bytesAllocated": 1289120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 307550034.44,
+            "unit": "ns",
+            "range": "± 6222023.474624943",
+            "bytesAllocated": 2633904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 204021638.52,
+            "unit": "ns",
+            "range": "± 1845588.8116202122",
+            "bytesAllocated": 1211464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 194209401.33,
+            "unit": "ns",
+            "range": "± 892470.7489897496",
+            "bytesAllocated": 1386280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 391051655.57,
+            "unit": "ns",
+            "range": "± 10859331.975173162",
+            "bytesAllocated": 4740032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 301475351.98,
+            "unit": "ns",
+            "range": "± 4753148.834047685",
+            "bytesAllocated": 3253824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 294431914.29,
+            "unit": "ns",
+            "range": "± 4497717.3976858705",
+            "bytesAllocated": 3368776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 251064542.45,
+            "unit": "ns",
+            "range": "± 3281877.34464812",
+            "bytesAllocated": 2203544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 169233890.43,
+            "unit": "ns",
+            "range": "± 1709592.2491470892",
+            "bytesAllocated": 809968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 186473723.6,
+            "unit": "ns",
+            "range": "± 2868661.046188925",
+            "bytesAllocated": 1419360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 159966128.08,
+            "unit": "ns",
+            "range": "± 1925609.2528652004",
+            "bytesAllocated": 870896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 171911422.55,
+            "unit": "ns",
+            "range": "± 3052221.747363787",
+            "bytesAllocated": 835088
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 182588606.83,
+            "unit": "ns",
+            "range": "± 2787052.9830475384",
+            "bytesAllocated": 913800
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 90.31979554891586,
+            "unit": "ns",
+            "range": "± 2.7762392273708105",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 96.22018612921238,
+            "unit": "ns",
+            "range": "± 1.4553053069262973",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 825.3686634302139,
+            "unit": "ns",
+            "range": "± 16.335707580615694",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 848.2738338708878,
+            "unit": "ns",
+            "range": "± 12.31003756019027",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8411.008187430245,
+            "unit": "ns",
+            "range": "± 65.49921603663576",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8158.869886125837,
+            "unit": "ns",
+            "range": "± 126.4625868807329",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 82.07316133379936,
+            "unit": "ns",
+            "range": "± 1.4725582188908415",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 97.8531042188406,
+            "unit": "ns",
+            "range": "± 1.5123032275659176",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 772.6616303920746,
+            "unit": "ns",
+            "range": "± 13.275256923974563",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 909.6249936819077,
+            "unit": "ns",
+            "range": "± 7.753248480980104",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7732.223454066685,
+            "unit": "ns",
+            "range": "± 83.65816570531435",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 9285.670108795166,
+            "unit": "ns",
+            "range": "± 205.38087275198473",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5822a08615e3a6251d877fdfccd248df9a79f21",
+          "message": "feat(durable): scope PostgreSQL work discovery (#750)",
+          "timestamp": "2026-08-14T00:03:47Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5822a08615e3a6251d877fdfccd248df9a79f21"
+        },
+        "date": 1786666866072,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1138.8881714684624,
+            "unit": "ns",
+            "range": "± 7.953029020777475",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9292.589567184448,
+            "unit": "ns",
+            "range": "± 58.19600596841147",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 91874.5806274414,
+            "unit": "ns",
+            "range": "± 545.9513715871016",
+            "bytesAllocated": 232376
           }
         ]
       }
