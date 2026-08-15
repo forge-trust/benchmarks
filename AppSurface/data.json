@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786770351441,
+  "lastUpdated": 1786772120109,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -74912,6 +74912,440 @@
             "unit": "ns",
             "range": "± 116.52977117472454",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1094.8954522269112,
+            "unit": "ns",
+            "range": "± 4.7744902943110725",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1314.0444791316986,
+            "unit": "ns",
+            "range": "± 8.421418831036647",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1085.3521242141724,
+            "unit": "ns",
+            "range": "± 19.342705881350245",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10121.578832626343,
+            "unit": "ns",
+            "range": "± 51.37354145537648",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11496.813997268677,
+            "unit": "ns",
+            "range": "± 110.4104852489895",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9643.545732498169,
+            "unit": "ns",
+            "range": "± 103.24558302243442",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 95187.86483764648,
+            "unit": "ns",
+            "range": "± 542.0955906202539",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113394.68432617188,
+            "unit": "ns",
+            "range": "± 544.0862926447048",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 96269.52294921875,
+            "unit": "ns",
+            "range": "± 744.8854911348712",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3052097391337156,
+            "unit": "ns",
+            "range": "± 0.023122763703447898",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1081.1685812473297,
+            "unit": "ns",
+            "range": "± 8.712618440509459",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.65986038957323,
+            "unit": "ns",
+            "range": "± 0.02182263754707393",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9769.474922180176,
+            "unit": "ns",
+            "range": "± 43.9755107160491",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.2771791730608,
+            "unit": "ns",
+            "range": "± 0.1089502622121802",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95737.80819702148,
+            "unit": "ns",
+            "range": "± 561.0412615677845",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 107.56139947474003,
+            "unit": "ns",
+            "range": "± 0.600666734645915",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.93982799351215,
+            "unit": "ns",
+            "range": "± 0.8165153949707034",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1041.9255375862122,
+            "unit": "ns",
+            "range": "± 4.101468393268122",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1019.9233512878418,
+            "unit": "ns",
+            "range": "± 7.587881698654339",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10010.229103088379,
+            "unit": "ns",
+            "range": "± 62.76665204919392",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10216.493543624878,
+            "unit": "ns",
+            "range": "± 53.07077954015472",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.12234325706959,
+            "unit": "ns",
+            "range": "± 0.3216856135059719",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.78219671547413,
+            "unit": "ns",
+            "range": "± 1.1072699211522992",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 932.029890537262,
+            "unit": "ns",
+            "range": "± 7.553239076146016",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1106.5421478748322,
+            "unit": "ns",
+            "range": "± 14.078362903898057",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9316.336225509644,
+            "unit": "ns",
+            "range": "± 42.31096070121779",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10857.264804840088,
+            "unit": "ns",
+            "range": "± 67.72854199049631",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385542368.87,
+            "unit": "ns",
+            "range": "± 6588995.607329657",
+            "bytesAllocated": 2626664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 266270366.28,
+            "unit": "ns",
+            "range": "± 4688990.808865353",
+            "bytesAllocated": 1293776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253584278.65,
+            "unit": "ns",
+            "range": "± 2804447.132341671",
+            "bytesAllocated": 1289120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 379763653.09,
+            "unit": "ns",
+            "range": "± 5879776.594013047",
+            "bytesAllocated": 2650576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 272834894.21,
+            "unit": "ns",
+            "range": "± 4359545.9160807775",
+            "bytesAllocated": 1204456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 259215490.88,
+            "unit": "ns",
+            "range": "± 4383298.934109398",
+            "bytesAllocated": 1312888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 505606560.25,
+            "unit": "ns",
+            "range": "± 6403031.822255121",
+            "bytesAllocated": 4718544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 399206870.84,
+            "unit": "ns",
+            "range": "± 8340839.233890207",
+            "bytesAllocated": 3252280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 395422255.76,
+            "unit": "ns",
+            "range": "± 9418605.431139864",
+            "bytesAllocated": 3387064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 339335213.87,
+            "unit": "ns",
+            "range": "± 6309374.123759159",
+            "bytesAllocated": 2215640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230480100.25,
+            "unit": "ns",
+            "range": "± 5055048.996485833",
+            "bytesAllocated": 821488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 247642450.66,
+            "unit": "ns",
+            "range": "± 3694082.182379132",
+            "bytesAllocated": 1414064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208675507.98,
+            "unit": "ns",
+            "range": "± 1921623.8477125575",
+            "bytesAllocated": 844288
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1405.0210864543915,
+            "unit": "ns",
+            "range": "± 6.2935690667518704",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12770.716102600098,
+            "unit": "ns",
+            "range": "± 83.46925442750059",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 131662.76971435547,
+            "unit": "ns",
+            "range": "± 1580.0045887461908",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a8cce7412bf2e057f29319360ac598b114bbb226",
+          "message": "feat(razorwire): add brochure starter (#751)",
+          "timestamp": "2026-08-15T05:14:45Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a8cce7412bf2e057f29319360ac598b114bbb226"
+        },
+        "date": 1786772120109,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 221533068.01,
+            "unit": "ns",
+            "range": "± 2492476.226700768",
+            "bytesAllocated": 824872
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 235218134.3,
+            "unit": "ns",
+            "range": "± 2441377.3110853746",
+            "bytesAllocated": 913936
           }
         ]
       }
