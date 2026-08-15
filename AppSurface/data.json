@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786776173781,
+  "lastUpdated": 1786777878550,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -75780,6 +75780,440 @@
             "unit": "ns",
             "range": "± 133.63448254530306",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 321084016.62,
+            "unit": "ns",
+            "range": "± 3858821.400464749",
+            "bytesAllocated": 2643848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 229973442.17,
+            "unit": "ns",
+            "range": "± 2931488.79428856",
+            "bytesAllocated": 1173856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 219161797.98,
+            "unit": "ns",
+            "range": "± 1798556.837495276",
+            "bytesAllocated": 1361104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 321464638.54,
+            "unit": "ns",
+            "range": "± 3579147.339499887",
+            "bytesAllocated": 2643384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 230897778.31,
+            "unit": "ns",
+            "range": "± 2648838.147456271",
+            "bytesAllocated": 1202432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 220563637.61,
+            "unit": "ns",
+            "range": "± 2342278.9180402397",
+            "bytesAllocated": 1290888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 433751054.47,
+            "unit": "ns",
+            "range": "± 4828656.994407812",
+            "bytesAllocated": 4729536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 349404121.63,
+            "unit": "ns",
+            "range": "± 4445978.433167452",
+            "bytesAllocated": 3270400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 343173008.51,
+            "unit": "ns",
+            "range": "± 4300961.2569161",
+            "bytesAllocated": 3367544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 279553908.14,
+            "unit": "ns",
+            "range": "± 3390263.89845432",
+            "bytesAllocated": 2211528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 192173439.36,
+            "unit": "ns",
+            "range": "± 2540447.2609733944",
+            "bytesAllocated": 808104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 207391855.91,
+            "unit": "ns",
+            "range": "± 1955928.1185724037",
+            "bytesAllocated": 1401232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 178276203.95,
+            "unit": "ns",
+            "range": "± 1546107.1936425164",
+            "bytesAllocated": 855416
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 868.8574806451797,
+            "unit": "ns",
+            "range": "± 4.991113274760108",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1014.4389863014221,
+            "unit": "ns",
+            "range": "± 2.994616545266258",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 855.3172069787979,
+            "unit": "ns",
+            "range": "± 2.194726944117782",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7758.531047821045,
+            "unit": "ns",
+            "range": "± 19.53218338538819",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 9119.882618495396,
+            "unit": "ns",
+            "range": "± 32.17932361434739",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7429.821241378784,
+            "unit": "ns",
+            "range": "± 57.180994057835285",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 76134.12337820871,
+            "unit": "ns",
+            "range": "± 375.008463190566",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 85542.52719116211,
+            "unit": "ns",
+            "range": "± 607.8035171824799",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 72517.51234944661,
+            "unit": "ns",
+            "range": "± 98.74504234461405",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 116.49944438040257,
+            "unit": "ns",
+            "range": "± 0.5734177248693147",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.36389511823654,
+            "unit": "ns",
+            "range": "± 1.7169622444844228",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 937.6320807933807,
+            "unit": "ns",
+            "range": "± 8.187979769267557",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1029.5762288570404,
+            "unit": "ns",
+            "range": "± 12.170020719634094",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9674.891727992466,
+            "unit": "ns",
+            "range": "± 60.679657257550694",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10606.563135147095,
+            "unit": "ns",
+            "range": "± 98.00001278092847",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.61714178323746,
+            "unit": "ns",
+            "range": "± 0.481524765045528",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.76070782967976,
+            "unit": "ns",
+            "range": "± 0.6002672929601138",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 917.6215554646084,
+            "unit": "ns",
+            "range": "± 4.415840883167965",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1069.0322635173798,
+            "unit": "ns",
+            "range": "± 14.38422711938273",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9129.27717590332,
+            "unit": "ns",
+            "range": "± 33.19221680006052",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10671.643766403198,
+            "unit": "ns",
+            "range": "± 104.88547984585065",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1242.4346623420715,
+            "unit": "ns",
+            "range": "± 7.368916756510293",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 10782.794198989868,
+            "unit": "ns",
+            "range": "± 114.37271360470861",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 100196.12536621094,
+            "unit": "ns",
+            "range": "± 397.07960430508615",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 4.083468411117792,
+            "unit": "ns",
+            "range": "± 0.024753752403026484",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 895.2603043147495,
+            "unit": "ns",
+            "range": "± 4.271607593398257",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 32.438470900058746,
+            "unit": "ns",
+            "range": "± 0.017607985300601654",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7677.123541695731,
+            "unit": "ns",
+            "range": "± 36.747109394442134",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 358.14919110706876,
+            "unit": "ns",
+            "range": "± 0.3243470927748012",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 74425.86590576172,
+            "unit": "ns",
+            "range": "± 612.3073463004483",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "46762b404645ba12714ad2041f596eec42585d87",
+          "message": "build(deps): complete SSH.NET 2026 update (#759)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-15T06:52:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/46762b404645ba12714ad2041f596eec42585d87"
+        },
+        "date": 1786777878550,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 191216801.79,
+            "unit": "ns",
+            "range": "± 1565583.9378832895",
+            "bytesAllocated": 833280
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 202092871.86,
+            "unit": "ns",
+            "range": "± 1679459.3445945694",
+            "bytesAllocated": 996752
           }
         ]
       }
