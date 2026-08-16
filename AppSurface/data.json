@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1786854236293,
+  "lastUpdated": 1786918331156,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -77516,6 +77516,440 @@
             "unit": "ns",
             "range": "± 4826684.632735776",
             "bytesAllocated": 971784
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 229138737.84,
+            "unit": "ns",
+            "range": "± 6360937.449689544",
+            "bytesAllocated": 817248
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 240465152.32,
+            "unit": "ns",
+            "range": "± 7028264.442949287",
+            "bytesAllocated": 914712
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1117.7519228458405,
+            "unit": "ns",
+            "range": "± 7.525351273077189",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1285.2960186004639,
+            "unit": "ns",
+            "range": "± 5.7490491447338785",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1081.6768689836774,
+            "unit": "ns",
+            "range": "± 8.239825554129151",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9834.37691116333,
+            "unit": "ns",
+            "range": "± 126.22850996945903",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11345.795919418335,
+            "unit": "ns",
+            "range": "± 64.7081926785778",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9875.148995535714,
+            "unit": "ns",
+            "range": "± 39.87232163172534",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98588.28261893136,
+            "unit": "ns",
+            "range": "± 472.6384641590268",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 115432.76919555664,
+            "unit": "ns",
+            "range": "± 1125.9847731348998",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94042.71559143066,
+            "unit": "ns",
+            "range": "± 1288.6610337752022",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2926463122878755,
+            "unit": "ns",
+            "range": "± 0.007131251528654777",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1080.7272634506226,
+            "unit": "ns",
+            "range": "± 14.87676469048846",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.6830957531929,
+            "unit": "ns",
+            "range": "± 0.026482379490552904",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9532.635528564453,
+            "unit": "ns",
+            "range": "± 88.01487727801",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.0073710680008,
+            "unit": "ns",
+            "range": "± 0.589991125970677",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97222.52809143066,
+            "unit": "ns",
+            "range": "± 555.0166448873256",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.39463146243777,
+            "unit": "ns",
+            "range": "± 0.9172678366267685",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.19497020542622,
+            "unit": "ns",
+            "range": "± 2.4450934248558",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1033.0326687949043,
+            "unit": "ns",
+            "range": "± 8.93353497881706",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 995.177740573883,
+            "unit": "ns",
+            "range": "± 4.6718085651808074",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10114.228958129883,
+            "unit": "ns",
+            "range": "± 68.3547937197532",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10333.649188995361,
+            "unit": "ns",
+            "range": "± 142.80107576830096",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.36812180280685,
+            "unit": "ns",
+            "range": "± 1.0233650052368972",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.20673304796219,
+            "unit": "ns",
+            "range": "± 2.4503047216133864",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 927.1151331663132,
+            "unit": "ns",
+            "range": "± 7.974081166647968",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1068.1644932883125,
+            "unit": "ns",
+            "range": "± 1.3778750365859505",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9082.409294128418,
+            "unit": "ns",
+            "range": "± 99.94153561071735",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10500.180536905924,
+            "unit": "ns",
+            "range": "± 35.71692619282806",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1481.1970329284668,
+            "unit": "ns",
+            "range": "± 4.824222379721555",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12386.665258407593,
+            "unit": "ns",
+            "range": "± 75.69552274254939",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 120023.48115539551,
+            "unit": "ns",
+            "range": "± 1096.7807408541398",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "932e8face35d155b267ba66a93bdbd7ec29b4d23",
+          "message": "feat(docs): add fixed AppSurfaceLight preset (#761)",
+          "timestamp": "2026-08-16T21:51:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/932e8face35d155b267ba66a93bdbd7ec29b4d23"
+        },
+        "date": 1786918331156,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 383143754.03,
+            "unit": "ns",
+            "range": "± 8849082.588044476",
+            "bytesAllocated": 2667992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 271853165.68,
+            "unit": "ns",
+            "range": "± 4328366.848398563",
+            "bytesAllocated": 1193056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 259305173.84,
+            "unit": "ns",
+            "range": "± 6794305.767543529",
+            "bytesAllocated": 1272264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 379755881.13,
+            "unit": "ns",
+            "range": "± 7095571.944576868",
+            "bytesAllocated": 2649872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 271401158.61,
+            "unit": "ns",
+            "range": "± 6939552.938114768",
+            "bytesAllocated": 1303120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 266349546.2,
+            "unit": "ns",
+            "range": "± 5655633.863831565",
+            "bytesAllocated": 1287856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 498562677.5,
+            "unit": "ns",
+            "range": "± 11122024.87785179",
+            "bytesAllocated": 4740632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 397057642.77,
+            "unit": "ns",
+            "range": "± 8436652.805801662",
+            "bytesAllocated": 3249288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 400930530.45,
+            "unit": "ns",
+            "range": "± 8341332.991468076",
+            "bytesAllocated": 3371848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 344820628.48,
+            "unit": "ns",
+            "range": "± 6267161.750674266",
+            "bytesAllocated": 2206992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 235117705.17,
+            "unit": "ns",
+            "range": "± 4359205.989634152",
+            "bytesAllocated": 810344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 254303426.35,
+            "unit": "ns",
+            "range": "± 7073518.779654684",
+            "bytesAllocated": 1419512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 217359095.33,
+            "unit": "ns",
+            "range": "± 5208424.7514883755",
+            "bytesAllocated": 862128
           }
         ]
       }
