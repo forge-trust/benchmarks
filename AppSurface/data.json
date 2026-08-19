@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787040816175,
+  "lastUpdated": 1787115015678,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -78818,6 +78818,440 @@
             "unit": "ns",
             "range": "± 3551154.4153228793",
             "bytesAllocated": 871216
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 219872895.3,
+            "unit": "ns",
+            "range": "± 3128695.271927725",
+            "bytesAllocated": 824168
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 232109106.35,
+            "unit": "ns",
+            "range": "± 3221441.9865460536",
+            "bytesAllocated": 982896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1086.3054764270782,
+            "unit": "ns",
+            "range": "± 5.270448514271226",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1213.740196466446,
+            "unit": "ns",
+            "range": "± 3.8145266795573236",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1076.3868909563337,
+            "unit": "ns",
+            "range": "± 3.43914619616325",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9526.083696637836,
+            "unit": "ns",
+            "range": "± 23.678849702883838",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10797.115162440708,
+            "unit": "ns",
+            "range": "± 58.40515706502905",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9536.041024344308,
+            "unit": "ns",
+            "range": "± 53.7673718269751",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91706.64195033482,
+            "unit": "ns",
+            "range": "± 242.0684791256511",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 105484.97854614258,
+            "unit": "ns",
+            "range": "± 113.47291579054355",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91898.84606933594,
+            "unit": "ns",
+            "range": "± 106.27555305749857",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2460737143244063,
+            "unit": "ns",
+            "range": "± 0.017453440107397886",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1071.832952260971,
+            "unit": "ns",
+            "range": "± 1.4163974548175289",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.580900754247395,
+            "unit": "ns",
+            "range": "± 0.015299368746974955",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9295.208217075893,
+            "unit": "ns",
+            "range": "± 8.33240404977491",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.711816906929,
+            "unit": "ns",
+            "range": "± 0.13996373294969167",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91770.05927385602,
+            "unit": "ns",
+            "range": "± 160.489454025711",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 118.13070774078369,
+            "unit": "ns",
+            "range": "± 2.6670478565581317",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.33484470844269,
+            "unit": "ns",
+            "range": "± 1.2792402245746737",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1226.0408256053925,
+            "unit": "ns",
+            "range": "± 18.181631887963103",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1074.2042834758759,
+            "unit": "ns",
+            "range": "± 12.164266919197937",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10516.867307390485,
+            "unit": "ns",
+            "range": "± 161.91319212792496",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10548.25209263393,
+            "unit": "ns",
+            "range": "± 79.83094752325064",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.8402841836214,
+            "unit": "ns",
+            "range": "± 1.4987352471716107",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 118.37440204620361,
+            "unit": "ns",
+            "range": "± 1.1751954955690815",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 991.5818738937378,
+            "unit": "ns",
+            "range": "± 20.995683272406747",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1185.6040432453156,
+            "unit": "ns",
+            "range": "± 12.242902713347513",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10599.449590682983,
+            "unit": "ns",
+            "range": "± 510.68804526942995",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11653.202499389648,
+            "unit": "ns",
+            "range": "± 149.16746052088521",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1372.3280081748962,
+            "unit": "ns",
+            "range": "± 4.251587682968258",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12407.641523088727,
+            "unit": "ns",
+            "range": "± 6.945560236943071",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121462.16228376116,
+            "unit": "ns",
+            "range": "± 292.07235932543733",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "0dc0b6a0610ebad1793fc3f59e38aa5f801815f8",
+          "message": "feat(dev-auth): add persona landing URLs (#769)",
+          "timestamp": "2026-08-19T04:30:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/0dc0b6a0610ebad1793fc3f59e38aa5f801815f8"
+        },
+        "date": 1787115015678,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 369370849.38,
+            "unit": "ns",
+            "range": "± 5536233.570248366",
+            "bytesAllocated": 2645040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 261626433.97,
+            "unit": "ns",
+            "range": "± 2918431.7068899204",
+            "bytesAllocated": 1189672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 250002383.68,
+            "unit": "ns",
+            "range": "± 3773029.788199963",
+            "bytesAllocated": 1290112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 368257147.84,
+            "unit": "ns",
+            "range": "± 3979053.53197379",
+            "bytesAllocated": 2649512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 267165219.17,
+            "unit": "ns",
+            "range": "± 2435301.707401336",
+            "bytesAllocated": 1205296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254061236.71,
+            "unit": "ns",
+            "range": "± 1846188.118493839",
+            "bytesAllocated": 1310512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 490215650.64,
+            "unit": "ns",
+            "range": "± 5838029.932365986",
+            "bytesAllocated": 4718912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 390097144.97,
+            "unit": "ns",
+            "range": "± 5006680.887925251",
+            "bytesAllocated": 3269784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 381036675.48,
+            "unit": "ns",
+            "range": "± 5664344.923048065",
+            "bytesAllocated": 3388744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 328441087.98,
+            "unit": "ns",
+            "range": "± 5446731.064036402",
+            "bytesAllocated": 2195992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 225149066.36,
+            "unit": "ns",
+            "range": "± 2887568.307103729",
+            "bytesAllocated": 809272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241781328.78,
+            "unit": "ns",
+            "range": "± 5198240.516477803",
+            "bytesAllocated": 1419160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207836151.63,
+            "unit": "ns",
+            "range": "± 2951468.560767207",
+            "bytesAllocated": 857544
           }
         ]
       }
