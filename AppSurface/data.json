@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1787640342778,
+  "lastUpdated": 1788130862633,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -81856,6 +81856,440 @@
             "unit": "ns",
             "range": "± 1675.4900109730859",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 292689554.38,
+            "unit": "ns",
+            "range": "± 59625708.45702744",
+            "bytesAllocated": 2643712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 206051610.2,
+            "unit": "ns",
+            "range": "± 4985571.953953593",
+            "bytesAllocated": 1172776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 194911840.93,
+            "unit": "ns",
+            "range": "± 2056115.894323106",
+            "bytesAllocated": 1286968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 287049822.77,
+            "unit": "ns",
+            "range": "± 3794672.573508176",
+            "bytesAllocated": 2650360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 205192346.5,
+            "unit": "ns",
+            "range": "± 2529717.414188489",
+            "bytesAllocated": 1181208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 195654654.79,
+            "unit": "ns",
+            "range": "± 2301107.97412727",
+            "bytesAllocated": 1292944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 386098002.88,
+            "unit": "ns",
+            "range": "± 4657641.856394232",
+            "bytesAllocated": 4721448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 311224222.98,
+            "unit": "ns",
+            "range": "± 5431094.397454599",
+            "bytesAllocated": 3260984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 305409643.35,
+            "unit": "ns",
+            "range": "± 4597306.8562813075",
+            "bytesAllocated": 3373288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 250390615.26,
+            "unit": "ns",
+            "range": "± 5442264.3847677475",
+            "bytesAllocated": 2210912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 170362060.61,
+            "unit": "ns",
+            "range": "± 1772276.7474126362",
+            "bytesAllocated": 918960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 185003359.12,
+            "unit": "ns",
+            "range": "± 4421462.556470998",
+            "bytesAllocated": 1401464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 158786542.45,
+            "unit": "ns",
+            "range": "± 1883966.5778829805",
+            "bytesAllocated": 858096
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 816.7311908006668,
+            "unit": "ns",
+            "range": "± 3.1261161216044124",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 932.6164569854736,
+            "unit": "ns",
+            "range": "± 2.738883588387708",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 796.6486266851425,
+            "unit": "ns",
+            "range": "± 7.949412444849877",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7127.362593650818,
+            "unit": "ns",
+            "range": "± 32.52785610948919",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 7777.353025436401,
+            "unit": "ns",
+            "range": "± 41.259880220264094",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 6817.647039413452,
+            "unit": "ns",
+            "range": "± 46.96918424958569",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 67035.9175567627,
+            "unit": "ns",
+            "range": "± 603.5879593065811",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 77973.16421944754,
+            "unit": "ns",
+            "range": "± 108.99210018745524",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 66877.1721496582,
+            "unit": "ns",
+            "range": "± 267.4404302836533",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.5246393606066704,
+            "unit": "ns",
+            "range": "± 0.027510786954662945",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 814.2294329404831,
+            "unit": "ns",
+            "range": "± 3.2986310787666664",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 27.904754519462585,
+            "unit": "ns",
+            "range": "± 0.03195467731381947",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7045.660098075867,
+            "unit": "ns",
+            "range": "± 55.54545546828264",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 308.0774025917053,
+            "unit": "ns",
+            "range": "± 0.2380428913256213",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 68627.08598327637,
+            "unit": "ns",
+            "range": "± 367.43369065387117",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 88.37761968374252,
+            "unit": "ns",
+            "range": "± 1.8227030232173125",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.49276939034462,
+            "unit": "ns",
+            "range": "± 1.0208337091223583",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 814.2192919254303,
+            "unit": "ns",
+            "range": "± 14.448925038884061",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1001.3305902481079,
+            "unit": "ns",
+            "range": "± 17.38070681321878",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8537.46322441101,
+            "unit": "ns",
+            "range": "± 119.03129424101947",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8520.080176217216,
+            "unit": "ns",
+            "range": "± 163.66855273841264",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 77.30426307022572,
+            "unit": "ns",
+            "range": "± 1.4497368092735166",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 98.46405293047428,
+            "unit": "ns",
+            "range": "± 2.8722895629534175",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 838.174861907959,
+            "unit": "ns",
+            "range": "± 9.268437888049744",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 959.01189661026,
+            "unit": "ns",
+            "range": "± 22.74539151435541",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7086.000352859497,
+            "unit": "ns",
+            "range": "± 86.61702522527384",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10453.528455734253,
+            "unit": "ns",
+            "range": "± 154.1316229394721",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1056.0066692829132,
+            "unit": "ns",
+            "range": "± 12.801930133769586",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9695.551134109497,
+            "unit": "ns",
+            "range": "± 130.05769626707922",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 93111.11717224121,
+            "unit": "ns",
+            "range": "± 668.2771146559937",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3fdd4845ec3893e4b1234dba1f853754cdaaa112",
+          "message": "feat(evidence): extract private coverage core (#787)",
+          "timestamp": "2026-08-30T22:44:07Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3fdd4845ec3893e4b1234dba1f853754cdaaa112"
+        },
+        "date": 1788130862633,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 170284508.62,
+            "unit": "ns",
+            "range": "± 1853870.5549466165",
+            "bytesAllocated": 860392
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 179416612.26,
+            "unit": "ns",
+            "range": "± 1771595.5687110643",
+            "bytesAllocated": 994040
           }
         ]
       }
