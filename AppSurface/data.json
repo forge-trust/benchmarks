@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788130862633,
+  "lastUpdated": 1788625320361,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -82290,6 +82290,440 @@
             "unit": "ns",
             "range": "± 1771595.5687110643",
             "bytesAllocated": 994040
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 230298589.81,
+            "unit": "ns",
+            "range": "± 4077427.94953575",
+            "bytesAllocated": 821704
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 242503607.16,
+            "unit": "ns",
+            "range": "± 3643465.3210059134",
+            "bytesAllocated": 900648
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1072.3582201004028,
+            "unit": "ns",
+            "range": "± 19.334977301768006",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1288.8422546386719,
+            "unit": "ns",
+            "range": "± 3.346207589209862",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1072.4465705326625,
+            "unit": "ns",
+            "range": "± 8.984756708467973",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9681.725759506226,
+            "unit": "ns",
+            "range": "± 149.28025253819735",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11083.434309005737,
+            "unit": "ns",
+            "range": "± 118.1036549612049",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9309.35803113665,
+            "unit": "ns",
+            "range": "± 70.49667709136024",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97229.08856201172,
+            "unit": "ns",
+            "range": "± 998.3406637325963",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 108724.85032435825,
+            "unit": "ns",
+            "range": "± 511.1219561818361",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93719.8522644043,
+            "unit": "ns",
+            "range": "± 1272.3445456575023",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3039467372000217,
+            "unit": "ns",
+            "range": "± 0.015531169773628211",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1092.4510705471039,
+            "unit": "ns",
+            "range": "± 16.417300690453857",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.46620839834213,
+            "unit": "ns",
+            "range": "± 0.021547595117023432",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9357.273921966553,
+            "unit": "ns",
+            "range": "± 74.05895126558502",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.49218927110945,
+            "unit": "ns",
+            "range": "± 0.3476831793725843",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 92334.72128295898,
+            "unit": "ns",
+            "range": "± 359.8439799966033",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 109.15393701195717,
+            "unit": "ns",
+            "range": "± 1.312006954611294",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 115.71510943770409,
+            "unit": "ns",
+            "range": "± 1.842055667974139",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1068.778302192688,
+            "unit": "ns",
+            "range": "± 8.449314442466433",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1035.6595277786255,
+            "unit": "ns",
+            "range": "± 5.946422182403824",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9810.478700910297,
+            "unit": "ns",
+            "range": "± 97.93883000949184",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10170.513931274414,
+            "unit": "ns",
+            "range": "± 104.49693163772184",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.80018337070942,
+            "unit": "ns",
+            "range": "± 1.1133616471470005",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.39887315034866,
+            "unit": "ns",
+            "range": "± 1.8664437371888043",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 954.2312767505646,
+            "unit": "ns",
+            "range": "± 14.90112276108255",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1129.1864366531372,
+            "unit": "ns",
+            "range": "± 11.456722365900026",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9517.625865391323,
+            "unit": "ns",
+            "range": "± 87.56332049578715",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10904.145932878766,
+            "unit": "ns",
+            "range": "± 105.26692687559299",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1439.7838521003723,
+            "unit": "ns",
+            "range": "± 9.46320324795545",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12801.229267120361,
+            "unit": "ns",
+            "range": "± 197.84248232635068",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124631.42681884766,
+            "unit": "ns",
+            "range": "± 951.1335727219325",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "d5a9ca26438e71060d3343f5179b180a54990a9e",
+          "message": "feat(auth): add ordered Keycloak local seeds (#788)",
+          "timestamp": "2026-09-05T16:01:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/d5a9ca26438e71060d3343f5179b180a54990a9e"
+        },
+        "date": 1788625320361,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 383277154.49,
+            "unit": "ns",
+            "range": "± 116231337.67869729",
+            "bytesAllocated": 2642672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 265112533.87,
+            "unit": "ns",
+            "range": "± 11621668.037670353",
+            "bytesAllocated": 1274096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 250664372.93,
+            "unit": "ns",
+            "range": "± 4536622.794512683",
+            "bytesAllocated": 1289168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 371347036.69,
+            "unit": "ns",
+            "range": "± 4809067.620568103",
+            "bytesAllocated": 2648960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 267318808.98,
+            "unit": "ns",
+            "range": "± 5022261.772929648",
+            "bytesAllocated": 1204504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 261875823.8,
+            "unit": "ns",
+            "range": "± 6672718.845621718",
+            "bytesAllocated": 1312496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 494223157.05,
+            "unit": "ns",
+            "range": "± 7139734.071658909",
+            "bytesAllocated": 4716840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 396941706.99,
+            "unit": "ns",
+            "range": "± 6982073.316074374",
+            "bytesAllocated": 3252408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 395390646.82,
+            "unit": "ns",
+            "range": "± 10596323.828924233",
+            "bytesAllocated": 3378456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 343044193.02,
+            "unit": "ns",
+            "range": "± 14576135.526019195",
+            "bytesAllocated": 2195656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 232045246.83,
+            "unit": "ns",
+            "range": "± 3903480.1966041913",
+            "bytesAllocated": 808104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 246840326.81,
+            "unit": "ns",
+            "range": "± 9193472.455541693",
+            "bytesAllocated": 1320136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 216818786.06,
+            "unit": "ns",
+            "range": "± 3378944.5175906355",
+            "bytesAllocated": 960336
           }
         ]
       }
