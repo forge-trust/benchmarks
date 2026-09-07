@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1788625320361,
+  "lastUpdated": 1788794863697,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -82724,6 +82724,440 @@
             "unit": "ns",
             "range": "± 3378944.5175906355",
             "bytesAllocated": 960336
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1046.4920637607574,
+            "unit": "ns",
+            "range": "± 4.218330762770836",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1177.8626736232213,
+            "unit": "ns",
+            "range": "± 3.1208935387041272",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1032.3373113359723,
+            "unit": "ns",
+            "range": "± 2.040582989022508",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9397.2384668986,
+            "unit": "ns",
+            "range": "± 10.970748377153745",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 13264.603382110596,
+            "unit": "ns",
+            "range": "± 25.21490752843757",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9219.902425130209,
+            "unit": "ns",
+            "range": "± 2.503818441476494",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91892.97187151227,
+            "unit": "ns",
+            "range": "± 69.80579552324681",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 107217.04624720982,
+            "unit": "ns",
+            "range": "± 236.3173462340714",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92011.34713309152,
+            "unit": "ns",
+            "range": "± 253.6512604875014",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.238974439246314,
+            "unit": "ns",
+            "range": "± 0.008255866377294887",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1036.4021921157837,
+            "unit": "ns",
+            "range": "± 1.9737208062670877",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.557766360895975,
+            "unit": "ns",
+            "range": "± 0.015219214317652817",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9523.824502944946,
+            "unit": "ns",
+            "range": "± 36.8011979249393",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.8484882116318,
+            "unit": "ns",
+            "range": "± 0.18618889805795305",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91299.07949829102,
+            "unit": "ns",
+            "range": "± 90.7097987451201",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 114.98836798965931,
+            "unit": "ns",
+            "range": "± 2.0730470665324723",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 119.60995258390903,
+            "unit": "ns",
+            "range": "± 3.099693012790039",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1100.607118334089,
+            "unit": "ns",
+            "range": "± 12.46518945475406",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1062.7531478404999,
+            "unit": "ns",
+            "range": "± 25.21627658010423",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10799.493877410889,
+            "unit": "ns",
+            "range": "± 277.23469626623125",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11539.59263392857,
+            "unit": "ns",
+            "range": "± 115.18400887432851",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.96807627379894,
+            "unit": "ns",
+            "range": "± 0.3123017930045472",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.29950630664825,
+            "unit": "ns",
+            "range": "± 1.2769853272775595",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 986.1581358909607,
+            "unit": "ns",
+            "range": "± 24.72193363921826",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1185.0786764621735,
+            "unit": "ns",
+            "range": "± 16.034144928306205",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10807.818363189697,
+            "unit": "ns",
+            "range": "± 244.65296118177767",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11615.432249069214,
+            "unit": "ns",
+            "range": "± 166.26014728435405",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 213615118.91,
+            "unit": "ns",
+            "range": "± 1556295.993216386",
+            "bytesAllocated": 920976
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 226231106.96,
+            "unit": "ns",
+            "range": "± 2310631.2144599366",
+            "bytesAllocated": 901136
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1441.1216568946838,
+            "unit": "ns",
+            "range": "± 32.846888431052854",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12344.685060501099,
+            "unit": "ns",
+            "range": "± 39.78795397676571",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121616.49588012695,
+            "unit": "ns",
+            "range": "± 469.0976736919954",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "48c6db61ac5f742bea9f1ee434860daf72df791c",
+          "message": "feat(durable): add typed work exits (#792)",
+          "timestamp": "2026-09-07T15:07:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/48c6db61ac5f742bea9f1ee434860daf72df791c"
+        },
+        "date": 1788794863697,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 374491309.71,
+            "unit": "ns",
+            "range": "± 50221997.31505961",
+            "bytesAllocated": 2640280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 261376979.31,
+            "unit": "ns",
+            "range": "± 4914139.15573672",
+            "bytesAllocated": 1219440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 252775733.85,
+            "unit": "ns",
+            "range": "± 3258273.7335507674",
+            "bytesAllocated": 1272272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 366634288.25,
+            "unit": "ns",
+            "range": "± 4876863.26070123",
+            "bytesAllocated": 2649112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 260968100.16,
+            "unit": "ns",
+            "range": "± 3311152.4039462795",
+            "bytesAllocated": 1204368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 248894461.68,
+            "unit": "ns",
+            "range": "± 2378987.5916611236",
+            "bytesAllocated": 1309840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 480515966.06,
+            "unit": "ns",
+            "range": "± 3934059.245118828",
+            "bytesAllocated": 4723528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 384572449.19,
+            "unit": "ns",
+            "range": "± 5446143.328722833",
+            "bytesAllocated": 3271528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 375645257.24,
+            "unit": "ns",
+            "range": "± 5679554.832301443",
+            "bytesAllocated": 3386872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 318603044,
+            "unit": "ns",
+            "range": "± 6986674.238689435",
+            "bytesAllocated": 2195728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 216955949.71,
+            "unit": "ns",
+            "range": "± 3364667.3314162646",
+            "bytesAllocated": 791664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 234994805.94,
+            "unit": "ns",
+            "range": "± 5686120.034904273",
+            "bytesAllocated": 1400296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202897106.11,
+            "unit": "ns",
+            "range": "± 2755542.951518999",
+            "bytesAllocated": 939816
           }
         ]
       }
