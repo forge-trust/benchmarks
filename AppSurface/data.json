@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790154282031,
+  "lastUpdated": 1790230955860,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -84894,6 +84894,440 @@
             "unit": "ns",
             "range": "± 64.12461795233467",
             "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1147.3161890847343,
+            "unit": "ns",
+            "range": "± 5.6370807829441265",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1349.0304067134857,
+            "unit": "ns",
+            "range": "± 5.255128506374782",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1078.9618637561798,
+            "unit": "ns",
+            "range": "± 12.81606601069345",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9589.539976119995,
+            "unit": "ns",
+            "range": "± 141.39692828370423",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11302.602632522583,
+            "unit": "ns",
+            "range": "± 79.09563315416338",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9805.95057106018,
+            "unit": "ns",
+            "range": "± 71.17142858537458",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 96031.61328125,
+            "unit": "ns",
+            "range": "± 1517.381698314713",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110764.51937866211,
+            "unit": "ns",
+            "range": "± 739.4244828773533",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94722.44048200335,
+            "unit": "ns",
+            "range": "± 426.95322866090044",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2689475109800696,
+            "unit": "ns",
+            "range": "± 0.007233026400063705",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1247.6666941642761,
+            "unit": "ns",
+            "range": "± 2.919089706432544",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.66083677609762,
+            "unit": "ns",
+            "range": "± 0.01776222033174626",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10097.922147478375,
+            "unit": "ns",
+            "range": "± 24.048645505678408",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.9249537331717,
+            "unit": "ns",
+            "range": "± 0.6421809591854493",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 98865.82699584961,
+            "unit": "ns",
+            "range": "± 167.4700620523574",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.82980936765671,
+            "unit": "ns",
+            "range": "± 0.7088998679343599",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 119.40413621068001,
+            "unit": "ns",
+            "range": "± 0.2463996596930264",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1088.8853299277168,
+            "unit": "ns",
+            "range": "± 6.606678298194511",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1065.243455171585,
+            "unit": "ns",
+            "range": "± 8.925927689079119",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10452.472326278687,
+            "unit": "ns",
+            "range": "± 122.74916246181246",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10948.178076607841,
+            "unit": "ns",
+            "range": "± 91.22992995422841",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1560.670205252511,
+            "unit": "ns",
+            "range": "± 7.78484347664474",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12956.438837051392,
+            "unit": "ns",
+            "range": "± 59.03697469084797",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 125509.59497070312,
+            "unit": "ns",
+            "range": "± 800.3533680767086",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.88885515928268,
+            "unit": "ns",
+            "range": "± 0.17791574966914386",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.83739838004112,
+            "unit": "ns",
+            "range": "± 1.119696877377658",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 947.5928683280945,
+            "unit": "ns",
+            "range": "± 8.04924837572701",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1140.5931010246277,
+            "unit": "ns",
+            "range": "± 10.256192381204293",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9442.393827165875,
+            "unit": "ns",
+            "range": "± 35.62730755987602",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11501.173164367676,
+            "unit": "ns",
+            "range": "± 200.83835572582305",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 390606991.41,
+            "unit": "ns",
+            "range": "± 5005692.4945567",
+            "bytesAllocated": 2642856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 274030558.14,
+            "unit": "ns",
+            "range": "± 5623939.793983549",
+            "bytesAllocated": 1291936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260350125.91,
+            "unit": "ns",
+            "range": "± 4567915.330731209",
+            "bytesAllocated": 1287096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 387626039.27,
+            "unit": "ns",
+            "range": "± 6466895.472716664",
+            "bytesAllocated": 2648848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 267975825.46,
+            "unit": "ns",
+            "range": "± 3745119.239306202",
+            "bytesAllocated": 1180976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 257917242.85,
+            "unit": "ns",
+            "range": "± 5290574.277832235",
+            "bytesAllocated": 1335696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 502656313.43,
+            "unit": "ns",
+            "range": "± 8254720.065992693",
+            "bytesAllocated": 4714632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 397033071.49,
+            "unit": "ns",
+            "range": "± 9449382.402665935",
+            "bytesAllocated": 3273744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 386320944.28,
+            "unit": "ns",
+            "range": "± 6996335.6759375585",
+            "bytesAllocated": 3371592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 336648944.42,
+            "unit": "ns",
+            "range": "± 6896609.826863199",
+            "bytesAllocated": 2198816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 227235342.57,
+            "unit": "ns",
+            "range": "± 4887553.713417227",
+            "bytesAllocated": 815664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 248579720.53,
+            "unit": "ns",
+            "range": "± 4996093.985572631",
+            "bytesAllocated": 1415920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213737035.91,
+            "unit": "ns",
+            "range": "± 5091141.159513462",
+            "bytesAllocated": 858856
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ccafe8aa182c4188517808fb8064d6b8aab47e7f",
+          "message": "feat(docs): add bounded Python docstring harvesting (#786)",
+          "timestamp": "2026-09-24T06:01:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ccafe8aa182c4188517808fb8064d6b8aab47e7f"
+        },
+        "date": 1790230955860,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 228584785.02,
+            "unit": "ns",
+            "range": "± 5341833.405788511",
+            "bytesAllocated": 860424
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 239191251.72,
+            "unit": "ns",
+            "range": "± 4785869.825557527",
+            "bytesAllocated": 894000
           }
         ]
       }
