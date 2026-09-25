@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790334751392,
+  "lastUpdated": 1790334822634,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -86630,6 +86630,440 @@
             "unit": "ns",
             "range": "± 3098237.159499135",
             "bytesAllocated": 973600
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 819.0932765007019,
+            "unit": "ns",
+            "range": "± 2.8248729165392317",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1097.5716909681048,
+            "unit": "ns",
+            "range": "± 1.0815300771537233",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 808.303348660469,
+            "unit": "ns",
+            "range": "± 1.3273353525916378",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7229.443839073181,
+            "unit": "ns",
+            "range": "± 14.302024585132267",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 8178.079552786691,
+            "unit": "ns",
+            "range": "± 18.026679334488627",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7258.107253074646,
+            "unit": "ns",
+            "range": "± 3.257439819643493",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 71904.4481048584,
+            "unit": "ns",
+            "range": "± 111.62465362968108",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 79291.64572143555,
+            "unit": "ns",
+            "range": "± 114.15178155302095",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 70804.0480782645,
+            "unit": "ns",
+            "range": "± 41.29882484643662",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.5252425032002583,
+            "unit": "ns",
+            "range": "± 0.0017723180965924612",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 825.1057568958828,
+            "unit": "ns",
+            "range": "± 2.3159750149909293",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.436709947884083,
+            "unit": "ns",
+            "range": "± 0.4941668562028104",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7387.533718654087,
+            "unit": "ns",
+            "range": "± 12.24463895427003",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.35605389731273,
+            "unit": "ns",
+            "range": "± 0.06730044474808057",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 73449.57849993024,
+            "unit": "ns",
+            "range": "± 53.05262300770874",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 91.35137354476112,
+            "unit": "ns",
+            "range": "± 1.0510251436346454",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 88.21672344207764,
+            "unit": "ns",
+            "range": "± 2.315650811500592",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 807.3787187337875,
+            "unit": "ns",
+            "range": "± 12.396449579080537",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 821.7629630565643,
+            "unit": "ns",
+            "range": "± 24.521844915825717",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8161.963552474976,
+            "unit": "ns",
+            "range": "± 160.3372392723105",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8890.508840560913,
+            "unit": "ns",
+            "range": "± 130.4974734689619",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 81.80168205499649,
+            "unit": "ns",
+            "range": "± 1.9492029130330346",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 93.11277814209461,
+            "unit": "ns",
+            "range": "± 1.3031510609067198",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 829.8572987318039,
+            "unit": "ns",
+            "range": "± 19.23861678760619",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 868.2823246717453,
+            "unit": "ns",
+            "range": "± 17.66569253094421",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7310.983251571655,
+            "unit": "ns",
+            "range": "± 94.0072015772384",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 9416.668741226196,
+            "unit": "ns",
+            "range": "± 143.9283250272717",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1035.6009031023298,
+            "unit": "ns",
+            "range": "± 1.4468436622299021",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9451.740175519672,
+            "unit": "ns",
+            "range": "± 21.15995671144781",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 90516.32094029018,
+            "unit": "ns",
+            "range": "± 143.83234578998554",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 174855511.14,
+            "unit": "ns",
+            "range": "± 2777556.614905008",
+            "bytesAllocated": 1946736
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 180206996.3,
+            "unit": "ns",
+            "range": "± 1239092.4592223563",
+            "bytesAllocated": 1916000
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "b68e854a1883c62acc48339626cc8565da4e2786",
+          "message": "feat(durable): bound PostgreSQL runtime heartbeat retention (#825)",
+          "timestamp": "2026-09-25T10:56:20Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/b68e854a1883c62acc48339626cc8565da4e2786"
+        },
+        "date": 1790334822634,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 297333223.08,
+            "unit": "ns",
+            "range": "± 75693387.24831706",
+            "bytesAllocated": 2669288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 206091744.9,
+            "unit": "ns",
+            "range": "± 5073944.531918472",
+            "bytesAllocated": 2429568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 194367215.96,
+            "unit": "ns",
+            "range": "± 1444275.2668426933",
+            "bytesAllocated": 1289136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 291604875.78,
+            "unit": "ns",
+            "range": "± 3714711.992445056",
+            "bytesAllocated": 2650384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 209937095.16,
+            "unit": "ns",
+            "range": "± 2718336.782615209",
+            "bytesAllocated": 2320144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 202580909.8,
+            "unit": "ns",
+            "range": "± 2118380.818198259",
+            "bytesAllocated": 1386216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 387282141.89,
+            "unit": "ns",
+            "range": "± 6138940.6929640565",
+            "bytesAllocated": 4740480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 312252095.65,
+            "unit": "ns",
+            "range": "± 4592135.158944736",
+            "bytesAllocated": 4422016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 305999045.42,
+            "unit": "ns",
+            "range": "± 4572859.13209325",
+            "bytesAllocated": 3373072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 260262273.61,
+            "unit": "ns",
+            "range": "± 8820653.334210405",
+            "bytesAllocated": 2209816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 175803882.99,
+            "unit": "ns",
+            "range": "± 3220221.967210939",
+            "bytesAllocated": 1829968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 189060137.35,
+            "unit": "ns",
+            "range": "± 7681768.337746337",
+            "bytesAllocated": 1431720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 162304286.79,
+            "unit": "ns",
+            "range": "± 1560689.0699537292",
+            "bytesAllocated": 841608
           }
         ]
       }
