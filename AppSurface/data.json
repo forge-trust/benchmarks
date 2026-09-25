@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790237498673,
+  "lastUpdated": 1790308119937,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -85761,6 +85761,440 @@
             "value": 75191.93128967285,
             "unit": "ns",
             "range": "± 1033.4452424805104",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 218745316.74,
+            "unit": "ns",
+            "range": "± 2499808.6134089367",
+            "bytesAllocated": 1957928
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 230054421.03,
+            "unit": "ns",
+            "range": "± 1934346.8585626262",
+            "bytesAllocated": 2043640
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2893665911895886,
+            "unit": "ns",
+            "range": "± 0.00264657383542325",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1092.3994462149483,
+            "unit": "ns",
+            "range": "± 1.717170906461022",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.65262904763222,
+            "unit": "ns",
+            "range": "± 0.00634991116976461",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9598.990171432495,
+            "unit": "ns",
+            "range": "± 109.89552358344228",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.73562773068744,
+            "unit": "ns",
+            "range": "± 0.12552773065162337",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 98252.0244140625,
+            "unit": "ns",
+            "range": "± 801.8050911906399",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1068.2601127624512,
+            "unit": "ns",
+            "range": "± 2.888969341237003",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1251.4692115783691,
+            "unit": "ns",
+            "range": "± 6.522929324383924",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1058.7174761635918,
+            "unit": "ns",
+            "range": "± 12.239420483017284",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9376.023574829102,
+            "unit": "ns",
+            "range": "± 18.38809487835289",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11058.852778843471,
+            "unit": "ns",
+            "range": "± 62.789580368707384",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9529.485261917114,
+            "unit": "ns",
+            "range": "± 90.58427561828942",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 95469.35269165039,
+            "unit": "ns",
+            "range": "± 1735.7251323089843",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 109382.75785827637,
+            "unit": "ns",
+            "range": "± 1144.1776255796326",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91823.76509094238,
+            "unit": "ns",
+            "range": "± 1322.574413711122",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.52384179830551,
+            "unit": "ns",
+            "range": "± 0.7296270617788708",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 107.82162036001682,
+            "unit": "ns",
+            "range": "± 0.9267807140073479",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 990.1505331993103,
+            "unit": "ns",
+            "range": "± 13.784100310030464",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 994.2146148681641,
+            "unit": "ns",
+            "range": "± 16.082465559489155",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9543.261792864118,
+            "unit": "ns",
+            "range": "± 64.66350671667183",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9895.355215072632,
+            "unit": "ns",
+            "range": "± 132.8138477308323",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 93.1438190639019,
+            "unit": "ns",
+            "range": "± 0.9506660404153282",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.23355467617512,
+            "unit": "ns",
+            "range": "± 1.8774774077082643",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 895.6669733524323,
+            "unit": "ns",
+            "range": "± 5.9346574780582975",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1071.2147645950317,
+            "unit": "ns",
+            "range": "± 25.289528897706095",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9019.406908035278,
+            "unit": "ns",
+            "range": "± 92.92635113882156",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10646.614749908447,
+            "unit": "ns",
+            "range": "± 236.3887155884351",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 383784305.06,
+            "unit": "ns",
+            "range": "± 70689164.48177105",
+            "bytesAllocated": 2640408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 269521267,
+            "unit": "ns",
+            "range": "± 6757987.031211517",
+            "bytesAllocated": 2331888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254383954.43,
+            "unit": "ns",
+            "range": "± 4031739.3831196385",
+            "bytesAllocated": 1270584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376169041.18,
+            "unit": "ns",
+            "range": "± 6381693.470558963",
+            "bytesAllocated": 2673608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264845133.79,
+            "unit": "ns",
+            "range": "± 3308051.7667368897",
+            "bytesAllocated": 2338832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250009342.22,
+            "unit": "ns",
+            "range": "± 2256036.2366191186",
+            "bytesAllocated": 1312120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 492130078.56,
+            "unit": "ns",
+            "range": "± 6453721.027414729",
+            "bytesAllocated": 4711872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 389153012.37,
+            "unit": "ns",
+            "range": "± 6381819.6116725905",
+            "bytesAllocated": 4398904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 376522877.21,
+            "unit": "ns",
+            "range": "± 5519932.253417601",
+            "bytesAllocated": 3377440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 321255250.04,
+            "unit": "ns",
+            "range": "± 6061809.515236037",
+            "bytesAllocated": 2215640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219875113.63,
+            "unit": "ns",
+            "range": "± 3098068.066535916",
+            "bytesAllocated": 1834200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 237181195.48,
+            "unit": "ns",
+            "range": "± 6483980.361642887",
+            "bytesAllocated": 1419120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 203016312.49,
+            "unit": "ns",
+            "range": "± 1729430.1997039516",
+            "bytesAllocated": 861880
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f03ffdb99bc38daf402005c1435577bc325e1c8e",
+          "message": "feat(coverage): add AppSurface-owned VSTest hang diagnostics (#822)",
+          "timestamp": "2026-09-25T03:28:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f03ffdb99bc38daf402005c1435577bc325e1c8e"
+        },
+        "date": 1790308119937,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1427.9219806194305,
+            "unit": "ns",
+            "range": "± 4.213557079663354",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12524.219785690308,
+            "unit": "ns",
+            "range": "± 20.256603928624415",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121953.21686662946,
+            "unit": "ns",
+            "range": "± 333.11338788349025",
             "bytesAllocated": 232376
           }
         ]
