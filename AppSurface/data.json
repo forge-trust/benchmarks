@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790334822634,
+  "lastUpdated": 1790334891023,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -87064,6 +87064,440 @@
             "unit": "ns",
             "range": "± 1560689.0699537292",
             "bytesAllocated": 841608
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 396900415.42,
+            "unit": "ns",
+            "range": "± 109299087.59377469",
+            "bytesAllocated": 2665288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 279905956.24,
+            "unit": "ns",
+            "range": "± 10446069.441222016",
+            "bytesAllocated": 2332008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 263366756.62,
+            "unit": "ns",
+            "range": "± 3529293.158038837",
+            "bytesAllocated": 1289904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 388734157.55,
+            "unit": "ns",
+            "range": "± 6507780.171577487",
+            "bytesAllocated": 2625832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 277190061.87,
+            "unit": "ns",
+            "range": "± 4283999.694231864",
+            "bytesAllocated": 2343304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263364438.77,
+            "unit": "ns",
+            "range": "± 4649975.459066873",
+            "bytesAllocated": 1295128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 506610313.6,
+            "unit": "ns",
+            "range": "± 7321146.727385949",
+            "bytesAllocated": 4733496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 407274323.87,
+            "unit": "ns",
+            "range": "± 8229382.831676507",
+            "bytesAllocated": 4397736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 393689658.84,
+            "unit": "ns",
+            "range": "± 7710412.242041174",
+            "bytesAllocated": 3373608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 339339657.97,
+            "unit": "ns",
+            "range": "± 10847026.593630288",
+            "bytesAllocated": 2196720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 232376382.17,
+            "unit": "ns",
+            "range": "± 3852144.4186661975",
+            "bytesAllocated": 1844592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 249755608.36,
+            "unit": "ns",
+            "range": "± 11211370.829580598",
+            "bytesAllocated": 1420208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213819989.32,
+            "unit": "ns",
+            "range": "± 3532452.6334194",
+            "bytesAllocated": 873136
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1079.9812548160553,
+            "unit": "ns",
+            "range": "± 7.442817236418398",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1283.4324204921722,
+            "unit": "ns",
+            "range": "± 7.096137848943573",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1078.9986445903778,
+            "unit": "ns",
+            "range": "± 7.636787341428695",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9797.760587419782,
+            "unit": "ns",
+            "range": "± 29.729817494439384",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11704.049737930298,
+            "unit": "ns",
+            "range": "± 134.33301525852028",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9621.34121131897,
+            "unit": "ns",
+            "range": "± 67.28247254857175",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 96689.62080383301,
+            "unit": "ns",
+            "range": "± 446.2863681036415",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 117463.39212036133,
+            "unit": "ns",
+            "range": "± 861.9428844772497",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95686.84216308594,
+            "unit": "ns",
+            "range": "± 725.950844960881",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3089881422264233,
+            "unit": "ns",
+            "range": "± 0.020660356877408702",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1109.516635622297,
+            "unit": "ns",
+            "range": "± 10.743464567441452",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.752611586025786,
+            "unit": "ns",
+            "range": "± 0.1922317524265238",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9605.125579833984,
+            "unit": "ns",
+            "range": "± 30.745910899497673",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5857517378671,
+            "unit": "ns",
+            "range": "± 0.48653217852246433",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 94969.73143005371,
+            "unit": "ns",
+            "range": "± 380.2093635257604",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 230518140.9,
+            "unit": "ns",
+            "range": "± 3540184.871320906",
+            "bytesAllocated": 1858168
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 243437459.68,
+            "unit": "ns",
+            "range": "± 4237749.249946503",
+            "bytesAllocated": 1946232
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.98049535921642,
+            "unit": "ns",
+            "range": "± 0.7106455787022321",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.03459180891514,
+            "unit": "ns",
+            "range": "± 0.7710729378258858",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 939.9594473838806,
+            "unit": "ns",
+            "range": "± 21.72590906216917",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1112.466036081314,
+            "unit": "ns",
+            "range": "± 13.838327575946154",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9282.622499465942,
+            "unit": "ns",
+            "range": "± 81.97375865871857",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10968.046515328544,
+            "unit": "ns",
+            "range": "± 80.39157462302396",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1476.1665859222412,
+            "unit": "ns",
+            "range": "± 5.124606957022729",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13681.03472328186,
+            "unit": "ns",
+            "range": "± 65.17463531645045",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 127829.36514282227,
+            "unit": "ns",
+            "range": "± 1287.3192872823424",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "777efc0264246b22c92ec03c6843ece7337ac6ed",
+          "message": "feat(durable): add provider-free testing package (#824)",
+          "timestamp": "2026-09-25T10:54:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/777efc0264246b22c92ec03c6843ece7337ac6ed"
+        },
+        "date": 1790334891023,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 107.70111295580864,
+            "unit": "ns",
+            "range": "± 2.864415862014682",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.86071838438511,
+            "unit": "ns",
+            "range": "± 1.3465246017821473",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1044.8086081913539,
+            "unit": "ns",
+            "range": "± 10.583896429170874",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1001.9717705249786,
+            "unit": "ns",
+            "range": "± 12.923194220829853",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9986.4069480896,
+            "unit": "ns",
+            "range": "± 126.90636930486723",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10306.557514190674,
+            "unit": "ns",
+            "range": "± 104.2157184242632",
+            "bytesAllocated": 32048
           }
         ]
       }
