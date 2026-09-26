@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790387411377,
+  "lastUpdated": 1790445324302,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -87932,6 +87932,440 @@
             "unit": "ns",
             "range": "± 1016403.0709546118",
             "bytesAllocated": 858360
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382221208.28,
+            "unit": "ns",
+            "range": "± 49130071.41766349",
+            "bytesAllocated": 2644952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 267847344.92,
+            "unit": "ns",
+            "range": "± 4168611.786190193",
+            "bytesAllocated": 2316224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253812361.54,
+            "unit": "ns",
+            "range": "± 3027329.784043088",
+            "bytesAllocated": 1387552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 378261123.27,
+            "unit": "ns",
+            "range": "± 6187245.630937418",
+            "bytesAllocated": 2650240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 268566611.53,
+            "unit": "ns",
+            "range": "± 3111138.918655659",
+            "bytesAllocated": 2326544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254849781.94,
+            "unit": "ns",
+            "range": "± 3807039.281521133",
+            "bytesAllocated": 1337536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 495876402.7,
+            "unit": "ns",
+            "range": "± 5430732.948873795",
+            "bytesAllocated": 4715576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 393818510.18,
+            "unit": "ns",
+            "range": "± 6200088.409641175",
+            "bytesAllocated": 4422184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 383702565.16,
+            "unit": "ns",
+            "range": "± 7105527.835957189",
+            "bytesAllocated": 3371296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327537891.47,
+            "unit": "ns",
+            "range": "± 6486095.698018149",
+            "bytesAllocated": 2193872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 223607076.58,
+            "unit": "ns",
+            "range": "± 2776812.7720584245",
+            "bytesAllocated": 1828792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241409117.42,
+            "unit": "ns",
+            "range": "± 3898376.2208626545",
+            "bytesAllocated": 1416048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207620935.03,
+            "unit": "ns",
+            "range": "± 2149568.7068455815",
+            "bytesAllocated": 859040
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1109.0150561332703,
+            "unit": "ns",
+            "range": "± 6.790496659927545",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1306.4772737026215,
+            "unit": "ns",
+            "range": "± 10.814523259648096",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1050.0433948040009,
+            "unit": "ns",
+            "range": "± 4.326149001913095",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9452.580551147461,
+            "unit": "ns",
+            "range": "± 28.271173904900177",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11272.426538467407,
+            "unit": "ns",
+            "range": "± 46.727713293631375",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9286.939012799945,
+            "unit": "ns",
+            "range": "± 19.415233753555558",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 94473.31830705915,
+            "unit": "ns",
+            "range": "± 346.0913816091981",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 112872.13694763184,
+            "unit": "ns",
+            "range": "± 607.4909778792127",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91668.91784667969,
+            "unit": "ns",
+            "range": "± 701.1845334933004",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 222336858.7,
+            "unit": "ns",
+            "range": "± 3746816.326082096",
+            "bytesAllocated": 1848680
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 234396279.22,
+            "unit": "ns",
+            "range": "± 3654490.696388479",
+            "bytesAllocated": 1916560
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2925043744700297,
+            "unit": "ns",
+            "range": "± 0.003479628598297208",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1081.8988707065582,
+            "unit": "ns",
+            "range": "± 8.571741682856349",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.08729119385992,
+            "unit": "ns",
+            "range": "± 0.0545986221746567",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9392.718091964722,
+            "unit": "ns",
+            "range": "± 54.121180142358156",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.8383902822222,
+            "unit": "ns",
+            "range": "± 0.23377270157857433",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91567.48392159598,
+            "unit": "ns",
+            "range": "± 134.3704594398659",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.33831922709942,
+            "unit": "ns",
+            "range": "± 2.2497661903663904",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.17303146634784,
+            "unit": "ns",
+            "range": "± 0.7954324638931137",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 997.0011362348284,
+            "unit": "ns",
+            "range": "± 8.762145811241025",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 963.8659889698029,
+            "unit": "ns",
+            "range": "± 5.599886619665145",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9461.933339800153,
+            "unit": "ns",
+            "range": "± 81.92119818044903",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9982.020375932965,
+            "unit": "ns",
+            "range": "± 11.906515100131296",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 92.93390431574413,
+            "unit": "ns",
+            "range": "± 0.5010972957524741",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 111.15352666378021,
+            "unit": "ns",
+            "range": "± 0.7844610865696815",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 899.2079553604126,
+            "unit": "ns",
+            "range": "± 8.030061672231053",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1045.071798324585,
+            "unit": "ns",
+            "range": "± 3.8102137404984404",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8953.206362043109,
+            "unit": "ns",
+            "range": "± 41.85892798769184",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10416.647652762276,
+            "unit": "ns",
+            "range": "± 92.54557439678837",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5dc141db81009348538d3f6b7634a99ccb34cd99",
+          "message": "feat(durable): reconcile shared-store PostgreSQL role pairs (#826)",
+          "timestamp": "2026-09-26T17:35:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5dc141db81009348538d3f6b7634a99ccb34cd99"
+        },
+        "date": 1790445324302,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1545.9510049819946,
+            "unit": "ns",
+            "range": "± 8.870421117104017",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12551.985507965088,
+            "unit": "ns",
+            "range": "± 144.3617527175303",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 126560.84078979492,
+            "unit": "ns",
+            "range": "± 1154.2255503495883",
+            "bytesAllocated": 232376
           }
         ]
       }
