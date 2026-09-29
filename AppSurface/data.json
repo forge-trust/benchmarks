@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790670329535,
+  "lastUpdated": 1790673960021,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -92272,6 +92272,440 @@
             "unit": "ns",
             "range": "± 678.435951481969",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 202197713.59,
+            "unit": "ns",
+            "range": "± 2897700.204736327",
+            "bytesAllocated": 1848224
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 214698462.21,
+            "unit": "ns",
+            "range": "± 3233558.8946721223",
+            "bytesAllocated": 1915448
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1042.5710623604912,
+            "unit": "ns",
+            "range": "± 2.6552066221021264",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1238.9055042266846,
+            "unit": "ns",
+            "range": "± 2.5338531006086153",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1088.4386544908796,
+            "unit": "ns",
+            "range": "± 4.97245746812753",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9466.427982875279,
+            "unit": "ns",
+            "range": "± 14.576370947432254",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10783.74925994873,
+            "unit": "ns",
+            "range": "± 6.332574117760059",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9362.168804168701,
+            "unit": "ns",
+            "range": "± 43.65995282877478",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91216.33157784598,
+            "unit": "ns",
+            "range": "± 140.8412207932358",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 104663.27537318638,
+            "unit": "ns",
+            "range": "± 245.65281255732145",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93779.34127807617,
+            "unit": "ns",
+            "range": "± 416.2420566182359",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.7094175778329372,
+            "unit": "ns",
+            "range": "± 0.007211333206412625",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1050.5101863316127,
+            "unit": "ns",
+            "range": "± 6.652590362922797",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 32.97588266432285,
+            "unit": "ns",
+            "range": "± 0.10269575424757658",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9783.877477645874,
+            "unit": "ns",
+            "range": "± 39.4605107903361",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 379.0776836531503,
+            "unit": "ns",
+            "range": "± 0.07433433310359493",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95354.56637573242,
+            "unit": "ns",
+            "range": "± 166.86093702291993",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.90046618878841,
+            "unit": "ns",
+            "range": "± 0.48567577057972267",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 119.32317638397217,
+            "unit": "ns",
+            "range": "± 0.3580121784139429",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 978.923219203949,
+            "unit": "ns",
+            "range": "± 5.509324916178163",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1072.6715323925018,
+            "unit": "ns",
+            "range": "± 6.9299887884697755",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9619.30020904541,
+            "unit": "ns",
+            "range": "± 50.15003029260824",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9189.822383335659,
+            "unit": "ns",
+            "range": "± 53.68664058160174",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 85.59363687038422,
+            "unit": "ns",
+            "range": "± 0.5266173411963844",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.82116532325745,
+            "unit": "ns",
+            "range": "± 0.6705071040477397",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 897.1107810338339,
+            "unit": "ns",
+            "range": "± 2.6251379469043843",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1127.3422976902552,
+            "unit": "ns",
+            "range": "± 9.157504768797493",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9434.276689529419,
+            "unit": "ns",
+            "range": "± 35.92841083816215",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11219.219636917114,
+            "unit": "ns",
+            "range": "± 203.78047862142418",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1341.5630509853363,
+            "unit": "ns",
+            "range": "± 10.224988379684737",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12570.961561203003,
+            "unit": "ns",
+            "range": "± 50.04408947614499",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122783.83164760044,
+            "unit": "ns",
+            "range": "± 198.24241003790615",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "10d375c6942fc650cc64f64e0748add77540d47c",
+          "message": "test(release): select exact Tailwind replay artifact (#842)",
+          "timestamp": "2026-09-29T09:06:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/10d375c6942fc650cc64f64e0748add77540d47c"
+        },
+        "date": 1790673960021,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 360315426.9,
+            "unit": "ns",
+            "range": "± 58026561.64961459",
+            "bytesAllocated": 2644760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 252816692.19,
+            "unit": "ns",
+            "range": "± 7061494.2678273",
+            "bytesAllocated": 2311616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 239771483.7,
+            "unit": "ns",
+            "range": "± 2963639.6696095024",
+            "bytesAllocated": 1289944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 353474538.84,
+            "unit": "ns",
+            "range": "± 6052570.841564308",
+            "bytesAllocated": 2649144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 249985394.22,
+            "unit": "ns",
+            "range": "± 4449889.957646979",
+            "bytesAllocated": 2344096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 233754830.08,
+            "unit": "ns",
+            "range": "± 3436414.3561222623",
+            "bytesAllocated": 1311728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 468463926.78,
+            "unit": "ns",
+            "range": "± 8283210.667116292",
+            "bytesAllocated": 4760360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 369506549.79,
+            "unit": "ns",
+            "range": "± 7132305.412457377",
+            "bytesAllocated": 4425984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 356169558.22,
+            "unit": "ns",
+            "range": "± 7374514.286695016",
+            "bytesAllocated": 3377104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 298459264.47,
+            "unit": "ns",
+            "range": "± 6672386.880178666",
+            "bytesAllocated": 2195064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 204760121.74,
+            "unit": "ns",
+            "range": "± 2797703.932412737",
+            "bytesAllocated": 1816360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 220749020.74,
+            "unit": "ns",
+            "range": "± 4617795.106654885",
+            "bytesAllocated": 1400680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 187686881.99,
+            "unit": "ns",
+            "range": "± 2164107.785753318",
+            "bytesAllocated": 856240
           }
         ]
       }
