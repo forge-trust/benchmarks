@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790662524236,
+  "lastUpdated": 1790666850360,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -91404,6 +91404,440 @@
             "unit": "ns",
             "range": "± 345.6566692024615",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1056.4496381282806,
+            "unit": "ns",
+            "range": "± 2.842437878057091",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1259.007455587387,
+            "unit": "ns",
+            "range": "± 5.959351302686431",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1063.0827987194061,
+            "unit": "ns",
+            "range": "± 9.354108842305639",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9976.476528167725,
+            "unit": "ns",
+            "range": "± 87.01834191099397",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11117.577224731445,
+            "unit": "ns",
+            "range": "± 84.23552474491899",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9382.717792510986,
+            "unit": "ns",
+            "range": "± 51.09493204622667",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 105612.09773254395,
+            "unit": "ns",
+            "range": "± 392.151973295188",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111602.5810546875,
+            "unit": "ns",
+            "range": "± 1346.401755422191",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94752.68312072754,
+            "unit": "ns",
+            "range": "± 452.2197767325449",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2870243564248085,
+            "unit": "ns",
+            "range": "± 0.0006240179968280901",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1140.4908518791199,
+            "unit": "ns",
+            "range": "± 10.986246821833141",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.77094542554447,
+            "unit": "ns",
+            "range": "± 0.13418824057682244",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9484.218070983887,
+            "unit": "ns",
+            "range": "± 153.56736356941653",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.2378396987915,
+            "unit": "ns",
+            "range": "± 0.5915530171269773",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95681.05892944336,
+            "unit": "ns",
+            "range": "± 508.8737177441519",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.74453945457935,
+            "unit": "ns",
+            "range": "± 1.0779377797871903",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 108.76026460528374,
+            "unit": "ns",
+            "range": "± 0.8926818917622422",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 990.1023547649384,
+            "unit": "ns",
+            "range": "± 5.029499537071781",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 959.9015987941196,
+            "unit": "ns",
+            "range": "± 5.99746071410391",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9583.703972952706,
+            "unit": "ns",
+            "range": "± 130.14566754008092",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9826.923107147217,
+            "unit": "ns",
+            "range": "± 70.30783378570102",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382681976.35,
+            "unit": "ns",
+            "range": "± 50323727.119379774",
+            "bytesAllocated": 2625016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 275331223.73,
+            "unit": "ns",
+            "range": "± 7009398.333702299",
+            "bytesAllocated": 2314584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 260236357.31,
+            "unit": "ns",
+            "range": "± 5293536.59853462",
+            "bytesAllocated": 1289384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 388752472.93,
+            "unit": "ns",
+            "range": "± 9594117.506379284",
+            "bytesAllocated": 2647704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 280189766.19,
+            "unit": "ns",
+            "range": "± 5550234.3734749975",
+            "bytesAllocated": 2350672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 250792839.43,
+            "unit": "ns",
+            "range": "± 2571333.762776181",
+            "bytesAllocated": 1311944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 525022839.79,
+            "unit": "ns",
+            "range": "± 10569399.594206618",
+            "bytesAllocated": 4739760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 394699783.73,
+            "unit": "ns",
+            "range": "± 7446018.749190479",
+            "bytesAllocated": 4393848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 380966810.71,
+            "unit": "ns",
+            "range": "± 7342119.215811388",
+            "bytesAllocated": 3394816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 338211190.46,
+            "unit": "ns",
+            "range": "± 5968599.667768645",
+            "bytesAllocated": 2233544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 229071191.14,
+            "unit": "ns",
+            "range": "± 4062724.202086047",
+            "bytesAllocated": 1815224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 256251151.52,
+            "unit": "ns",
+            "range": "± 4732122.852282473",
+            "bytesAllocated": 1431200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 218007703.08,
+            "unit": "ns",
+            "range": "± 6297604.337779193",
+            "bytesAllocated": 864296
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1415.5466480255127,
+            "unit": "ns",
+            "range": "± 14.175550475868489",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12832.77053451538,
+            "unit": "ns",
+            "range": "± 278.51719452057915",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122749.73661804199,
+            "unit": "ns",
+            "range": "± 1876.9405437894304",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.53296658396721,
+            "unit": "ns",
+            "range": "± 2.8033114436795143",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 112.16069209575653,
+            "unit": "ns",
+            "range": "± 0.9956699130322808",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 881.4911342348371,
+            "unit": "ns",
+            "range": "± 4.0090554022544485",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1029.9401561192103,
+            "unit": "ns",
+            "range": "± 2.035538109170959",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8693.80293927874,
+            "unit": "ns",
+            "range": "± 32.288838700126426",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10243.82428741455,
+            "unit": "ns",
+            "range": "± 19.65148264004223",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b",
+          "message": "test(coverage): allow watchdog rearm under CI load (#840)",
+          "timestamp": "2026-09-29T07:06:30Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c8303c3ce77d60f4b1bba7e9ebd8b34c97fda02b"
+        },
+        "date": 1790666850360,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 236782577.88,
+            "unit": "ns",
+            "range": "± 4030549.5432975814",
+            "bytesAllocated": 1875144
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 242919125.4,
+            "unit": "ns",
+            "range": "± 7708835.896877859",
+            "bytesAllocated": 1937800
           }
         ]
       }
