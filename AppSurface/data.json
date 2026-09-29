@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790666850360,
+  "lastUpdated": 1790670329535,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -91838,6 +91838,440 @@
             "unit": "ns",
             "range": "± 7708835.896877859",
             "bytesAllocated": 1937800
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 235427565.84,
+            "unit": "ns",
+            "range": "± 5783596.76033245",
+            "bytesAllocated": 1828680
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 243039740.92,
+            "unit": "ns",
+            "range": "± 5564463.531078822",
+            "bytesAllocated": 1933688
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1095.3223985944476,
+            "unit": "ns",
+            "range": "± 2.2650642298937624",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1322.523078918457,
+            "unit": "ns",
+            "range": "± 2.0758720661564616",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1104.884114265442,
+            "unit": "ns",
+            "range": "± 4.181548510128798",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9806.20590209961,
+            "unit": "ns",
+            "range": "± 185.61207769901895",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11093.928318568638,
+            "unit": "ns",
+            "range": "± 10.24645652268348",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9642.94068145752,
+            "unit": "ns",
+            "range": "± 48.19954716966228",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93560.6056867327,
+            "unit": "ns",
+            "range": "± 445.7487028178809",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 107493.04469299316,
+            "unit": "ns",
+            "range": "± 192.6818302931172",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 99317.44059753418,
+            "unit": "ns",
+            "range": "± 221.30124844054615",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.245723208146436,
+            "unit": "ns",
+            "range": "± 0.01153539941574919",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1099.005899974278,
+            "unit": "ns",
+            "range": "± 4.352395691497621",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.58996940510614,
+            "unit": "ns",
+            "range": "± 0.02124186352809613",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9550.170682634625,
+            "unit": "ns",
+            "range": "± 17.976653120261492",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 362.057398387364,
+            "unit": "ns",
+            "range": "± 0.4024895190539919",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93323.41716657366,
+            "unit": "ns",
+            "range": "± 229.51459591308304",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 116.51841606199741,
+            "unit": "ns",
+            "range": "± 2.130942254206949",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.05207671437945,
+            "unit": "ns",
+            "range": "± 0.8937375247026705",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1231.7395569937569,
+            "unit": "ns",
+            "range": "± 15.9292868983814",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1075.711590051651,
+            "unit": "ns",
+            "range": "± 24.895764156980793",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10654.104698181152,
+            "unit": "ns",
+            "range": "± 32.76530920890815",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10693.769705636161,
+            "unit": "ns",
+            "range": "± 56.5357465205948",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 405877089.72,
+            "unit": "ns",
+            "range": "± 45998237.746984445",
+            "bytesAllocated": 2640640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 291245029.7,
+            "unit": "ns",
+            "range": "± 12432916.198743595",
+            "bytesAllocated": 2333872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 280424216.81,
+            "unit": "ns",
+            "range": "± 6507578.134101961",
+            "bytesAllocated": 1289032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 401495027.39,
+            "unit": "ns",
+            "range": "± 7430939.668090202",
+            "bytesAllocated": 2649112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 296577615.18,
+            "unit": "ns",
+            "range": "± 12717358.727802077",
+            "bytesAllocated": 2343184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 272800200.1,
+            "unit": "ns",
+            "range": "± 5753391.306944203",
+            "bytesAllocated": 1295048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 541018109.22,
+            "unit": "ns",
+            "range": "± 12396520.64953587",
+            "bytesAllocated": 4715448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 425432001.57,
+            "unit": "ns",
+            "range": "± 8750244.759508772",
+            "bytesAllocated": 4392328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 405930107.81,
+            "unit": "ns",
+            "range": "± 17169837.051662184",
+            "bytesAllocated": 3365984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332327506.39,
+            "unit": "ns",
+            "range": "± 10202145.977517815",
+            "bytesAllocated": 2203344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 226133295.77,
+            "unit": "ns",
+            "range": "± 3826226.0246350146",
+            "bytesAllocated": 1833264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 249559973.85,
+            "unit": "ns",
+            "range": "± 9012123.443200028",
+            "bytesAllocated": 1419456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 216545253.78,
+            "unit": "ns",
+            "range": "± 7113912.816038852",
+            "bytesAllocated": 960512
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.39250017063958,
+            "unit": "ns",
+            "range": "± 0.8428357058137301",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 132.3398985862732,
+            "unit": "ns",
+            "range": "± 4.747589005887827",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 974.3427262306213,
+            "unit": "ns",
+            "range": "± 18.991891515835338",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1178.7264683246613,
+            "unit": "ns",
+            "range": "± 11.03525338634817",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9630.910281590053,
+            "unit": "ns",
+            "range": "± 42.65164747331004",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11743.780626296997,
+            "unit": "ns",
+            "range": "± 286.94486794296046",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3c7bc993095e41a2ee0798ac4bae47bd5421bd62",
+          "message": "fix(release): preserve Tailwind manifest bytes on Windows (#839)",
+          "timestamp": "2026-09-29T08:04:29Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3c7bc993095e41a2ee0798ac4bae47bd5421bd62"
+        },
+        "date": 1790670329535,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1519.2040165492467,
+            "unit": "ns",
+            "range": "± 13.825117328997251",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13956.595142909458,
+            "unit": "ns",
+            "range": "± 66.18159194368882",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121880.22303989956,
+            "unit": "ns",
+            "range": "± 678.435951481969",
+            "bytesAllocated": 232376
           }
         ]
       }
