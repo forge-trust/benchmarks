@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790651913373,
+  "lastUpdated": 1790662524236,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -90970,6 +90970,440 @@
             "unit": "ns",
             "range": "± 4178657.339833905",
             "bytesAllocated": 2013960
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 401958790.98,
+            "unit": "ns",
+            "range": "± 51174917.53752812",
+            "bytesAllocated": 2647480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 282109769.45,
+            "unit": "ns",
+            "range": "± 4983366.979070275",
+            "bytesAllocated": 2331480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 266955909.55,
+            "unit": "ns",
+            "range": "± 4279829.251226998",
+            "bytesAllocated": 1271224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 395413654.55,
+            "unit": "ns",
+            "range": "± 5879591.814601946",
+            "bytesAllocated": 2674520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 281417464.02,
+            "unit": "ns",
+            "range": "± 5386617.687386134",
+            "bytesAllocated": 2325680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 271859761.94,
+            "unit": "ns",
+            "range": "± 5312977.121192695",
+            "bytesAllocated": 1305696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 523112682.88,
+            "unit": "ns",
+            "range": "± 9848628.83630185",
+            "bytesAllocated": 4742112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 415385171.09,
+            "unit": "ns",
+            "range": "± 7885182.521520995",
+            "bytesAllocated": 4398584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 408272435.4,
+            "unit": "ns",
+            "range": "± 11258086.401510594",
+            "bytesAllocated": 3390856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 348271840.81,
+            "unit": "ns",
+            "range": "± 6955346.712349477",
+            "bytesAllocated": 2210344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 239764922.64,
+            "unit": "ns",
+            "range": "± 4499656.619289478",
+            "bytesAllocated": 1926168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 257565632.06,
+            "unit": "ns",
+            "range": "± 4595487.3195501715",
+            "bytesAllocated": 1433000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 222543522.34,
+            "unit": "ns",
+            "range": "± 4229553.25950171",
+            "bytesAllocated": 874304
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2909312886851176,
+            "unit": "ns",
+            "range": "± 0.007476144807063008",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1118.2118360996246,
+            "unit": "ns",
+            "range": "± 6.0802007604110875",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 39.350066900253296,
+            "unit": "ns",
+            "range": "± 0.6580981147886289",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10035.37802696228,
+            "unit": "ns",
+            "range": "± 47.35405954141732",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.57426035404205,
+            "unit": "ns",
+            "range": "± 0.2069870468623772",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96179.4673614502,
+            "unit": "ns",
+            "range": "± 646.1589481866719",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 112.08282212700162,
+            "unit": "ns",
+            "range": "± 0.6239477671522256",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.3091642409563,
+            "unit": "ns",
+            "range": "± 0.6437271886561589",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1109.0519273281097,
+            "unit": "ns",
+            "range": "± 8.139797829645946",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1082.5078015327454,
+            "unit": "ns",
+            "range": "± 8.81382260576931",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10648.441701889038,
+            "unit": "ns",
+            "range": "± 39.72821184502553",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10624.84955406189,
+            "unit": "ns",
+            "range": "± 94.50807505534259",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.14786496758461,
+            "unit": "ns",
+            "range": "± 0.794628983760154",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.41827854939869,
+            "unit": "ns",
+            "range": "± 1.2962190001354625",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 945.3790500164032,
+            "unit": "ns",
+            "range": "± 9.458843772002425",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1143.8103091716766,
+            "unit": "ns",
+            "range": "± 16.003585605511137",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9549.036828994751,
+            "unit": "ns",
+            "range": "± 43.69997262345844",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11381.441478729248,
+            "unit": "ns",
+            "range": "± 230.814529681867",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1488.340716123581,
+            "unit": "ns",
+            "range": "± 10.648966257101188",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13090.806983947754,
+            "unit": "ns",
+            "range": "± 103.747822891828",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 149577.29150390625,
+            "unit": "ns",
+            "range": "± 935.0436854671948",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 236745406.83,
+            "unit": "ns",
+            "range": "± 3873653.0510654864",
+            "bytesAllocated": 1861072
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 251133556.43,
+            "unit": "ns",
+            "range": "± 4196131.065707323",
+            "bytesAllocated": 1934144
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "144fde2ed33e007d2416afeff155281c4e2e5f75",
+          "message": "fix(release): execute native Tailwind proof commands (#837)",
+          "timestamp": "2026-09-29T05:54:04Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/144fde2ed33e007d2416afeff155281c4e2e5f75"
+        },
+        "date": 1790662524236,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1128.98331284523,
+            "unit": "ns",
+            "range": "± 5.3266460268355384",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1294.53493642807,
+            "unit": "ns",
+            "range": "± 5.9450426324785415",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1100.0521893501282,
+            "unit": "ns",
+            "range": "± 7.9852122001885375",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10543.077280044556,
+            "unit": "ns",
+            "range": "± 42.901463387043876",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11432.429956436157,
+            "unit": "ns",
+            "range": "± 54.68480564176875",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9814.371858596802,
+            "unit": "ns",
+            "range": "± 59.41780617812125",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97430.73672921317,
+            "unit": "ns",
+            "range": "± 291.7313855656674",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111498.49671936035,
+            "unit": "ns",
+            "range": "± 264.53455274560605",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 102246.97233581543,
+            "unit": "ns",
+            "range": "± 345.6566692024615",
+            "bytesAllocated": 168272
           }
         ]
       }
