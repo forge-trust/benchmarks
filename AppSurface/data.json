@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790966807655,
+  "lastUpdated": 1790966874208,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -95310,6 +95310,440 @@
             "unit": "ns",
             "range": "± 252.22385469021734",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1049.3062257766724,
+            "unit": "ns",
+            "range": "± 4.149293156761647",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1250.606906073434,
+            "unit": "ns",
+            "range": "± 3.4284765651857194",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1102.2185867854528,
+            "unit": "ns",
+            "range": "± 4.572486146155366",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9515.252927780151,
+            "unit": "ns",
+            "range": "± 32.84107605530509",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11000.473958969116,
+            "unit": "ns",
+            "range": "± 52.76386764221047",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9376.944137573242,
+            "unit": "ns",
+            "range": "± 35.89258444261176",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97331.26591491699,
+            "unit": "ns",
+            "range": "± 574.9192394291282",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110964.49768066406,
+            "unit": "ns",
+            "range": "± 118.83476411660101",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93012.61329868862,
+            "unit": "ns",
+            "range": "± 110.3906754271193",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2995218951255083,
+            "unit": "ns",
+            "range": "± 0.011321918796152939",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1070.890272140503,
+            "unit": "ns",
+            "range": "± 2.915987305304609",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.80361840980394,
+            "unit": "ns",
+            "range": "± 0.12305496370640552",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9731.763053894043,
+            "unit": "ns",
+            "range": "± 58.67581794779459",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.6710526602609,
+            "unit": "ns",
+            "range": "± 0.5216817655398781",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93741.789289202,
+            "unit": "ns",
+            "range": "± 237.79596567986266",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.10574056208134,
+            "unit": "ns",
+            "range": "± 1.3885341091669532",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 106.77692205565316,
+            "unit": "ns",
+            "range": "± 0.43209645098265403",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 993.0665695667267,
+            "unit": "ns",
+            "range": "± 5.080997441747701",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 964.0972416400909,
+            "unit": "ns",
+            "range": "± 6.306330380573071",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9457.930655343192,
+            "unit": "ns",
+            "range": "± 38.49794238434954",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9888.84333229065,
+            "unit": "ns",
+            "range": "± 88.95901516250603",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 92.60927309308734,
+            "unit": "ns",
+            "range": "± 0.32993455525855697",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.24732035398483,
+            "unit": "ns",
+            "range": "± 0.5300835420790637",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 892.3551613943918,
+            "unit": "ns",
+            "range": "± 1.943888643087703",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1055.0759816169739,
+            "unit": "ns",
+            "range": "± 7.765364839913403",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8995.526995340982,
+            "unit": "ns",
+            "range": "± 31.105345298772622",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10506.279369354248,
+            "unit": "ns",
+            "range": "± 70.2147049150537",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1401.444269657135,
+            "unit": "ns",
+            "range": "± 2.8976857323873",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12674.11332484654,
+            "unit": "ns",
+            "range": "± 27.180125675515907",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122362.4762398856,
+            "unit": "ns",
+            "range": "± 860.6609751813403",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385474728.01,
+            "unit": "ns",
+            "range": "± 120830380.92070697",
+            "bytesAllocated": 2669256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 267949874.73,
+            "unit": "ns",
+            "range": "± 15315798.234421993",
+            "bytesAllocated": 2332392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 251690960.17,
+            "unit": "ns",
+            "range": "± 2393881.7978177266",
+            "bytesAllocated": 1301328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 373696603.85,
+            "unit": "ns",
+            "range": "± 3773599.5374703887",
+            "bytesAllocated": 2642608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 268153805.16,
+            "unit": "ns",
+            "range": "± 4269070.630849903",
+            "bytesAllocated": 2345112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256316083.98,
+            "unit": "ns",
+            "range": "± 3167151.431865205",
+            "bytesAllocated": 1312624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 492253034.78,
+            "unit": "ns",
+            "range": "± 5176202.151975572",
+            "bytesAllocated": 4715952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 389870382.05,
+            "unit": "ns",
+            "range": "± 4642915.821153783",
+            "bytesAllocated": 4403072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 383136180.6,
+            "unit": "ns",
+            "range": "± 7256646.580448699",
+            "bytesAllocated": 3366872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 328836631.71,
+            "unit": "ns",
+            "range": "± 22211102.30827458",
+            "bytesAllocated": 2216736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 225166898.54,
+            "unit": "ns",
+            "range": "± 3281084.1280968217",
+            "bytesAllocated": 1831568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 244501481.46,
+            "unit": "ns",
+            "range": "± 6185214.835836083",
+            "bytesAllocated": 1411520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 208071539.69,
+            "unit": "ns",
+            "range": "± 2860500.4603331205",
+            "bytesAllocated": 858856
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "ec5d927e38ef89758699406926f0b09207f1605d",
+          "message": "fix(cli): validate complete runtime role sets in schema-11 preflight (#847)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-02T18:27:22Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/ec5d927e38ef89758699406926f0b09207f1605d"
+        },
+        "date": 1790966874208,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 223142652.21,
+            "unit": "ns",
+            "range": "± 2851363.422399938",
+            "bytesAllocated": 1846752
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 234089785.55,
+            "unit": "ns",
+            "range": "± 2446380.4290434537",
+            "bytesAllocated": 2029848
           }
         ]
       }
