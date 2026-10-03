@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790978140640,
+  "lastUpdated": 1790989834969,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -96178,6 +96178,440 @@
             "unit": "ns",
             "range": "± 6203324.142456524",
             "bytesAllocated": 1917840
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 308289703.98,
+            "unit": "ns",
+            "range": "± 54864791.11609863",
+            "bytesAllocated": 2665456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 214042445.39,
+            "unit": "ns",
+            "range": "± 6979385.439569218",
+            "bytesAllocated": 2333184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 198642473.39,
+            "unit": "ns",
+            "range": "± 3283953.678601171",
+            "bytesAllocated": 1288120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 295722369.89,
+            "unit": "ns",
+            "range": "± 5144927.839133042",
+            "bytesAllocated": 2643552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 221083973.66,
+            "unit": "ns",
+            "range": "± 11964312.819836015",
+            "bytesAllocated": 2441656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 200265343.37,
+            "unit": "ns",
+            "range": "± 2606817.109127968",
+            "bytesAllocated": 1387488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 394271592.96,
+            "unit": "ns",
+            "range": "± 7858726.728705151",
+            "bytesAllocated": 4736568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 314842596.81,
+            "unit": "ns",
+            "range": "± 8605666.883946007",
+            "bytesAllocated": 4401632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 302314186.89,
+            "unit": "ns",
+            "range": "± 5243118.450997749",
+            "bytesAllocated": 3395096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 262447064.54,
+            "unit": "ns",
+            "range": "± 7774761.388586047",
+            "bytesAllocated": 2195176
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 176932185.42,
+            "unit": "ns",
+            "range": "± 2860727.9593938966",
+            "bytesAllocated": 1832232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 190272963.67,
+            "unit": "ns",
+            "range": "± 3439388.036164973",
+            "bytesAllocated": 1428840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 162072249.58,
+            "unit": "ns",
+            "range": "± 2775800.8430213947",
+            "bytesAllocated": 869760
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 174703979.6,
+            "unit": "ns",
+            "range": "± 3072738.4469726314",
+            "bytesAllocated": 1849624
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 188092033.96,
+            "unit": "ns",
+            "range": "± 3490366.0995709975",
+            "bytesAllocated": 1934736
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.5278283301740885,
+            "unit": "ns",
+            "range": "± 0.0030926765272822664",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 839.2130348682404,
+            "unit": "ns",
+            "range": "± 7.653455195189922",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 28.39601311513356,
+            "unit": "ns",
+            "range": "± 0.02363734867915491",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7641.469318389893,
+            "unit": "ns",
+            "range": "± 58.469947288467935",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.2879626750946,
+            "unit": "ns",
+            "range": "± 0.140254296456033",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 72957.44180297852,
+            "unit": "ns",
+            "range": "± 276.504462458368",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 836.3287115097046,
+            "unit": "ns",
+            "range": "± 9.256874905131804",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 898.4172821044922,
+            "unit": "ns",
+            "range": "± 7.670659300768638",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 854.2763719558716,
+            "unit": "ns",
+            "range": "± 8.090819441159931",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 7387.331844329834,
+            "unit": "ns",
+            "range": "± 48.42171387584338",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 9430.270008087158,
+            "unit": "ns",
+            "range": "± 367.5829795387079",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7396.604606628418,
+            "unit": "ns",
+            "range": "± 21.425251426893098",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 72783.47001647949,
+            "unit": "ns",
+            "range": "± 171.15876583810973",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 82167.5824432373,
+            "unit": "ns",
+            "range": "± 286.13845031491473",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 72901.33023071289,
+            "unit": "ns",
+            "range": "± 593.9470686491055",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 85.22114311158657,
+            "unit": "ns",
+            "range": "± 1.015793598010266",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 94.20996604859829,
+            "unit": "ns",
+            "range": "± 0.9767961223516253",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 819.5965501240322,
+            "unit": "ns",
+            "range": "± 7.394542726668632",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 827.470534324646,
+            "unit": "ns",
+            "range": "± 5.681461045312366",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7853.766675949097,
+            "unit": "ns",
+            "range": "± 121.52310955587444",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8061.127946853638,
+            "unit": "ns",
+            "range": "± 137.9616734719068",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 78.35931660234928,
+            "unit": "ns",
+            "range": "± 0.7030785179140129",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 95.45015624165535,
+            "unit": "ns",
+            "range": "± 1.34971310807034",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 760.721404671669,
+            "unit": "ns",
+            "range": "± 8.81535139379837",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 966.2351730891636,
+            "unit": "ns",
+            "range": "± 20.576027766185174",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7379.122820172991,
+            "unit": "ns",
+            "range": "± 121.38787382942857",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8792.01302909851,
+            "unit": "ns",
+            "range": "± 226.70893670653373",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "416b30919e6c4d03b634d9d3fe558884b02f0b91",
+          "message": "feat(durable): add external activation service and reference host (#848)",
+          "timestamp": "2026-10-03T00:53:01Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/416b30919e6c4d03b634d9d3fe558884b02f0b91"
+        },
+        "date": 1790989834969,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1058.5770559310913,
+            "unit": "ns",
+            "range": "± 12.086086841931126",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 9447.647993087769,
+            "unit": "ns",
+            "range": "± 141.6489627534666",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 94007.75622558594,
+            "unit": "ns",
+            "range": "± 611.8745306980527",
+            "bytesAllocated": 232376
           }
         ]
       }
