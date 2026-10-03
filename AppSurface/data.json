@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790995562788,
+  "lastUpdated": 1791038916713,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -97046,6 +97046,531 @@
             "unit": "ns",
             "range": "± 1174269.5287023024",
             "bytesAllocated": 844144
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 396861150.29,
+            "unit": "ns",
+            "range": "± 76522234.63903314",
+            "bytesAllocated": 2645192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 280087906.46,
+            "unit": "ns",
+            "range": "± 6576428.8475197805",
+            "bytesAllocated": 2332760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267797946.24,
+            "unit": "ns",
+            "range": "± 5944754.570088308",
+            "bytesAllocated": 1289120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 390668661.21,
+            "unit": "ns",
+            "range": "± 8168992.443860661",
+            "bytesAllocated": 2650968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 269842985.74,
+            "unit": "ns",
+            "range": "± 4924209.922347832",
+            "bytesAllocated": 2342280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 256555039.6,
+            "unit": "ns",
+            "range": "± 4917920.692239052",
+            "bytesAllocated": 1310920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 501755899.56,
+            "unit": "ns",
+            "range": "± 10922665.407131447",
+            "bytesAllocated": 4717288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 397041523.1,
+            "unit": "ns",
+            "range": "± 7762851.141110529",
+            "bytesAllocated": 4422456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 385226787.07,
+            "unit": "ns",
+            "range": "± 8172838.744264493",
+            "bytesAllocated": 3372784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 329668606.53,
+            "unit": "ns",
+            "range": "± 7998426.706648893",
+            "bytesAllocated": 2222008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 225567123.59,
+            "unit": "ns",
+            "range": "± 4277449.775132168",
+            "bytesAllocated": 1829784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243749237,
+            "unit": "ns",
+            "range": "± 14216184.184004264",
+            "bytesAllocated": 1416864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 209843461.32,
+            "unit": "ns",
+            "range": "± 4091143.3817664795",
+            "bytesAllocated": 861896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1118.1609480381012,
+            "unit": "ns",
+            "range": "± 26.986944618485982",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1296.3151841163635,
+            "unit": "ns",
+            "range": "± 17.93727136618699",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1070.943932056427,
+            "unit": "ns",
+            "range": "± 15.775298544009637",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9706.42530632019,
+            "unit": "ns",
+            "range": "± 131.66267837646618",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11153.508457183838,
+            "unit": "ns",
+            "range": "± 92.29085218981193",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9588.468486785889,
+            "unit": "ns",
+            "range": "± 86.23230631648237",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 96877.013671875,
+            "unit": "ns",
+            "range": "± 1383.8232517034205",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 109970.52577209473,
+            "unit": "ns",
+            "range": "± 754.14936005407",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 96122.32429504395,
+            "unit": "ns",
+            "range": "± 1689.2343365358222",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.294317695001761,
+            "unit": "ns",
+            "range": "± 0.0024675139008413973",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1101.98766207695,
+            "unit": "ns",
+            "range": "± 20.82204006650286",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.65844965726137,
+            "unit": "ns",
+            "range": "± 0.07947321480101092",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9738.046340942383,
+            "unit": "ns",
+            "range": "± 99.52730926955203",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.39752316474915,
+            "unit": "ns",
+            "range": "± 1.1080561876993589",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96961.74969482422,
+            "unit": "ns",
+            "range": "± 1925.912308667606",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.82883991513934,
+            "unit": "ns",
+            "range": "± 1.3933350122046775",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.77027088403702,
+            "unit": "ns",
+            "range": "± 1.602921426455658",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1016.2132260799408,
+            "unit": "ns",
+            "range": "± 15.872979648914988",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1028.9620230197906,
+            "unit": "ns",
+            "range": "± 32.44320600049209",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9914.786739349365,
+            "unit": "ns",
+            "range": "± 204.82456965870094",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10062.019380569458,
+            "unit": "ns",
+            "range": "± 251.11782565821255",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.47411175072193,
+            "unit": "ns",
+            "range": "± 1.4899940097313382",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 114.69196432828903,
+            "unit": "ns",
+            "range": "± 3.382627506774723",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 918.9188904762268,
+            "unit": "ns",
+            "range": "± 13.996182297689318",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1088.914490699768,
+            "unit": "ns",
+            "range": "± 19.3557893684438",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9056.781629562378,
+            "unit": "ns",
+            "range": "± 164.87167009477244",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10697.006643295288,
+            "unit": "ns",
+            "range": "± 150.81441206532838",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1401.7310378551483,
+            "unit": "ns",
+            "range": "± 15.698432129757645",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12888.82327079773,
+            "unit": "ns",
+            "range": "± 330.1227259459283",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 126859.21829223633,
+            "unit": "ns",
+            "range": "± 454.504101752139",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "55d87b26a342ad96c96ed5a36fb13962e80b25f8",
+          "message": "build(deps): update GitHub Actions and restore CI gates (#814)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Andrew Krock <andrew.krock@gmail.com>",
+          "timestamp": "2026-10-03T14:27:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/55d87b26a342ad96c96ed5a36fb13962e80b25f8"
+        },
+        "date": 1791038916713,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225223565.33,
+            "unit": "ns",
+            "range": "± 5469120.374786913",
+            "bytesAllocated": 1848680
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 235421643.08,
+            "unit": "ns",
+            "range": "± 4112217.821946805",
+            "bytesAllocated": 1946472
           }
         ]
       }
