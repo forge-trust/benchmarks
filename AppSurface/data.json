@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1790989834969,
+  "lastUpdated": 1790995562788,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -96612,6 +96612,440 @@
             "unit": "ns",
             "range": "± 611.8745306980527",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 143837455.36,
+            "unit": "ns",
+            "range": "± 5139301.144771637",
+            "bytesAllocated": 1870392
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 153047723.02,
+            "unit": "ns",
+            "range": "± 6565487.427534988",
+            "bytesAllocated": 2032144
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 629.4210344552994,
+            "unit": "ns",
+            "range": "± 22.352126023668102",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 707.592561176845,
+            "unit": "ns",
+            "range": "± 25.004760816385375",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 632.4331115995135,
+            "unit": "ns",
+            "range": "± 5.198482877756524",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5554.281168937683,
+            "unit": "ns",
+            "range": "± 313.3983780299943",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6196.2156229019165,
+            "unit": "ns",
+            "range": "± 321.80265484556475",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5742.554578781128,
+            "unit": "ns",
+            "range": "± 121.26606242340392",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 54933.30429840088,
+            "unit": "ns",
+            "range": "± 638.4057811005304",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 62106.77803039551,
+            "unit": "ns",
+            "range": "± 234.7153921394465",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 54816.739807128906,
+            "unit": "ns",
+            "range": "± 503.3400197333791",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.096314039081335,
+            "unit": "ns",
+            "range": "± 0.004275666808951244",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 593.2067044973373,
+            "unit": "ns",
+            "range": "± 2.380310842922211",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 32.863135712487356,
+            "unit": "ns",
+            "range": "± 0.09720091968077704",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5239.369119644165,
+            "unit": "ns",
+            "range": "± 15.264448102686227",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 271.0542590022087,
+            "unit": "ns",
+            "range": "± 10.432376699338871",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 52291.941641671314,
+            "unit": "ns",
+            "range": "± 175.13165080595243",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 76.90643422944206,
+            "unit": "ns",
+            "range": "± 0.9876382632240978",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 78.20389755566914,
+            "unit": "ns",
+            "range": "± 0.070998947267266",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 624.8041157722473,
+            "unit": "ns",
+            "range": "± 17.698835549853417",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 672.6292225973947,
+            "unit": "ns",
+            "range": "± 2.0532725275885633",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5878.734869820731,
+            "unit": "ns",
+            "range": "± 13.070174994927969",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 6308.643033981323,
+            "unit": "ns",
+            "range": "± 168.62105430482424",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 61.84687937157495,
+            "unit": "ns",
+            "range": "± 0.38043433888036143",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 68.250903572355,
+            "unit": "ns",
+            "range": "± 0.11467379188367441",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 518.0192793437412,
+            "unit": "ns",
+            "range": "± 3.320688128394361",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 725.6906385421753,
+            "unit": "ns",
+            "range": "± 3.777620994851015",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5378.396867752075,
+            "unit": "ns",
+            "range": "± 137.3713423174566",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 7141.433364868164,
+            "unit": "ns",
+            "range": "± 98.83424178237188",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 821.6226910182407,
+            "unit": "ns",
+            "range": "± 18.238231589835387",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 7455.086096763611,
+            "unit": "ns",
+            "range": "± 308.13154682319123",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 68191.6735534668,
+            "unit": "ns",
+            "range": "± 219.59753854122692",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "269b635b801742e67bea4df8f261a85926656534",
+          "message": "feat(devauth): support persona-scoped fixture activation (#849)",
+          "timestamp": "2026-10-03T02:30:39Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/269b635b801742e67bea4df8f261a85926656534"
+        },
+        "date": 1790995562788,
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 261773033.38,
+            "unit": "ns",
+            "range": "± 107556333.50686076",
+            "bytesAllocated": 2643664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 182264406.25,
+            "unit": "ns",
+            "range": "± 9494856.012014212",
+            "bytesAllocated": 2332264
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 170064034.32,
+            "unit": "ns",
+            "range": "± 6187702.206179839",
+            "bytesAllocated": 1289384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 254385594.11,
+            "unit": "ns",
+            "range": "± 11503152.6253886",
+            "bytesAllocated": 2648992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 178122675.36,
+            "unit": "ns",
+            "range": "± 8195663.502636951",
+            "bytesAllocated": 2342128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 166903636.9,
+            "unit": "ns",
+            "range": "± 7411879.443470206",
+            "bytesAllocated": 1312888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 333078540.96,
+            "unit": "ns",
+            "range": "± 4882907.918324041",
+            "bytesAllocated": 4716080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 270304125.04,
+            "unit": "ns",
+            "range": "± 11850026.814305909",
+            "bytesAllocated": 4415000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 262156173.08,
+            "unit": "ns",
+            "range": "± 6940937.4105921965",
+            "bytesAllocated": 3390008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 216267768.8,
+            "unit": "ns",
+            "range": "± 12018909.591293294",
+            "bytesAllocated": 2211528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 145607529.27,
+            "unit": "ns",
+            "range": "± 6073313.308326519",
+            "bytesAllocated": 1832088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 156494668.7,
+            "unit": "ns",
+            "range": "± 6691172.873166707",
+            "bytesAllocated": 1415920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 132314503.2,
+            "unit": "ns",
+            "range": "± 1174269.5287023024",
+            "bytesAllocated": 844144
           }
         ]
       }
