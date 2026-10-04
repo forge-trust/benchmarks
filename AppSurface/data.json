@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791061108239,
+  "lastUpdated": 1791089803236,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -98621,6 +98621,531 @@
             "unit": "ns",
             "range": "± 4867820.490855393",
             "bytesAllocated": 1944088
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1142.7433669567108,
+            "unit": "ns",
+            "range": "± 8.047661632181025",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1280.9427888393402,
+            "unit": "ns",
+            "range": "± 4.839049586060951",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1098.2929656505585,
+            "unit": "ns",
+            "range": "± 20.85965348777063",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9842.990097045898,
+            "unit": "ns",
+            "range": "± 252.60228250943322",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11670.211002349854,
+            "unit": "ns",
+            "range": "± 67.0719469891668",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9934.882865905762,
+            "unit": "ns",
+            "range": "± 37.45557278020064",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 98744.9769744873,
+            "unit": "ns",
+            "range": "± 2848.128591297964",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 114229.35330200195,
+            "unit": "ns",
+            "range": "± 336.9527956884233",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 99257.73976353237,
+            "unit": "ns",
+            "range": "± 265.29411429989324",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2926260059078536,
+            "unit": "ns",
+            "range": "± 0.0039566028059497185",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1144.2541648319789,
+            "unit": "ns",
+            "range": "± 4.982165419552721",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.71548928107534,
+            "unit": "ns",
+            "range": "± 0.05101728235895349",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10225.632806777954,
+            "unit": "ns",
+            "range": "± 65.01013139463815",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.7731899533953,
+            "unit": "ns",
+            "range": "± 0.19241404634571918",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 100422.28596714565,
+            "unit": "ns",
+            "range": "± 171.1180084693464",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 112.25286792857307,
+            "unit": "ns",
+            "range": "± 0.633920952540562",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 122.90668040513992,
+            "unit": "ns",
+            "range": "± 1.2748424137989007",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1095.1356840133667,
+            "unit": "ns",
+            "range": "± 4.305362086454035",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1066.881575345993,
+            "unit": "ns",
+            "range": "± 17.891953702552392",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9975.396934509277,
+            "unit": "ns",
+            "range": "± 206.20931591166175",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10300.7621786935,
+            "unit": "ns",
+            "range": "± 91.47409474154531",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.27568243443966,
+            "unit": "ns",
+            "range": "± 1.8914456242175464",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 122.89438936114311,
+            "unit": "ns",
+            "range": "± 2.0135381029740382",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 968.900050844465,
+            "unit": "ns",
+            "range": "± 4.428064099950029",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1155.931877374649,
+            "unit": "ns",
+            "range": "± 7.982044598181301",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9560.973663330078,
+            "unit": "ns",
+            "range": "± 173.8384623403276",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11270.912835257393,
+            "unit": "ns",
+            "range": "± 173.39615708604248",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1460.7423913478851,
+            "unit": "ns",
+            "range": "± 15.256382757501088",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13085.319869995117,
+            "unit": "ns",
+            "range": "± 128.7935194220108",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 128025.26000976562,
+            "unit": "ns",
+            "range": "± 2038.3121646081372",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 222985393.24,
+            "unit": "ns",
+            "range": "± 3812994.103867385",
+            "bytesAllocated": 1831024
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 238157248.68,
+            "unit": "ns",
+            "range": "± 3835298.1147496677",
+            "bytesAllocated": 2015432
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "aa1d6fa66fd3973425b3153200b0fdc875d3569d",
+          "message": "fix(release): bind native proofs to frozen producer manifest (#855)",
+          "timestamp": "2026-10-04T04:35:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/aa1d6fa66fd3973425b3153200b0fdc875d3569d"
+        },
+        "date": 1791089803236,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 436953021.05,
+            "unit": "ns",
+            "range": "± 103591968.95612405",
+            "bytesAllocated": 2668584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 306015005.27,
+            "unit": "ns",
+            "range": "± 10568047.661417952",
+            "bytesAllocated": 2427416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 291458395.15,
+            "unit": "ns",
+            "range": "± 6557022.468253236",
+            "bytesAllocated": 1286896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 430220939.31,
+            "unit": "ns",
+            "range": "± 7696811.956948505",
+            "bytesAllocated": 2643520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 309188181.76,
+            "unit": "ns",
+            "range": "± 7140716.552906887",
+            "bytesAllocated": 2337952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 295794309.28,
+            "unit": "ns",
+            "range": "± 6104353.630537223",
+            "bytesAllocated": 1306544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 571222299.12,
+            "unit": "ns",
+            "range": "± 12173212.334648354",
+            "bytesAllocated": 4710688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 460728223.37,
+            "unit": "ns",
+            "range": "± 8278122.238294176",
+            "bytesAllocated": 4398648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 427411341.84,
+            "unit": "ns",
+            "range": "± 12795580.736090578",
+            "bytesAllocated": 3367064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 360675588.21,
+            "unit": "ns",
+            "range": "± 12460483.041156908",
+            "bytesAllocated": 2208872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 229610647.89,
+            "unit": "ns",
+            "range": "± 4343348.047309467",
+            "bytesAllocated": 1827288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 250267012.99,
+            "unit": "ns",
+            "range": "± 8931606.614175338",
+            "bytesAllocated": 1416480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 210010903.54,
+            "unit": "ns",
+            "range": "± 4543334.2370995805",
+            "bytesAllocated": 861896
           }
         ]
       }
