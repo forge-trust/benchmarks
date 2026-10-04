@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791092944174,
+  "lastUpdated": 1791141986116,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -99670,6 +99670,531 @@
             "value": 130530.24918619792,
             "unit": "ns",
             "range": "± 219.659158997488",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385018728.06,
+            "unit": "ns",
+            "range": "± 20118919.08465828",
+            "bytesAllocated": 2622600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 270829103.45,
+            "unit": "ns",
+            "range": "± 4101011.9704375397",
+            "bytesAllocated": 2314584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 257622854.04,
+            "unit": "ns",
+            "range": "± 4062029.3047012817",
+            "bytesAllocated": 1271112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 386128865.35,
+            "unit": "ns",
+            "range": "± 7470214.355590687",
+            "bytesAllocated": 2651000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 273250553.49,
+            "unit": "ns",
+            "range": "± 5316109.620206457",
+            "bytesAllocated": 2338400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 261493143.47,
+            "unit": "ns",
+            "range": "± 5147162.693582518",
+            "bytesAllocated": 1306776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 506079980.76,
+            "unit": "ns",
+            "range": "± 10438998.284156397",
+            "bytesAllocated": 4747664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 406608670.45,
+            "unit": "ns",
+            "range": "± 11262188.504729062",
+            "bytesAllocated": 4420408
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 390854778.99,
+            "unit": "ns",
+            "range": "± 9743724.421568364",
+            "bytesAllocated": 3394704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 330969654.89,
+            "unit": "ns",
+            "range": "± 4773358.391982108",
+            "bytesAllocated": 2221000
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 228301591.49,
+            "unit": "ns",
+            "range": "± 4651164.512232629",
+            "bytesAllocated": 1931648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 246207377.31,
+            "unit": "ns",
+            "range": "± 5443319.071473962",
+            "bytesAllocated": 1401320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 210624151.18,
+            "unit": "ns",
+            "range": "± 3270443.4849435366",
+            "bytesAllocated": 862600
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.293126425572804,
+            "unit": "ns",
+            "range": "± 0.008001158723368805",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1116.4170746803284,
+            "unit": "ns",
+            "range": "± 9.588817338143498",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.67923934970583,
+            "unit": "ns",
+            "range": "± 0.055192604243740465",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9739.580919265747,
+            "unit": "ns",
+            "range": "± 107.53318388444046",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.6433578133583,
+            "unit": "ns",
+            "range": "± 0.4911364307101353",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 97003.52102661133,
+            "unit": "ns",
+            "range": "± 1285.8746114968117",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1090.1531248092651,
+            "unit": "ns",
+            "range": "± 16.19532036417929",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1260.3629997798375,
+            "unit": "ns",
+            "range": "± 4.07809076835912",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1099.8501737117767,
+            "unit": "ns",
+            "range": "± 11.054423354432572",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10190.772218704224,
+            "unit": "ns",
+            "range": "± 256.53576788616016",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11257.738037109375,
+            "unit": "ns",
+            "range": "± 82.97155145752548",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9576.044351577759,
+            "unit": "ns",
+            "range": "± 59.52193100632992",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 102028.61148071289,
+            "unit": "ns",
+            "range": "± 861.6230222293768",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 114172.10371398926,
+            "unit": "ns",
+            "range": "± 523.5258626441753",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93800.52127075195,
+            "unit": "ns",
+            "range": "± 609.1559162346651",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225893355.95,
+            "unit": "ns",
+            "range": "± 3248831.857675121",
+            "bytesAllocated": 1886832
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 238782486.23,
+            "unit": "ns",
+            "range": "± 5059953.655739905",
+            "bytesAllocated": 1915512
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 103.10818131480899,
+            "unit": "ns",
+            "range": "± 1.3289086937839252",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.79153104126453,
+            "unit": "ns",
+            "range": "± 1.7435345117330119",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1064.040640592575,
+            "unit": "ns",
+            "range": "± 15.344675162277516",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1011.8582448959351,
+            "unit": "ns",
+            "range": "± 19.40045044618366",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9740.120933532715,
+            "unit": "ns",
+            "range": "± 95.75998931495442",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10580.789474487305,
+            "unit": "ns",
+            "range": "± 271.4733936212964",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 94.86521118879318,
+            "unit": "ns",
+            "range": "± 0.7098543627023917",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 121.83365598320961,
+            "unit": "ns",
+            "range": "± 5.557858691499422",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 977.2892022132874,
+            "unit": "ns",
+            "range": "± 12.77192565948581",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1121.7323422431946,
+            "unit": "ns",
+            "range": "± 37.53916251985006",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9090.374206542969,
+            "unit": "ns",
+            "range": "± 95.3328503504952",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10762.831447601318,
+            "unit": "ns",
+            "range": "± 80.8862366740974",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "40de2ef62ad9e697929ef4bd56f0bfda2d813d72",
+          "message": "fix(ci): stage installed tool archives for public smoke proof (#858)",
+          "timestamp": "2026-10-04T19:05:52Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/40de2ef62ad9e697929ef4bd56f0bfda2d813d72"
+        },
+        "date": 1791141986116,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1419.2823491777692,
+            "unit": "ns",
+            "range": "± 2.8906293407129073",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12744.9248046875,
+            "unit": "ns",
+            "range": "± 41.512258716309915",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124595.67889404297,
+            "unit": "ns",
+            "range": "± 737.5529528884178",
             "bytesAllocated": 232376
           }
         ]
