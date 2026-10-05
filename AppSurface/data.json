@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791141986116,
+  "lastUpdated": 1791174235880,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -100196,6 +100196,531 @@
             "unit": "ns",
             "range": "± 737.5529528884178",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1099.9793815612793,
+            "unit": "ns",
+            "range": "± 4.506044941011605",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1307.9527297019958,
+            "unit": "ns",
+            "range": "± 4.573261282707921",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1078.292695726667,
+            "unit": "ns",
+            "range": "± 9.694984696124566",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10726.626089913505,
+            "unit": "ns",
+            "range": "± 97.49702333687584",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 14446.572717666626,
+            "unit": "ns",
+            "range": "± 144.2024514855228",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9537.922143936157,
+            "unit": "ns",
+            "range": "± 94.26965227048792",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 95562.82292175293,
+            "unit": "ns",
+            "range": "± 442.766995846915",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111782.42771911621,
+            "unit": "ns",
+            "range": "± 755.9157591639048",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93151.49928283691,
+            "unit": "ns",
+            "range": "± 967.1286263282567",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2886264281613484,
+            "unit": "ns",
+            "range": "± 0.0030790156066711166",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1129.5394172668457,
+            "unit": "ns",
+            "range": "± 11.537689308136224",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.232834190130234,
+            "unit": "ns",
+            "range": "± 0.05251780636948825",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9972.258063180107,
+            "unit": "ns",
+            "range": "± 17.3176539467557",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.68387957981656,
+            "unit": "ns",
+            "range": "± 0.5139580003897511",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96977.34174455915,
+            "unit": "ns",
+            "range": "± 543.9020080745726",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.34527783095837,
+            "unit": "ns",
+            "range": "± 0.7973085844709429",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 117.22014029324055,
+            "unit": "ns",
+            "range": "± 2.3613794248053765",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1051.0982167380196,
+            "unit": "ns",
+            "range": "± 7.797533941417029",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1028.3591446876526,
+            "unit": "ns",
+            "range": "± 12.025630304493719",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10190.832462310791,
+            "unit": "ns",
+            "range": "± 143.47970288856885",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10355.560487747192,
+            "unit": "ns",
+            "range": "± 127.13378546185116",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.03423668444157,
+            "unit": "ns",
+            "range": "± 0.8251004275937216",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.99271574616432,
+            "unit": "ns",
+            "range": "± 1.284921985682487",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 968.0988309042795,
+            "unit": "ns",
+            "range": "± 8.208236136199313",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1143.1365242004395,
+            "unit": "ns",
+            "range": "± 23.774729994599564",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9305.827415466309,
+            "unit": "ns",
+            "range": "± 114.63632290348552",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11272.410638809204,
+            "unit": "ns",
+            "range": "± 171.33171603506673",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1467.856956754412,
+            "unit": "ns",
+            "range": "± 7.806714174549529",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13155.607078552246,
+            "unit": "ns",
+            "range": "± 75.04149153311779",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 128148.1291809082,
+            "unit": "ns",
+            "range": "± 1054.5045937626219",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 228503469.78,
+            "unit": "ns",
+            "range": "± 4043099.3404953857",
+            "bytesAllocated": 1930136
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 238787973.54,
+            "unit": "ns",
+            "range": "± 2603991.325160159",
+            "bytesAllocated": 2030928
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183",
+          "message": "feat(cli): add non-mutating Durable runtime doctor (#856)",
+          "timestamp": "2026-10-05T04:03:19Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3bce0bdbef5e7ae3137f0bb90dbd3d0ff9f08183"
+        },
+        "date": 1791174235880,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 386467405.03,
+            "unit": "ns",
+            "range": "± 32851433.044545434",
+            "bytesAllocated": 2645280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 275815115.44,
+            "unit": "ns",
+            "range": "± 6146917.683653119",
+            "bytesAllocated": 2430744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 259008981.74,
+            "unit": "ns",
+            "range": "± 4324375.9190247655",
+            "bytesAllocated": 1365288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 384854368.06,
+            "unit": "ns",
+            "range": "± 5301052.245623991",
+            "bytesAllocated": 2675616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 274205476.59,
+            "unit": "ns",
+            "range": "± 4736319.724684071",
+            "bytesAllocated": 2441776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 261835130.47,
+            "unit": "ns",
+            "range": "± 4056487.594150134",
+            "bytesAllocated": 1310104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 503974346,
+            "unit": "ns",
+            "range": "± 7106510.69462268",
+            "bytesAllocated": 4717296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 400794797.05,
+            "unit": "ns",
+            "range": "± 6780392.512037673",
+            "bytesAllocated": 4400944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 387485941.19,
+            "unit": "ns",
+            "range": "± 8281558.8136235755",
+            "bytesAllocated": 3372736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 335258586.93,
+            "unit": "ns",
+            "range": "± 6288010.708991018",
+            "bytesAllocated": 2215776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230181855.29,
+            "unit": "ns",
+            "range": "± 4385487.271950413",
+            "bytesAllocated": 1829968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 252045262.7,
+            "unit": "ns",
+            "range": "± 6694627.926434895",
+            "bytesAllocated": 1419120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 215305289.36,
+            "unit": "ns",
+            "range": "± 4152442.1719662934",
+            "bytesAllocated": 844144
           }
         ]
       }
