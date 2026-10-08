@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791174235880,
+  "lastUpdated": 1791429121101,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -100721,6 +100721,531 @@
             "unit": "ns",
             "range": "± 4152442.1719662934",
             "bytesAllocated": 844144
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 388176306.8,
+            "unit": "ns",
+            "range": "± 65010313.018893585",
+            "bytesAllocated": 2644608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 270276355.49,
+            "unit": "ns",
+            "range": "± 7796324.841564347",
+            "bytesAllocated": 2314456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 257946644.29,
+            "unit": "ns",
+            "range": "± 6264890.8408374945",
+            "bytesAllocated": 1289120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376127188.59,
+            "unit": "ns",
+            "range": "± 5480295.112580084",
+            "bytesAllocated": 2647936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 272016735.29,
+            "unit": "ns",
+            "range": "± 5448771.766009591",
+            "bytesAllocated": 2344936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254617513.89,
+            "unit": "ns",
+            "range": "± 6337340.896331507",
+            "bytesAllocated": 1311184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493846338.96,
+            "unit": "ns",
+            "range": "± 6145123.583774994",
+            "bytesAllocated": 4723840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 395518651.73,
+            "unit": "ns",
+            "range": "± 14846832.58016364",
+            "bytesAllocated": 4427888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 383543949.42,
+            "unit": "ns",
+            "range": "± 21778240.9093551",
+            "bytesAllocated": 3394816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327968209.6,
+            "unit": "ns",
+            "range": "± 9622253.496710708",
+            "bytesAllocated": 2194896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 221709029.76,
+            "unit": "ns",
+            "range": "± 2586763.513526789",
+            "bytesAllocated": 1833112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 240435753.59,
+            "unit": "ns",
+            "range": "± 10719063.957995737",
+            "bytesAllocated": 1418896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 205040236.67,
+            "unit": "ns",
+            "range": "± 2335308.3963158475",
+            "bytesAllocated": 857176
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1065.7777209281921,
+            "unit": "ns",
+            "range": "± 6.067475503172015",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1236.696371623448,
+            "unit": "ns",
+            "range": "± 9.754546656513908",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1036.8202214922223,
+            "unit": "ns",
+            "range": "± 4.87292518570162",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10422.49437386649,
+            "unit": "ns",
+            "range": "± 62.95315108851767",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11200.87706375122,
+            "unit": "ns",
+            "range": "± 122.36300731183503",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9194.775499343872,
+            "unit": "ns",
+            "range": "± 76.0984294975846",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 129143.91491699219,
+            "unit": "ns",
+            "range": "± 1432.4731492632372",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110180.19845581055,
+            "unit": "ns",
+            "range": "± 464.3070305995181",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91238.78173828125,
+            "unit": "ns",
+            "range": "± 886.0724667186158",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.292178299278021,
+            "unit": "ns",
+            "range": "± 0.003674353211730971",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1035.3996609279088,
+            "unit": "ns",
+            "range": "± 2.3498497528016262",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.70444831252098,
+            "unit": "ns",
+            "range": "± 0.05965460130085298",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9533.509026663643,
+            "unit": "ns",
+            "range": "± 23.70738973001676",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.46676874160767,
+            "unit": "ns",
+            "range": "± 0.3925419718487752",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96472.47912597656,
+            "unit": "ns",
+            "range": "± 943.2576268908047",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.15969193833214,
+            "unit": "ns",
+            "range": "± 0.17688004302723798",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 106.32845105443683,
+            "unit": "ns",
+            "range": "± 0.20688323834764275",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 978.1881983280182,
+            "unit": "ns",
+            "range": "± 2.7700768290720403",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 949.4999905824661,
+            "unit": "ns",
+            "range": "± 2.1771254292389615",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9359.459529331752,
+            "unit": "ns",
+            "range": "± 12.68971870376809",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9763.19165611267,
+            "unit": "ns",
+            "range": "± 30.606796354831737",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 92.5867355465889,
+            "unit": "ns",
+            "range": "± 0.4482597485624588",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 107.77996899187565,
+            "unit": "ns",
+            "range": "± 0.416341797248247",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 885.5500612258911,
+            "unit": "ns",
+            "range": "± 1.9623163678188975",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1034.6283378601074,
+            "unit": "ns",
+            "range": "± 1.2021401993196146",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8751.787139892578,
+            "unit": "ns",
+            "range": "± 19.35500712538831",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10274.087385177612,
+            "unit": "ns",
+            "range": "± 84.31155831896801",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1387.1999068260193,
+            "unit": "ns",
+            "range": "± 4.901846470222182",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12298.131349563599,
+            "unit": "ns",
+            "range": "± 52.59227405299181",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124775.0964704241,
+            "unit": "ns",
+            "range": "± 383.8942334400015",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4652fdaca2597b223c4f35309b1b4fd8a4a25f0b",
+          "message": "feat(durable): add deterministic retry plans and execution deadlines (#861)",
+          "timestamp": "2026-10-08T02:51:35Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4652fdaca2597b223c4f35309b1b4fd8a4a25f0b"
+        },
+        "date": 1791429121101,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 219968701.12,
+            "unit": "ns",
+            "range": "± 1772950.6308451649",
+            "bytesAllocated": 1845808
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 232109170.32,
+            "unit": "ns",
+            "range": "± 2631466.2668224503",
+            "bytesAllocated": 1934768
           }
         ]
       }
