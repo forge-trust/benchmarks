@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791429121101,
+  "lastUpdated": 1791465842724,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -101246,6 +101246,531 @@
             "unit": "ns",
             "range": "± 2631466.2668224503",
             "bytesAllocated": 1934768
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 239716654.13,
+            "unit": "ns",
+            "range": "± 5851050.444428684",
+            "bytesAllocated": 1858032
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 250744007.99,
+            "unit": "ns",
+            "range": "± 6028178.1325038085",
+            "bytesAllocated": 2034888
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1132.1194591522217,
+            "unit": "ns",
+            "range": "± 10.926174967359419",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1290.9812769889832,
+            "unit": "ns",
+            "range": "± 10.459370582933147",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1161.5996179580688,
+            "unit": "ns",
+            "range": "± 3.5040152080748954",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10084.89729309082,
+            "unit": "ns",
+            "range": "± 112.24535722236385",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11639.003122329712,
+            "unit": "ns",
+            "range": "± 130.53800512320427",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9858.638372421265,
+            "unit": "ns",
+            "range": "± 63.19876383478102",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 100004.9515838623,
+            "unit": "ns",
+            "range": "± 929.9018724648256",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113889.91062709263,
+            "unit": "ns",
+            "range": "± 1106.4151387599636",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 95750.58763122559,
+            "unit": "ns",
+            "range": "± 1030.7294634128027",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2964848186820745,
+            "unit": "ns",
+            "range": "± 0.00797271394926053",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1150.212031841278,
+            "unit": "ns",
+            "range": "± 11.088037383166395",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.94505635648966,
+            "unit": "ns",
+            "range": "± 0.22613902244138825",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9881.113409042358,
+            "unit": "ns",
+            "range": "± 60.820857187708306",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.190378844738,
+            "unit": "ns",
+            "range": "± 0.2909836399059565",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 99001.52239990234,
+            "unit": "ns",
+            "range": "± 568.5081646246374",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.33248349598476,
+            "unit": "ns",
+            "range": "± 1.633859879501242",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 139.27475368976593,
+            "unit": "ns",
+            "range": "± 3.1343027075479437",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1088.9803551265172,
+            "unit": "ns",
+            "range": "± 7.169461014599381",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1104.4733259677887,
+            "unit": "ns",
+            "range": "± 20.86080233876646",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10691.167140960693,
+            "unit": "ns",
+            "range": "± 232.94872695073005",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11019.417568206787,
+            "unit": "ns",
+            "range": "± 126.89097794420755",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 406327323.87,
+            "unit": "ns",
+            "range": "± 66829882.88214993",
+            "bytesAllocated": 2624752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 293166429.12,
+            "unit": "ns",
+            "range": "± 13279524.546304034",
+            "bytesAllocated": 2331480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 274003433.3,
+            "unit": "ns",
+            "range": "± 7733329.2719477",
+            "bytesAllocated": 1268576
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 406403955.9,
+            "unit": "ns",
+            "range": "± 11297301.63571696",
+            "bytesAllocated": 2626544
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 287338002.01,
+            "unit": "ns",
+            "range": "± 8936709.969121853",
+            "bytesAllocated": 2343784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 275414884.37,
+            "unit": "ns",
+            "range": "± 7310225.661383929",
+            "bytesAllocated": 1369352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 535933452.62,
+            "unit": "ns",
+            "range": "± 16839639.7750307",
+            "bytesAllocated": 4733736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 430031996.64,
+            "unit": "ns",
+            "range": "± 12171092.736941444",
+            "bytesAllocated": 4418272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 416252803.95,
+            "unit": "ns",
+            "range": "± 14647360.207604064",
+            "bytesAllocated": 3370952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 352093249.47,
+            "unit": "ns",
+            "range": "± 13252656.413253803",
+            "bytesAllocated": 2221944
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 238932651.21,
+            "unit": "ns",
+            "range": "± 7063665.765825214",
+            "bytesAllocated": 1826344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 258403964.87,
+            "unit": "ns",
+            "range": "± 9046887.908548009",
+            "bytesAllocated": 1419616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 223882898.92,
+            "unit": "ns",
+            "range": "± 5415626.455881926",
+            "bytesAllocated": 860776
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.39240193367004,
+            "unit": "ns",
+            "range": "± 1.029312708862611",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.89897513389587,
+            "unit": "ns",
+            "range": "± 2.003419967440881",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 965.7067139148712,
+            "unit": "ns",
+            "range": "± 13.917616163740965",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1150.572924205235,
+            "unit": "ns",
+            "range": "± 9.741274263015754",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9484.922010421753,
+            "unit": "ns",
+            "range": "± 31.68382746757788",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11360.456441879272,
+            "unit": "ns",
+            "range": "± 137.86134760655952",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c2f062f2a22afeff972c5c6512f1f34dd182db90",
+          "message": "test(coverage): add fail-closed structural classifier pilot (#808)",
+          "timestamp": "2026-10-08T13:02:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c2f062f2a22afeff972c5c6512f1f34dd182db90"
+        },
+        "date": 1791465842724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.401",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.12 (10.0.12, 10.0.1226.42308)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1441.0502253941127,
+            "unit": "ns",
+            "range": "± 27.04143287083911",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 14097.582874843052,
+            "unit": "ns",
+            "range": "± 115.90829857074056",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 132507.54931640625,
+            "unit": "ns",
+            "range": "± 894.8437237255288",
+            "bytesAllocated": 232376
           }
         ]
       }
