@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1791943672816,
+  "lastUpdated": 1792100017151,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -102821,6 +102821,531 @@
             "unit": "ns",
             "range": "± 2153446.8866427145",
             "bytesAllocated": 858480
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 229356059.01,
+            "unit": "ns",
+            "range": "± 3282532.286883308",
+            "bytesAllocated": 1872064
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 242110678.97,
+            "unit": "ns",
+            "range": "± 2914008.745646906",
+            "bytesAllocated": 1933360
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1118.725292478289,
+            "unit": "ns",
+            "range": "± 4.42201903932548",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1301.83420586586,
+            "unit": "ns",
+            "range": "± 6.293670124981423",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1085.2388832569122,
+            "unit": "ns",
+            "range": "± 7.593230247224745",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10228.820598602295,
+            "unit": "ns",
+            "range": "± 72.23879703635556",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11240.694393157959,
+            "unit": "ns",
+            "range": "± 99.44974808323737",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9546.815063476562,
+            "unit": "ns",
+            "range": "± 45.13085214715954",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 96422.59819030762,
+            "unit": "ns",
+            "range": "± 663.3627752725366",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 123052.9176940918,
+            "unit": "ns",
+            "range": "± 801.6169058891094",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94365.86576843262,
+            "unit": "ns",
+            "range": "± 310.9387535893229",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3747935574501753,
+            "unit": "ns",
+            "range": "± 0.05656911597051736",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1129.9167093549456,
+            "unit": "ns",
+            "range": "± 3.09691178890698",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.61722884575526,
+            "unit": "ns",
+            "range": "± 0.04524699204458307",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9818.082781110492,
+            "unit": "ns",
+            "range": "± 36.29348485706171",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.38110506534576,
+            "unit": "ns",
+            "range": "± 0.14248329948744876",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93870.46626281738,
+            "unit": "ns",
+            "range": "± 688.0726083187111",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.46763521432877,
+            "unit": "ns",
+            "range": "± 1.7504129965320903",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 120.39591217041016,
+            "unit": "ns",
+            "range": "± 0.9325558341245311",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1076.5904333591461,
+            "unit": "ns",
+            "range": "± 9.774082440994345",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1043.6815665108818,
+            "unit": "ns",
+            "range": "± 6.712731072838747",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10343.696949005127,
+            "unit": "ns",
+            "range": "± 155.39142877683892",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10714.462049484253,
+            "unit": "ns",
+            "range": "± 161.2679661818611",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.69162261486053,
+            "unit": "ns",
+            "range": "± 0.7118976479214656",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 120.8771320283413,
+            "unit": "ns",
+            "range": "± 1.6929732779690008",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 977.9766387939453,
+            "unit": "ns",
+            "range": "± 17.759815029494334",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1144.2733891010284,
+            "unit": "ns",
+            "range": "± 15.027793690060708",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9655.94931602478,
+            "unit": "ns",
+            "range": "± 67.69194617701888",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11371.790420532227,
+            "unit": "ns",
+            "range": "± 154.94824411051917",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1440.4074739728655,
+            "unit": "ns",
+            "range": "± 3.2145633093622683",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12924.541276931763,
+            "unit": "ns",
+            "range": "± 85.35792958176715",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 132966.10708618164,
+            "unit": "ns",
+            "range": "± 691.4889503929903",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1a9028f97fec7afa946762448e10f45430a9f44a",
+          "message": "feat(durable): add invocation-bound PostgreSQL handoff fence (#877)",
+          "timestamp": "2026-10-15T21:13:05Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1a9028f97fec7afa946762448e10f45430a9f44a"
+        },
+        "date": 1792100017151,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 387106402.62,
+            "unit": "ns",
+            "range": "± 4881201.763903275",
+            "bytesAllocated": 2644336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 276985223.34,
+            "unit": "ns",
+            "range": "± 4432939.299839793",
+            "bytesAllocated": 2333480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 262490162.21,
+            "unit": "ns",
+            "range": "± 4420834.840704005",
+            "bytesAllocated": 1290528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 389455638.67,
+            "unit": "ns",
+            "range": "± 5491359.483172247",
+            "bytesAllocated": 2649056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 275944870.39,
+            "unit": "ns",
+            "range": "± 3518918.738208225",
+            "bytesAllocated": 2342352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 264261800.11,
+            "unit": "ns",
+            "range": "± 3787471.9073545774",
+            "bytesAllocated": 1312720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 509523741.91,
+            "unit": "ns",
+            "range": "± 7961819.56465797",
+            "bytesAllocated": 4717448
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 407071249.87,
+            "unit": "ns",
+            "range": "± 6339057.581371957",
+            "bytesAllocated": 4418840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 394718875.52,
+            "unit": "ns",
+            "range": "± 7696673.675027234",
+            "bytesAllocated": 3376536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 339577935.94,
+            "unit": "ns",
+            "range": "± 5244894.044451421",
+            "bytesAllocated": 2220304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230996711.71,
+            "unit": "ns",
+            "range": "± 2802997.45534516",
+            "bytesAllocated": 1942992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 251524166.93,
+            "unit": "ns",
+            "range": "± 4193360.4793687663",
+            "bytesAllocated": 1431336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 214675400.49,
+            "unit": "ns",
+            "range": "± 2694256.9534063283",
+            "bytesAllocated": 841944
           }
         ]
       }
