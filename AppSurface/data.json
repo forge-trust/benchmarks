@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792124488027,
+  "lastUpdated": 1792125263292,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -104396,6 +104396,531 @@
             "unit": "ns",
             "range": "± 133.1492436304782",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 156832747.88,
+            "unit": "ns",
+            "range": "± 3336101.2076359834",
+            "bytesAllocated": 1861264
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 163524031.47,
+            "unit": "ns",
+            "range": "± 4122928.398891503",
+            "bytesAllocated": 1930792
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 739.0786615610123,
+            "unit": "ns",
+            "range": "± 58.5124709581362",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 796.1994103193283,
+            "unit": "ns",
+            "range": "± 22.08005485968098",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 705.7012625932693,
+            "unit": "ns",
+            "range": "± 7.164960658373053",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 6047.434928894043,
+            "unit": "ns",
+            "range": "± 24.63706494687212",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6790.914217948914,
+            "unit": "ns",
+            "range": "± 154.17414837504245",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 6147.373274803162,
+            "unit": "ns",
+            "range": "± 39.782263006880896",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 59275.31990269252,
+            "unit": "ns",
+            "range": "± 631.125369655621",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 67204.28913879395,
+            "unit": "ns",
+            "range": "± 348.3581759953704",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 60421.650146484375,
+            "unit": "ns",
+            "range": "± 1616.9199441200487",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.1066678101196885,
+            "unit": "ns",
+            "range": "± 0.0150878481912894",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 680.8181177377701,
+            "unit": "ns",
+            "range": "± 4.048625942480448",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.03434617604528,
+            "unit": "ns",
+            "range": "± 0.08648345175618705",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 6028.1800365448,
+            "unit": "ns",
+            "range": "± 25.273227190647038",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 260.78489187785556,
+            "unit": "ns",
+            "range": "± 0.1377437166583645",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 57660.411209106445,
+            "unit": "ns",
+            "range": "± 162.66301157492103",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 107.23771268129349,
+            "unit": "ns",
+            "range": "± 2.1352644713309865",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 104.94851458072662,
+            "unit": "ns",
+            "range": "± 0.6393089289763394",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 927.1159425973892,
+            "unit": "ns",
+            "range": "± 7.341631928094881",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 818.7995049953461,
+            "unit": "ns",
+            "range": "± 4.967180128868461",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8873.812854766846,
+            "unit": "ns",
+            "range": "± 73.16806667987294",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8526.292196273804,
+            "unit": "ns",
+            "range": "± 54.90332723029202",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 89.27699656784534,
+            "unit": "ns",
+            "range": "± 1.2933690291930662",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 92.40766011178493,
+            "unit": "ns",
+            "range": "± 3.1031572018755527",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 741.6247223445347,
+            "unit": "ns",
+            "range": "± 3.153614787540096",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 850.6665871143341,
+            "unit": "ns",
+            "range": "± 9.503432077543138",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8002.402866363525,
+            "unit": "ns",
+            "range": "± 35.4273072355763",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8399.366128104073,
+            "unit": "ns",
+            "range": "± 37.52580727607581",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 921.2864513397217,
+            "unit": "ns",
+            "range": "± 10.811330288497157",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 8015.307085037231,
+            "unit": "ns",
+            "range": "± 71.49014247355026",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 79011.69389343262,
+            "unit": "ns",
+            "range": "± 1780.8879707716587",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "306be6f43ef01942b5b8261ff93a3d85ec5100d9",
+          "message": "fix(aspire): resolve repository assets from the AppHost checkout (#876)",
+          "timestamp": "2026-10-16T04:17:51Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/306be6f43ef01942b5b8261ff93a3d85ec5100d9"
+        },
+        "date": 1792125263292,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 273041585.93,
+            "unit": "ns",
+            "range": "± 10382629.642027695",
+            "bytesAllocated": 2642864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 196420802.94,
+            "unit": "ns",
+            "range": "± 6837667.50906201",
+            "bytesAllocated": 2332400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 185036325.84,
+            "unit": "ns",
+            "range": "± 6415977.528545496",
+            "bytesAllocated": 1362496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 274463685.28,
+            "unit": "ns",
+            "range": "± 10813323.16962271",
+            "bytesAllocated": 2648968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 193277221.05,
+            "unit": "ns",
+            "range": "± 7395874.731066891",
+            "bytesAllocated": 2344240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 178453891.03,
+            "unit": "ns",
+            "range": "± 4903374.628879004",
+            "bytesAllocated": 1311016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 362599858.05,
+            "unit": "ns",
+            "range": "± 13937554.63320002",
+            "bytesAllocated": 4720168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 287144409.24,
+            "unit": "ns",
+            "range": "± 12564706.638608422",
+            "bytesAllocated": 4393672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 278092123.44,
+            "unit": "ns",
+            "range": "± 7163679.501028863",
+            "bytesAllocated": 3366800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 229541962.19,
+            "unit": "ns",
+            "range": "± 7459682.183709475",
+            "bytesAllocated": 2221952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 162508279.59,
+            "unit": "ns",
+            "range": "± 10132652.391911563",
+            "bytesAllocated": 1828768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 175490161.38,
+            "unit": "ns",
+            "range": "± 8516001.76541549",
+            "bytesAllocated": 1323032
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 144693705.75,
+            "unit": "ns",
+            "range": "± 4957950.648762689",
+            "bytesAllocated": 872408
           }
         ]
       }
