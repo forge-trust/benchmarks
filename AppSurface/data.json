@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792125263292,
+  "lastUpdated": 1792260233755,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -104921,6 +104921,531 @@
             "unit": "ns",
             "range": "± 4957950.648762689",
             "bytesAllocated": 872408
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 375848918.48,
+            "unit": "ns",
+            "range": "± 4576873.628373008",
+            "bytesAllocated": 2664384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 266859247.2,
+            "unit": "ns",
+            "range": "± 3750445.1906510205",
+            "bytesAllocated": 2330512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253232476,
+            "unit": "ns",
+            "range": "± 3056820.4587497297",
+            "bytesAllocated": 1365776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376022970.03,
+            "unit": "ns",
+            "range": "± 5095450.276008331",
+            "bytesAllocated": 2649912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 267361765.26,
+            "unit": "ns",
+            "range": "± 3479731.743321776",
+            "bytesAllocated": 2339008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 254360217.71,
+            "unit": "ns",
+            "range": "± 2987226.199023084",
+            "bytesAllocated": 1336272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 493375204.01,
+            "unit": "ns",
+            "range": "± 5553106.052375479",
+            "bytesAllocated": 4738784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 391071400.62,
+            "unit": "ns",
+            "range": "± 5212266.355192513",
+            "bytesAllocated": 4414192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 380621152.44,
+            "unit": "ns",
+            "range": "± 6914823.252551394",
+            "bytesAllocated": 3372904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 327577549.53,
+            "unit": "ns",
+            "range": "± 4241497.0591263855",
+            "bytesAllocated": 2220928
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 222599838.11,
+            "unit": "ns",
+            "range": "± 1912878.333278117",
+            "bytesAllocated": 1830832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 241509941.08,
+            "unit": "ns",
+            "range": "± 3392150.140493229",
+            "bytesAllocated": 1431720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207086050.54,
+            "unit": "ns",
+            "range": "± 2419238.528352047",
+            "bytesAllocated": 860344
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.28754248842597,
+            "unit": "ns",
+            "range": "± 0.004025262376071805",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1061.8553968157087,
+            "unit": "ns",
+            "range": "± 2.6884987151419693",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.6632981300354,
+            "unit": "ns",
+            "range": "± 0.01974714090918899",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9759.394180297852,
+            "unit": "ns",
+            "range": "± 22.2109492932238",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.6541566848755,
+            "unit": "ns",
+            "range": "± 0.5676713230661515",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95971.03923034668,
+            "unit": "ns",
+            "range": "± 1485.1683643701983",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.81581024825573,
+            "unit": "ns",
+            "range": "± 0.5234073753587779",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 111.27153761897769,
+            "unit": "ns",
+            "range": "± 0.5482853872409221",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1019.7218489646912,
+            "unit": "ns",
+            "range": "± 6.007907345991101",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 991.3104705810547,
+            "unit": "ns",
+            "range": "± 1.9068218635750542",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9870.102823257446,
+            "unit": "ns",
+            "range": "± 95.39115230116055",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10235.790043422154,
+            "unit": "ns",
+            "range": "± 71.33787565753083",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.52659420456204,
+            "unit": "ns",
+            "range": "± 0.27552376357761127",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 112.04631386697292,
+            "unit": "ns",
+            "range": "± 0.46230867460009334",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 920.0013624429703,
+            "unit": "ns",
+            "range": "± 4.9396805380045645",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1082.1843292713165,
+            "unit": "ns",
+            "range": "± 13.756216914177411",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9207.64380455017,
+            "unit": "ns",
+            "range": "± 92.86953447884844",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10750.880462646484,
+            "unit": "ns",
+            "range": "± 98.08181795808835",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 221292070.82,
+            "unit": "ns",
+            "range": "± 2800024.9354533455",
+            "bytesAllocated": 1831064
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 234530957.44,
+            "unit": "ns",
+            "range": "± 3941330.498578614",
+            "bytesAllocated": 1931736
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1472.8960464000702,
+            "unit": "ns",
+            "range": "± 8.482833661386978",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12326.822150094169,
+            "unit": "ns",
+            "range": "± 30.229888573518995",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 126163.48699951172,
+            "unit": "ns",
+            "range": "± 2685.9720538994407",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "1991280e8af049db592ebcb705cbf66f4b4c6e8b",
+          "message": "fix(deps): patch MessagePack deserialization vulnerability (#882)",
+          "timestamp": "2026-10-17T17:43:38Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/1991280e8af049db592ebcb705cbf66f4b4c6e8b"
+        },
+        "date": 1792260233755,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1101.109231710434,
+            "unit": "ns",
+            "range": "± 17.139128800610916",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1286.4425915309362,
+            "unit": "ns",
+            "range": "± 3.457828154399064",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1053.3456342220306,
+            "unit": "ns",
+            "range": "± 7.558299508957497",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9321.876321792603,
+            "unit": "ns",
+            "range": "± 43.28276155667391",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11517.97085571289,
+            "unit": "ns",
+            "range": "± 31.888426845498294",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9264.064199447632,
+            "unit": "ns",
+            "range": "± 30.729009999080656",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93697.71697998047,
+            "unit": "ns",
+            "range": "± 418.18023059958415",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111031.509765625,
+            "unit": "ns",
+            "range": "± 268.87819150030043",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 90816.02893066406,
+            "unit": "ns",
+            "range": "± 411.025507978414",
+            "bytesAllocated": 168272
           }
         ]
       }
