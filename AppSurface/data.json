@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792260233755,
+  "lastUpdated": 1792378255658,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -105446,6 +105446,531 @@
             "unit": "ns",
             "range": "± 411.025507978414",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 224386441.3,
+            "unit": "ns",
+            "range": "± 5745705.403640822",
+            "bytesAllocated": 1862160
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 232268912.04,
+            "unit": "ns",
+            "range": "± 5485749.1130412305",
+            "bytesAllocated": 1947104
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1092.2637004852295,
+            "unit": "ns",
+            "range": "± 4.980984021040209",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1213.2436726093292,
+            "unit": "ns",
+            "range": "± 3.644203236511499",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1070.9853883470807,
+            "unit": "ns",
+            "range": "± 7.067988588409828",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9685.827096939087,
+            "unit": "ns",
+            "range": "± 68.8844811942246",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10830.64560508728,
+            "unit": "ns",
+            "range": "± 69.3396195500331",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9629.961037772042,
+            "unit": "ns",
+            "range": "± 47.0489481278637",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 94632.69877624512,
+            "unit": "ns",
+            "range": "± 789.127711551511",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 106198.30317905972,
+            "unit": "ns",
+            "range": "± 281.079442961866",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 97208.79681396484,
+            "unit": "ns",
+            "range": "± 581.4262220829036",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 2.7174495522465025,
+            "unit": "ns",
+            "range": "± 0.00998824057254074",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1089.005264043808,
+            "unit": "ns",
+            "range": "± 4.214357715839236",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.10488587617874,
+            "unit": "ns",
+            "range": "± 0.08273974473438102",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9835.838367462158,
+            "unit": "ns",
+            "range": "± 85.07128912501005",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 379.08513368879045,
+            "unit": "ns",
+            "range": "± 0.17179086493160434",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95571.80574035645,
+            "unit": "ns",
+            "range": "± 808.3275832147058",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 101.36116184294224,
+            "unit": "ns",
+            "range": "± 1.2415500483775952",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 127.6801755130291,
+            "unit": "ns",
+            "range": "± 1.1053457131849473",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 981.7473850250244,
+            "unit": "ns",
+            "range": "± 17.899288379627045",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1034.1862168993268,
+            "unit": "ns",
+            "range": "± 8.09906751596804",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11113.543127877372,
+            "unit": "ns",
+            "range": "± 109.10130142075987",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9486.364143371582,
+            "unit": "ns",
+            "range": "± 18.718741165457047",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 88.6560885310173,
+            "unit": "ns",
+            "range": "± 0.7036165457567873",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 123.57928121089935,
+            "unit": "ns",
+            "range": "± 1.4926845536532511",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 913.0674364907401,
+            "unit": "ns",
+            "range": "± 6.004058361290835",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1167.8106561388288,
+            "unit": "ns",
+            "range": "± 9.85333173362458",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8326.990007400513,
+            "unit": "ns",
+            "range": "± 93.31501390836476",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11655.093015670776,
+            "unit": "ns",
+            "range": "± 140.76206700399797",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1424.1373517513275,
+            "unit": "ns",
+            "range": "± 10.203496151430048",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12596.848724365234,
+            "unit": "ns",
+            "range": "± 82.19741623646216",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 121924.2084350586,
+            "unit": "ns",
+            "range": "± 835.8145022859256",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c71fed597dc81f738b0ce0017a5e8bbd019e5a02",
+          "message": "fix(ci): disable cache access for release preparation (#883)",
+          "timestamp": "2026-10-19T02:30:34Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c71fed597dc81f738b0ce0017a5e8bbd019e5a02"
+        },
+        "date": 1792378255658,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon Platinum 8370C CPU 2.80GHz",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 377196159.65,
+            "unit": "ns",
+            "range": "± 9465118.157782326",
+            "bytesAllocated": 2643704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 269731710.92,
+            "unit": "ns",
+            "range": "± 7857402.277202875",
+            "bytesAllocated": 2329200
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 254096740.93,
+            "unit": "ns",
+            "range": "± 7831673.956100202",
+            "bytesAllocated": 1288888
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 375079424.69,
+            "unit": "ns",
+            "range": "± 7623861.283043532",
+            "bytesAllocated": 2632072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 271384944.87,
+            "unit": "ns",
+            "range": "± 7211205.471193068",
+            "bytesAllocated": 2466360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 255219384.85,
+            "unit": "ns",
+            "range": "± 7288491.835329538",
+            "bytesAllocated": 1312128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 510324252.43,
+            "unit": "ns",
+            "range": "± 12564046.92276435",
+            "bytesAllocated": 4716520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 408129919.36,
+            "unit": "ns",
+            "range": "± 11333846.453879183",
+            "bytesAllocated": 4418992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 396724063.05,
+            "unit": "ns",
+            "range": "± 13615658.929350395",
+            "bytesAllocated": 3367256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332035272.23,
+            "unit": "ns",
+            "range": "± 10362634.20158333",
+            "bytesAllocated": 2199848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 226378071.26,
+            "unit": "ns",
+            "range": "± 7798338.738023864",
+            "bytesAllocated": 1839656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 242721443.26,
+            "unit": "ns",
+            "range": "± 9730977.526571985",
+            "bytesAllocated": 1418016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 207898501.08,
+            "unit": "ns",
+            "range": "± 6934088.52210377",
+            "bytesAllocated": 859304
           }
         ]
       }
