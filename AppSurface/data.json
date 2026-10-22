@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792378255658,
+  "lastUpdated": 1792639348521,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -105971,6 +105971,531 @@
             "unit": "ns",
             "range": "± 6934088.52210377",
             "bytesAllocated": 859304
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 366260363.71,
+            "unit": "ns",
+            "range": "± 6343489.048748489",
+            "bytesAllocated": 2644304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 261903259.27,
+            "unit": "ns",
+            "range": "± 3622921.143413085",
+            "bytesAllocated": 2331376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255439810.86,
+            "unit": "ns",
+            "range": "± 3900276.8622630895",
+            "bytesAllocated": 1362768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 374009715.85,
+            "unit": "ns",
+            "range": "± 4744473.319891244",
+            "bytesAllocated": 2632072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 264550414.3,
+            "unit": "ns",
+            "range": "± 2214827.3059806363",
+            "bytesAllocated": 2343192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 249988129.94,
+            "unit": "ns",
+            "range": "± 4227966.825843301",
+            "bytesAllocated": 1312856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 486667982.67,
+            "unit": "ns",
+            "range": "± 7762028.998381436",
+            "bytesAllocated": 4741792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 386290331.12,
+            "unit": "ns",
+            "range": "± 4978763.6225479",
+            "bytesAllocated": 4421984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 376276625.5,
+            "unit": "ns",
+            "range": "± 4745270.123358807",
+            "bytesAllocated": 3392456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 319784921.43,
+            "unit": "ns",
+            "range": "± 3111496.7197381523",
+            "bytesAllocated": 2222104
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 219341232.01,
+            "unit": "ns",
+            "range": "± 1607209.600996266",
+            "bytesAllocated": 1827064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 235327443.03,
+            "unit": "ns",
+            "range": "± 1923387.74495614",
+            "bytesAllocated": 1417952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 202426294.94,
+            "unit": "ns",
+            "range": "± 1680188.0355266149",
+            "bytesAllocated": 960296
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1176.419762134552,
+            "unit": "ns",
+            "range": "± 4.865318536921451",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1193.917985200882,
+            "unit": "ns",
+            "range": "± 1.1917763398311259",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1097.0850914546422,
+            "unit": "ns",
+            "range": "± 2.8260775964033344",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9228.012320382255,
+            "unit": "ns",
+            "range": "± 9.994252726807186",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10693.191441127232,
+            "unit": "ns",
+            "range": "± 9.456199471569523",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9285.332880020142,
+            "unit": "ns",
+            "range": "± 37.98874817047113",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93037.03876604352,
+            "unit": "ns",
+            "range": "± 189.76999002710153",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 104073.68051147461,
+            "unit": "ns",
+            "range": "± 79.4487787330253",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91821.09541320801,
+            "unit": "ns",
+            "range": "± 165.35175503781954",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.233284602207797,
+            "unit": "ns",
+            "range": "± 0.00226661585708156",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1056.6372542381287,
+            "unit": "ns",
+            "range": "± 3.34947437479523",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 36.19769877195358,
+            "unit": "ns",
+            "range": "± 0.014087279726471402",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9167.023580551147,
+            "unit": "ns",
+            "range": "± 18.692067066267192",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 361.96124708652496,
+            "unit": "ns",
+            "range": "± 0.44846347416625054",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 91021.86503383091,
+            "unit": "ns",
+            "range": "± 30.496024281209287",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 216563832.64,
+            "unit": "ns",
+            "range": "± 1771205.7916678134",
+            "bytesAllocated": 1848232
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 229500547.43,
+            "unit": "ns",
+            "range": "± 1777409.6841552414",
+            "bytesAllocated": 1946008
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 127.43069565296173,
+            "unit": "ns",
+            "range": "± 1.7265418622755626",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.90269953012466,
+            "unit": "ns",
+            "range": "± 1.6060818382431696",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1122.1308546066284,
+            "unit": "ns",
+            "range": "± 22.785201309569928",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1086.876370191574,
+            "unit": "ns",
+            "range": "± 10.080576232033005",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10558.845064163208,
+            "unit": "ns",
+            "range": "± 181.5232139206346",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10122.742919921875,
+            "unit": "ns",
+            "range": "± 133.4206288680847",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 102.67373736202717,
+            "unit": "ns",
+            "range": "± 1.1071278975839765",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.64261361956596,
+            "unit": "ns",
+            "range": "± 1.8295686321737505",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 967.2929738362631,
+            "unit": "ns",
+            "range": "± 2.2188990437557807",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1182.303236280169,
+            "unit": "ns",
+            "range": "± 8.50363115648101",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9599.044830322266,
+            "unit": "ns",
+            "range": "± 21.688314612417468",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11705.526737213135,
+            "unit": "ns",
+            "range": "± 301.7463726227921",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "604ec9b074008d45512911bfbabc15d50aa5fc1a",
+          "message": "feat(razorwire): support nested model-bound form collections (#880)",
+          "timestamp": "2026-10-22T03:02:36Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/604ec9b074008d45512911bfbabc15d50aa5fc1a"
+        },
+        "date": 1792639348521,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V74",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1399.0606405735016,
+            "unit": "ns",
+            "range": "± 3.9324243828305527",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12318.370755876813,
+            "unit": "ns",
+            "range": "± 10.749078072343638",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122431.62461635044,
+            "unit": "ns",
+            "range": "± 69.50822676949429",
+            "bytesAllocated": 232376
           }
         ]
       }
