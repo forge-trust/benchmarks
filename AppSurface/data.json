@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792661152191,
+  "lastUpdated": 1792729948890,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -107021,6 +107021,531 @@
             "unit": "ns",
             "range": "± 2801023.4686594927",
             "bytesAllocated": 1946864
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1123.8735566820417,
+            "unit": "ns",
+            "range": "± 2.063602764292803",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1294.6175549030304,
+            "unit": "ns",
+            "range": "± 1.8967527640729018",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1107.7829780578613,
+            "unit": "ns",
+            "range": "± 5.4048543832809495",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10127.93723487854,
+            "unit": "ns",
+            "range": "± 99.9006231727742",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11561.334707260132,
+            "unit": "ns",
+            "range": "± 42.34267046978444",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 10022.749366760254,
+            "unit": "ns",
+            "range": "± 164.0238880642797",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97372.88307189941,
+            "unit": "ns",
+            "range": "± 615.5959796958347",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110913.3028717041,
+            "unit": "ns",
+            "range": "± 1372.582010144077",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94355.63786315918,
+            "unit": "ns",
+            "range": "± 581.555705543547",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2961410135030746,
+            "unit": "ns",
+            "range": "± 0.012043630810609843",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1207.201106786728,
+            "unit": "ns",
+            "range": "± 2.5009693175650987",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.59673917719296,
+            "unit": "ns",
+            "range": "± 0.04958707369657937",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10387.590906143188,
+            "unit": "ns",
+            "range": "± 53.08865450020063",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.0790904590062,
+            "unit": "ns",
+            "range": "± 0.9864338274991886",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 100497.26496233259,
+            "unit": "ns",
+            "range": "± 451.44550590037255",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 385243263,
+            "unit": "ns",
+            "range": "± 7496808.057295232",
+            "bytesAllocated": 2644008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 273621296.82,
+            "unit": "ns",
+            "range": "± 3816002.8038574853",
+            "bytesAllocated": 2329232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 259733185.05,
+            "unit": "ns",
+            "range": "± 2528349.12155425",
+            "bytesAllocated": 1286432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 377947945.17,
+            "unit": "ns",
+            "range": "± 6166930.338200959",
+            "bytesAllocated": 2648968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 266368646.16,
+            "unit": "ns",
+            "range": "± 3672731.253796566",
+            "bytesAllocated": 2338144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252126428.1,
+            "unit": "ns",
+            "range": "± 3523397.864181363",
+            "bytesAllocated": 1294816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 488924635.44,
+            "unit": "ns",
+            "range": "± 6082782.46402659",
+            "bytesAllocated": 4743776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 392649821.58,
+            "unit": "ns",
+            "range": "± 7068435.568526444",
+            "bytesAllocated": 4393600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 389277926.93,
+            "unit": "ns",
+            "range": "± 7709874.987315719",
+            "bytesAllocated": 3372248
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 338907313.46,
+            "unit": "ns",
+            "range": "± 7303668.821272712",
+            "bytesAllocated": 2213656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 234502133.51,
+            "unit": "ns",
+            "range": "± 4307795.041636267",
+            "bytesAllocated": 1844072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 255328922.17,
+            "unit": "ns",
+            "range": "± 5164608.699513548",
+            "bytesAllocated": 1427808
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 223770639.44,
+            "unit": "ns",
+            "range": "± 4574320.404859274",
+            "bytesAllocated": 859288
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225952824.17,
+            "unit": "ns",
+            "range": "± 8873307.481401509",
+            "bytesAllocated": 1874968
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 235529901.54,
+            "unit": "ns",
+            "range": "± 4037599.93472961",
+            "bytesAllocated": 1935328
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 118.6732933819294,
+            "unit": "ns",
+            "range": "± 0.8272378974759161",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 124.90296056866646,
+            "unit": "ns",
+            "range": "± 1.5705319135244098",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1146.2841388157435,
+            "unit": "ns",
+            "range": "± 4.426588892873959",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1118.854186296463,
+            "unit": "ns",
+            "range": "± 5.8152450988586635",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11147.026988983154,
+            "unit": "ns",
+            "range": "± 54.7724603595782",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11236.773260116577,
+            "unit": "ns",
+            "range": "± 49.543736810648326",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1512.2547101974487,
+            "unit": "ns",
+            "range": "± 8.161148750107312",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13179.247282028198,
+            "unit": "ns",
+            "range": "± 101.20186697254664",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 130792.52716064453,
+            "unit": "ns",
+            "range": "± 840.0867852004014",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "486d68cdca85cbe33bda4f97dfe5cd3d0a674a55",
+          "message": "feat(durable): add external activation worker template (#862)",
+          "timestamp": "2026-10-23T04:12:06Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/486d68cdca85cbe33bda4f97dfe5cd3d0a674a55"
+        },
+        "date": 1792729948890,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.8103537261486,
+            "unit": "ns",
+            "range": "± 0.9991192918877284",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 130.1567897796631,
+            "unit": "ns",
+            "range": "± 0.6932898982855256",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1022.205515725272,
+            "unit": "ns",
+            "range": "± 3.092111667777827",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1244.3747789859772,
+            "unit": "ns",
+            "range": "± 5.649521245988118",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10142.6112575531,
+            "unit": "ns",
+            "range": "± 50.326182026793276",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12217.178189958844,
+            "unit": "ns",
+            "range": "± 52.55465132323949",
+            "bytesAllocated": 40024
           }
         ]
       }
