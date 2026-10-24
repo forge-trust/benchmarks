@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1792729948890,
+  "lastUpdated": 1792826764540,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -107546,6 +107546,531 @@
             "unit": "ns",
             "range": "± 52.55465132323949",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 153823722.87,
+            "unit": "ns",
+            "range": "± 8020718.471846438",
+            "bytesAllocated": 1857280
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 159439714.14,
+            "unit": "ns",
+            "range": "± 5128636.035145664",
+            "bytesAllocated": 2032104
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 670.7852698564529,
+            "unit": "ns",
+            "range": "± 46.15198119852125",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 713.418851171221,
+            "unit": "ns",
+            "range": "± 7.6114476389029875",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 646.8300417491367,
+            "unit": "ns",
+            "range": "± 16.502216871184146",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5623.092834472656,
+            "unit": "ns",
+            "range": "± 46.275772660242254",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6131.79354095459,
+            "unit": "ns",
+            "range": "± 48.514273707950814",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5407.934742518833,
+            "unit": "ns",
+            "range": "± 44.17096332919221",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 54731.460876464844,
+            "unit": "ns",
+            "range": "± 343.7254859281349",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 65427.098236083984,
+            "unit": "ns",
+            "range": "± 4372.736468851803",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 55286.89956229074,
+            "unit": "ns",
+            "range": "± 222.65828135722654",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.0934654963868007,
+            "unit": "ns",
+            "range": "± 0.001647425914812953",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 697.1144490242004,
+            "unit": "ns",
+            "range": "± 51.99125322342093",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 32.81947702169418,
+            "unit": "ns",
+            "range": "± 0.04649159542186853",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5716.106154305594,
+            "unit": "ns",
+            "range": "± 102.00885851223536",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 283.1750205755234,
+            "unit": "ns",
+            "range": "± 23.195741136608355",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 56505.738786969865,
+            "unit": "ns",
+            "range": "± 761.6797463278974",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.18911129236221,
+            "unit": "ns",
+            "range": "± 5.580964695998959",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 104.74852511286736,
+            "unit": "ns",
+            "range": "± 3.7957930836686353",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 795.0533550807407,
+            "unit": "ns",
+            "range": "± 40.61999952609693",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 776.7161176204681,
+            "unit": "ns",
+            "range": "± 34.53688157712559",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7617.943089076451,
+            "unit": "ns",
+            "range": "± 68.82020777912263",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8833.704727172852,
+            "unit": "ns",
+            "range": "± 429.77963502285684",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 81.17957028746605,
+            "unit": "ns",
+            "range": "± 5.784564641553476",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 94.90187089145184,
+            "unit": "ns",
+            "range": "± 1.0306891244933853",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 756.8967133760452,
+            "unit": "ns",
+            "range": "± 69.42422154730895",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 778.4168326854706,
+            "unit": "ns",
+            "range": "± 22.690486119954475",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6460.000282287598,
+            "unit": "ns",
+            "range": "± 84.51502168025807",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 7840.030010223389,
+            "unit": "ns",
+            "range": "± 301.3089439135771",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 884.413340886434,
+            "unit": "ns",
+            "range": "± 11.705780712934194",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 7698.003492082868,
+            "unit": "ns",
+            "range": "± 17.190730097529602",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 75494.31477864583,
+            "unit": "ns",
+            "range": "± 461.18275262340165",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "c579bc7920e35c8c883891400ea3065319bf769e",
+          "message": "feat(evidence): add bounded HTTP readiness and Aspire fixtures (#884)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-10-24T07:10:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/c579bc7920e35c8c883891400ea3065319bf769e"
+        },
+        "date": 1792826764540,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.13 (10.0.13, 10.0.1326.50504)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 251188399.92,
+            "unit": "ns",
+            "range": "± 10366977.667532759",
+            "bytesAllocated": 2639736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 180576978.07,
+            "unit": "ns",
+            "range": "± 7604199.163714579",
+            "bytesAllocated": 2334360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 173170939.37,
+            "unit": "ns",
+            "range": "± 9240571.852603506",
+            "bytesAllocated": 1267496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 255604947.82,
+            "unit": "ns",
+            "range": "± 13812551.117006961",
+            "bytesAllocated": 2649112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 183069429.56,
+            "unit": "ns",
+            "range": "± 9042443.170110416",
+            "bytesAllocated": 2325504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 174601416.3,
+            "unit": "ns",
+            "range": "± 9230759.6081377",
+            "bytesAllocated": 1386016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 341385900.32,
+            "unit": "ns",
+            "range": "± 16545522.245700547",
+            "bytesAllocated": 4729048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 276710425.83,
+            "unit": "ns",
+            "range": "± 12682005.09996688",
+            "bytesAllocated": 4393600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 269497123.68,
+            "unit": "ns",
+            "range": "± 12049005.427293478",
+            "bytesAllocated": 3384936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 217384604.73,
+            "unit": "ns",
+            "range": "± 7889988.5873002345",
+            "bytesAllocated": 2218272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 147306178.19,
+            "unit": "ns",
+            "range": "± 2274767.851572053",
+            "bytesAllocated": 1832360
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 162741154.3,
+            "unit": "ns",
+            "range": "± 9034961.796657419",
+            "bytesAllocated": 1332984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 140495520.53,
+            "unit": "ns",
+            "range": "± 6568887.395123604",
+            "bytesAllocated": 886592
           }
         ]
       }
