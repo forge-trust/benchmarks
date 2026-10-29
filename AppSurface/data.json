@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793081884725,
+  "lastUpdated": 1793257060003,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -109121,6 +109121,531 @@
             "unit": "ns",
             "range": "± 3901859.8688322185",
             "bytesAllocated": 862744
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1142.00777053833,
+            "unit": "ns",
+            "range": "± 7.90436121251358",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1308.6321294307709,
+            "unit": "ns",
+            "range": "± 10.305905610841052",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1101.0203619003296,
+            "unit": "ns",
+            "range": "± 14.92646586753741",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10271.030166625977,
+            "unit": "ns",
+            "range": "± 82.92273630416989",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11859.545057296753,
+            "unit": "ns",
+            "range": "± 48.54956114147609",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9735.583210536412,
+            "unit": "ns",
+            "range": "± 22.12505739769312",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 103623.9985961914,
+            "unit": "ns",
+            "range": "± 747.6773885639662",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 113995.38650512695,
+            "unit": "ns",
+            "range": "± 1132.3420389725582",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 101644.52255249023,
+            "unit": "ns",
+            "range": "± 488.97890722965803",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3063182700425386,
+            "unit": "ns",
+            "range": "± 0.0088062522879588",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1174.1969921588898,
+            "unit": "ns",
+            "range": "± 12.577274967281816",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 39.418689988553524,
+            "unit": "ns",
+            "range": "± 0.43131921567994985",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10142.824348449707,
+            "unit": "ns",
+            "range": "± 61.22094035115861",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.715286391122,
+            "unit": "ns",
+            "range": "± 0.31785345660573944",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 99695.92767333984,
+            "unit": "ns",
+            "range": "± 854.0398033981992",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 120.03377560206822,
+            "unit": "ns",
+            "range": "± 1.0473340149720158",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 126.55292156338692,
+            "unit": "ns",
+            "range": "± 0.8705645588868856",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1152.9341356754303,
+            "unit": "ns",
+            "range": "± 12.144667517904645",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1127.174367087228,
+            "unit": "ns",
+            "range": "± 8.171869822443309",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10742.083726882935,
+            "unit": "ns",
+            "range": "± 141.22322220167786",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11284.02865600586,
+            "unit": "ns",
+            "range": "± 121.16701511747938",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 107.51736126840115,
+            "unit": "ns",
+            "range": "± 0.558695423607572",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 133.58539761815751,
+            "unit": "ns",
+            "range": "± 1.1605685486170099",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1031.7992232186455,
+            "unit": "ns",
+            "range": "± 3.765438272771831",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1262.4245338439941,
+            "unit": "ns",
+            "range": "± 9.027534068162076",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10153.310886928013,
+            "unit": "ns",
+            "range": "± 16.803813660424353",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12502.744974136353,
+            "unit": "ns",
+            "range": "± 116.63239426722427",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1522.0000414848328,
+            "unit": "ns",
+            "range": "± 6.323832472599736",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13425.251014709473,
+            "unit": "ns",
+            "range": "± 57.236720913190396",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 134054.7158203125,
+            "unit": "ns",
+            "range": "± 1803.890775915157",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 253858118.39,
+            "unit": "ns",
+            "range": "± 5725406.724686618",
+            "bytesAllocated": 1860592
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 262558561.45,
+            "unit": "ns",
+            "range": "± 4742134.699483923",
+            "bytesAllocated": 2031808
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d",
+          "message": "fix(coverage): diagnose volume identity mismatches without weakening ownership (#900)",
+          "timestamp": "2026-10-29T06:36:23Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/cc9b4bb910436dd4369fe7ce42f3f1cb547cb93d"
+        },
+        "date": 1793257060003,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 407379849.53,
+            "unit": "ns",
+            "range": "± 104067380.13876535",
+            "bytesAllocated": 2627872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 287315587.61,
+            "unit": "ns",
+            "range": "± 10483129.520958621",
+            "bytesAllocated": 2334560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 267942542.95,
+            "unit": "ns",
+            "range": "± 4816915.084966197",
+            "bytesAllocated": 1290144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 391012574.67,
+            "unit": "ns",
+            "range": "± 6392401.337212467",
+            "bytesAllocated": 2643168
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 278912598.48,
+            "unit": "ns",
+            "range": "± 7737447.792839519",
+            "bytesAllocated": 2345184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 277764847.74,
+            "unit": "ns",
+            "range": "± 9065273.597230589",
+            "bytesAllocated": 1310864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 522561825.07,
+            "unit": "ns",
+            "range": "± 15094731.109723562",
+            "bytesAllocated": 4718968
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 413620082.22,
+            "unit": "ns",
+            "range": "± 11297244.953837683",
+            "bytesAllocated": 4413768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 399828404.23,
+            "unit": "ns",
+            "range": "± 10757128.93598574",
+            "bytesAllocated": 3391400
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 351866152.96,
+            "unit": "ns",
+            "range": "± 20377120.514823645",
+            "bytesAllocated": 2212744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 252124071.08,
+            "unit": "ns",
+            "range": "± 4982180.623939354",
+            "bytesAllocated": 1815608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 271328304.86,
+            "unit": "ns",
+            "range": "± 7649649.360007741",
+            "bytesAllocated": 1429224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 234738019.98,
+            "unit": "ns",
+            "range": "± 3724433.9457366015",
+            "bytesAllocated": 942976
           }
         ]
       }
