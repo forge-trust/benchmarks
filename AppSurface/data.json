@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793257060003,
+  "lastUpdated": 1793562254759,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -109646,6 +109646,531 @@
             "unit": "ns",
             "range": "± 3724433.9457366015",
             "bytesAllocated": 942976
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1063.5039281845093,
+            "unit": "ns",
+            "range": "± 7.923206282462908",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1240.326271874564,
+            "unit": "ns",
+            "range": "± 4.310944835374853",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1063.3038370949882,
+            "unit": "ns",
+            "range": "± 3.6428350538497005",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9816.96361541748,
+            "unit": "ns",
+            "range": "± 27.802842298869404",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11885.167146955218,
+            "unit": "ns",
+            "range": "± 13.058148693689672",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9744.84946986607,
+            "unit": "ns",
+            "range": "± 25.562202012722434",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 99722.20059640067,
+            "unit": "ns",
+            "range": "± 147.1007149997546",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 107551.5845336914,
+            "unit": "ns",
+            "range": "± 414.1736659762022",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92826.81127929688,
+            "unit": "ns",
+            "range": "± 797.4976555324535",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.291553215123713,
+            "unit": "ns",
+            "range": "± 0.00458879103925301",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1073.690396308899,
+            "unit": "ns",
+            "range": "± 8.79252318727348",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.44113513401577,
+            "unit": "ns",
+            "range": "± 0.11255158281976183",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9299.575971603394,
+            "unit": "ns",
+            "range": "± 58.92594231366037",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.82100493567333,
+            "unit": "ns",
+            "range": "± 0.20237243819412304",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96245.29197474888,
+            "unit": "ns",
+            "range": "± 257.5495342473779",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.86626650393009,
+            "unit": "ns",
+            "range": "± 0.6929904714376497",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 113.6606385409832,
+            "unit": "ns",
+            "range": "± 0.5657205342267638",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1120.4816944599152,
+            "unit": "ns",
+            "range": "± 13.737029054287468",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1004.2176094055176,
+            "unit": "ns",
+            "range": "± 5.120701733281683",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9792.627676010132,
+            "unit": "ns",
+            "range": "± 41.48531781197022",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10183.678995132446,
+            "unit": "ns",
+            "range": "± 36.00751677112751",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 96.03342424971717,
+            "unit": "ns",
+            "range": "± 0.47148340598667565",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 113.14040627649852,
+            "unit": "ns",
+            "range": "± 0.8794660372492249",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 916.588367325919,
+            "unit": "ns",
+            "range": "± 2.8652959816652905",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1078.343166589737,
+            "unit": "ns",
+            "range": "± 5.17000631903085",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9186.23840550014,
+            "unit": "ns",
+            "range": "± 31.318831671708278",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10742.201141357422,
+            "unit": "ns",
+            "range": "± 48.90860315021556",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1414.6443134035383,
+            "unit": "ns",
+            "range": "± 4.120875348035406",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12395.341044834682,
+            "unit": "ns",
+            "range": "± 31.02047624344687",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 124286.36734008789,
+            "unit": "ns",
+            "range": "± 697.0524131622",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 225570770.83,
+            "unit": "ns",
+            "range": "± 4242758.95550213",
+            "bytesAllocated": 1846624
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 236030730.93,
+            "unit": "ns",
+            "range": "± 3178314.2792501245",
+            "bytesAllocated": 2041504
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "03e9ab1759a288141624027e9cc1fb633336dad5",
+          "message": "feat(deployment-gcp): observe exact Cloud Run Job executions (#896)",
+          "timestamp": "2026-11-01T19:23:53Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/03e9ab1759a288141624027e9cc1fb633336dad5"
+        },
+        "date": 1793562254759,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 374596937.81,
+            "unit": "ns",
+            "range": "± 38599139.47489406",
+            "bytesAllocated": 2640288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 267465724.1,
+            "unit": "ns",
+            "range": "± 4345146.15446972",
+            "bytesAllocated": 2328288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 253230758.45,
+            "unit": "ns",
+            "range": "± 2725007.3838261273",
+            "bytesAllocated": 1272792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 374802187.99,
+            "unit": "ns",
+            "range": "± 5332691.610541347",
+            "bytesAllocated": 2650368
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 268913433.96,
+            "unit": "ns",
+            "range": "± 3011685.5300884414",
+            "bytesAllocated": 2339560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 258371731.83,
+            "unit": "ns",
+            "range": "± 3770444.779293964",
+            "bytesAllocated": 1311832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 497267322.12,
+            "unit": "ns",
+            "range": "± 7665733.796472514",
+            "bytesAllocated": 4735280
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 392848457.79,
+            "unit": "ns",
+            "range": "± 5449502.924921747",
+            "bytesAllocated": 4414240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 376273987.23,
+            "unit": "ns",
+            "range": "± 5439695.637043007",
+            "bytesAllocated": 3368936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 322247936.28,
+            "unit": "ns",
+            "range": "± 5357374.758298848",
+            "bytesAllocated": 2217328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 223662704.42,
+            "unit": "ns",
+            "range": "± 3206302.4061542684",
+            "bytesAllocated": 1911272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 246124717.73,
+            "unit": "ns",
+            "range": "± 3977082.1043308233",
+            "bytesAllocated": 1418696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 212499269.55,
+            "unit": "ns",
+            "range": "± 3165844.1614001156",
+            "bytesAllocated": 844016
           }
         ]
       }
