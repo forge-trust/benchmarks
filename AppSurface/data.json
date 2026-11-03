@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793562254759,
+  "lastUpdated": 1793676593913,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -110171,6 +110171,531 @@
             "unit": "ns",
             "range": "± 3165844.1614001156",
             "bytesAllocated": 844016
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 145580568,
+            "unit": "ns",
+            "range": "± 1669983.517279694",
+            "bytesAllocated": 1848432
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 154073386.6,
+            "unit": "ns",
+            "range": "± 1515522.8258619416",
+            "bytesAllocated": 2011928
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 641.1090235710144,
+            "unit": "ns",
+            "range": "± 0.943466221276207",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 703.6665781566074,
+            "unit": "ns",
+            "range": "± 0.5978712032484047",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 683.945195555687,
+            "unit": "ns",
+            "range": "± 0.5776168134969436",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5560.795787266323,
+            "unit": "ns",
+            "range": "± 5.09926694895538",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6165.338549613953,
+            "unit": "ns",
+            "range": "± 8.350515197944455",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5565.159037998745,
+            "unit": "ns",
+            "range": "± 7.064282398832077",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 55254.882524762834,
+            "unit": "ns",
+            "range": "± 83.74848022189364",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 60101.714515686035,
+            "unit": "ns",
+            "range": "± 45.81806096793838",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 54722.252586364746,
+            "unit": "ns",
+            "range": "± 57.21526733248429",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3318068523492133,
+            "unit": "ns",
+            "range": "± 0.0008807777923736019",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 641.1040690285819,
+            "unit": "ns",
+            "range": "± 0.785874397114325",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 35.00027493387461,
+            "unit": "ns",
+            "range": "± 0.025787795397898494",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5593.7801424662275,
+            "unit": "ns",
+            "range": "± 2.7074961111881315",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 279.66709359486896,
+            "unit": "ns",
+            "range": "± 0.05800604194728701",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 54895.14426422119,
+            "unit": "ns",
+            "range": "± 80.91411490322807",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 85.58613577059337,
+            "unit": "ns",
+            "range": "± 0.049807876674419764",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 78.25662276148796,
+            "unit": "ns",
+            "range": "± 0.053968522948407274",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 711.6317654848099,
+            "unit": "ns",
+            "range": "± 1.4337524955642815",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 668.5746412277222,
+            "unit": "ns",
+            "range": "± 1.3884685868001758",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6568.2916622161865,
+            "unit": "ns",
+            "range": "± 17.959414860071497",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 7262.208192007883,
+            "unit": "ns",
+            "range": "± 19.654993082539825",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 71.31113083021981,
+            "unit": "ns",
+            "range": "± 0.036640005510722225",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 85.72456343472004,
+            "unit": "ns",
+            "range": "± 0.10735485440243185",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 695.1835935115814,
+            "unit": "ns",
+            "range": "± 2.2508261851397258",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 725.5509750843048,
+            "unit": "ns",
+            "range": "± 1.3057049318659595",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6102.516858782087,
+            "unit": "ns",
+            "range": "± 13.493486478871224",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 7836.225572858538,
+            "unit": "ns",
+            "range": "± 20.51222309913801",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 868.4700816869736,
+            "unit": "ns",
+            "range": "± 2.8745113700990004",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 7431.639031410217,
+            "unit": "ns",
+            "range": "± 9.430007571907552",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 71696.48348999023,
+            "unit": "ns",
+            "range": "± 126.73335920048599",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "591032cda2c25bbc32e2ad064216b834a01472d8",
+          "message": "feat(auth): add captured Keycloak security recipes (#895)",
+          "timestamp": "2026-11-03T03:14:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/591032cda2c25bbc32e2ad064216b834a01472d8"
+        },
+        "date": 1793676593913,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 241239968.15,
+            "unit": "ns",
+            "range": "± 4226984.836094924",
+            "bytesAllocated": 2668136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 179189354.99,
+            "unit": "ns",
+            "range": "± 3627655.6855377406",
+            "bytesAllocated": 2315112
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 165020396.7,
+            "unit": "ns",
+            "range": "± 1411454.853852044",
+            "bytesAllocated": 1364720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 241329917.76,
+            "unit": "ns",
+            "range": "± 3571352.4700804143",
+            "bytesAllocated": 2648456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 180215552.87,
+            "unit": "ns",
+            "range": "± 3096729.792018797",
+            "bytesAllocated": 2342920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 166210802.86,
+            "unit": "ns",
+            "range": "± 1346225.5526307996",
+            "bytesAllocated": 1386152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 328898728.39,
+            "unit": "ns",
+            "range": "± 3894723.866315842",
+            "bytesAllocated": 4738824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 270062808.93,
+            "unit": "ns",
+            "range": "± 4300677.17434918",
+            "bytesAllocated": 4394976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 259121503.64,
+            "unit": "ns",
+            "range": "± 4099900.4298353274",
+            "bytesAllocated": 3391056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 212336256.09,
+            "unit": "ns",
+            "range": "± 3149176.1572388285",
+            "bytesAllocated": 2212160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 147513366.79,
+            "unit": "ns",
+            "range": "± 2368667.9582091863",
+            "bytesAllocated": 1927904
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 156378270.58,
+            "unit": "ns",
+            "range": "± 1221187.5647331218",
+            "bytesAllocated": 1417552
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 135444610.86,
+            "unit": "ns",
+            "range": "± 1430919.1797583408",
+            "bytesAllocated": 840536
           }
         ]
       }
