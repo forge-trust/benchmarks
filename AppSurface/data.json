@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793676593913,
+  "lastUpdated": 1793946241735,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -110696,6 +110696,531 @@
             "unit": "ns",
             "range": "± 1430919.1797583408",
             "bytesAllocated": 840536
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1080.1200668811798,
+            "unit": "ns",
+            "range": "± 3.8231355665241167",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1256.9248702526093,
+            "unit": "ns",
+            "range": "± 6.730707231770697",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1053.0698428153992,
+            "unit": "ns",
+            "range": "± 8.137327211049884",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9838.898526872907,
+            "unit": "ns",
+            "range": "± 64.0235366819596",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11497.241821289062,
+            "unit": "ns",
+            "range": "± 109.79809097564086",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9387.632570266724,
+            "unit": "ns",
+            "range": "± 43.41551472992112",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 94431.69041224888,
+            "unit": "ns",
+            "range": "± 467.5461390549959",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 109966.5947265625,
+            "unit": "ns",
+            "range": "± 368.58132102274317",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 92787.84894670759,
+            "unit": "ns",
+            "range": "± 215.01854564485623",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.295247626091753,
+            "unit": "ns",
+            "range": "± 0.003642697880895199",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1078.7081484794617,
+            "unit": "ns",
+            "range": "± 5.145429352516319",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.69520188229425,
+            "unit": "ns",
+            "range": "± 0.023886766113544768",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9427.176221575055,
+            "unit": "ns",
+            "range": "± 38.027498307207914",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.5839208194188,
+            "unit": "ns",
+            "range": "± 1.6206000561568425",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93619.45274135044,
+            "unit": "ns",
+            "range": "± 276.84857550859795",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 379308235.1,
+            "unit": "ns",
+            "range": "± 58696135.68690467",
+            "bytesAllocated": 2645712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 269955804.11,
+            "unit": "ns",
+            "range": "± 8142063.969815584",
+            "bytesAllocated": 2330512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 256119215.32,
+            "unit": "ns",
+            "range": "± 2474257.103116261",
+            "bytesAllocated": 1288672
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 373990131.95,
+            "unit": "ns",
+            "range": "± 3981515.2899338864",
+            "bytesAllocated": 2642616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 281984429.83,
+            "unit": "ns",
+            "range": "± 3461957.4969650023",
+            "bytesAllocated": 2343160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 266827044.88,
+            "unit": "ns",
+            "range": "± 4637699.696211278",
+            "bytesAllocated": 1311624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 503198665.94,
+            "unit": "ns",
+            "range": "± 8709895.154601762",
+            "bytesAllocated": 4714152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 412875859.63,
+            "unit": "ns",
+            "range": "± 6576389.229373344",
+            "bytesAllocated": 4399816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 392105268.12,
+            "unit": "ns",
+            "range": "± 8101609.971639066",
+            "bytesAllocated": 3411936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 329212341.04,
+            "unit": "ns",
+            "range": "± 13530871.757989023",
+            "bytesAllocated": 2212896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230037219.57,
+            "unit": "ns",
+            "range": "± 5584554.444618815",
+            "bytesAllocated": 1814584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 250925124.55,
+            "unit": "ns",
+            "range": "± 4710288.289195663",
+            "bytesAllocated": 1428048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 218898358.98,
+            "unit": "ns",
+            "range": "± 3422930.3493379396",
+            "bytesAllocated": 857832
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.02152071893215,
+            "unit": "ns",
+            "range": "± 2.1804208417286968",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 112.9560210108757,
+            "unit": "ns",
+            "range": "± 0.631937570408166",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1024.3767375946045,
+            "unit": "ns",
+            "range": "± 2.674867752921198",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1001.0519199371338,
+            "unit": "ns",
+            "range": "± 7.112916490971602",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9842.65079243978,
+            "unit": "ns",
+            "range": "± 18.977095079726507",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10184.777432032994,
+            "unit": "ns",
+            "range": "± 28.310796328162148",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1423.3827521800995,
+            "unit": "ns",
+            "range": "± 4.22545532529522",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12742.389306204659,
+            "unit": "ns",
+            "range": "± 43.79179790432719",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122248.58672223773,
+            "unit": "ns",
+            "range": "± 705.931543668928",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 97.76903623342514,
+            "unit": "ns",
+            "range": "± 1.0816686221233702",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 116.0672824042184,
+            "unit": "ns",
+            "range": "± 1.4003634746793152",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 948.6687058210373,
+            "unit": "ns",
+            "range": "± 5.526509939725081",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1107.2792732715607,
+            "unit": "ns",
+            "range": "± 21.83161304661521",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9307.273171561104,
+            "unit": "ns",
+            "range": "± 40.5172134784707",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10772.883155822754,
+            "unit": "ns",
+            "range": "± 48.249750445993136",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f8c25bed60175ccadd962afcc7851d10289cefb2",
+          "message": "feat(durable): add bounded Cloud Tasks activation transport (#901)",
+          "timestamp": "2026-11-06T06:03:17Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f8c25bed60175ccadd962afcc7851d10289cefb2"
+        },
+        "date": 1793946241735,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 231224751.9,
+            "unit": "ns",
+            "range": "± 3106332.079326975",
+            "bytesAllocated": 1844464
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 243753353.3,
+            "unit": "ns",
+            "range": "± 3913403.3697603014",
+            "bytesAllocated": 1929264
           }
         ]
       }
