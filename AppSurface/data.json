@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1794077668633,
+  "lastUpdated": 1794084707318,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -111746,6 +111746,531 @@
             "unit": "ns",
             "range": "± 6856894.390435526",
             "bytesAllocated": 863128
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 228311531.52,
+            "unit": "ns",
+            "range": "± 2755047.5813203515",
+            "bytesAllocated": 1890272
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 241580721.5,
+            "unit": "ns",
+            "range": "± 2748272.7323104455",
+            "bytesAllocated": 2012216
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 382169867.67,
+            "unit": "ns",
+            "range": "± 12497285.14688568",
+            "bytesAllocated": 2643960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 276411651.57,
+            "unit": "ns",
+            "range": "± 5220061.966814147",
+            "bytesAllocated": 2311392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 261623153.65,
+            "unit": "ns",
+            "range": "± 3093850.0955113675",
+            "bytesAllocated": 1271224
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 381615822.64,
+            "unit": "ns",
+            "range": "± 4542036.825133882",
+            "bytesAllocated": 2652424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 275535975.75,
+            "unit": "ns",
+            "range": "± 2878403.2273296462",
+            "bytesAllocated": 2321160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 263307692.06,
+            "unit": "ns",
+            "range": "± 2665096.1967529324",
+            "bytesAllocated": 1312216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 507102939.87,
+            "unit": "ns",
+            "range": "± 8184138.98286664",
+            "bytesAllocated": 4742952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 404638262.13,
+            "unit": "ns",
+            "range": "± 5508426.873704956",
+            "bytesAllocated": 4414240
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 387708976.42,
+            "unit": "ns",
+            "range": "± 5606816.618456288",
+            "bytesAllocated": 3367352
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 332057915.55,
+            "unit": "ns",
+            "range": "± 4550176.681329506",
+            "bytesAllocated": 2209824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 230520719.39,
+            "unit": "ns",
+            "range": "± 2642419.296563761",
+            "bytesAllocated": 1812040
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 250329831.56,
+            "unit": "ns",
+            "range": "± 6879317.705602547",
+            "bytesAllocated": 1420136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213927818.01,
+            "unit": "ns",
+            "range": "± 2669182.495741514",
+            "bytesAllocated": 873464
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1102.8778719220843,
+            "unit": "ns",
+            "range": "± 3.074035155897133",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1277.7796459197998,
+            "unit": "ns",
+            "range": "± 5.452247598643324",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1101.404281616211,
+            "unit": "ns",
+            "range": "± 4.010949845405649",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9728.190270560128,
+            "unit": "ns",
+            "range": "± 50.76378503158543",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11549.47378730774,
+            "unit": "ns",
+            "range": "± 71.21319545188278",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9581.099885940552,
+            "unit": "ns",
+            "range": "± 67.64416119348626",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 99944.63856724331,
+            "unit": "ns",
+            "range": "± 274.77216772970485",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 111005.61680603027,
+            "unit": "ns",
+            "range": "± 402.9324976927093",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93437.54306030273,
+            "unit": "ns",
+            "range": "± 639.9071714817298",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.53856888839177,
+            "unit": "ns",
+            "range": "± 0.5007456127956776",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 149.63715757642473,
+            "unit": "ns",
+            "range": "± 1.0577743223302603",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1068.7227263450623,
+            "unit": "ns",
+            "range": "± 13.766665606998924",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1049.1219935417175,
+            "unit": "ns",
+            "range": "± 12.407643272942995",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10350.548471450806,
+            "unit": "ns",
+            "range": "± 136.5499399597332",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10599.745910644531,
+            "unit": "ns",
+            "range": "± 176.6480481263018",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 100.31874690949917,
+            "unit": "ns",
+            "range": "± 0.8211199782675667",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 129.93938466906548,
+            "unit": "ns",
+            "range": "± 1.4697792179943248",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 972.7301661627633,
+            "unit": "ns",
+            "range": "± 6.5102043751788266",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1142.71333360672,
+            "unit": "ns",
+            "range": "± 10.160687841000351",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9537.642374038696,
+            "unit": "ns",
+            "range": "± 88.79890403304265",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11312.600513458252,
+            "unit": "ns",
+            "range": "± 125.51318939777501",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1457.2241213321686,
+            "unit": "ns",
+            "range": "± 4.406545682281287",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12902.362405776978,
+            "unit": "ns",
+            "range": "± 35.49444653514087",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 127612.79635620117,
+            "unit": "ns",
+            "range": "± 720.8913296378129",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2",
+          "message": "feat(build): add Linux RazorWire MVC publish preflight (#908)",
+          "timestamp": "2026-11-07T20:31:14Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/5b0e5529be892bf6b44a5cdaa8a87ffe6dd34ab2"
+        },
+        "date": 1794084707318,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2928943016699384,
+            "unit": "ns",
+            "range": "± 0.006471180240054217",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1114.611448764801,
+            "unit": "ns",
+            "range": "± 12.32150335954866",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.696266991751536,
+            "unit": "ns",
+            "range": "± 0.08802330639228634",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9835.492553710938,
+            "unit": "ns",
+            "range": "± 94.14256375577746",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.8045164516994,
+            "unit": "ns",
+            "range": "± 0.1771340020272103",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 95683.62156459263,
+            "unit": "ns",
+            "range": "± 469.1088311809403",
+            "bytesAllocated": 168272
           }
         ]
       }
