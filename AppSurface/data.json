@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1793946241735,
+  "lastUpdated": 1794077668633,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -111221,6 +111221,531 @@
             "unit": "ns",
             "range": "± 3913403.3697603014",
             "bytesAllocated": 1929264
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 144175181.49,
+            "unit": "ns",
+            "range": "± 13167722.621245628",
+            "bytesAllocated": 1848904
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 153285388.46,
+            "unit": "ns",
+            "range": "± 7181425.356469335",
+            "bytesAllocated": 2027512
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 537.9288778305054,
+            "unit": "ns",
+            "range": "± 7.338158393647656",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 575.9248700141907,
+            "unit": "ns",
+            "range": "± 7.76445267532874",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 534.1723902225494,
+            "unit": "ns",
+            "range": "± 12.342131545265921",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 4491.16448865618,
+            "unit": "ns",
+            "range": "± 107.90920528637307",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 5164.521918296814,
+            "unit": "ns",
+            "range": "± 91.31529506746702",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 4546.243341445923,
+            "unit": "ns",
+            "range": "± 181.61163751515963",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 71147.85114397321,
+            "unit": "ns",
+            "range": "± 739.6027410312698",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 51966.51933942522,
+            "unit": "ns",
+            "range": "± 568.3654981716675",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 46152.65053013393,
+            "unit": "ns",
+            "range": "± 799.2494759226585",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 56.68906696140766,
+            "unit": "ns",
+            "range": "± 0.7698831126830509",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 61.367197051644325,
+            "unit": "ns",
+            "range": "± 0.8684966998497308",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 552.031377860478,
+            "unit": "ns",
+            "range": "± 8.785022913858924",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 544.9593411684036,
+            "unit": "ns",
+            "range": "± 3.4276123746341516",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5512.908198356628,
+            "unit": "ns",
+            "range": "± 207.86358043036094",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 5564.85463823591,
+            "unit": "ns",
+            "range": "± 78.83490724573461",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 1.4436227189643043,
+            "unit": "ns",
+            "range": "± 0.01998712385329352",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 546.9803122282028,
+            "unit": "ns",
+            "range": "± 43.47238850091277",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 21.62841970846057,
+            "unit": "ns",
+            "range": "± 0.4297450033596256",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 4287.075224740164,
+            "unit": "ns",
+            "range": "± 30.403930945520916",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 235.3350175023079,
+            "unit": "ns",
+            "range": "± 5.157085698007332",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 42676.107883998324,
+            "unit": "ns",
+            "range": "± 831.6984553076162",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 640.426596403122,
+            "unit": "ns",
+            "range": "± 8.372910286369267",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 5934.743141174316,
+            "unit": "ns",
+            "range": "± 173.1152548418223",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 59401.36650739397,
+            "unit": "ns",
+            "range": "± 418.3318986978995",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 58.735020473599434,
+            "unit": "ns",
+            "range": "± 0.611948420952447",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 62.10478071655546,
+            "unit": "ns",
+            "range": "± 0.3525092809408614",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 523.8103491067886,
+            "unit": "ns",
+            "range": "± 6.1057613268632185",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 585.7470331192017,
+            "unit": "ns",
+            "range": "± 10.90530243926274",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5361.469446182251,
+            "unit": "ns",
+            "range": "± 210.0132526442391",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 5604.714746747698,
+            "unit": "ns",
+            "range": "± 31.73886065861021",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "adeb7903b550a42de48ae5260ff31fccd9de0b0b",
+          "message": "fix: isolate caching, Tailwind and native smoke improvements (#905)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-07T18:40:02Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/adeb7903b550a42de48ae5260ff31fccd9de0b0b"
+        },
+        "date": 1794077668633,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.403",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.14 (10.0.14, 10.0.1426.52326)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 253416928.08,
+            "unit": "ns",
+            "range": "± 55412571.47184381",
+            "bytesAllocated": 2644688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 183674415.3,
+            "unit": "ns",
+            "range": "± 9102955.214134859",
+            "bytesAllocated": 2332432
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 164677960.88,
+            "unit": "ns",
+            "range": "± 9492855.029869895",
+            "bytesAllocated": 1272272
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 233646168.96,
+            "unit": "ns",
+            "range": "± 10782339.945812454",
+            "bytesAllocated": 2647912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 167700187.4,
+            "unit": "ns",
+            "range": "± 5685753.465971362",
+            "bytesAllocated": 2344936
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 159520710.4,
+            "unit": "ns",
+            "range": "± 4933415.084972553",
+            "bytesAllocated": 1305976
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 302028400.59,
+            "unit": "ns",
+            "range": "± 13473956.976536522",
+            "bytesAllocated": 4782072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 253798827.24,
+            "unit": "ns",
+            "range": "± 9594077.003106534",
+            "bytesAllocated": 4398128
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 239097813.54,
+            "unit": "ns",
+            "range": "± 7785106.92102725",
+            "bytesAllocated": 3397232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 195685246.02,
+            "unit": "ns",
+            "range": "± 7785979.145728986",
+            "bytesAllocated": 2195072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 150911523.16,
+            "unit": "ns",
+            "range": "± 9164485.355826434",
+            "bytesAllocated": 1815464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 154513076,
+            "unit": "ns",
+            "range": "± 11886021.334912611",
+            "bytesAllocated": 1415920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 132297556.56,
+            "unit": "ns",
+            "range": "± 6856894.390435526",
+            "bytesAllocated": 863128
           }
         ]
       }
