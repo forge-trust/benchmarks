@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1794086686899,
+  "lastUpdated": 1794629110657,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -113321,6 +113321,531 @@
             "unit": "ns",
             "range": "± 6480304.998575902",
             "bytesAllocated": 845048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 205318006.95,
+            "unit": "ns",
+            "range": "± 4671261.646800416",
+            "bytesAllocated": 1861376
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 217034540.47,
+            "unit": "ns",
+            "range": "± 4868680.123695703",
+            "bytesAllocated": 1946976
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 692.5667943954468,
+            "unit": "ns",
+            "range": "± 3.6161668900159816",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 775.8760324716568,
+            "unit": "ns",
+            "range": "± 4.065822876585853",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 679.8481302261353,
+            "unit": "ns",
+            "range": "± 7.56421920989845",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 6091.410466875349,
+            "unit": "ns",
+            "range": "± 21.436070695451956",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6930.713154792786,
+            "unit": "ns",
+            "range": "± 29.758123809561933",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5928.947640419006,
+            "unit": "ns",
+            "range": "± 61.819676868629024",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 59534.9495010376,
+            "unit": "ns",
+            "range": "± 206.74862413630345",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 66973.97748674665,
+            "unit": "ns",
+            "range": "± 217.30640323377887",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 58373.06386566162,
+            "unit": "ns",
+            "range": "± 284.80422119278313",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.363178481347859,
+            "unit": "ns",
+            "range": "± 0.006238898702871249",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 715.4808268547058,
+            "unit": "ns",
+            "range": "± 3.6744084600664704",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 34.92840624600649,
+            "unit": "ns",
+            "range": "± 0.07839487589991727",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 6174.423941476004,
+            "unit": "ns",
+            "range": "± 22.49406933738015",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 281.86876344680786,
+            "unit": "ns",
+            "range": "± 0.18874651412481408",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 59516.947771344865,
+            "unit": "ns",
+            "range": "± 166.30651894887302",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 92.83878466486931,
+            "unit": "ns",
+            "range": "± 1.7164101474046776",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 106.34561622142792,
+            "unit": "ns",
+            "range": "± 1.2155208458549185",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 805.9290729250226,
+            "unit": "ns",
+            "range": "± 5.80182346420461",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 902.2163326740265,
+            "unit": "ns",
+            "range": "± 3.450450196045121",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9154.345685958862,
+            "unit": "ns",
+            "range": "± 43.891814239504846",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8419.026905604771,
+            "unit": "ns",
+            "range": "± 15.314482536061133",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 74.32934981584549,
+            "unit": "ns",
+            "range": "± 1.4339326505311445",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 78.71024465560913,
+            "unit": "ns",
+            "range": "± 1.8402348685090297",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 605.908518927438,
+            "unit": "ns",
+            "range": "± 3.1302476282120004",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 803.9932425362723,
+            "unit": "ns",
+            "range": "± 3.7713525078222134",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6102.304797172546,
+            "unit": "ns",
+            "range": "± 179.18236977383546",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8757.522989273071,
+            "unit": "ns",
+            "range": "± 70.11126734131402",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 936.3901880979538,
+            "unit": "ns",
+            "range": "± 8.38092025091758",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 8345.127378191266,
+            "unit": "ns",
+            "range": "± 119.46685040579193",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 79097.47798156738,
+            "unit": "ns",
+            "range": "± 2464.1549132246496",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "eea6acfbcad5b13a893c8ba179520d6a77e58663",
+          "message": "ci: overlap coverage checks and schedule slow suites first (#915)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-14T03:47:54Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/eea6acfbcad5b13a893c8ba179520d6a77e58663"
+        },
+        "date": 1794629110657,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 285317186.23,
+            "unit": "ns",
+            "range": "± 5555970.992019526",
+            "bytesAllocated": 2644872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 240714972.61,
+            "unit": "ns",
+            "range": "± 4147159.693379077",
+            "bytesAllocated": 2460824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 197980792.57,
+            "unit": "ns",
+            "range": "± 2657429.0916254558",
+            "bytesAllocated": 1272416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 293082487.19,
+            "unit": "ns",
+            "range": "± 4450539.938323691",
+            "bytesAllocated": 2649768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 252363527.47,
+            "unit": "ns",
+            "range": "± 5956197.561643343",
+            "bytesAllocated": 2375320
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 206791092.24,
+            "unit": "ns",
+            "range": "± 4575452.866551338",
+            "bytesAllocated": 1312744
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 390250912.62,
+            "unit": "ns",
+            "range": "± 7300516.962384071",
+            "bytesAllocated": 4730568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 341428225.38,
+            "unit": "ns",
+            "range": "± 6729594.113155411",
+            "bytesAllocated": 4452144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 299740007.71,
+            "unit": "ns",
+            "range": "± 7074784.483891601",
+            "bytesAllocated": 3368736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 262247630.73,
+            "unit": "ns",
+            "range": "± 5770432.923366378",
+            "bytesAllocated": 2222600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 204941855.11,
+            "unit": "ns",
+            "range": "± 5237334.5975158885",
+            "bytesAllocated": 1857256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 189720860.11,
+            "unit": "ns",
+            "range": "± 4774165.751877448",
+            "bytesAllocated": 1444472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 168378553.63,
+            "unit": "ns",
+            "range": "± 4006206.155315594",
+            "bytesAllocated": 860096
           }
         ]
       }
