@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1794629110657,
+  "lastUpdated": 1794715309439,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -113846,6 +113846,531 @@
             "unit": "ns",
             "range": "± 4006206.155315594",
             "bytesAllocated": 860096
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 296580724.68,
+            "unit": "ns",
+            "range": "± 4220656.125434385",
+            "bytesAllocated": 2645600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 248874980.43,
+            "unit": "ns",
+            "range": "± 4468830.828726235",
+            "bytesAllocated": 2363496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 200524416.38,
+            "unit": "ns",
+            "range": "± 2243457.79865884",
+            "bytesAllocated": 1286120
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 294645332.29,
+            "unit": "ns",
+            "range": "± 4431831.087329636",
+            "bytesAllocated": 2644696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 243049321.93,
+            "unit": "ns",
+            "range": "± 3604564.569999464",
+            "bytesAllocated": 2374328
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 197001401.04,
+            "unit": "ns",
+            "range": "± 3368998.80860645",
+            "bytesAllocated": 1307424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 382078175.02,
+            "unit": "ns",
+            "range": "± 4725390.090868423",
+            "bytesAllocated": 4739336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 330185617.29,
+            "unit": "ns",
+            "range": "± 5274605.587586299",
+            "bytesAllocated": 4444296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 286552513.07,
+            "unit": "ns",
+            "range": "± 4364822.488301017",
+            "bytesAllocated": 3414656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 251609203.72,
+            "unit": "ns",
+            "range": "± 3781585.1664316235",
+            "bytesAllocated": 2225568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 200409791.62,
+            "unit": "ns",
+            "range": "± 1927918.2667162516",
+            "bytesAllocated": 1852008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 182332429.67,
+            "unit": "ns",
+            "range": "± 2147413.7283206144",
+            "bytesAllocated": 1424064
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 161158697.03,
+            "unit": "ns",
+            "range": "± 1620500.3215469555",
+            "bytesAllocated": 874984
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 715.6602594852448,
+            "unit": "ns",
+            "range": "± 2.291873640641753",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 784.2539783716202,
+            "unit": "ns",
+            "range": "± 2.105530413427081",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 707.3915683031082,
+            "unit": "ns",
+            "range": "± 2.5561286308519184",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 6393.030400276184,
+            "unit": "ns",
+            "range": "± 34.478125394356184",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 7076.988015311105,
+            "unit": "ns",
+            "range": "± 9.259430612961967",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 6283.900100708008,
+            "unit": "ns",
+            "range": "± 19.40668920190268",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 60595.33396148682,
+            "unit": "ns",
+            "range": "± 324.3327477248665",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 67011.66017150879,
+            "unit": "ns",
+            "range": "± 295.0099206215875",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 60147.094255719865,
+            "unit": "ns",
+            "range": "± 163.07847875586796",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.294728372246027,
+            "unit": "ns",
+            "range": "± 0.005721638550320656",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 711.0510498285294,
+            "unit": "ns",
+            "range": "± 3.088415532641634",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 35.28058525494167,
+            "unit": "ns",
+            "range": "± 0.08985980343461061",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 6342.666606903076,
+            "unit": "ns",
+            "range": "± 16.009445647503167",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 282.22295993566513,
+            "unit": "ns",
+            "range": "± 0.23989784222861835",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 62442.385803222656,
+            "unit": "ns",
+            "range": "± 537.246113493838",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 84.7363363057375,
+            "unit": "ns",
+            "range": "± 2.013562013209108",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 99.5750662535429,
+            "unit": "ns",
+            "range": "± 2.078238171008549",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 912.0160372257233,
+            "unit": "ns",
+            "range": "± 12.421839770783512",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 838.9085167646408,
+            "unit": "ns",
+            "range": "± 14.680004922692016",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8780.826829910278,
+            "unit": "ns",
+            "range": "± 115.1642284163118",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 7880.338136672974,
+            "unit": "ns",
+            "range": "± 157.51548697337512",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 196404058.36,
+            "unit": "ns",
+            "range": "± 3988096.1194914766",
+            "bytesAllocated": 1879000
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 202922904.84,
+            "unit": "ns",
+            "range": "± 1939471.839924127",
+            "bytesAllocated": 1964288
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 974.062903881073,
+            "unit": "ns",
+            "range": "± 10.04309302638886",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 8282.743152618408,
+            "unit": "ns",
+            "range": "± 43.47485851331584",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 80707.82098388672,
+            "unit": "ns",
+            "range": "± 281.95172246749416",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "78b9b35a8f4c026e9842b7b35096e62185820fa2",
+          "message": "feat(coverage): add portable native coverage fan-in APIs and CLI (#906)",
+          "timestamp": "2026-11-15T03:44:50Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/78b9b35a8f4c026e9842b7b35096e62185820fa2"
+        },
+        "date": 1794715309439,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 76.97104069590569,
+            "unit": "ns",
+            "range": "± 0.3880725960596595",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 87.55762353539467,
+            "unit": "ns",
+            "range": "± 0.44024981110592176",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 727.8357940912247,
+            "unit": "ns",
+            "range": "± 4.126983550394492",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 881.5490250587463,
+            "unit": "ns",
+            "range": "± 34.25973003220572",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 7165.439810752869,
+            "unit": "ns",
+            "range": "± 353.2514874969848",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8664.01770401001,
+            "unit": "ns",
+            "range": "± 123.35269183014285",
+            "bytesAllocated": 40024
           }
         ]
       }
