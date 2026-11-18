@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1794715309439,
+  "lastUpdated": 1794991020637,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -114371,6 +114371,531 @@
             "unit": "ns",
             "range": "± 123.35269183014285",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 292218242.62,
+            "unit": "ns",
+            "range": "± 4617465.17433263",
+            "bytesAllocated": 2644536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 242001803.72,
+            "unit": "ns",
+            "range": "± 4256251.358817747",
+            "bytesAllocated": 2388776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 196688171.03,
+            "unit": "ns",
+            "range": "± 2701072.8028253284",
+            "bytesAllocated": 1290528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 291448017.92,
+            "unit": "ns",
+            "range": "± 5325012.262649107",
+            "bytesAllocated": 2649512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 242742046.94,
+            "unit": "ns",
+            "range": "± 3554088.559734003",
+            "bytesAllocated": 2356488
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 192774322.44,
+            "unit": "ns",
+            "range": "± 2538159.7588849957",
+            "bytesAllocated": 1388920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 378048287.29,
+            "unit": "ns",
+            "range": "± 5775908.602312722",
+            "bytesAllocated": 4745416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 328642877.32,
+            "unit": "ns",
+            "range": "± 4759152.087323692",
+            "bytesAllocated": 4426536
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 282126877.79,
+            "unit": "ns",
+            "range": "± 3841364.392584811",
+            "bytesAllocated": 3389048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 245955296.24,
+            "unit": "ns",
+            "range": "± 3615130.514514934",
+            "bytesAllocated": 2216296
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 194514521.41,
+            "unit": "ns",
+            "range": "± 2040282.3049531386",
+            "bytesAllocated": 1874416
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 177299655.5,
+            "unit": "ns",
+            "range": "± 1746825.4590733263",
+            "bytesAllocated": 1445584
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 156210999.04,
+            "unit": "ns",
+            "range": "± 1757138.0031377352",
+            "bytesAllocated": 842608
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 673.0308473110199,
+            "unit": "ns",
+            "range": "± 5.311789406735346",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 756.6105147600174,
+            "unit": "ns",
+            "range": "± 10.78118017431302",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 680.1296644210815,
+            "unit": "ns",
+            "range": "± 4.893889966942626",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5977.838437080383,
+            "unit": "ns",
+            "range": "± 64.37961528772735",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6761.397310256958,
+            "unit": "ns",
+            "range": "± 44.90732861441873",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 6294.412131309509,
+            "unit": "ns",
+            "range": "± 42.73714589459859",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 60520.89937591553,
+            "unit": "ns",
+            "range": "± 324.14114806510935",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 68337.21032714844,
+            "unit": "ns",
+            "range": "± 437.35766921242765",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 59559.8473815918,
+            "unit": "ns",
+            "range": "± 530.8349329233527",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3443105472251773,
+            "unit": "ns",
+            "range": "± 0.005665291434611975",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 697.3445434570312,
+            "unit": "ns",
+            "range": "± 10.373831227522007",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 34.937044761010576,
+            "unit": "ns",
+            "range": "± 0.10465298008913237",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5842.352034568787,
+            "unit": "ns",
+            "range": "± 46.02009942960725",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.74044823646545,
+            "unit": "ns",
+            "range": "± 0.07046798951741684",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 62889.149322509766,
+            "unit": "ns",
+            "range": "± 1704.9086270896682",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 89.18886645138264,
+            "unit": "ns",
+            "range": "± 2.423638798104499",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 90.37772113084793,
+            "unit": "ns",
+            "range": "± 1.2078227904656396",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 850.0996220111847,
+            "unit": "ns",
+            "range": "± 16.282872618862342",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 694.2095048427582,
+            "unit": "ns",
+            "range": "± 27.1186381246826",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8454.214462280273,
+            "unit": "ns",
+            "range": "± 447.91224289186914",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 8800.127180099487,
+            "unit": "ns",
+            "range": "± 282.0907911957258",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 72.1058237850666,
+            "unit": "ns",
+            "range": "± 0.6647451934640117",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 98.28364178112575,
+            "unit": "ns",
+            "range": "± 0.7488339619410166",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 758.5130430459976,
+            "unit": "ns",
+            "range": "± 8.666450893003978",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 783.0066052675247,
+            "unit": "ns",
+            "range": "± 18.725029729682102",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6604.026414871216,
+            "unit": "ns",
+            "range": "± 177.2564145086099",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 8652.593677520752,
+            "unit": "ns",
+            "range": "± 414.4170566888183",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 969.830676487514,
+            "unit": "ns",
+            "range": "± 2.8537727749009423",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 8417.096788406372,
+            "unit": "ns",
+            "range": "± 28.367207713306787",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 79757.66819763184,
+            "unit": "ns",
+            "range": "± 608.0928498240525",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3600fd198d7075e457d4bb9112a44f91f45492f3",
+          "message": "feat(coverage): add report-based fan-in patch applicability (#913) (#923)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-18T08:20:16Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3600fd198d7075e457d4bb9112a44f91f45492f3"
+        },
+        "date": 1794991020637,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 24.04.5 LTS (Noble Numbat)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 196160765.77,
+            "unit": "ns",
+            "range": "± 2217431.17582244",
+            "bytesAllocated": 1892920
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 208660788.78,
+            "unit": "ns",
+            "range": "± 2618663.7634847537",
+            "bytesAllocated": 2075896
           }
         ]
       }
