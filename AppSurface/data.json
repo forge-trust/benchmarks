@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1794991020637,
+  "lastUpdated": 1795153039724,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -114896,6 +114896,531 @@
             "unit": "ns",
             "range": "± 2618663.7634847537",
             "bytesAllocated": 2075896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 259056595.11,
+            "unit": "ns",
+            "range": "± 13158490.389780847",
+            "bytesAllocated": 2651512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 208536784.08,
+            "unit": "ns",
+            "range": "± 12121603.234459523",
+            "bytesAllocated": 2461344
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 167425346.27,
+            "unit": "ns",
+            "range": "± 10956430.756657328",
+            "bytesAllocated": 1291720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 246298388.32,
+            "unit": "ns",
+            "range": "± 12043423.811591277",
+            "bytesAllocated": 2644464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 217042818.78,
+            "unit": "ns",
+            "range": "± 18077963.175126817",
+            "bytesAllocated": 2454600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 170641952.22,
+            "unit": "ns",
+            "range": "± 8008236.147995269",
+            "bytesAllocated": 1382592
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 332794708.01,
+            "unit": "ns",
+            "range": "± 11395233.294224493",
+            "bytesAllocated": 4776520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 302769195.38,
+            "unit": "ns",
+            "range": "± 13300550.762045018",
+            "bytesAllocated": 4434664
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 256719718.67,
+            "unit": "ns",
+            "range": "± 11934745.622179383",
+            "bytesAllocated": 3380688
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 234021678.84,
+            "unit": "ns",
+            "range": "± 14146045.54887151",
+            "bytesAllocated": 2220816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 185516128.7,
+            "unit": "ns",
+            "range": "± 10665598.12420958",
+            "bytesAllocated": 1969880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 163920664.95,
+            "unit": "ns",
+            "range": "± 12775296.692311807",
+            "bytesAllocated": 1431056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 141292910.81,
+            "unit": "ns",
+            "range": "± 8398700.155145582",
+            "bytesAllocated": 871968
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 179401573.34,
+            "unit": "ns",
+            "range": "± 11948973.269034043",
+            "bytesAllocated": 1976224
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 186621540.36,
+            "unit": "ns",
+            "range": "± 9196863.867177678",
+            "bytesAllocated": 2061752
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 530.1503393650055,
+            "unit": "ns",
+            "range": "± 7.947873644327897",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 606.5009660720825,
+            "unit": "ns",
+            "range": "± 5.5987037573051355",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 562.2744692393711,
+            "unit": "ns",
+            "range": "± 23.864722658968592",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 4752.155808585031,
+            "unit": "ns",
+            "range": "± 64.45446862699306",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 5419.839727401733,
+            "unit": "ns",
+            "range": "± 264.7594661491278",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 4915.456293106079,
+            "unit": "ns",
+            "range": "± 200.9410479393108",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 44026.63436126709,
+            "unit": "ns",
+            "range": "± 711.7497723584651",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 54073.134114583336,
+            "unit": "ns",
+            "range": "± 506.2503553113598",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 44262.01348876953,
+            "unit": "ns",
+            "range": "± 684.8383346845236",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 1.376155141275376,
+            "unit": "ns",
+            "range": "± 0.08155563829403505",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 525.0045788288116,
+            "unit": "ns",
+            "range": "± 14.378399042497653",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 24.66092825308442,
+            "unit": "ns",
+            "range": "± 0.6094376427094528",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 4966.056374686105,
+            "unit": "ns",
+            "range": "± 54.918875553214825",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 243.16000638689314,
+            "unit": "ns",
+            "range": "± 1.409819886475165",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 45900.70877838135,
+            "unit": "ns",
+            "range": "± 1106.5787857617663",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 59.223671332001686,
+            "unit": "ns",
+            "range": "± 1.7288845332194458",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 64.9314667135477,
+            "unit": "ns",
+            "range": "± 2.116256996497672",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 540.454118847847,
+            "unit": "ns",
+            "range": "± 12.063494975803888",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 550.8193209511893,
+            "unit": "ns",
+            "range": "± 10.524463103592975",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5663.017071860178,
+            "unit": "ns",
+            "range": "± 223.11104382822478",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 5861.117135047913,
+            "unit": "ns",
+            "range": "± 106.81116084036672",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 56.572710782289505,
+            "unit": "ns",
+            "range": "± 1.5952573966226538",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 65.45589634350368,
+            "unit": "ns",
+            "range": "± 1.744097717871003",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 542.8920369148254,
+            "unit": "ns",
+            "range": "± 12.19344233317216",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 624.6280909776688,
+            "unit": "ns",
+            "range": "± 26.60379074552116",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5199.74640750885,
+            "unit": "ns",
+            "range": "± 143.56586847775503",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 5849.8878500802175,
+            "unit": "ns",
+            "range": "± 173.38547163564036",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "3f3126a5febff2cb94847bf8a1092b5d61657a18",
+          "message": "fix(ci): recover docs publishing and watchdog shutdown (#914)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-20T05:22:03Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/3f3126a5febff2cb94847bf8a1092b5d61657a18"
+        },
+        "date": 1795153039724,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 687.8866407871246,
+            "unit": "ns",
+            "range": "± 6.863535117847137",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 6117.349809646606,
+            "unit": "ns",
+            "range": "± 205.32927579636092",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 57024.7627999442,
+            "unit": "ns",
+            "range": "± 541.0432147146272",
+            "bytesAllocated": 232376
           }
         ]
       }
