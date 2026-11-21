@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795279872851,
+  "lastUpdated": 1795284688853,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -116471,6 +116471,531 @@
             "unit": "ns",
             "range": "± 16214171.927913858",
             "bytesAllocated": 2059592
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 201220555.89,
+            "unit": "ns",
+            "range": "± 2701659.1818233067",
+            "bytesAllocated": 1988904
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 211117600.08,
+            "unit": "ns",
+            "range": "± 2841719.0139081236",
+            "bytesAllocated": 2055680
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 697.8729982376099,
+            "unit": "ns",
+            "range": "± 6.469907466012523",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 765.3762671606881,
+            "unit": "ns",
+            "range": "± 5.744379589095355",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 670.5581345558167,
+            "unit": "ns",
+            "range": "± 7.388452346443909",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5925.455374717712,
+            "unit": "ns",
+            "range": "± 50.82910547346458",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 6532.916485786438,
+            "unit": "ns",
+            "range": "± 93.94548133779357",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5681.378054618835,
+            "unit": "ns",
+            "range": "± 61.1750094334253",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 56145.27877807617,
+            "unit": "ns",
+            "range": "± 376.8872096774156",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 63184.877380371094,
+            "unit": "ns",
+            "range": "± 699.7439145691621",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 55570.87384033203,
+            "unit": "ns",
+            "range": "± 266.06785149656383",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.341774707660079,
+            "unit": "ns",
+            "range": "± 0.0011411632986672534",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 692.4817227125168,
+            "unit": "ns",
+            "range": "± 9.524233501918768",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 34.9822141751647,
+            "unit": "ns",
+            "range": "± 0.037235946101527764",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5917.365683555603,
+            "unit": "ns",
+            "range": "± 76.91501403252398",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 280.5001137852669,
+            "unit": "ns",
+            "range": "± 0.31539496440107384",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 59423.91911969866,
+            "unit": "ns",
+            "range": "± 789.7704814815385",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.0915544629097,
+            "unit": "ns",
+            "range": "± 3.117339248086821",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 87.77063165605068,
+            "unit": "ns",
+            "range": "± 1.8463589749836502",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 831.1336946487427,
+            "unit": "ns",
+            "range": "± 12.534159243538113",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 676.7236469984055,
+            "unit": "ns",
+            "range": "± 14.941798396816319",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8773.268283843994,
+            "unit": "ns",
+            "range": "± 141.55550410681292",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 7048.780409812927,
+            "unit": "ns",
+            "range": "± 143.91229310852796",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 282330428.09,
+            "unit": "ns",
+            "range": "± 4895368.209365214",
+            "bytesAllocated": 2645152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 236469044.27,
+            "unit": "ns",
+            "range": "± 4056008.838131012",
+            "bytesAllocated": 2458288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 189312194.98,
+            "unit": "ns",
+            "range": "± 2265210.5731943683",
+            "bytesAllocated": 1364864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 282014792.01,
+            "unit": "ns",
+            "range": "± 4087493.736585096",
+            "bytesAllocated": 2648376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 236452699.87,
+            "unit": "ns",
+            "range": "± 3413261.999011907",
+            "bytesAllocated": 2356768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 193056452.37,
+            "unit": "ns",
+            "range": "± 2614480.000144219",
+            "bytesAllocated": 1312232
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 371154233.75,
+            "unit": "ns",
+            "range": "± 4605439.027981497",
+            "bytesAllocated": 4752848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 322787671.41,
+            "unit": "ns",
+            "range": "± 4532041.862844301",
+            "bytesAllocated": 4429136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 282972607.49,
+            "unit": "ns",
+            "range": "± 3967014.4828867284",
+            "bytesAllocated": 3372056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 243632744.63,
+            "unit": "ns",
+            "range": "± 3846100.764347872",
+            "bytesAllocated": 2216152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 194739098.6,
+            "unit": "ns",
+            "range": "± 2378953.637066507",
+            "bytesAllocated": 1858216
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 176811887.81,
+            "unit": "ns",
+            "range": "± 1851461.4616499757",
+            "bytesAllocated": 1428336
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 159328227.47,
+            "unit": "ns",
+            "range": "± 2528543.439502801",
+            "bytesAllocated": 854824
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 73.70016376674175,
+            "unit": "ns",
+            "range": "± 1.2141254119236211",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 87.6511394828558,
+            "unit": "ns",
+            "range": "± 0.8478786429150678",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 716.4865493774414,
+            "unit": "ns",
+            "range": "± 7.53126115668319",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 815.0054630041122,
+            "unit": "ns",
+            "range": "± 4.799210492796554",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8221.744979858398,
+            "unit": "ns",
+            "range": "± 22.528597774925874",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 9127.16138267517,
+            "unit": "ns",
+            "range": "± 67.17672886690578",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "90f312d69f861aa85419c79e89866e0e04dab10b",
+          "message": "fix(ci): verify runner cache mode before release preparation (#912)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-21T17:54:55Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/90f312d69f861aa85419c79e89866e0e04dab10b"
+        },
+        "date": 1795284688853,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6975P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 961.4577200753348,
+            "unit": "ns",
+            "range": "± 5.951672136783404",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 8674.885968889508,
+            "unit": "ns",
+            "range": "± 35.537612085206334",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 88052.83163452148,
+            "unit": "ns",
+            "range": "± 371.77914129260887",
+            "bytesAllocated": 232376
           }
         ]
       }
