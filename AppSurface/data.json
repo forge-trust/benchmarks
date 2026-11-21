@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795284688853,
+  "lastUpdated": 1795286565752,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -116996,6 +116996,531 @@
             "unit": "ns",
             "range": "± 371.77914129260887",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1057.8971587589808,
+            "unit": "ns",
+            "range": "± 5.119960555571532",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1263.9584971836634,
+            "unit": "ns",
+            "range": "± 11.305431645891199",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1125.3864531517029,
+            "unit": "ns",
+            "range": "± 8.106632673337725",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9831.549816131592,
+            "unit": "ns",
+            "range": "± 86.4591065615535",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11128.587730407715,
+            "unit": "ns",
+            "range": "± 142.494663540722",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9244.809526443481,
+            "unit": "ns",
+            "range": "± 41.99050368584126",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92621.34825134277,
+            "unit": "ns",
+            "range": "± 565.4635387018134",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 109640.73469543457,
+            "unit": "ns",
+            "range": "± 979.5322321877884",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 94786.67741394043,
+            "unit": "ns",
+            "range": "± 510.9558465832491",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3028058324541365,
+            "unit": "ns",
+            "range": "± 0.022434059566002657",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1051.8081729412079,
+            "unit": "ns",
+            "range": "± 8.636272303451259",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 39.71329831225531,
+            "unit": "ns",
+            "range": "± 0.08045811459921096",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9484.654369354248,
+            "unit": "ns",
+            "range": "± 79.47325572413966",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 319.7319504192897,
+            "unit": "ns",
+            "range": "± 1.9395406514284055",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96327.44667053223,
+            "unit": "ns",
+            "range": "± 1174.5346618559597",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 107.91481663286686,
+            "unit": "ns",
+            "range": "± 1.3037810815849202",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 114.67073106765747,
+            "unit": "ns",
+            "range": "± 1.3796789784519952",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1064.879949092865,
+            "unit": "ns",
+            "range": "± 15.238100358859286",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 998.8062024116516,
+            "unit": "ns",
+            "range": "± 4.751568338637898",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10017.898927688599,
+            "unit": "ns",
+            "range": "± 38.95352062279038",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10339.491744995117,
+            "unit": "ns",
+            "range": "± 49.192338021552686",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.25602962076664,
+            "unit": "ns",
+            "range": "± 2.0779082443172534",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 115.19928668226514,
+            "unit": "ns",
+            "range": "± 0.6861819616378108",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 946.4357323646545,
+            "unit": "ns",
+            "range": "± 14.881481124704372",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1124.1776285171509,
+            "unit": "ns",
+            "range": "± 20.213739933888945",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9366.161092758179,
+            "unit": "ns",
+            "range": "± 81.68222151937212",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10910.413795471191,
+            "unit": "ns",
+            "range": "± 160.3625122113305",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1430.5852737426758,
+            "unit": "ns",
+            "range": "± 6.396498706666362",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13081.288558959961,
+            "unit": "ns",
+            "range": "± 102.01760964028645",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 122370.20071411133,
+            "unit": "ns",
+            "range": "± 1146.4782203224806",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 296564425.81,
+            "unit": "ns",
+            "range": "± 3536112.0985632376",
+            "bytesAllocated": 1870920
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 309063758.3,
+            "unit": "ns",
+            "range": "± 4443283.986426986",
+            "bytesAllocated": 2062864
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "dee44f5c6f61a02fcfb3983b335e495e63512ce8",
+          "message": "fix(ci): use direct coverage for local tool updates (#926)\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-11-21T18:21:12Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/dee44f5c6f61a02fcfb3983b335e495e63512ce8"
+        },
+        "date": 1795286565752,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 422494956.77,
+            "unit": "ns",
+            "range": "± 5694435.812855979",
+            "bytesAllocated": 2643512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 349759006.19,
+            "unit": "ns",
+            "range": "± 6007738.367660706",
+            "bytesAllocated": 2361288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 285262013.1,
+            "unit": "ns",
+            "range": "± 5153041.089166096",
+            "bytesAllocated": 1289952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 423164650.29,
+            "unit": "ns",
+            "range": "± 6192991.589635499",
+            "bytesAllocated": 2631912
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 350801837.18,
+            "unit": "ns",
+            "range": "± 5562153.101426376",
+            "bytesAllocated": 2373856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 286571879.63,
+            "unit": "ns",
+            "range": "± 4750168.344578429",
+            "bytesAllocated": 1312088
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 542674215.16,
+            "unit": "ns",
+            "range": "± 8364409.952169446",
+            "bytesAllocated": 4790152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 468869390.75,
+            "unit": "ns",
+            "range": "± 8787639.550510686",
+            "bytesAllocated": 4428728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 408838228.49,
+            "unit": "ns",
+            "range": "± 7634643.173162786",
+            "bytesAllocated": 3377504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 371858018.91,
+            "unit": "ns",
+            "range": "± 5797818.4782567425",
+            "bytesAllocated": 2227056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 298711011.31,
+            "unit": "ns",
+            "range": "± 4382781.781813676",
+            "bytesAllocated": 1877184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 269111138.08,
+            "unit": "ns",
+            "range": "± 4513219.038586444",
+            "bytesAllocated": 1430600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 235650142.28,
+            "unit": "ns",
+            "range": "± 2875026.9513399694",
+            "bytesAllocated": 857640
           }
         ]
       }
