@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795334840940,
+  "lastUpdated": 1795370665869,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -118570,6 +118570,531 @@
             "value": 128038.68603515625,
             "unit": "ns",
             "range": "± 1866.6943115724007",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 303233200.89,
+            "unit": "ns",
+            "range": "± 6890041.808992643",
+            "bytesAllocated": 1861984
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 314925718.46,
+            "unit": "ns",
+            "range": "± 6288461.045125385",
+            "bytesAllocated": 2041952
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.33191841840744,
+            "unit": "ns",
+            "range": "± 0.03031517366108778",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1124.323522567749,
+            "unit": "ns",
+            "range": "± 9.615908000368298",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.64023657143116,
+            "unit": "ns",
+            "range": "± 0.21466587795435965",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10023.07290649414,
+            "unit": "ns",
+            "range": "± 120.20551951153948",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 322.81983399391174,
+            "unit": "ns",
+            "range": "± 3.3954265673021786",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 96895.71337890625,
+            "unit": "ns",
+            "range": "± 1396.1610320115376",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1139.9959008693695,
+            "unit": "ns",
+            "range": "± 15.078369408709147",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1294.1731655597687,
+            "unit": "ns",
+            "range": "± 8.394346740388798",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1088.6780109405518,
+            "unit": "ns",
+            "range": "± 20.666985903461065",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 10008.64253616333,
+            "unit": "ns",
+            "range": "± 107.40081930364468",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11676.105452401298,
+            "unit": "ns",
+            "range": "± 119.5737023622717",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9443.064237594604,
+            "unit": "ns",
+            "range": "± 60.7234188450117",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 97027.76026916504,
+            "unit": "ns",
+            "range": "± 823.7736784621502",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 110850.67051696777,
+            "unit": "ns",
+            "range": "± 822.2924964095342",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 93803.40504455566,
+            "unit": "ns",
+            "range": "± 1117.5120768198367",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.18096700310707,
+            "unit": "ns",
+            "range": "± 2.12395922337286",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.46067494153976,
+            "unit": "ns",
+            "range": "± 1.335215519716397",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1062.471815109253,
+            "unit": "ns",
+            "range": "± 19.39518915635245",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1036.6172268390656,
+            "unit": "ns",
+            "range": "± 15.76498865490801",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10039.535118103027,
+            "unit": "ns",
+            "range": "± 98.46188052626778",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10480.50739479065,
+            "unit": "ns",
+            "range": "± 95.32643734432793",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 431618107.36,
+            "unit": "ns",
+            "range": "± 8171367.723931604",
+            "bytesAllocated": 2627480
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 356979697.54,
+            "unit": "ns",
+            "range": "± 6073601.900349605",
+            "bytesAllocated": 2461288
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 295005206.72,
+            "unit": "ns",
+            "range": "± 8811636.361591991",
+            "bytesAllocated": 1288872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 435285668.07,
+            "unit": "ns",
+            "range": "± 7413368.1378504",
+            "bytesAllocated": 2674520
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 356697607.02,
+            "unit": "ns",
+            "range": "± 5044704.953140196",
+            "bytesAllocated": 2373144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 292952259.02,
+            "unit": "ns",
+            "range": "± 5729686.383533689",
+            "bytesAllocated": 1304560
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 554042300.79,
+            "unit": "ns",
+            "range": "± 10078964.790537767",
+            "bytesAllocated": 4715568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 477972778.77,
+            "unit": "ns",
+            "range": "± 12215519.587595608",
+            "bytesAllocated": 4432424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 414440887.71,
+            "unit": "ns",
+            "range": "± 12023827.906867241",
+            "bytesAllocated": 3370424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 379901624.19,
+            "unit": "ns",
+            "range": "± 7773483.01744823",
+            "bytesAllocated": 2212840
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 304545529.13,
+            "unit": "ns",
+            "range": "± 5835182.226169313",
+            "bytesAllocated": 1958776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 276110843.93,
+            "unit": "ns",
+            "range": "± 5300032.421254445",
+            "bytesAllocated": 1429768
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 245029472.36,
+            "unit": "ns",
+            "range": "± 8098855.407842005",
+            "bytesAllocated": 844744
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.45259450376034,
+            "unit": "ns",
+            "range": "± 2.4128200322834297",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 117.57175536453724,
+            "unit": "ns",
+            "range": "± 2.4601229393907373",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 969.6175482273102,
+            "unit": "ns",
+            "range": "± 7.718023941363808",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1135.4924890995026,
+            "unit": "ns",
+            "range": "± 21.97579495079256",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9655.249008178711,
+            "unit": "ns",
+            "range": "± 192.98398075849892",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11299.917459487915,
+            "unit": "ns",
+            "range": "± 313.0127999894943",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a6c362d7a917301dade1247adc394d9ed37c7497",
+          "message": "feat(tooling): inventory repository scripts and pilot a file-based PWA verifier (#933)",
+          "timestamp": "2026-11-22T17:42:28Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a6c362d7a917301dade1247adc394d9ed37c7497"
+        },
+        "date": 1795370665869,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1435.8607273101807,
+            "unit": "ns",
+            "range": "± 17.84231244374287",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13772.111727033343,
+            "unit": "ns",
+            "range": "± 91.33624783489333",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123872.03546142578,
+            "unit": "ns",
+            "range": "± 1339.3144494596806",
             "bytesAllocated": 232376
           }
         ]
