@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795490719365,
+  "lastUpdated": 1795495983425,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -119620,6 +119620,531 @@
             "value": 55967.604727608814,
             "unit": "ns",
             "range": "± 396.1803974100267",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 189101049.89,
+            "unit": "ns",
+            "range": "± 2595601.869690182",
+            "bytesAllocated": 1879616
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 201590561.12,
+            "unit": "ns",
+            "range": "± 12318635.172923472",
+            "bytesAllocated": 1958664
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 269022223.86,
+            "unit": "ns",
+            "range": "± 6267622.359061564",
+            "bytesAllocated": 2626616
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 228271404.01,
+            "unit": "ns",
+            "range": "± 9699728.320699317",
+            "bytesAllocated": 2362992
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 185413141.95,
+            "unit": "ns",
+            "range": "± 4346777.379145597",
+            "bytesAllocated": 1287960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 276707043.52,
+            "unit": "ns",
+            "range": "± 13361291.706348117",
+            "bytesAllocated": 2631880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 230184633.92,
+            "unit": "ns",
+            "range": "± 10656970.864578176",
+            "bytesAllocated": 2373008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 183522734.88,
+            "unit": "ns",
+            "range": "± 1696629.6498721451",
+            "bytesAllocated": 1305640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 355410613.38,
+            "unit": "ns",
+            "range": "± 6766802.994191622",
+            "bytesAllocated": 4717096
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 314357195.05,
+            "unit": "ns",
+            "range": "± 11679533.704538366",
+            "bytesAllocated": 4423504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 275571279.35,
+            "unit": "ns",
+            "range": "± 10873333.153652815",
+            "bytesAllocated": 3392864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 239292822.59,
+            "unit": "ns",
+            "range": "± 3526843.3744578753",
+            "bytesAllocated": 2212872
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 194839707.03,
+            "unit": "ns",
+            "range": "± 8739279.545197688",
+            "bytesAllocated": 1859512
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 172137260.9,
+            "unit": "ns",
+            "range": "± 2551726.3014513636",
+            "bytesAllocated": 1431440
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 156428651,
+            "unit": "ns",
+            "range": "± 9027603.39577336",
+            "bytesAllocated": 855200
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.103484755381942,
+            "unit": "ns",
+            "range": "± 0.0055066682451010785",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 608.9626084566116,
+            "unit": "ns",
+            "range": "± 2.058227569384693",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 32.6524757668376,
+            "unit": "ns",
+            "range": "± 0.10148153657625691",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 5226.435706002371,
+            "unit": "ns",
+            "range": "± 22.566294345973997",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 260.0771516561508,
+            "unit": "ns",
+            "range": "± 0.17028754190571735",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 53685.16766357422,
+            "unit": "ns",
+            "range": "± 1378.4818631289993",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 612.1173084974289,
+            "unit": "ns",
+            "range": "± 6.767866674946681",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 671.4401046207973,
+            "unit": "ns",
+            "range": "± 1.0406306596578452",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 597.8577839987619,
+            "unit": "ns",
+            "range": "± 1.5319053219378411",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 5390.3229637146,
+            "unit": "ns",
+            "range": "± 62.16547482233465",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 5784.775615147182,
+            "unit": "ns",
+            "range": "± 13.033001560775247",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 5250.244176228841,
+            "unit": "ns",
+            "range": "± 45.17760492863758",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 57402.054626464844,
+            "unit": "ns",
+            "range": "± 84.02179806653997",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 59172.28493499756,
+            "unit": "ns",
+            "range": "± 4038.2155311650613",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 55132.20055389404,
+            "unit": "ns",
+            "range": "± 3691.659483127174",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 78.65196949243546,
+            "unit": "ns",
+            "range": "± 0.9268563621104571",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 69.63083273172379,
+            "unit": "ns",
+            "range": "± 0.45327079380157353",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 655.6103237697056,
+            "unit": "ns",
+            "range": "± 5.972478551903561",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 583.5521210261753,
+            "unit": "ns",
+            "range": "± 1.5359080505825475",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6530.521077156067,
+            "unit": "ns",
+            "range": "± 427.0971629524611",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 6242.0036381312775,
+            "unit": "ns",
+            "range": "± 42.323957156571495",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 65.04692505300045,
+            "unit": "ns",
+            "range": "± 0.3160423306935078",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 86.63195252418518,
+            "unit": "ns",
+            "range": "± 5.982673301806095",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 623.7507010868618,
+            "unit": "ns",
+            "range": "± 4.093906936653452",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 710.604850087847,
+            "unit": "ns",
+            "range": "± 2.888388844626709",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 6513.161825180054,
+            "unit": "ns",
+            "range": "± 425.53386375974145",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 7425.795593261719,
+            "unit": "ns",
+            "range": "± 29.413645572852325",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "001318fac24e6ab72bc815a1d133aa6bc20e82bf",
+          "message": "feat(evidence): add a preview built-in test producer with a discovery-complete claim (#929) (#940)\n\nCo-authored-by: Claude Fable 5.2 <noreply@anthropic.com>",
+          "timestamp": "2026-11-24T04:37:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/001318fac24e6ab72bc815a1d133aa6bc20e82bf"
+        },
+        "date": 1795495983425,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "Intel Xeon 6973P-C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 809.4145951952253,
+            "unit": "ns",
+            "range": "± 1.2260338914119209",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 7007.520941734314,
+            "unit": "ns",
+            "range": "± 31.54251774769684",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 69245.80383300781,
+            "unit": "ns",
+            "range": "± 547.4584503117914",
             "bytesAllocated": 232376
           }
         ]
