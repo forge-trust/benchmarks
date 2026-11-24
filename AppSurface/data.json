@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795495983425,
+  "lastUpdated": 1795503790836,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -120146,6 +120146,531 @@
             "unit": "ns",
             "range": "± 547.4584503117914",
             "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 266252499.37,
+            "unit": "ns",
+            "range": "± 5199148.9629104845",
+            "bytesAllocated": 1881400
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 277941594.64,
+            "unit": "ns",
+            "range": "± 4851745.660790285",
+            "bytesAllocated": 1946016
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 953.6025307178497,
+            "unit": "ns",
+            "range": "± 7.130003861985462",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1031.3284604549408,
+            "unit": "ns",
+            "range": "± 6.278445562046494",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 916.2930198396955,
+            "unit": "ns",
+            "range": "± 1.4762724157000824",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 8132.716212681362,
+            "unit": "ns",
+            "range": "± 17.899702640909968",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 9403.973257882255,
+            "unit": "ns",
+            "range": "± 59.330174470628585",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7978.500389099121,
+            "unit": "ns",
+            "range": "± 27.644286284287528",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 77790.72816467285,
+            "unit": "ns",
+            "range": "± 531.5541952279065",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 89374.81767926898,
+            "unit": "ns",
+            "range": "± 303.6321007834939",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 76479.7872467041,
+            "unit": "ns",
+            "range": "± 327.7587654123353",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 377094904.94,
+            "unit": "ns",
+            "range": "± 8982989.562070085",
+            "bytesAllocated": 2626752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 314424606.53,
+            "unit": "ns",
+            "range": "± 7127904.112851278",
+            "bytesAllocated": 2463304
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255795910.97,
+            "unit": "ns",
+            "range": "± 3742555.5481409486",
+            "bytesAllocated": 1365656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 373941178.18,
+            "unit": "ns",
+            "range": "± 11864696.179131228",
+            "bytesAllocated": 2630856
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 313815705,
+            "unit": "ns",
+            "range": "± 5832719.810578063",
+            "bytesAllocated": 2368704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 267948238.59,
+            "unit": "ns",
+            "range": "± 6424751.675651193",
+            "bytesAllocated": 1311704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 488275771.85,
+            "unit": "ns",
+            "range": "± 6449568.655135763",
+            "bytesAllocated": 4718608
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 432515639.51,
+            "unit": "ns",
+            "range": "± 10491799.570221314",
+            "bytesAllocated": 4428704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 387549045.45,
+            "unit": "ns",
+            "range": "± 7548329.571433889",
+            "bytesAllocated": 3367640
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 331244632.13,
+            "unit": "ns",
+            "range": "± 11077811.981325692",
+            "bytesAllocated": 2215456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 268609116.51,
+            "unit": "ns",
+            "range": "± 4675710.054783968",
+            "bytesAllocated": 1877192
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 243143529.87,
+            "unit": "ns",
+            "range": "± 4436863.401762573",
+            "bytesAllocated": 1430680
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 213238409.15,
+            "unit": "ns",
+            "range": "± 3891012.9015238327",
+            "bytesAllocated": 840896
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 111.74566888809204,
+            "unit": "ns",
+            "range": "± 1.5909908643928552",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 136.83042511343956,
+            "unit": "ns",
+            "range": "± 2.3432966966697335",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1129.0507758004326,
+            "unit": "ns",
+            "range": "± 5.396731943179777",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1210.6952011585236,
+            "unit": "ns",
+            "range": "± 13.619179642287174",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11083.01774597168,
+            "unit": "ns",
+            "range": "± 71.84809356335533",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 12068.844495773315,
+            "unit": "ns",
+            "range": "± 158.68062724826592",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 93.92220339179039,
+            "unit": "ns",
+            "range": "± 1.6467151367206374",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 133.8658049106598,
+            "unit": "ns",
+            "range": "± 0.4100205435318489",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 897.9391565322876,
+            "unit": "ns",
+            "range": "± 20.366835501000978",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1207.7096287863594,
+            "unit": "ns",
+            "range": "± 11.124025427270567",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8676.874547958374,
+            "unit": "ns",
+            "range": "± 128.67705644851029",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12960.826513290405,
+            "unit": "ns",
+            "range": "± 186.85253459593983",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1276.6201103755407,
+            "unit": "ns",
+            "range": "± 3.995366115070595",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 11075.05544090271,
+            "unit": "ns",
+            "range": "± 68.35091326827981",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 109369.6220615932,
+            "unit": "ns",
+            "range": "± 995.6694666877344",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "89825c26ecc2b27b4b557d18b7e7673689d0ce7f",
+          "message": "build: add Task entry points for repository workflows (#944)",
+          "timestamp": "2026-11-24T06:43:08Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/89825c26ecc2b27b4b557d18b7e7673689d0ce7f"
+        },
+        "date": 1795503790836,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 4.079537318221161,
+            "unit": "ns",
+            "range": "± 0.01760820980072954",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 948.3051124300275,
+            "unit": "ns",
+            "range": "± 3.166377186636021",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.86962465941906,
+            "unit": "ns",
+            "range": "± 0.1355669708518472",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7972.606969833374,
+            "unit": "ns",
+            "range": "± 21.253044897334604",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 359.5923131108284,
+            "unit": "ns",
+            "range": "± 0.8307636234310227",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 77747.46881975446,
+            "unit": "ns",
+            "range": "± 236.54690967720845",
+            "bytesAllocated": 168272
           }
         ]
       }
