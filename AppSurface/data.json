@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795370665869,
+  "lastUpdated": 1795490719365,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -119095,6 +119095,531 @@
             "value": 123872.03546142578,
             "unit": "ns",
             "range": "± 1339.3144494596806",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 169224205.82,
+            "unit": "ns",
+            "range": "± 4748849.581446573",
+            "bytesAllocated": 1873304
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 173951948.82,
+            "unit": "ns",
+            "range": "± 5505535.15251691",
+            "bytesAllocated": 1963008
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 1.4437152380123734,
+            "unit": "ns",
+            "range": "± 0.06042848498347854",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 512.0572032928467,
+            "unit": "ns",
+            "range": "± 4.914234415377633",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 24.61398155774389,
+            "unit": "ns",
+            "range": "± 0.7877563443714963",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 4405.728156089783,
+            "unit": "ns",
+            "range": "± 23.96141207562084",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 244.66449511051178,
+            "unit": "ns",
+            "range": "± 2.1338000559646315",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 42904.897201538086,
+            "unit": "ns",
+            "range": "± 207.37535396920958",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 503.597452044487,
+            "unit": "ns",
+            "range": "± 3.2984912185851973",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 579.8624485560825,
+            "unit": "ns",
+            "range": "± 5.1000819524334",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 509.2429853166853,
+            "unit": "ns",
+            "range": "± 4.072483993112591",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 4345.751393999372,
+            "unit": "ns",
+            "range": "± 19.833923582290872",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 5357.004786900112,
+            "unit": "ns",
+            "range": "± 58.17064988308333",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 4677.876178196499,
+            "unit": "ns",
+            "range": "± 36.09774630668446",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 42689.97794015067,
+            "unit": "ns",
+            "range": "± 1011.0755766398082",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 52719.66346086775,
+            "unit": "ns",
+            "range": "± 348.82393522719286",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 44874.66956329346,
+            "unit": "ns",
+            "range": "± 424.62184387006505",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 58.35177439451218,
+            "unit": "ns",
+            "range": "± 1.0323039032300476",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 66.00126017842975,
+            "unit": "ns",
+            "range": "± 2.0503740631451373",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 564.4696735143661,
+            "unit": "ns",
+            "range": "± 3.5954485255653004",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 538.0797263383865,
+            "unit": "ns",
+            "range": "± 9.078816022540671",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5496.424334526062,
+            "unit": "ns",
+            "range": "± 42.888615076708035",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 5763.406235831125,
+            "unit": "ns",
+            "range": "± 33.34952677922775",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 252061345.17,
+            "unit": "ns",
+            "range": "± 18753742.27209566",
+            "bytesAllocated": 2669776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 204793936.66,
+            "unit": "ns",
+            "range": "± 7773657.087156294",
+            "bytesAllocated": 2363568
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 171460998.87,
+            "unit": "ns",
+            "range": "± 9094401.600734627",
+            "bytesAllocated": 1288736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 247708336.65,
+            "unit": "ns",
+            "range": "± 13896408.772109345",
+            "bytesAllocated": 2648776
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 202953583.28,
+            "unit": "ns",
+            "range": "± 4820679.854947614",
+            "bytesAllocated": 2374952
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 165384845.98,
+            "unit": "ns",
+            "range": "± 8616845.92151292",
+            "bytesAllocated": 1311704
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 319360773.79,
+            "unit": "ns",
+            "range": "± 10705671.287585067",
+            "bytesAllocated": 4741784
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 273983548.28,
+            "unit": "ns",
+            "range": "± 4990362.7301851995",
+            "bytesAllocated": 4451504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 241594279.54,
+            "unit": "ns",
+            "range": "± 9498835.277759742",
+            "bytesAllocated": 3389600
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 214460315.85,
+            "unit": "ns",
+            "range": "± 4360387.407639535",
+            "bytesAllocated": 2219792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 168955562.54,
+            "unit": "ns",
+            "range": "± 7847290.964960012",
+            "bytesAllocated": 1844920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 156091913.54,
+            "unit": "ns",
+            "range": "± 7104872.916734608",
+            "bytesAllocated": 1427760
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 135495502.64,
+            "unit": "ns",
+            "range": "± 4441363.208158565",
+            "bytesAllocated": 873880
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 58.604580998420715,
+            "unit": "ns",
+            "range": "± 1.2862085895464",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 66.29266402125359,
+            "unit": "ns",
+            "range": "± 1.3129195464688712",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 548.6722037792206,
+            "unit": "ns",
+            "range": "± 10.425571478096922",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 579.4422359466553,
+            "unit": "ns",
+            "range": "± 7.961629230048599",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 4991.873687744141,
+            "unit": "ns",
+            "range": "± 109.99170386476837",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 5618.7324948992045,
+            "unit": "ns",
+            "range": "± 72.6320164046364",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "91476b0d2ed4d014126e60dc7853627e7b70e22a",
+          "message": "perf(docs): reduce Tree-sitter files in portable builds (#937)",
+          "timestamp": "2026-11-24T03:10:46Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/91476b0d2ed4d014126e60dc7853627e7b70e22a"
+        },
+        "date": 1795490719365,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 713.1159471273422,
+            "unit": "ns",
+            "range": "± 29.454712005692738",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 6113.508661270142,
+            "unit": "ns",
+            "range": "± 42.96324371810136",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 55967.604727608814,
+            "unit": "ns",
+            "range": "± 396.1803974100267",
             "bytesAllocated": 232376
           }
         ]
