@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795546103690,
+  "lastUpdated": 1795549546338,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -123296,6 +123296,531 @@
             "unit": "ns",
             "range": "± 3360114.9306852296",
             "bytesAllocated": 841416
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 295573206.64,
+            "unit": "ns",
+            "range": "± 4967879.30456265",
+            "bytesAllocated": 1915144
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 310992056.69,
+            "unit": "ns",
+            "range": "± 6407442.154793067",
+            "bytesAllocated": 2062240
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 425662649.49,
+            "unit": "ns",
+            "range": "± 10641051.105650079",
+            "bytesAllocated": 2643008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 347630733.59,
+            "unit": "ns",
+            "range": "± 4595497.727383941",
+            "bytesAllocated": 2345864
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 286248230.98,
+            "unit": "ns",
+            "range": "± 6003486.92012479",
+            "bytesAllocated": 1288632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 425581384.09,
+            "unit": "ns",
+            "range": "± 5674112.22899631",
+            "bytesAllocated": 2648960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 357100881.12,
+            "unit": "ns",
+            "range": "± 7120017.041827849",
+            "bytesAllocated": 2374056
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 289252086.87,
+            "unit": "ns",
+            "range": "± 5138912.295223837",
+            "bytesAllocated": 1404376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 547527754.73,
+            "unit": "ns",
+            "range": "± 9078366.277408592",
+            "bytesAllocated": 4717152
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 471011976.23,
+            "unit": "ns",
+            "range": "± 8709206.23633011",
+            "bytesAllocated": 4427464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 409215376.75,
+            "unit": "ns",
+            "range": "± 8099704.396573227",
+            "bytesAllocated": 3378960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 369943095.97,
+            "unit": "ns",
+            "range": "± 4406718.109763029",
+            "bytesAllocated": 2218080
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 297724722,
+            "unit": "ns",
+            "range": "± 6120503.039501161",
+            "bytesAllocated": 1962424
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 269498391.35,
+            "unit": "ns",
+            "range": "± 3971524.819543937",
+            "bytesAllocated": 1312752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 234253123.68,
+            "unit": "ns",
+            "range": "± 4719985.606016092",
+            "bytesAllocated": 853776
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1060.1279730115618,
+            "unit": "ns",
+            "range": "± 8.81020397625426",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1247.7054598331451,
+            "unit": "ns",
+            "range": "± 13.753304091400977",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1110.4840929848808,
+            "unit": "ns",
+            "range": "± 6.446360484590862",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9592.246828715006,
+            "unit": "ns",
+            "range": "± 120.95799257146646",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11031.663007736206,
+            "unit": "ns",
+            "range": "± 37.998686883465936",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9387.861499786377,
+            "unit": "ns",
+            "range": "± 87.91722263114391",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 92181.74096679688,
+            "unit": "ns",
+            "range": "± 721.9202516144683",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 109683.38648986816,
+            "unit": "ns",
+            "range": "± 390.84560581100754",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91795.80752563477,
+            "unit": "ns",
+            "range": "± 616.0902640663893",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.289010357643877,
+            "unit": "ns",
+            "range": "± 0.005399134410021576",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1111.6688125133514,
+            "unit": "ns",
+            "range": "± 6.305614683675894",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 39.152352936565876,
+            "unit": "ns",
+            "range": "± 0.42272905764718116",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 10199.327156066895,
+            "unit": "ns",
+            "range": "± 119.17653654924372",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5175627867381,
+            "unit": "ns",
+            "range": "± 0.23275674245444036",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 94658.19317626953,
+            "unit": "ns",
+            "range": "± 1459.4573397762713",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 99.91761986911297,
+            "unit": "ns",
+            "range": "± 1.1446455810410718",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 119.82352846860886,
+            "unit": "ns",
+            "range": "± 1.716789301974331",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 967.8892307281494,
+            "unit": "ns",
+            "range": "± 15.047281008858365",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1168.144670009613,
+            "unit": "ns",
+            "range": "± 23.489818215111303",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9618.187370300293,
+            "unit": "ns",
+            "range": "± 81.5182935911741",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 11399.973098754883,
+            "unit": "ns",
+            "range": "± 97.58518785115365",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1477.2113144738335,
+            "unit": "ns",
+            "range": "± 7.609938451579377",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 13291.32921409607,
+            "unit": "ns",
+            "range": "± 40.11617023284133",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 134577.63244628906,
+            "unit": "ns",
+            "range": "± 1512.5959277169723",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "95fe44609fd2fa7a048151f50780f264a3388fec",
+          "message": "test(durable): evaluate template-backed PostgreSQL fixtures (#935)",
+          "timestamp": "2026-11-24T19:24:21Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/95fe44609fd2fa7a048151f50780f264a3388fec"
+        },
+        "date": 1795549546338,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 110.80261714756489,
+            "unit": "ns",
+            "range": "± 1.0606992962420203",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 118.85914826393127,
+            "unit": "ns",
+            "range": "± 1.1504520591797613",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1077.5703195844378,
+            "unit": "ns",
+            "range": "± 7.37267843530795",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1070.1492466926575,
+            "unit": "ns",
+            "range": "± 28.059408214380955",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 10318.160638809204,
+            "unit": "ns",
+            "range": "± 123.18135281100375",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10640.361854553223,
+            "unit": "ns",
+            "range": "± 184.37159665212184",
+            "bytesAllocated": 32048
           }
         ]
       }
