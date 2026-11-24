@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795512036268,
+  "lastUpdated": 1795534066606,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -121721,6 +121721,531 @@
             "unit": "ns",
             "range": "± 116.27713313477209",
             "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 207102166.36,
+            "unit": "ns",
+            "range": "± 9201099.393791165",
+            "bytesAllocated": 1879304
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 224865891.1,
+            "unit": "ns",
+            "range": "± 10351368.424945062",
+            "bytesAllocated": 1976736
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 1.4811303904280066,
+            "unit": "ns",
+            "range": "± 0.04151493983017754",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 535.1731791496277,
+            "unit": "ns",
+            "range": "± 5.867906525065548",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 25.05813487299851,
+            "unit": "ns",
+            "range": "± 0.3832859114862647",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 4673.829552650452,
+            "unit": "ns",
+            "range": "± 93.86227198270477",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 244.43194448947906,
+            "unit": "ns",
+            "range": "± 2.03933936468318",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 46905.540283203125,
+            "unit": "ns",
+            "range": "± 375.1759737178748",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 549.8256750106812,
+            "unit": "ns",
+            "range": "± 4.63624571879414",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 613.1284470558167,
+            "unit": "ns",
+            "range": "± 18.225768687764063",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 536.3550819669451,
+            "unit": "ns",
+            "range": "± 10.653182002798879",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 4591.180582318987,
+            "unit": "ns",
+            "range": "± 43.681593290980366",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 5234.280097961426,
+            "unit": "ns",
+            "range": "± 35.57842037227884",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 4575.446752548218,
+            "unit": "ns",
+            "range": "± 84.10470846241351",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 45800.32723236084,
+            "unit": "ns",
+            "range": "± 381.24629588224036",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 52859.15151977539,
+            "unit": "ns",
+            "range": "± 691.5005230045127",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 46751.154121398926,
+            "unit": "ns",
+            "range": "± 391.8526875109941",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 62.22962927818298,
+            "unit": "ns",
+            "range": "± 1.8377182373826075",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 64.85827866196632,
+            "unit": "ns",
+            "range": "± 1.6957191067803352",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 570.516451563154,
+            "unit": "ns",
+            "range": "± 4.737666076686953",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 593.1503727776663,
+            "unit": "ns",
+            "range": "± 15.580143877690873",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5588.032500130789,
+            "unit": "ns",
+            "range": "± 198.00398124822124",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 5985.368505205427,
+            "unit": "ns",
+            "range": "± 121.35183952337118",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 57.336788445711136,
+            "unit": "ns",
+            "range": "± 0.9784994524023496",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 67.1318786570004,
+            "unit": "ns",
+            "range": "± 1.779450466380052",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 565.7349803447723,
+            "unit": "ns",
+            "range": "± 11.463404872954998",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 627.2909969091415,
+            "unit": "ns",
+            "range": "± 14.727568215221334",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 5376.919482639858,
+            "unit": "ns",
+            "range": "± 42.86612440244515",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 6331.279589653015,
+            "unit": "ns",
+            "range": "± 81.984894137238",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 699.6066980361938,
+            "unit": "ns",
+            "range": "± 6.553753092960007",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 6086.106853485107,
+            "unit": "ns",
+            "range": "± 180.4154719100325",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 60173.44422149658,
+            "unit": "ns",
+            "range": "± 1069.955622938665",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "a74cd01f9e3624b158a4a260de178859de40db9b",
+          "message": "feat(tooling): migrate coverage scheduling history to C# (#941)",
+          "timestamp": "2026-11-24T15:11:37Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/a74cd01f9e3624b158a4a260de178859de40db9b"
+        },
+        "date": 1795534066606,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 9V45",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 267560710.52,
+            "unit": "ns",
+            "range": "± 13483675.601620147",
+            "bytesAllocated": 2644528
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 228858600.86,
+            "unit": "ns",
+            "range": "± 18087082.250100125",
+            "bytesAllocated": 2364984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 178450682.05,
+            "unit": "ns",
+            "range": "± 10250087.22893155",
+            "bytesAllocated": 1348456
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 261280467.78,
+            "unit": "ns",
+            "range": "± 13403775.0613007",
+            "bytesAllocated": 2648960
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 245410302.58,
+            "unit": "ns",
+            "range": "± 13215918.774883393",
+            "bytesAllocated": 2387728
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 191601330.57,
+            "unit": "ns",
+            "range": "± 7159274.023878332",
+            "bytesAllocated": 1335472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 352041439.75,
+            "unit": "ns",
+            "range": "± 14551778.723582668",
+            "bytesAllocated": 4718376
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 327691285.18,
+            "unit": "ns",
+            "range": "± 16761473.926257143",
+            "bytesAllocated": 4474472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 287540122.84,
+            "unit": "ns",
+            "range": "± 8525248.594578573",
+            "bytesAllocated": 3372632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 256444378.12,
+            "unit": "ns",
+            "range": "± 9685360.379891852",
+            "bytesAllocated": 2199832
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 203624839.35,
+            "unit": "ns",
+            "range": "± 11126779.125848157",
+            "bytesAllocated": 1871496
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 182526232.96,
+            "unit": "ns",
+            "range": "± 7140542.2500505345",
+            "bytesAllocated": 1331824
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 166784851.2,
+            "unit": "ns",
+            "range": "± 8641198.862536283",
+            "bytesAllocated": 862552
           }
         ]
       }
