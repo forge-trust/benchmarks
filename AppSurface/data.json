@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795552772449,
+  "lastUpdated": 1795566330359,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -124346,6 +124346,531 @@
             "unit": "ns",
             "range": "± 217.27751580306233",
             "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 296981114.79,
+            "unit": "ns",
+            "range": "± 2752037.2731304863",
+            "bytesAllocated": 1877872
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 312368231.34,
+            "unit": "ns",
+            "range": "± 4486967.622239877",
+            "bytesAllocated": 1962520
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1060.5465796334404,
+            "unit": "ns",
+            "range": "± 3.6223204482868416",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1232.909843989781,
+            "unit": "ns",
+            "range": "± 5.459343731091594",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1059.7978422641754,
+            "unit": "ns",
+            "range": "± 5.276941472948911",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9348.103929519653,
+            "unit": "ns",
+            "range": "± 37.51410045285655",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 11041.448784964425,
+            "unit": "ns",
+            "range": "± 29.37281051140257",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9121.073347091675,
+            "unit": "ns",
+            "range": "± 59.83331086730679",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 93985.23904418945,
+            "unit": "ns",
+            "range": "± 647.8153370225342",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 107055.24000549316,
+            "unit": "ns",
+            "range": "± 319.4523774298178",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 89228.33797781808,
+            "unit": "ns",
+            "range": "± 422.3558758905847",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.2929265735050044,
+            "unit": "ns",
+            "range": "± 0.005732224037961592",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1059.5367366245814,
+            "unit": "ns",
+            "range": "± 10.211348271268115",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.15514217529978,
+            "unit": "ns",
+            "range": "± 0.015955625995347375",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9194.285888671875,
+            "unit": "ns",
+            "range": "± 25.264189815192598",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.31443134943646,
+            "unit": "ns",
+            "range": "± 0.4663885728355352",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 92517.87629699707,
+            "unit": "ns",
+            "range": "± 1188.9329076553295",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 104.68274438381195,
+            "unit": "ns",
+            "range": "± 1.0501192814857534",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.3313872218132,
+            "unit": "ns",
+            "range": "± 0.5240750387208105",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1005.5712757110596,
+            "unit": "ns",
+            "range": "± 10.60899680026397",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 987.6699750423431,
+            "unit": "ns",
+            "range": "± 9.967092745508452",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9619.836158752441,
+            "unit": "ns",
+            "range": "± 69.1111114609279",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 9927.576965332031,
+            "unit": "ns",
+            "range": "± 32.77396255801588",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 95.79796853661537,
+            "unit": "ns",
+            "range": "± 0.4817239413716135",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.72362557053566,
+            "unit": "ns",
+            "range": "± 0.7669040965909139",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 912.9854234967913,
+            "unit": "ns",
+            "range": "± 3.4005957614455333",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1064.0834451402936,
+            "unit": "ns",
+            "range": "± 1.931758474067307",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9008.637597220284,
+            "unit": "ns",
+            "range": "± 22.96683812556546",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10610.788905552456,
+            "unit": "ns",
+            "range": "± 84.71856997762838",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1373.2322927202497,
+            "unit": "ns",
+            "range": "± 6.427976165112996",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12218.513355800083,
+            "unit": "ns",
+            "range": "± 35.24576904116317",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123545.58135986328,
+            "unit": "ns",
+            "range": "± 410.353044435291",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4",
+          "message": "feat(ci): verify Tailwind rehearsal artifacts by exact ID (#918)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T00:04:00Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/4eb206bb6b2e3d0ebfdb423ac7d2a1c7181222f4"
+        },
+        "date": 1795566330359,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 417244356.27,
+            "unit": "ns",
+            "range": "± 4387335.080087625",
+            "bytesAllocated": 2647816
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 346200761.18,
+            "unit": "ns",
+            "range": "± 5171614.148176759",
+            "bytesAllocated": 2342256
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 290664007.78,
+            "unit": "ns",
+            "range": "± 5495532.330324691",
+            "bytesAllocated": 1289720
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 426232935.01,
+            "unit": "ns",
+            "range": "± 7974015.792100409",
+            "bytesAllocated": 2648848
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 352238560.86,
+            "unit": "ns",
+            "range": "± 5324493.941120369",
+            "bytesAllocated": 2357008
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 288106787.1,
+            "unit": "ns",
+            "range": "± 3872233.7945643277",
+            "bytesAllocated": 1311752
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 547903469.67,
+            "unit": "ns",
+            "range": "± 9683839.080976052",
+            "bytesAllocated": 4742384
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 472649924.04,
+            "unit": "ns",
+            "range": "± 9265786.287574016",
+            "bytesAllocated": 4430472
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 408555920.04,
+            "unit": "ns",
+            "range": "± 6473316.389063183",
+            "bytesAllocated": 3402632
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 374240676.89,
+            "unit": "ns",
+            "range": "± 4447001.120385925",
+            "bytesAllocated": 2225048
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 300221625.52,
+            "unit": "ns",
+            "range": "± 3904283.9005531548",
+            "bytesAllocated": 1874144
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 271392220.99,
+            "unit": "ns",
+            "range": "± 3558821.5522035803",
+            "bytesAllocated": 1445024
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 236852547.19,
+            "unit": "ns",
+            "range": "± 4219505.955248307",
+            "bytesAllocated": 862680
           }
         ]
       }
