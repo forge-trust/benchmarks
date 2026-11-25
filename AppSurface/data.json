@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795566330359,
+  "lastUpdated": 1795585976161,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -124871,6 +124871,531 @@
             "unit": "ns",
             "range": "± 4219505.955248307",
             "bytesAllocated": 862680
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 260138990.54,
+            "unit": "ns",
+            "range": "± 5209850.211524319",
+            "bytesAllocated": 1904928
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 272940986.93,
+            "unit": "ns",
+            "range": "± 5366175.974424096",
+            "bytesAllocated": 2061784
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 921.5836933680943,
+            "unit": "ns",
+            "range": "± 2.1943628542928195",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1054.4427100590297,
+            "unit": "ns",
+            "range": "± 7.535700179318752",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 913.2147206068039,
+            "unit": "ns",
+            "range": "± 7.057239350145956",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 8017.706712722778,
+            "unit": "ns",
+            "range": "± 39.76316814569315",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 9141.450973510742,
+            "unit": "ns",
+            "range": "± 24.732589539281832",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 7652.729549407959,
+            "unit": "ns",
+            "range": "± 74.706306145766",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 77839.32676696777,
+            "unit": "ns",
+            "range": "± 993.3707573981847",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 92421.92456054688,
+            "unit": "ns",
+            "range": "± 203.75401886736097",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 77857.9525756836,
+            "unit": "ns",
+            "range": "± 244.01783404061666",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 4.064962803253105,
+            "unit": "ns",
+            "range": "± 0.012505543249371608",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 908.9800260066986,
+            "unit": "ns",
+            "range": "± 11.300728187479598",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 33.7609034627676,
+            "unit": "ns",
+            "range": "± 0.10520443088657153",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 7773.6848430633545,
+            "unit": "ns",
+            "range": "± 26.131142670411485",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 359.44690561294556,
+            "unit": "ns",
+            "range": "± 1.1474362988322568",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 79561.74695696149,
+            "unit": "ns",
+            "range": "± 571.5964457482766",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 109.99571058154106,
+            "unit": "ns",
+            "range": "± 1.7779617549762785",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 134.6352071080889,
+            "unit": "ns",
+            "range": "± 0.7626696873121326",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 960.7053551673889,
+            "unit": "ns",
+            "range": "± 13.515640569579",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 1194.1093242168427,
+            "unit": "ns",
+            "range": "± 9.831065559465953",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 11753.235387802124,
+            "unit": "ns",
+            "range": "± 138.4910290482593",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 11614.822431564331,
+            "unit": "ns",
+            "range": "± 216.33936784198903",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 98.41340304911137,
+            "unit": "ns",
+            "range": "± 0.905394026573193",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 127.00514671206474,
+            "unit": "ns",
+            "range": "± 2.278871514447364",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 982.1520965099335,
+            "unit": "ns",
+            "range": "± 5.781279782811141",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1289.0463016033173,
+            "unit": "ns",
+            "range": "± 22.070485409324295",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 8928.921577453613,
+            "unit": "ns",
+            "range": "± 138.40701184623165",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 12213.09485244751,
+            "unit": "ns",
+            "range": "± 81.77559328913506",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1248.36221912929,
+            "unit": "ns",
+            "range": "± 4.037854316943461",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 10903.62666130066,
+            "unit": "ns",
+            "range": "± 80.91518293098734",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 108445.7778843471,
+            "unit": "ns",
+            "range": "± 324.02240321080217",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "199c26bed0d1d6e64c141af79d7825c9d1c22292",
+          "message": "fix(evidence): separate package validation from EvidenceHost claims (#919)\n\nCo-authored-by: OpenAI Codex <noreply@openai.com>",
+          "timestamp": "2026-11-25T05:33:13Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/199c26bed0d1d6e64c141af79d7825c9d1c22292"
+        },
+        "date": 1795585976161,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "INTEL XEON PLATINUM 8573C",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 372918798.86,
+            "unit": "ns",
+            "range": "± 5226399.767374151",
+            "bytesAllocated": 2644624
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 308694839.72,
+            "unit": "ns",
+            "range": "± 4670308.865253823",
+            "bytesAllocated": 2386800
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 255008777.68,
+            "unit": "ns",
+            "range": "± 4233627.697666903",
+            "bytesAllocated": 1385016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 376800402.95,
+            "unit": "ns",
+            "range": "± 9844306.432601253",
+            "bytesAllocated": 2631880
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 311596943.35,
+            "unit": "ns",
+            "range": "± 6309386.239189707",
+            "bytesAllocated": 2356016
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 252058132.83,
+            "unit": "ns",
+            "range": "± 6367476.499466751",
+            "bytesAllocated": 1312696
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 492492677.74,
+            "unit": "ns",
+            "range": "± 8220651.609953086",
+            "bytesAllocated": 4743464
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 423052111.79,
+            "unit": "ns",
+            "range": "± 11578352.147888618",
+            "bytesAllocated": 4426184
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 370607353.32,
+            "unit": "ns",
+            "range": "± 10223255.369418666",
+            "bytesAllocated": 3390648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 324353846.66,
+            "unit": "ns",
+            "range": "± 9119362.84773638",
+            "bytesAllocated": 2213648
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 259845996.96,
+            "unit": "ns",
+            "range": "± 4141786.675536506",
+            "bytesAllocated": 1872712
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 236958563.46,
+            "unit": "ns",
+            "range": "± 4756811.839745556",
+            "bytesAllocated": 1332736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 206615202.95,
+            "unit": "ns",
+            "range": "± 5904857.867689748",
+            "bytesAllocated": 870944
           }
         ]
       }
