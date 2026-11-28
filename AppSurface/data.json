@@ -1,5 +1,5 @@
 {
-  "lastUpdated": 1795753241477,
+  "lastUpdated": 1795834511776,
   "repoUrl": "https://github.com/forge-trust/AppSurface",
   "entries": {
     "AppSurface": [
@@ -126446,6 +126446,531 @@
             "unit": "ns",
             "range": "± 14.962484590741422",
             "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthDisabled[AppSurface.Web.HealthAB]",
+            "value": 293635965.64,
+            "unit": "ns",
+            "range": "± 3950418.8538674046",
+            "bytesAllocated": 1876336
+          },
+          {
+            "name": "Web.WebHealthColdStartBenchmarks.HealthEnabled[AppSurface.Web.HealthAB]",
+            "value": 307140734.18,
+            "unit": "ns",
+            "range": "± 3709749.1210478125",
+            "bytesAllocated": 1975456
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[ABP]",
+            "value": 417072429.96,
+            "unit": "ns",
+            "range": "± 4866138.446960475",
+            "bytesAllocated": 2666160
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[AppSurface.Web]",
+            "value": 346135496.7,
+            "unit": "ns",
+            "range": "± 5066854.434945619",
+            "bytesAllocated": 2359920
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Controllers[Native]",
+            "value": 282661306.06,
+            "unit": "ns",
+            "range": "± 4317006.611932972",
+            "bytesAllocated": 1288208
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[ABP]",
+            "value": 419260867.83,
+            "unit": "ns",
+            "range": "± 6410295.910914387",
+            "bytesAllocated": 2648736
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[AppSurface.Web]",
+            "value": 348037863.61,
+            "unit": "ns",
+            "range": "± 4205028.748646214",
+            "bytesAllocated": 2474072
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.DependencyInjection[Native]",
+            "value": 286257196.98,
+            "unit": "ns",
+            "range": "± 6208590.852820474",
+            "bytesAllocated": 1408984
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[ABP]",
+            "value": 537001158.29,
+            "unit": "ns",
+            "range": "± 9126333.78445846",
+            "bytesAllocated": 4717896
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[AppSurface.Web]",
+            "value": 466549911.8,
+            "unit": "ns",
+            "range": "± 7184331.839493907",
+            "bytesAllocated": 4428504
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.ManyDependencyInjection[Native]",
+            "value": 407616238.37,
+            "unit": "ns",
+            "range": "± 8334884.991355846",
+            "bytesAllocated": 3375656
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[ABP]",
+            "value": 370893424.5,
+            "unit": "ns",
+            "range": "± 5387338.089695615",
+            "bytesAllocated": 2213392
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[AppSurface.Web]",
+            "value": 296125919.31,
+            "unit": "ns",
+            "range": "± 2947529.7246913156",
+            "bytesAllocated": 1861792
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Carter]",
+            "value": 269895590.4,
+            "unit": "ns",
+            "range": "± 4227516.58141465",
+            "bytesAllocated": 1430136
+          },
+          {
+            "name": "Web.WebColdStartBenchmarks.Minimal[Native]",
+            "value": 236351579.92,
+            "unit": "ns",
+            "range": "± 4179279.7098205867",
+            "bytesAllocated": 870224
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 10)[Flow]",
+            "value": 1073.9987397193909,
+            "unit": "ns",
+            "range": "± 17.48991442740859",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 10)[Flow]",
+            "value": 1243.2294399738312,
+            "unit": "ns",
+            "range": "± 13.239558806823148",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 10)[Flow]",
+            "value": 1058.413137435913,
+            "unit": "ns",
+            "range": "± 13.177574989670939",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 100)[Flow]",
+            "value": 9453.025960922241,
+            "unit": "ns",
+            "range": "± 186.79351182310143",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 100)[Flow]",
+            "value": 10863.288412094116,
+            "unit": "ns",
+            "range": "± 51.75280239125865",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 100)[Flow]",
+            "value": 9253.664651870728,
+            "unit": "ns",
+            "range": "± 97.39278738619899",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeSync(StepCount: 1000)[Flow]",
+            "value": 91493.20222473145,
+            "unit": "ns",
+            "range": "± 541.1902736192009",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelSingleNodeAsyncCompleted(StepCount: 1000)[Flow]",
+            "value": 106326.8331451416,
+            "unit": "ns",
+            "range": "± 598.2115974033487",
+            "bytesAllocated": 168272
+          },
+          {
+            "name": "Flow.FlowRunnerShapeBenchmarks.LowLevelTwoNodeSync(StepCount: 1000)[Flow]",
+            "value": 91046.91046142578,
+            "unit": "ns",
+            "range": "± 420.7745359706661",
+            "bytesAllocated": 168272
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 10)[Flow]",
+            "value": 105.929045855999,
+            "unit": "ns",
+            "range": "± 1.235453357602334",
+            "bytesAllocated": 344
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 10)[Flow]",
+            "value": 110.63527621541705,
+            "unit": "ns",
+            "range": "± 0.6329113722102525",
+            "bytesAllocated": 368
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 100)[Flow]",
+            "value": 1024.1152739524841,
+            "unit": "ns",
+            "range": "± 10.715934514457956",
+            "bytesAllocated": 3224
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 100)[Flow]",
+            "value": 997.2738995552063,
+            "unit": "ns",
+            "range": "± 16.288541488018506",
+            "bytesAllocated": 3248
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9599.693214416504,
+            "unit": "ns",
+            "range": "± 47.031552253478736",
+            "bytesAllocated": 32024
+          },
+          {
+            "name": "Flow.FlowOutcomeAllocationBenchmarks.CreateNextAndCompleteOutcomes(StepCount: 1000)[Flow]",
+            "value": 10098.519565582275,
+            "unit": "ns",
+            "range": "± 63.97551149724005",
+            "bytesAllocated": 32048
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 10)[Flow]",
+            "value": 1410.404503583908,
+            "unit": "ns",
+            "range": "± 12.378047209563663",
+            "bytesAllocated": 2696
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 100)[Flow]",
+            "value": 12655.750749588013,
+            "unit": "ns",
+            "range": "± 134.6157873008949",
+            "bytesAllocated": 23576
+          },
+          {
+            "name": "Flow.FlowGeneratedAuthoringBenchmarks.GeneratedAuthoringSingleNode(StepCount: 1000)[Flow]",
+            "value": 123554.15161132812,
+            "unit": "ns",
+            "range": "± 455.23722480513453",
+            "bytesAllocated": 232376
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 10)[Flow]",
+            "value": 95.04731184244156,
+            "unit": "ns",
+            "range": "± 0.19442859723397676",
+            "bytesAllocated": 264
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 10)[Flow]",
+            "value": 110.80875815451145,
+            "unit": "ns",
+            "range": "± 0.8040415626827052",
+            "bytesAllocated": 424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 100)[Flow]",
+            "value": 917.2134643793106,
+            "unit": "ns",
+            "range": "± 7.085242435790732",
+            "bytesAllocated": 2424
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 100)[Flow]",
+            "value": 1081.0426814556122,
+            "unit": "ns",
+            "range": "± 12.160278992029248",
+            "bytesAllocated": 4024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedNextOutcomes(StepCount: 1000)[Flow]",
+            "value": 9299.655860900879,
+            "unit": "ns",
+            "range": "± 114.57304211580374",
+            "bytesAllocated": 24024
+          },
+          {
+            "name": "Flow.FlowGeneratedFactoryAllocationBenchmarks.CreateGeneratedEnvelopes(StepCount: 1000)[Flow]",
+            "value": 10869.819648742676,
+            "unit": "ns",
+            "range": "± 173.17505893553647",
+            "bytesAllocated": 40024
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "username": "akrock"
+          },
+          "committer": {
+            "username": "web-flow"
+          },
+          "sha": "f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256",
+          "message": "fix(cli): report envelope trust accurately in evidence doctor (#957)",
+          "timestamp": "2026-11-28T02:33:48Z",
+          "url": "https://github.com/forge-trust/AppSurface/commit/f1c0dc9d5b56aae5813f5a5a8558fc5f36c9e256"
+        },
+        "date": 1795834511776,
+        "metadata": {
+          "environment": {
+            "Architecture": "X64",
+            "BenchmarkDotNetVersion": "0.15.8",
+            "DotNetCliVersion": "10.0.402",
+            "LogicalCoreCount": 4,
+            "OsVersion": "Linux Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+            "PhysicalCoreCount": 2,
+            "PhysicalProcessorCount": 1,
+            "ProcessorName": "AMD EPYC 7763",
+            "RuntimeVersion": ".NET 10.0.15 (10.0.15, 10.0.1526.53008)"
+          }
+        },
+        "benches": [
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 10)[Flow]",
+            "value": 3.3163418313488364,
+            "unit": "ns",
+            "range": "± 0.032896210725862074",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 10)[Flow]",
+            "value": 1093.2787974221367,
+            "unit": "ns",
+            "range": "± 6.6507985635058375",
+            "bytesAllocated": 1952
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 100)[Flow]",
+            "value": 38.88716108351946,
+            "unit": "ns",
+            "range": "± 0.3310870690636125",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 100)[Flow]",
+            "value": 9625.288105010986,
+            "unit": "ns",
+            "range": "± 114.45195558315845",
+            "bytesAllocated": 17072
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.DirectStateMachine(StepCount: 1000)[Flow]",
+            "value": 318.5252954363823,
+            "unit": "ns",
+            "range": "± 0.2904161740308367",
+            "bytesAllocated": 0
+          },
+          {
+            "name": "Flow.FlowRunnerBenchmarks.FlowInMemoryRunner(StepCount: 1000)[Flow]",
+            "value": 93779.12220982143,
+            "unit": "ns",
+            "range": "± 401.0103272658895",
+            "bytesAllocated": 168272
           }
         ]
       }
